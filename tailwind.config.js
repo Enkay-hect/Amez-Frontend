@@ -6,15 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      // width: {
-      //   '50': '12.5rem', // 50px
-      //   '35remw' : '35rem'
-      // },
-      // height:{
-      //   '48r': '48rem'
-      // },
+      backgroundBlendMode: {
+        luminosity: 'luminosity',
+      },
       colors: {
-        // customPurple: '#06310B'
       },
     },
     // screens: {
