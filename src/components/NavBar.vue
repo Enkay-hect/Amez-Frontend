@@ -17,12 +17,12 @@
         </h3>
         </div>
 
-        <div class="w-full grid md:grid-cols-4 px-20 h-20 items-center border-b-4 border-white relative z-10">
+        <div class="w-full grid md:grid-cols-4 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10">
         <div class="col-span-1">
             Logo
         </div>
 
-        <ul class="col-span-3 justify-between flex items-center">
+        <ul class="col-span-3 justify-between flex items-center px-36">
                 <li>
                     Home
                 </li>
@@ -31,27 +31,56 @@
                     The Church
                 </li>
 
-                <li class="flex gap-2 items-center justify-center">
+            <li class="relative flex gap-2 justify-center h-20 items-center"@mouseover="setDropdownActive('leadership')" @mouseleave="setDropdownActive('')">
+                <div class="flex items-center">
                     <h3 class="">Leadership</h3>
-                    <svg viewBox="0 0 1024 1024" height="1rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#ffffff">
-
-                            </path>
-                        </g>
+                    <svg 
+                            v-show="true"
+                            :style="{
+                                opacity: activeDropdown === 'leadership' ? 1 : 1,
+                                transform: activeDropdown === 'leadership' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                transition: 'opacity 1s ease-in-out, transform 0.5s ease-in-out',
+                            }"
+                            viewBox="0 0 1024 1024" 
+                            height="0.5rem" 
+                            width="1rem" 
+                            class="icon mt-1" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="#000000"
+                        >
+                        <path 
+                            d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" 
+                            fill="#FFFFFF"
+                        />
                     </svg>
-                </li>
+                </div>
+
+               <ul
+                        v-show="true"
+                        class="absolute mt-45 space-y-2 bg-gray-100 p-2 w-max text-black translate-y-[1rem]"
+                        :style="{
+                            opacity: activeDropdown === 'leadership' ? 1 : 0,
+                            transform: activeDropdown === 'leadership' ? 'translateY(0)' : 'translateY(-1rem)', // TranslateY effect
+                            transition: '0.5s ease-in-out',
+                        }"
+                        >
+                        <li>Leadership Option 1</li>
+                        <li>Leadership Option 2</li>
+                        <li>Leadership Option 3</li>
+                </ul>
+
+
+
+            </li>
+
 
                 <li class="flex gap-2 items-center justify-center">
                     <h3 class=""> Department & Ministries
                     </h3>
-                    <svg viewBox="0 0 1024 1024" height="1rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#ffffff">
+                    <svg viewBox="0 0 1024 1024" height="0.5rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#FFFFFF">
 
                             </path>
                         </g>
@@ -61,11 +90,10 @@
                 <li class="flex gap-2 items-center justify-center">
                     <h3 class=""> Schools & Seminary
                     </h3>
-                    <svg viewBox="0 0 1024 1024" height="1rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#ffffff">
+                    <svg viewBox="0 0 1024 1024" height="0.5rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#FFFFFF">
 
                             </path>
                         </g>
@@ -75,16 +103,16 @@
                 <li class="flex gap-2 items-center justify-center">
                     <h3 class=""> Events
                     </h3>
-                    <svg viewBox="0 0 1024 1024" height="1rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#ffffff">
+                    <svg viewBox="0 0 1024 1024" height="0.5rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#FFFFFF">
 
                             </path>
                         </g>
                     </svg>
                 </li>
+
 
                 <li>
                     Contact
@@ -122,9 +150,18 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
 
+const activeDropdown = ref('');
+
+const setDropdownActive = (dropdown) => {
+      activeDropdown.value = dropdown;
+};
+
+
+    
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

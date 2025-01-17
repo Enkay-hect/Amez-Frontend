@@ -7,9 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundBlendMode: {
-        luminosity: 'luminosity',
       },
       colors: {
+      },
+      spacing: {
+        45: '11.25rem', // 45 * 0.25rem = 11.25rem
       },
     },
     // screens: {
