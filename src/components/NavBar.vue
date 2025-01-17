@@ -35,7 +35,9 @@
                         @mouseenter="setDropdownActive('leadership')"
                         @mouseleave="setDropdownActive('')">
                     <div class="flex items-center">
+                        
                         <h3>Leadership</h3>
+                        
                         <svg
                             v-show="true"
                             :style="{
@@ -80,7 +82,7 @@
                         <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                             @mouseenter="setDropdownActive('child-dropdown')"
                             @mouseleave="setDropdownActive('leadership')">
-                            
+
                             <div class="flex items-center">
                                 <h4>Annual Conferences</h4>
                                 <svg
@@ -124,44 +126,284 @@
                 
 
            
-                <li class="flex gap-2 items-center justify-center">
+                <li class="relative flex gap-2 justify-center h-20 items-center"
+                        @mouseenter="setDropdownActive('Departments')"
+                        @mouseleave="setDropdownActive('')">
+                    <div class="flex items-center">
+                        
+                        <h3>Departments and Ministries</h3>
+                        
+                        <svg
+                            v-show="true"
+                            :style="{
+                                opacity: activeDropdown === 'Departments' ? 1 : 1,
+                                transform: activeDropdown === 'Departments' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                            }"
+                            viewBox="0 0 1024 1024"
+                            height="0.5rem"
+                            width="1rem"
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#000000"
+                            >
+                            <path
+                                d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                fill="#FFFFFF"
+                            />
+                        </svg>
+                    </div>
 
-                    <h3 class=""> Department & Ministries
-                    </h3>
-                    <svg viewBox="0 0 1024 1024" height="0.5rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#FFFFFF">
+                    <!-- Parent Dropdown -->
+                    <ul
+                        v-show="true"
+                        class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
 
-                            </path>
-                        </g>
-                    </svg>
+                        :style="{
+                        opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2' ? 1 : 0,
+                        
+                        transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+
+                        transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
+
+                        visibility: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2' ? 'visible' : 'hidden',
+                        }"
+                        >
+
+                        <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
+                        <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+
+                        <!-- Child Dropdown Trigger -->
+                        <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                            @mouseenter="setDropdownActive('child-dropdown2')"
+                            @mouseleave="setDropdownActive('Departments')">
+                            
+                            <div class="flex items-center">
+                                <h4>Annual Conferences</h4>
+                                <svg
+                                :style="{
+                                    opacity: activeDropdown === 'child-dropdown2' ? 1 : 1,
+                                    transform: activeDropdown === 'child-dropdown2' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000"
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                                </svg>
+                            </div>
+
+                        <!-- Child Dropdown -->
+                            <ul
+                                v-show="true"
+                                class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                :style="{
+                                opacity: activeDropdown === 'child-dropdown2' ? 1 : 0,
+                                transform: activeDropdown === 'child-dropdown2' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
+                                // visibility: activeDropdown === 'child-dropdown2' ? 'visible' : 'hidden',
+                                }"
+                                >
+                                <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
+                                <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="flex gap-2 items-center justify-center">
-                    <h3 class=""> Schools & Seminary
-                    </h3>
-                    <svg viewBox="0 0 1024 1024" height="0.5rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#FFFFFF">
 
-                            </path>
-                        </g>
-                    </svg>
+                <li class="relative flex gap-2 justify-center h-20 items-center"
+                        @mouseenter="setDropdownActive('Seminary')"
+                        @mouseleave="setDropdownActive('')">
+                    <div class="flex items-center">
+                        
+                        <h3>Schools & Seminary</h3>
+                        
+                        <svg
+                            v-show="true"
+                            :style="{
+                                opacity: activeDropdown === 'Seminary' ? 1 : 1,
+                                transform: activeDropdown === 'Seminary' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                            }"
+                            viewBox="0 0 1024 1024"
+                            height="0.5rem"
+                            width="1rem"
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#000000"
+                            >
+                            <path
+                                d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                fill="#FFFFFF"
+                            />
+                        </svg>
+                    </div>
+
+                    <!-- Parent Dropdown -->
+                    <ul
+                        v-show="true"
+                        class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+
+                        :style="{
+                        opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 1 : 0,
+                        
+                        transform: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+
+                        transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
+
+                        visibility: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'visible' : 'hidden',
+                        }"
+                        >
+
+                        <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
+                        <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+
+                        <!-- Child Dropdown Trigger -->
+                        <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                            @mouseenter="setDropdownActive('child-dropdown3')"
+                            @mouseleave="setDropdownActive('Seminary')">
+                            
+                            <div class="flex items-center">
+                                <h4>Annual Conferences</h4>
+                                <svg
+                                :style="{
+                                    opacity: activeDropdown === 'child-dropdown3' ? 1 : 1,
+                                    transform: activeDropdown === 'child-dropdown3' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000"
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                                </svg>
+                            </div>
+
+                        <!-- Child Dropdown -->
+                            <ul
+                                v-show="true"
+                                class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                :style="{
+                                opacity: activeDropdown === 'child-dropdown3' ? 1 : 0,
+                                transform: activeDropdown === 'child-dropdown3' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
+                                // visibility: activeDropdown === 'child-dropdown3' ? 'visible' : 'hidden',
+                                }"
+                                >
+                                <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
+                                <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="flex gap-2 items-center justify-center">
-                    <h3 class=""> Events
-                    </h3>
-                    <svg viewBox="0 0 1024 1024" height="0.5rem" width="1rem" class="icon mt-1" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#FFFFFF">
 
-                            </path>
-                        </g>
-                    </svg>
+
+
+                <li class="relative flex gap-2 justify-center h-20 items-center"
+                        @mouseenter="setDropdownActive('Events')"
+                        @mouseleave="setDropdownActive('')">
+                    <div class="flex items-center">
+                        
+                        <h3>Events</h3>
+                        
+                        <svg
+                            v-show="true"
+                            :style="{
+                                opacity: activeDropdown === 'Events' ? 1 : 1,
+                                transform: activeDropdown === 'Events' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                            }"
+                            viewBox="0 0 1024 1024"
+                            height="0.5rem"
+                            width="1rem"
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#000000"
+                            >
+                            <path
+                                d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                fill="#FFFFFF"
+                            />
+                        </svg>
+                    </div>
+
+                    <!-- Parent Dropdown -->
+                    <ul
+                        v-show="true"
+                        class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+
+                        :style="{
+                        opacity: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 1 : 0,
+                        
+                        transform: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+
+                        transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
+
+                        visibility: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'visible' : 'hidden',
+                        }"
+                        >
+
+                        <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
+                        <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+
+                        <!-- Child Dropdown Trigger -->
+                        <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                            @mouseenter="setDropdownActive('child-dropdown4')"
+                            @mouseleave="setDropdownActive('Events')">
+                            
+                            <div class="flex items-center">
+                                <h4>Annual Conferences</h4>
+                                <svg
+                                :style="{
+                                    opacity: activeDropdown === 'child-dropdown4' ? 1 : 1,
+                                    transform: activeDropdown === 'child-dropdown4' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000"
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                                </svg>
+                            </div>
+
+                        <!-- Child Dropdown -->
+                            <ul
+                                v-show="true"
+                                class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                :style="{
+                                opacity: activeDropdown === 'child-dropdown4' ? 1 : 0,
+                                transform: activeDropdown === 'child-dropdown4' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
+                                // visibility: activeDropdown === 'child-dropdown4' ? 'visible' : 'hidden',
+                                }"
+                                >
+                                <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
+                                <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
 
 
