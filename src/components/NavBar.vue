@@ -59,9 +59,9 @@
 
                     <!-- Parent Dropdown -->
                     <ul
-                        v-show="activeDropdown === 'leadership' || activeDropdown === 'child-dropdown'"
+                        v-show="true"
                         class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
-                        
+
                         :style="{
                         opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
                         
@@ -69,9 +69,10 @@
 
                         transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
 
-                        // visibility: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'visible' : 'hidden',
+                        visibility: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'visible' : 'hidden',
                         }"
-                    >
+                        >
+
                         <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
                         <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
 
@@ -79,42 +80,43 @@
                         <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                             @mouseenter="setDropdownActive('child-dropdown')"
                             @mouseleave="setDropdownActive('leadership')">
-                        <div class="flex items-center">
-                            <h4>Annual Conferences</h4>
-                            <svg
-                            :style="{
-                                opacity: activeDropdown === 'child-dropdown' ? 1 : 1,
-                                transform: activeDropdown === 'child-dropdown' ? 'rotate(90deg)' : 'rotate(0deg)',
-                                transition: '1s ease-in-out, transform 0.5s ease-in-out',
-                            }"
-                            viewBox="0 0 1024 1024"
-                            height="0.5rem"
-                            width="1rem"
-                            class="icon"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="#000000"
-                            >
-                            <path
-                                d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                            
+                            <div class="flex items-center">
+                                <h4>Annual Conferences</h4>
+                                <svg
+                                :style="{
+                                    opacity: activeDropdown === 'child-dropdown' ? 1 : 1,
+                                    transform: activeDropdown === 'child-dropdown' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
                                 fill="#000000"
-                            />
-                            </svg>
-                        </div>
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                                </svg>
+                            </div>
 
                         <!-- Child Dropdown -->
-                        <ul
-                            v-show="activeDropdown === 'child-dropdown'"
-                            class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
-                            :style="{
-                            opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
-                            transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(5rem)',
-                            transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
-                            // visibility: activeDropdown === 'child-dropdown' ? 'visible' : 'hidden',
-                            }"
-                        >
-                            <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
-                        </ul>
+                            <ul
+                                v-show="true"
+                                class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                :style="{
+                                opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
+                                transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
+                                // visibility: activeDropdown === 'child-dropdown' ? 'visible' : 'hidden',
+                                }"
+                                >
+                                <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
+                                <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -205,8 +207,22 @@ const activeDropdown = ref('');
 
 const setDropdownActive = (dropdown) => {
       activeDropdown.value = dropdown;
-      
 };
+
+// const activeDropdown = ref('');
+// const isVisible = ref(false);
+
+// const setDropdownActive = (dropdown) => {
+//     if (dropdown) {
+//         isVisible.value = true; // Show visibility
+//         activeDropdown.value = dropdown;
+//     } else {
+//         activeDropdown.value = '';
+//         setTimeout(() => {
+//             isVisible.value = false; // Hide visibility after transition
+//         }, 1000); // Match transition duration
+//     }
+// };
 
 
     
