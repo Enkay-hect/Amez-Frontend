@@ -12,6 +12,15 @@ export default {
       },
       spacing: {
         45: '11.25rem', // 45 * 0.25rem = 11.25rem
+        74: '18.5rem',
+        75: '18.75rem',
+        76: '19.125rem'
+      },
+      fontSize: {
+        base: '1rem', // Set base font size to 1rem
+      },
+      fontFamily: {
+        // sans: 'var(--pisole-font-sans-serif)', 
       },
     },
     // screens: {
