@@ -24,15 +24,26 @@
       </div>
     </div>
 
-    <!-- Top Bar -->
     <div class="flex flex-row w-full h-20 justify-center items-center bg-black relative z-10">
+      <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled"> 
+                    <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
+
+                    </path> 
+                </g> 
+            </g>
+        </svg>
       <h3 class="text-white font-semibold text-center text-xs">
         EASTERN WEST AFRICA EPISCOPAL DISTRICT
       </h3>
     </div>
 
-    <!-- Main Navigation -->
-    <div class="flex justify-between px-5 h-20 items-center border-b-2 border-gray-100 relative z-10">
+    <div class="flex justify-between px-5 h-20 items-center border-b-2 border-gray-100 relative z-10"
+    :class="{ 'fixed-nav': isFixed,  }"
+
+    >
       <div>Logo</div>
       <button @click="setSideBar(true)" aria-label="Open sidebar">
         <svg height="4rem" width="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#FFF">
@@ -51,13 +62,23 @@
 </template>
 
 <script setup>
-    import { ref, onMounted } from 'vue';
+    import { ref, onMounted, onUnmounted } from 'vue';
 
     const sideBar = ref(false); 
     const sideBarVisible = ref(false); 
+    const isFixed = ref(false);
+
 
     const setSideBar = (toggleSideBar) => {
-    sideBar.value = toggleSideBar;
+      sideBar.value = toggleSideBar;
+      
+      if(toggleSideBar){
+        document.body.style.overflow = 'hidden';
+      }
+
+      else{
+        document.body.style.overflow = 'auto';
+      }
     };
 
     onMounted(() => {
@@ -65,15 +86,41 @@
             sideBarVisible.value = true;
         }, 0); 
     });
+
+
+    const handleScroll = () => {
+      isFixed.value = window.scrollY > 100;
+    };
+
+    onMounted(() => {
+      window.addEventListener('scroll', handleScroll);
+    });
+
+    onUnmounted(() => {
+      window.removeEventListener('scroll', handleScroll);
+    });
+
 </script>
 
 <style scoped>
-.sidebar {
-  transform: translateX(-100%);
-  transition: transform 0.5s ease-in-out;
-}
+    .sidebar {
+      transform: translateX(-100%);
+      transition: transform 0.35s ease-in-out;
+    }
 
-.sidebar-open {
-  transform: translateX(0);
-}
+    .sidebar-open {
+      transform: translateX(0);
+    }
+
+    .fixed-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      background-color: rgba(112, 105, 105, 0.089);  */
+      backdrop-filter: blur(5px); 
+      transition: 0.3s;
+      
+    }
 </style>

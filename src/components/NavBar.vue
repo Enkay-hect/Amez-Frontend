@@ -1,6 +1,5 @@
 <template>
     <div>
-      
       <NavBarLG v-if="isLgScreen">
         <slot></slot>
       </NavBarLG>
@@ -8,8 +7,6 @@
       <NavBarSm v-else>
         <slot></slot>
       </NavBarSm>
-
-  
     </div>
 </template>
 
@@ -25,18 +22,18 @@
     let resizeTimeout;
 
     const checkScreenSize = () => {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-        isLgScreen.value = window.matchMedia('(min-width: 1024px)').matches;
-    }, 100); // Debounced
-    };
+      clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            isLgScreen.value = window.matchMedia('(min-width: 1024px)').matches;
+        }, 100); // Debounced
+      };
 
     onMounted(() => {
-    window.addEventListener('resize', checkScreenSize);
+      window.addEventListener('resize', checkScreenSize);
     });
 
     onUnmounted(() => {
-    window.removeEventListener('resize', checkScreenSize);
+      window.removeEventListener('resize', checkScreenSize);
     });
 </script>
 
