@@ -1,0 +1,23 @@
+<template>
+    <NavBar>
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(images/clergy.jpg); filter: brightness(0.5);">
+            
+        </div>
+    </NavBar>
+  
+    <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
+      <!-- <div class="md:w-[50%]">
+        <img src="../../public/images/clergy.jpg" alt="" srcset="">
+      </div> -->
+  
+      <p class="md:w-[100%] leading-loose">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis fugit cum sunt obcaecati ipsum voluptates aut pariatur, unde delectus. Eos sint omnis cum, accusantium expedita quas ut earum non perferendis architecto reiciendis officiis ex nam magnam amet perspiciatis excepturi quod quos quae. Est, sit quisquam. Sunt minus ea praesentium distinctio possimus nobis, cupiditate eius doloremque esse corporis recusandae odio ab deserunt sed? Rerum dolorum assumenda architecto, blanditiis ad ducimus sint voluptate veritatis mollitia nulla fuga iure quis, suscipit itaque corrupti nihil sapiente, est ratione. Tenetur, modi dignissimos mollitia obcaecati assumenda illum esse maxime quod reprehenderit temporibus autem sunt non ad explicabo officiis inventore repellendus, libero atque voluptate repudiandae nemo in nulla! Maiores facere totam error quia magni quos repudiandae alias dignissimos iste, assumenda dolorem eligendi temporibus cumque pariatur blanditiis cum amet, animi necessitatibus voluptatem voluptatibus deleniti facilis neque voluptate explicabo. Sunt accusamus accusantium, voluptates saepe aperiam quas praesentium tenetur cupiditate possimus vitae dolores eius consectetur fugiat eos quo iste non rerum eaque placeat beatae? Tempora officia laudantium voluptate distinctio ullam impedit quibusdam possimus? A porro eum ab id. Fuga magnam quae eos, quaerat dolores praesentium sequi hic aperiam dolor, temporibus dolorum provident autem velit natus sunt ipsam, quidem omnis est ab commodi sint ut ipsum a. Commodi eveniet voluptate facere minima harum repudiandae, numquam libero blanditiis laudantium. Quaerat, neque vero adipisci, quis tempora sed eos a, dolores sequi veniam nihil provident. Fuga hic veritatis harum reiciendis porro, adipisci sit non quasi quo consequuntur amet distinctio at deserunt debitis ut laboriosam beatae odio praesentium. Itaque officiis vitae minus voluptates beatae, nam accusamus. Aspernatur veritatis ratione, aliquam quis eaque ipsam, doloremque architecto blanditiis ab quae corrupti, illum nemo voluptatibus vel minima dolore. Ducimus ex optio modi voluptates dolorem ratione provident natus, iste ad animi itaque autem non deserunt recusandae cupiditate qui quos. Eius, nihil. Provident omnis nostrum vel tenetur, cum commodi voluptate saepe? Est corrupti nostrum eum, aliquid saepe quisquam minima, libero quis fuga dignissimos voluptatum beatae maiores asperiores esse fugit nemo odit officia repellendus, facilis nihil ullam. Nobis quasi non voluptates fugiat itaque veritatis incidunt quos vitae sunt nulla eveniet dignissimos totam magni iure a cumque quod, pariatur placeat! Dignissimos provident quam sequi asperiores dolorem distinctio officiis, adipisci, ratione repellendus iure praesentium molestiae at magni quo aspernatur eos esse unde deleniti cumque reprehenderit modi atque nemo? Eveniet hic dignissimos dolor fuga ad earum ullam eligendi dolorem vitae? Laboriosam totam molestias atque cupiditate magnam voluptatem quaerat harum illum eaque dolores voluptate sapiente doloribus quibusdam modi nulla veritatis, dicta nisi corporis reprehenderit praesentium quo deserunt unde. Numquam mollitia doloribus iusto nisi dolores sapiente. Magni obcaecati ipsa quae necessitatibus repellat accusamus aperiam in incidunt laborum. Eligendi totam molestiae ad placeat. Repellendus saepe dolor nulla ab veniam optio animi sint beatae, cumque amet assumenda numquam debitis possimus error perspiciatis ad consequuntur doloremque sed suscipit. Animi deserunt quam eos cum aliquid hic ut recusandae, non, doloribus vitae autem laborum? Beatae aliquam eligendi accusantium itaque ipsam recusandae libero nihil, numquam, mollitia, nulla adipisci quos quidem quasi?
+      </p>
+    </div>
+  
+  </template>
+  
+  <script setup>
+  import NavBar from '../components/NavBar.vue';
+  </script>
+  

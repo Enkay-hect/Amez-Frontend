@@ -17,14 +17,14 @@
     import NavBarLG from './NavBarComponents/NavBarLG.vue';
     import NavBarSm from './NavBarComponents/NavBarSm.vue';
 
-    const isLgScreen = ref(window.matchMedia('(min-width: 1281px)').matches);
+    const isLgScreen = ref(window.matchMedia('(min-width: 1280px)').matches);
 
     let resizeTimeout;
 
     const checkScreenSize = () => {
       clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(() => {
-            isLgScreen.value = window.matchMedia('(min-width: 1024px)').matches;
+            isLgScreen.value = window.matchMedia('(min-width: 1280px)').matches;
         }, 100); // Debounced
       };
 

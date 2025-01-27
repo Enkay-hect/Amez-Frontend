@@ -1,5 +1,5 @@
 <template>
-    <nav class="relative text-white w-full h-screen ">
+    <nav class="relative text-white w-[100%] h-screen ">
 
     <div class="flex flex-row w-full h-20 justify-center items-center bg-black relative z-10" >
         <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
@@ -17,21 +17,21 @@
         </h3>
         </div>
 
-        <div class="w-full grid md:grid-cols-4 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10"
+        <div class="w-full grid md:grid-cols-6 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10"
             :class="{ 'fixed-nav': isFixed }"
             >
             <div class="col-span-1">
                 Logo
             </div>
 
-            <ul class="col-span-3 justify-between flex items-center px-36">
-                    <li>
+            <ul class="col-span-5 justify-between flex items-center">
+                    <router-link to="/" >
                         Home
-                    </li>
-
-                    <li>
+                    </router-link>
+                        
+                    <router-link to="/the-church">
                         The Church
-                    </li>
+                    </router-link>
 
                     <li class="relative flex gap-2 justify-center h-20 items-center cursor-pointer"
                             @mouseenter="setDropdownActive('leadership')"
@@ -499,7 +499,7 @@
                     </svg>
                     </div>
                     
-                    <button class="border-2 p-3 rounded-md" style="border: 3px solid #dec043;">
+                    <button class="border-2 p-3 rounded-md" style="border: 1px solid #dec043;">
                         DONATE
                     </button>
                 </div>

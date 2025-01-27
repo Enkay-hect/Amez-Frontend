@@ -5,6 +5,11 @@
   padding: 0;
  }
 
+ .router-link-active {
+  color: #dec043; 
+  font-weight: bold; 
+}
+
  /*
 #app {
   max-width: 1280px;

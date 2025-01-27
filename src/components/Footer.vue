@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-gray-800 text-white p-4 grid sm:grid-cols-2 grid-cols-1 gap-4 min-h-56">
+    <footer class="bg-gray-800 text-white py-10 p-4 grid sm:grid-cols-2 grid-cols-1 gap-4 min-h-56">
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-start">
             <div class="flex flex-col justify-evenly">
