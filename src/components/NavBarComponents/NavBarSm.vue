@@ -1,13 +1,13 @@
 <template>
   <nav class="relative text-white w-full h-screen">
     <div 
-      v-show="sideBarVisible"
-      class="fixed h-screen w-full bg-white text-black z-20 p-6 sidebar"
-      :class="{ 'sidebar-open': sideBar }"
-      role="dialog"
-      aria-expanded="sideBar"
-    >
-      <div class="flex justify-between">
+        v-show="sideBarVisible"
+        class="fixed h-screen w-full bg-white text-black z-20 p-6 sidebar"
+        :class="{ 'sidebar-open': sideBar }"
+        role="dialog"
+        aria-expanded="sideBar"
+      >
+      <div class="flex justify-between mb-10">
         <div>Logo</div>
         <button @click="setSideBar(false)" aria-label="Close sidebar">
             <svg height="1rem" width="1.5rem" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
@@ -21,6 +21,16 @@
                 </g> 
                 <g> <circle fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle> </g> </g></svg>
         </button>
+      </div>
+
+      <div class="flex flex-col gap-6">
+        <router-link to="/" >
+            Home
+        </router-link>
+            
+        <router-link to="/the-church">
+            The Church
+        </router-link>
       </div>
     </div>
 
