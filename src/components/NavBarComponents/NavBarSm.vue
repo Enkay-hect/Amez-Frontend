@@ -72,7 +72,8 @@
 </template>
 
 <script setup>
-    import { ref, onMounted, onUnmounted } from 'vue';
+    import { ref, onMounted, onUnmounted, watch } from 'vue';
+    import { useRoute, onBeforeRouteLeave } from 'vue-router';
 
     const sideBar = ref(false); 
     const sideBarVisible = ref(false); 
@@ -91,6 +92,8 @@
       }
     };
 
+    
+
     onMounted(() => {
         setTimeout(() => {
             sideBarVisible.value = true;
@@ -108,6 +111,14 @@
 
     onUnmounted(() => {
       window.removeEventListener('scroll', handleScroll);
+    });
+
+    onBeforeRouteLeave(() => {
+      document.body.style.overflow = 'auto';
+    });
+
+    watch(sideBar, (newValue) => {
+      document.body.style.overflow = newValue ? 'hidden' : 'auto';
     });
 
 </script>
