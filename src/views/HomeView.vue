@@ -23,7 +23,7 @@
   <div class="w-[100%] flex flex-col  gap-10 items-center h-auto px-8 lg:px-96 py-20 bg-gray-200">
     <h1 class="text-[#dec043] font-bold">Get in touch with us</h1>
 
-    <form action="" class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 bg-white p-4 rounded-md justify-center px-0">
+    <form action="" class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 bg-white p-4 rounded-md justify-center px-4">
 
       <div class="w-[100%]">
         <div class="gap-2 flex flex-col mb-4">
