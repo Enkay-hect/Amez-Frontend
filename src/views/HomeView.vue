@@ -1,6 +1,6 @@
 <template>
   <NavBar>
-      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle" style="background-image: url(images/amezchurch.jpg); filter: brightness(0.5);">
+      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle" style="background-image: url(images/amezchurch.jpg); background-color: grey; background-blend-mode: multiply;">
       </div>
   </NavBar>
 
