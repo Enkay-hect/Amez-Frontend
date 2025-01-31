@@ -39,8 +39,8 @@
 
                         <div class="flex flex-row items-center ">
                             
-                            <h3 @click="setDropdownActive('leadership')"
-                            @mouseleave="setDropdownActive('')">
+                            <h3 @click="toggleDropdown1('leadership')"
+                            >
                               Leadership
                             </h3>
                             
@@ -104,11 +104,11 @@
                                     width="1rem"
                                     class="icon"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    fill="#FFFFFF"
+                                    fill="#000000"
                                     >
                                     <path
                                         d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
-                                        fill="#FFFFFF"
+                                        fill="#000000"
                                     />
                                     </svg>
                                 </div>
@@ -116,7 +116,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-full top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md"
+                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
@@ -195,6 +195,10 @@
     const isFixed = ref(false);
 
     const activeDropdown = ref('');
+
+    const toggleDropdown1 = (dropdown) => {
+      activeDropdown.value = activeDropdown.value === dropdown ? "" : dropdown;
+    };
 
     const setDropdownActive = (dropdown) => {
           activeDropdown.value = dropdown;
