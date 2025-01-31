@@ -35,9 +35,10 @@
        
         <ul class="">
           <li class="relative flex gap-2  items-start cursor-pointer"
-                    >
+                      @mouseenter="setDropdownActive('leadership')"
+                      @mouseleave="setDropdownActive('')">
 
-                        <div class="flex flex-row items-center border-2 border-red-300">
+                        <div class="flex flex-row items-center ">
                             
                             <h3 @click="toggleDropdown1('leadership')"
                             >
@@ -68,12 +69,12 @@
                         <!-- Parent Dropdown -->
                         <ul
                             v-show="true"
-                            class="absolute mt-[-1rem] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black z-10"
+                            class="absolute mt-[-1rem] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black z-10 "
 
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
                             
-                            transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+                            transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
 
