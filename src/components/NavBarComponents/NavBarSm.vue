@@ -83,7 +83,7 @@
                         >
 
                             <li class="border-b-2 border-gray-400 pb-3">
-                              <router-link to="/">Bishop</router-link>
+                              <router-link to="/the-bishop">Bishop</router-link>
                             </li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
 
@@ -197,7 +197,7 @@
                                     <h4>Women’s Home and Overseas <br> Missionary Society</h4>
                                     <svg
                                     :style="{
-                                        opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 1,
+                                        opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
                                         transform: activeDropdown === 'child-dropdown2.1' ? 'rotate(90deg)' : 'rotate(0deg)',
                                         // transition: '1s ease-in-out, transform 0.5s ease-in-out',
                                     }"
@@ -218,7 +218,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                    class="absolute left-[60%] top-0 bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-60"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown2.1' ? 'translateX(0)' : 'translateX(-1.5rem)',
@@ -274,7 +274,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                    class="absolute left-[35%] top-0 bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-64"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown2.2' ? 'translateX(0)' : 'translateX(-1.5rem)',
