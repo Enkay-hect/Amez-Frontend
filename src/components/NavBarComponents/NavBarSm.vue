@@ -33,8 +33,8 @@
         </router-link>
 
        
-        <ul>
-          <li class="relative flex gap-2 h-20 items-start cursor-pointer"
+        <ul class="">
+          <li class="relative flex gap-2  items-start cursor-pointer"
                       @mouseenter="setDropdownActive('leadership')"
                       @mouseleave="setDropdownActive('')">
 
@@ -69,7 +69,7 @@
                         <!-- Parent Dropdown -->
                         <ul
                             v-show="true"
-                            class="absolute mt-[-5] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black "
+                            class="absolute mt-[-1rem] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black z-10"
 
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
@@ -82,7 +82,9 @@
                             }"
                         >
 
-                            <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
+                            <li class="border-b-2 border-gray-400 pb-3">
+                              <router-link to="/">Bishop</router-link>
+                            </li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
 
                             <!-- Child Dropdown Trigger -->
@@ -98,7 +100,7 @@
                                     :style="{
                                         opacity: activeDropdown === 'child-dropdown' ? 1 : 1,
                                         transform: activeDropdown === 'child-dropdown' ? 'rotate(90deg)' : 'rotate(0deg)',
-                                        transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
                                     }"
                                     viewBox="0 0 1024 1024"
                                     height="0.5rem"
@@ -138,8 +140,167 @@
                                 </ul>
                             </li>
                         </ul>
-        </li>
+          </li> 
         </ul>
+
+        <ul>
+          <li class="relative flex gap-2  "
+                            @mouseenter="setDropdownActive('Departments')"
+                            @mouseleave="setDropdownActive('')">
+                        <div class="flex items-center">
+                            
+                            <h3 @click="toggleDropdown1('Departments')">Departments and Ministries</h3>
+                            
+                            <svg
+                                v-show="true"
+                                :style="{
+                                    opacity: activeDropdown === 'Departments' ? 1 : 1,
+                                    transform: activeDropdown === 'Departments' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000"
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                            </svg>
+                        </div>
+
+                        <!-- Parent Dropdown -->
+                        <ul
+                            v-show="true"
+
+                            class="absolute mt-[-1rem] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black z-10"
+
+                            :style="{
+                            opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 1 : 0,
+                            
+                            transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+
+                            transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
+
+                            visibility: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'visible' : 'hidden',
+                            }"
+                            >
+
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                                @mouseenter="setDropdownActive('child-dropdown2.1')"
+                                @mouseleave="setDropdownActive('Departments')">
+                                
+                                <div class="flex items-center">
+                                    <h4>Women’s Home and Overseas <br> Missionary Society</h4>
+                                    <svg
+                                    :style="{
+                                        opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 1,
+                                        transform: activeDropdown === 'child-dropdown2.1' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                    }"
+                                    viewBox="0 0 1024 1024"
+                                    height="0.5rem"
+                                    width="1rem"
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="#000000"
+                                    >
+                                    <path
+                                        d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                        fill="#000000"
+                                    />
+                                    </svg>
+                                </div>
+
+                            <!-- Child Dropdown -->
+                                <ul
+                                    v-show="true"
+                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                    :style="{
+                                    opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
+                                    transform: activeDropdown === 'child-dropdown2.1' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                    transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
+                                    // visibility: activeDropdown === 'child-dropdown2.1' ? 'visible' : 'hidden',
+                                    }"
+                                    >
+                                    <li class="border-b-2 border-gray-400 pb-3">Missionary supervisor</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Field workers</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">YMS</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Buds of promise</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Bureau supply</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Life Members</li>
+
+                                </ul>
+                            </li>
+
+
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Connectional Lay Council </li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Men of Zion Ministry</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Minister’s Spouses Fellowship</li>
+
+
+                            <!-- Child Dropdown Trigger -->
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                                @mouseenter="setDropdownActive('child-dropdown2.2')"
+                                @mouseleave="setDropdownActive('Departments')">
+                                
+                                <div class="flex items-center">
+                                    <h4>Directorates</h4>
+                                    <svg
+                                    :style="{
+                                        opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 1,
+                                        transform: activeDropdown === 'child-dropdown2.2' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                    }"
+                                    viewBox="0 0 1024 1024"
+                                    height="0.5rem"
+                                    width="1rem"
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="#000000"
+                                    >
+                                    <path
+                                        d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                        fill="#000000"
+                                    />
+                                    </svg>
+                                </div>
+
+                            <!-- Child Dropdown -->
+                                <ul
+                                    v-show="true"
+                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                    :style="{
+                                    opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 0,
+                                    transform: activeDropdown === 'child-dropdown2.2' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                    transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
+                                    // visibility: activeDropdown === 'child-dropdown2' ? 'visible' : 'hidden',
+                                    }"
+                                    >
+                                    <li class="border-b-2 border-gray-400 pb-3">Christian Education <br> Department</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Finance, Assets & Property <br> Development </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Historical Society, Research & <br> Publications </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Ecumenical Affairs </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Social Concerns & Empowerment </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Church Growth & Development </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Legal Affairs </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Communication </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Music </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Youth </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Children </li>
+                                </ul>
+                            </li>
+                        </ul>
+          </li>
+        </ul>
+
+        
+        
        
       </div>
     </div>

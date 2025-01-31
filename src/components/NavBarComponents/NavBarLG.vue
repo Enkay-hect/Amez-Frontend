@@ -64,7 +64,7 @@
                         <!-- Parent Dropdown -->
                         <ul
                             v-show="true"
-                            class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+                            class="relative mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
 
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
