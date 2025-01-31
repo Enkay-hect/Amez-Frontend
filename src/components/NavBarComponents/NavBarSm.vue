@@ -76,7 +76,7 @@
                             
                             transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
-                            transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
+                            transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
 
                             visibility: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'visible' : 'hidden',
                             }"
