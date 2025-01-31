@@ -35,10 +35,9 @@
        
         <ul class="">
           <li class="relative flex gap-2  items-start cursor-pointer"
-                      @mouseenter="setDropdownActive('leadership')"
-                      @mouseleave="setDropdownActive('')">
+                    >
 
-                        <div class="flex flex-row items-center ">
+                        <div class="flex flex-row items-center border-2 border-red-300">
                             
                             <h3 @click="toggleDropdown1('leadership')"
                             >
