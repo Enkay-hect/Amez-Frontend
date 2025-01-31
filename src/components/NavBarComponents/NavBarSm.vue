@@ -35,7 +35,8 @@
        
         <ul>
           <li class="relative flex gap-2 h-20 items-start cursor-pointer"
-                            >
+                      @mouseenter="setDropdownActive('leadership')"
+                      @mouseleave="setDropdownActive('')">
 
                         <div class="flex flex-row items-center ">
                             
@@ -116,7 +117,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-80"
+                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
