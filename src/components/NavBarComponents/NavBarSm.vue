@@ -116,12 +116,11 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md"
+                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-60"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
                                     transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
-                                    // visibility: activeDropdown === 'child-dropdown' ? 'visible' : 'hidden',
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-2">Nigeria Conference</li>
