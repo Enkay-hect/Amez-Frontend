@@ -17,8 +17,8 @@
         </h3>
         </div>
 
-        <div class="w-full grid md:grid-cols-6 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10"
-            :class="{ 'fixed-nav': isFixed }"
+        <div class="w-full grid md:grid-cols-6 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10 "
+            :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack }"
             >
             <div class="col-span-1">
                 Logo
@@ -519,6 +519,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 const activeDropdown = ref('');
 const isFixed = ref(false);
+const bgBlack = ref(false);
 
 
 const setDropdownActive = (dropdown) => {
@@ -527,6 +528,7 @@ const setDropdownActive = (dropdown) => {
 
 const handleScroll = () => {
   isFixed.value = window.scrollY > 100;
+  bgBlack.value = window.scrollY > 700
 };
 
 onMounted(() => {
@@ -552,7 +554,11 @@ onUnmounted(() => {
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
   /* background-color: rgba(112, 105, 105, 0.089);  */
   backdrop-filter: blur(5px); 
-  transition: 0.3s;
-  
+  transition: 0.3s; 
+}
+
+.setNavBg{
+    background-color: black;
+    /* border-bottom: none; */
 }
 </style>
