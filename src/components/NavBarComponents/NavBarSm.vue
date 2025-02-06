@@ -327,7 +327,7 @@
     </div>
 
     <div class="flex justify-between px-5 h-20 items-center border-b-2 border-gray-100 relative z-10"
-    :class="{ 'fixed-nav': isFixed,  }"
+    :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack  }"
 
     >
       <div>Logo</div>
@@ -354,6 +354,8 @@
     const sideBar = ref(false); 
     const sideBarVisible = ref(false); 
     const isFixed = ref(false);
+    const bgBlack = ref(false);
+
 
     const activeDropdown = ref('');
 
@@ -390,6 +392,8 @@
 
     const handleScroll = () => {
       isFixed.value = window.scrollY > 100;
+      bgBlack.value = window.scrollY > 700
+
     };
 
     onMounted(() => {
@@ -431,4 +435,9 @@
       transition: 0.3s;
       
     }
+
+    .setNavBg{
+    background-color: black;
+    /* border-bottom: none; */
+}
 </style>
