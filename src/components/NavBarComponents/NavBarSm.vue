@@ -144,10 +144,10 @@
         </ul>
 
         <ul>
-          <li class="relative flex gap-2  "
+          <li class="relative flex gap-2  items-start cursor-pointer"
                             @mouseenter="setDropdownActive('Departments')"
                             @mouseleave="setDropdownActive('')">
-                        <div class="flex items-center">
+                        <div class="flex flex-row items-center">
                             
                             <h3 @click="toggleDropdown1('Departments')">Departments and Ministries</h3>
                             
@@ -181,15 +181,15 @@
                             :style="{
                             opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 1 : 0,
                             
-                            transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+                            transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
-                            transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
+                            transition: 'opacity 0.3s ease-in-out, transform 1s ease-in-out',
 
                             visibility: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'visible' : 'hidden',
                             }"
                             >
 
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                            <li class="border-b-2 border-gray-400 pb-3 "
                                 @mouseenter="setDropdownActive('child-dropdown2.1')"
                                 @mouseleave="setDropdownActive('Departments')">
                                 
