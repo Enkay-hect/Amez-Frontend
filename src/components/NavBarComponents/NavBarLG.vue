@@ -69,7 +69,7 @@
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
                             
-                            transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+                            transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
 
@@ -176,7 +176,7 @@
                             :style="{
                             opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 1 : 0,
                             
-                            transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+                            transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
 
@@ -330,7 +330,7 @@
                             :style="{
                             opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 1 : 0,
                             
-                            transform: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+                            transform: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
 
@@ -425,7 +425,7 @@
                             :style="{
                             opacity: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 1 : 0,
                             
-                            transform: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'translateY(3.6rem)' : 'translateY(0rem)',
+                            transform: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
 

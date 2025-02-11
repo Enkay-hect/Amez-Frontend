@@ -34,14 +34,11 @@
 
        
         <ul class="">
-          <li class="relative flex gap-2  items-start cursor-pointer"
-                      @mouseenter="setDropdownActive('leadership')"
-                      @mouseleave="setDropdownActive('')">
+          <li class="relative flex gap-2  items-start cursor-pointer">
 
                         <div class="flex flex-row items-center ">
                             
-                            <h3 @click="toggleDropdown1('leadership')"
-                            >
+                            <h3 @click.stop.prevent="toggleDropdown1('leadership')">
                               Leadership
                             </h3>
                             
@@ -85,17 +82,16 @@
                             <li class="border-b-2 border-gray-400 pb-3">
                               <router-link to="/the-bishop">Bishop</router-link>
                             </li>
+
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
 
                             <!-- Child Dropdown Trigger -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
-                                @mouseenter="setDropdownActive('child-dropdown')"
-                                @mouseleave="setDropdownActive('leadership')"
+                                @click.stop.prevent="toggleDropdown1('child-dropdown')"
                                 >
-                                
 
                                 <div class="flex items-center">
-                                    <h4>Annual Conferences</h4>
+                                    <h4 >Annual Conferences</h4>
                                     <svg
                                     :style="{
                                         opacity: activeDropdown === 'child-dropdown' ? 1 : 1,
@@ -119,14 +115,15 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
+
                                     class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
                                     transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
-                                    }"
+                                  }"
                                     >
-                                    <li class="border-b-2 border-gray-400 pb-2">Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pb-2"><router-link to="/" >Nigeria Conference</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
@@ -144,12 +141,10 @@
         </ul>
 
         <ul>
-          <li class="relative flex gap-2  items-start cursor-pointer"
-                            @mouseenter="setDropdownActive('Departments')"
-                            @mouseleave="setDropdownActive('')">
+          <li class="relative flex gap-2  items-start cursor-pointer">
                         <div class="flex flex-row items-center">
                             
-                            <h3 @click="toggleDropdown1('Departments')">Departments and Ministries</h3>
+                            <h3 @click.stop.prevent="toggleDropdown1('Departments')">Departments and Ministries</h3>
                             
                             <svg
                                 v-show="true"
@@ -190,14 +185,13 @@
                             >
 
                             <li class="border-b-2 border-gray-400 pb-3 "
-                                @mouseenter="setDropdownActive('child-dropdown2.1')"
-                                @mouseleave="setDropdownActive('Departments')">
+                                @click.stop.prevent="toggleDropdown1('child-dropdown2.1')">
                                 
                                 <div class="flex items-center">
-                                    <h4>Women’s Home and Overseas <br> Missionary Society</h4>
+                                    <h4>Women’s Home and <br> Overseas Missionary Society</h4>
                                     <svg
                                     :style="{
-                                        opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
+                                        opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 1,
                                         transform: activeDropdown === 'child-dropdown2.1' ? 'rotate(90deg)' : 'rotate(0deg)',
                                         // transition: '1s ease-in-out, transform 0.5s ease-in-out',
                                     }"
@@ -226,7 +220,7 @@
                                     // visibility: activeDropdown === 'child-dropdown2.1' ? 'visible' : 'hidden',
                                     }"
                                     >
-                                    <li class="border-b-2 border-gray-400 pb-3">Missionary supervisor</li>
+                                    <li class="border-b-2 border-gray-400 pb-3"><router-link to="the-churchh">Missionary supervisor</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Field workers</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>
@@ -246,8 +240,7 @@
 
                             <!-- Child Dropdown Trigger -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
-                                @mouseenter="setDropdownActive('child-dropdown2.2')"
-                                @mouseleave="setDropdownActive('Departments')">
+                                @click.stop.prevent="toggleDropdown1('child-dropdown2.2')">
                                 
                                 <div class="flex items-center">
                                     <h4>Directorates</h4>
@@ -282,7 +275,7 @@
                                     // visibility: activeDropdown === 'child-dropdown2' ? 'visible' : 'hidden',
                                     }"
                                     >
-                                    <li class="border-b-2 border-gray-400 pb-3">Christian Education <br> Department</li>
+                                    <li class="border-b-2 border-gray-400 pb-3"><router-link to="the-chruchh">Christian Education <br> Department</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Finance, Assets & Property <br> Development </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Historical Society, Research & <br> Publications </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Ecumenical Affairs </li>
@@ -298,6 +291,227 @@
                         </ul>
           </li>
         </ul>
+
+        <ul class="">
+          <li class="relative flex gap-2  items-start cursor-pointer"
+                      >
+
+                        <div class="flex flex-row items-center ">
+                            
+                            <h3 @click.stop.prevent="toggleDropdown1('Seminary')"
+                            >
+                            Schools & Seminary
+                            </h3>
+                            
+                            <svg
+                                v-show="true"
+                                :style="{
+                                    opacity: activeDropdown === 'Seminary' ? 1 : 1,
+                                    transform: activeDropdown === 'Seminary' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '0.3s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon mt-1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000"
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                            </svg>
+                        </div>
+
+                        <!-- Parent Dropdown -->
+                        <ul
+                            v-show="true"
+                            class="absolute mt-[-1rem] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black z-10 "
+
+                            :style="{
+                            opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 1 : 0,
+                            
+                            transform: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'translateY(3rem)' : 'translateY(2.5rem)',
+
+                            transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
+
+                            visibility: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'visible' : 'hidden',
+                            }"
+                        >
+
+                            <li class="border-b-2 border-gray-400 pb-3">
+                              <router-link to="/the-bishop">Bishop</router-link>
+                            </li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+
+                            <!-- Child Dropdown Trigger -->
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                                @click.stop.prevent="toggleDropdown1('child-dropdown3')"
+                                
+                                >
+                                
+
+                                <div class="flex items-center">
+                                    <h4>Annual Conferences</h4>
+                                    <svg
+                                    :style="{
+                                        opacity: activeDropdown === 'child-dropdown3' ? 1 : 1,
+                                        transform: activeDropdown === 'child-dropdown3' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                    }"
+                                    viewBox="0 0 1024 1024"
+                                    height="0.5rem"
+                                    width="1rem"
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="#000000"
+                                    >
+                                    <path
+                                        d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                        fill="#000000"
+                                    />
+                                    </svg>
+                                </div>
+
+                            <!-- Child Dropdown -->
+                                <ul
+                                    v-show="true"
+                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
+                                    :style="{
+                                    opacity: activeDropdown === 'child-dropdown3' ? 1 : 0,
+                                    transform: activeDropdown === 'child-dropdown3' ? 'translateX(0)' : 'translateX(-5rem)',
+                                    transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
+                                    }"
+                                    >
+                                    <li class="border-b-2 border-gray-400 pb-2"><router-link to="/" >Nigeria Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Northern Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Port Harcourt Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">South Eastern Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Cross River Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Southern Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Akwa Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Lagos West Annual Conference</li>
+                                </ul>
+                            </li>
+                        </ul>
+          </li> 
+        </ul>
+
+        <ul class="">
+          <li class="relative flex gap-2  items-start cursor-pointer ">
+
+                        <div class="flex flex-row items-center ">
+                            
+                            <h3 @click.stop.prevent="toggleDropdown1('Events')">
+                              Events
+                            </h3>
+                            
+                            <svg
+                                v-show="true"
+                                :style="{
+                                    opacity: activeDropdown === 'Events' ? 1 : 1,
+                                    transform: activeDropdown === 'Events' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                    transition: '0.3s ease-in-out, transform 0.5s ease-in-out',
+                                }"
+                                viewBox="0 0 1024 1024"
+                                height="0.5rem"
+                                width="1rem"
+                                class="icon mt-1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000"
+                                >
+                                <path
+                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                    fill="#000000"
+                                />
+                            </svg>
+                        </div>
+
+                        <!-- Parent Dropdown -->
+                        <ul
+                        v-show="true"
+                        class="absolute mt-[-1rem] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black z-10 "
+
+                            :style="{
+                            opacity: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 1 : 0,
+                            
+                            transform: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'translateY(3rem)' : 'translateY(2.5rem)',
+
+                            transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
+
+                            visibility: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'visible' : 'hidden',
+                            }"
+                        >
+
+                            <li class="border-b-2 border-gray-400 pb-3">
+                              <router-link to="/the-bishop">Bishop</router-link>
+                            </li>
+
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+
+                            <!-- Child Dropdown Trigger -->
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                                @click.stop.prevent="toggleDropdown1('child-dropdown4')"
+                                >
+
+                                <div class="flex items-center">
+                                    <h4 >Annual Conferences</h4>
+                                    <svg
+                                    :style="{
+                                        opacity: activeDropdown === 'child-dropdown4' ? 1 : 1,
+                                        transform: activeDropdown === 'child-dropdown4' ? 'rotate(90deg)' : 'rotate(0deg)',
+                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
+                                    }"
+                                    viewBox="0 0 1024 1024"
+                                    height="0.5rem"
+                                    width="1rem"
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="#000000"
+                                    >
+                                    <path
+                                        d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                        fill="#000000"
+                                    />
+                                    </svg>
+                                </div>
+
+                            <!-- Child Dropdown -->
+                                <ul
+                                    v-show="true"
+
+                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
+                                    :style="{
+                                    opacity: activeDropdown === 'child-dropdown4' ? 1 : 0,
+                                    transform: activeDropdown === 'child-dropdown4' ? 'translateX(0)' : 'translateX(-5rem)',
+                                    transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
+                                  }"
+                                    >
+                                    <li class="border-b-2 border-gray-400 pb-2"><router-link to="/" >Nigeria Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Northern Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Port Harcourt Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">South Eastern Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Cross River Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Southern Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Akwa Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Lagos West Annual Conference</li>
+                                </ul>
+                            </li>
+                        </ul>
+          </li> 
+        </ul>
+
+        <li style="list-style: none;">
+            Contact
+        </li>
+
 
         
         
@@ -349,6 +563,7 @@
 
 <script setup>
     import { ref, onMounted, onUnmounted, watch } from 'vue';
+    import { nextTick } from 'vue';
     import { useRoute, onBeforeRouteLeave } from 'vue-router';
 
     const sideBar = ref(false); 
@@ -356,15 +571,29 @@
     const isFixed = ref(false);
     const bgBlack = ref(false);
 
+    const isClicked = ref(false);
+
 
     const activeDropdown = ref('');
 
-    const toggleDropdown1 = (dropdown) => {
-      activeDropdown.value = activeDropdown.value === dropdown ? "" : dropdown;
+    
+    const toggleDropdown1 = async (dropdown) => {
+      isClicked.value = activeDropdown.value !== dropdown;
+      activeDropdown.value = isClicked.value ? dropdown : '';
+      await nextTick();
     };
 
+  
     const setDropdownActive = (dropdown) => {
-          activeDropdown.value = dropdown;
+      if (!isClicked.value) {
+        activeDropdown.value = dropdown;
+      }
+    };
+
+    const handleMouseLeave = () => {
+      if (!isClicked.value) {
+        activeDropdown.value = '';
+      }
     };
 
 
@@ -381,12 +610,42 @@
       }
     };
 
+      const handleLinkClick = (e) => {
+        e.preventDefault();
+      }
+
     
 
     onMounted(() => {
         setTimeout(() => {
             sideBarVisible.value = true;
         }, 0); 
+    });
+
+    const handleClickOutside = (event) => {
+      const dropdownElements = document.querySelectorAll('.resetting');
+
+      let isOutside = true;
+      dropdownElements.forEach((dropdownElement) => {
+        if (dropdownElement.contains(event.target)) {
+          isOutside = false;
+        }
+      });
+
+      if (isOutside) {
+        activeDropdown.value = '';
+        isClicked.value = false; // Reset the click flag
+      }
+    };
+
+
+    // Attach and detach the click-outside listener
+    onMounted(() => {
+      document.addEventListener('click', handleClickOutside);
+    });
+
+    onUnmounted(() => {
+      document.removeEventListener('click', handleClickOutside);
     });
 
 
