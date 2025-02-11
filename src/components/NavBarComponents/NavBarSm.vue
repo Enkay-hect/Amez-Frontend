@@ -118,10 +118,12 @@
 
                                     class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
                                     :style="{
-                                    opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
-                                    transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
-                                    transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
-                                  }"
+                                      opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
+                                      transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
+                                      zIndex: activeDropdown === 'child-dropdown' ? 1 : -10,
+                                      pointerEvents: activeDropdown === 'child-dropdown' ? 'auto' : 'none',
+                                      transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
+                                    }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-2"><router-link to="/the-churchhh" >Nigeria Conference</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
@@ -213,11 +215,14 @@
                                 <ul
                                     v-show="true"
                                     class="absolute left-[60%] top-0 bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-60"
-                                    :style="{
-                                    opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
-                                    transform: activeDropdown === 'child-dropdown2.1' ? 'translateX(0)' : 'translateX(-1.5rem)',
-                                    transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
-                                    // visibility: activeDropdown === 'child-dropdown2.1' ? 'visible' : 'hidden',
+                                    
+
+                                  :style="{
+                                      opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
+                                      transform: activeDropdown === 'child-dropdown2.1' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                      zIndex: activeDropdown === 'child-dropdown2.1' ? 1 : -10,
+                                      pointerEvents: activeDropdown === 'child-dropdown2.1' ? 'auto' : 'none',
+                                      transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3"><router-link to="the-churchh">Missionary supervisor</router-link></li>
@@ -269,10 +274,11 @@
                                     v-show="true"
                                     class="absolute left-[30%] top-[-2rem] bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-64"
                                     :style="{
-                                    opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 0,
-                                    transform: activeDropdown === 'child-dropdown2.2' ? 'translateX(0)' : 'translateX(-1.5rem)',
-                                    transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
-                                    // visibility: activeDropdown === 'child-dropdown2' ? 'visible' : 'hidden',
+                                      opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 0,
+                                      transform: activeDropdown === 'child-dropdown2.2' ? 'translateX(0)' : 'translateX(-1.5rem)',
+                                      zIndex: activeDropdown === 'child-dropdown2.2' ? 1 : -10,
+                                      pointerEvents: activeDropdown === 'child-dropdown2.2' ? 'auto' : 'none',
+                                      transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3"><router-link to="the-chruchh">Christian Education <br> Department</router-link></li>
