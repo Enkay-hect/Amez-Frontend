@@ -386,6 +386,8 @@
                                     class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown3' ? 1 : 0,
+                                    zIndex: activeDropdown === 'child-dropdown3' ? 1 : -10,
+                                    pointerEvents: activeDropdown === 'child-dropdown3' ? 'auto' : 'none',
                                     transform: activeDropdown === 'child-dropdown3' ? 'translateX(0)' : 'translateX(-5rem)',
                                     transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
                                     }"
@@ -494,6 +496,8 @@
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown4' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown4' ? 'translateX(0)' : 'translateX(-5rem)',
+                                    zIndex: activeDropdown === 'child-dropdown4' ? 1 : -10,
+                                    pointerEvents: activeDropdown === 'child-dropdown4' ? 'auto' : 'none',
                                     transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
                                   }"
                                     >
