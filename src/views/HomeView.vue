@@ -1,6 +1,8 @@
 <template>
   <NavBar>
-      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3" style="background-image: url(images/women/img114.jpg); background-color: grey; background-blend-mode: multiply;">
+      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3" style="background-color: grey; background-blend-mode: multiply;"
+        :style="{ backgroundImage: `url(${currentImage})` }"
+      >
         <h2 class="text-2xl text-center">Worship with the </h2>
         <h2 class="text-4xl font-extrabold text-center">AMEZ FAMILY </h2>
         <h2 class="text-2xl text-center mt-3">We are Lives Changed by Christ Jesus</h2>
@@ -64,4 +66,33 @@
 
 <script setup>
 import NavBar from '../components/NavBar.vue';
+
+import {ref, onMounted} from 'vue';
+
+const slideImages = [
+  '/public/images/women/img114.jpg',
+  '/public/images/women/img116.jpg',
+  '/public/images/women/img118.jpg',
+  '/public/images/men/img1111.jpg',
+  '/public/images/women/img118.jpg'
+]
+
+
+const currentIndex = ref(0);
+const currentImage = ref(slideImages[currentIndex.value]);
+// const isVisible = ref(true);
+
+const changeBackground = () => {
+  // isVisible.value = false; // Start fade-out
+  setTimeout(() => {
+    currentIndex.value = (currentIndex.value + 1) % slideImages.length;
+    currentImage.value = slideImages[currentIndex.value];
+    // isVisible.value = true; // Fade-in after changing image
+  }, 1000); // Match Tailwind's transition duration
+};
+
+onMounted(() => {
+  setInterval(changeBackground, 4000); // Change every 4 seconds
+});
+
 </script>
