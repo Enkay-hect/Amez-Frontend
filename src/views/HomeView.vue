@@ -70,10 +70,10 @@ import NavBar from '../components/NavBar.vue';
 import {ref, onMounted} from 'vue';
 
 const slideImages = [
+  '/public/images/men/img1111.jpg',
   '/public/images/women/img114.jpg',
   '/public/images/women/img116.jpg',
   '/public/images/women/img118.jpg',
-  '/public/images/men/img1111.jpg',
   '/public/images/women/img118.jpg'
 ]
 
