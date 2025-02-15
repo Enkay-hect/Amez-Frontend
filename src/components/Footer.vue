@@ -71,12 +71,10 @@
         <div class="flex flex-col justify-center md:items-start items-center space-y-2">
             <h2 class="text-[#dec043]  text-lg font-semibold">NEWSLETER</h2>
 
-            <!-- <div class="rounded-md  flex flex-row"> -->
-                <input type="email" name="" placeholder="Your Email" id="" class="w-[80%] md:w-[100%] px-1 py-1 rounded-md focus:outline-none focus:ring-0 text-black">
-            <!-- </div>  -->
+            <input type="email" name="" placeholder="Your Email" id="" class="w-[80%] md:w-[100%] px-1 mt-4 py-1 rounded-md focus:outline-none focus:ring-0 text-black">
             
-            <h2>Letter Icon - info@amez-ewaed.org</h2>
-            <h2>Phone Icon - +234 8036765479</h2>
+            <h2>info@amez-ewaed.org</h2>
+            <h2>+234 8036765479</h2>
 
         </div>
     </div>

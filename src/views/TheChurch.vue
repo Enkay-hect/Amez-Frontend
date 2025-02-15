@@ -1,7 +1,7 @@
 <template>
     <NavBar>
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(images/clergy.jpg); background-color: grey; background-blend-mode: multiply;">
-            
+        <div class="absolute inset-0 bg-cover bg-center flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/women/img119.jpg); background-color: grey; background-blend-mode: multiply;">
+          <h2 class="text-4xl font-extrabold text-center">THE CHURCH </h2>
         </div>
     </NavBar>
   

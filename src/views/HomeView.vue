@@ -1,29 +1,35 @@
 <template>
   <NavBar>
-      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle" style="background-image: url(images/amezchurch.jpg); background-color: grey; background-blend-mode: multiply;">
+      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3" style="background-image: url(images/women/img114.jpg); background-color: grey; background-blend-mode: multiply;">
+        <h2 class="text-2xl text-center">Worship with the </h2>
+        <h2 class="text-4xl font-extrabold text-center">AMEZ FAMILY </h2>
+        <h2 class="text-2xl text-center mt-3">We are Lives Changed by Christ Jesus</h2>
       </div>
   </NavBar>
 
 
 
 
-  <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
-    <div class="md:w-[50%]">
-      <img src="../../public/images/clergy.jpg" alt="" srcset="">
+  <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-8 h-auto px-8 lg:px-52 xl:px-74 py-7">
+    <div class="md:w-[70%]  ">
+      <img src="../../public/images/men/img1112.jpg" alt="" srcset="" height="">
     </div>
 
-    <p class="md:w-[50%] leading-loose">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, accusamus tenetur debitis exercitationem in vero tempore ducimus eum, molestias id ex, earum cum atque pariatur quaerat culpa reiciendis neque commodi quae? Ipsum quis sapiente tempora error. Distinctio alias voluptatibus eos reprehenderit, autem, excepturi nihil amet eum quidem consequuntur sapiente, commodi nulla. Pariatur illo accusamus quaerat illum at, voluptatibus laboriosam veniam sapiente cum consectetur magnam incidunt! Fugiat ipsa ipsam illum, nobis eos dolores nostrum. Accusamus qui nobis beatae tempore iusto ducimus quasi error odit aut rem iure, ex impedit, quia deserunt sunt ipsa excepturi delectus aspernatur quos sequi sit id ipsam. Placeat, nemo, quae ipsam cumque perferendis similique officiis laborum maxime dolorum ullam itaque illo dicta sequi adipisci animi est nobis excepturi? Omnis soluta, eligendi, obcaecati a labore cum provident veniam totam sint eos odio eaque ratione voluptas minima. Amet molestias, alias harum minus nihil consequatur deleniti recusandae adipisci, repudiandae voluptates, porro nobis. Mollitia tenetur dolorum eos hic ad non commodi!
+    <p class="md:w-[70%] leading-loose ">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis laudantium. Odio saepe placeat repellendus ratione amet temporibus error voluptatum alias dolores nulla. Similique exercitationem alias a asperiores porro laborum optio fuga quod debitis perferendis eaque, voluptate mollitia adipisci dolores explicabo pariatur consequatur, natus dolore temporibus voluptates. Reiciendis, quo earum?
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis laudantium. Odio saepe placeat repellendus ratione amet temporibus error voluptatum alias dolores nulla. Similique exercitationem alias a asperiores porro laborum optio fuga quod debitis perferendis eaque, voluptate mollitia adipisci dolores explicabo pariatur consequatur, natus dolore temporibus voluptates. Reiciendis, quo earum?
+
     </p>
   </div>
 
 
 
 
-  <div class="w-[100%] flex flex-col  gap-10 items-center h-auto px-8 lg:px-96 py-20 bg-gray-200">
+  <div class="w-[100%] flex flex-col  gap-10 items-center h-auto px-8 md:px-48 lg:px-80 py-20 bg-gray-200">
     <h1 class="text-[#dec043] font-bold">Get in touch with us</h1>
 
-    <form action="" class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 bg-white p-4 rounded-md justify-center px-4">
+    <form action="" class="w-[100%] flex flex-col sm:flex-row flex-wrap sm:flex-nowrap gap-8 bg-white p-4 rounded-md justify-center px-4">
 
       <div class="w-[100%]">
         <div class="gap-2 flex flex-col mb-4">
