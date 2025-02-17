@@ -1,20 +1,30 @@
+
 <template>
   <NavBar>
-      <div class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3" style="background-color: grey; background-blend-mode: multiply;"
-        :style="{ backgroundImage: `url(${currentImage})` }"
-      >
-        <h2 class="text-2xl text-center">Worship with the </h2>
-        <h2 class="text-4xl font-extrabold text-center">AMEZ FAMILY </h2>
-        <h2 class="text-2xl text-center mt-3">We are Lives Changed by Christ Jesus</h2>
+    <div 
+      class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3 overflow-hidden"
+      style="background-color: grey; background-blend-mode: multiply;">
+      
+      <!-- Render images with fade transition -->
+      <div 
+        v-for="(image, index) in slideImages"
+        :key="index"
+        class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+        :style="{ backgroundImage: `url(${image})`, opacity: currentIndex === index ? 1 : 0 }">
       </div>
+
+      <!-- Text Overlay -->
+      <h2 class="text-2xl text-center relative z-10">Worship with the</h2>
+      <h2 class="text-4xl font-extrabold text-center relative z-10">AMEZ FAMILY</h2>
+      <h2 class="text-2xl text-center mt-3 relative z-10">We are Lives Changed by Christ Jesus</h2>
+
+    </div>
   </NavBar>
-
-
 
 
   <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-8 h-auto px-8 lg:px-52 xl:px-74 py-7">
     <div class="md:w-[70%]  ">
-      <img src="../../public/images/men/img1112.jpg" alt="" srcset="" height="">
+      <img src="../../images/men/img1112.jpg" alt="" srcset="" height="">
     </div>
 
     <p class="md:w-[70%] leading-loose ">
@@ -61,38 +71,36 @@
 
     </form>
   </div>
-
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue';
 import NavBar from '../components/NavBar.vue';
 
-import {ref, onMounted} from 'vue';
-
-const slideImages = [
+const slideImages = ref([
   '/images/men/img1111.jpg',
   '/images/women/img114.jpg',
   '/images/women/img116.jpg',
   '/images/women/img118.jpg',
-  '/images/women/img118.jpg'
-]
-
+  '/images/women/img119.jpg'
+]);
 
 const currentIndex = ref(0);
-const currentImage = ref(slideImages[currentIndex.value]);
-// const isVisible = ref(true);
 
 const changeBackground = () => {
-  // isVisible.value = false; // Start fade-out
-  setTimeout(() => {
-    currentIndex.value = (currentIndex.value + 1) % slideImages.length;
-    currentImage.value = slideImages[currentIndex.value];
-    // isVisible.value = true; // Fade-in after changing image
-  }, 1000); // Match Tailwind's transition duration
+  currentIndex.value = (currentIndex.value + 1) % slideImages.value.length;
 };
 
 onMounted(() => {
-  setInterval(changeBackground, 4000); // Change every 4 seconds
+  setInterval(changeBackground, 4000); // Change image every 4 seconds
 });
-
 </script>
+
+<style scoped>
+.absolute {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+</style>
