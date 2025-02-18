@@ -379,8 +379,10 @@
                                     // visibility: activeDropdown === 'child-dropdown3' ? 'visible' : 'hidden',
                                     }"
                                     >
-                                    <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
+                                    <li class="border-b-2 border-gray-400 pb-3">Hood-Speak Theological <br> Seminary</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Secondary Schools</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">3. A. M. E. Zion Church <br> Primary and Nursery School</li>
+
                                 </ul>
                             </li>
                         </ul>
