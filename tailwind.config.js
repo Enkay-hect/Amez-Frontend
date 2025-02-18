@@ -41,7 +41,9 @@ export default {
     //   borderColor: ['active', 'focus'], 
     // },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 
   
 }

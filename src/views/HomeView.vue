@@ -2,14 +2,14 @@
 <template>
   <NavBar>
     <div 
-      class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3 overflow-hidden"
-      style="background-color: grey; background-blend-mode: multiply;">
+      class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3 overflow-hidden z-0">
       
       <!-- Render images with fade transition -->
       <div 
         v-for="(image, index) in slideImages"
         :key="index"
         class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+         style="background-color: grey; background-blend-mode: multiply;"
         :style="{ backgroundImage: `url(${image})`, opacity: currentIndex === index ? 1 : 0 }">
       </div>
 

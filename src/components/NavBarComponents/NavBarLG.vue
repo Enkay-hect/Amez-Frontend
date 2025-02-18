@@ -111,8 +111,8 @@
 
                             <!-- Child Dropdown -->
                                 <ul
-                                    v-show="true"
-                                    class="absolute left-full top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md"
+                                    v-show="true" 
+                                    class="absolute left-full top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md max-h-80 overflow-y-auto rounded-b-sm scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown' ? 'translateX(0)' : 'translateX(-5rem)',
@@ -213,7 +213,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md max-h-80 overflow-y-auto rounded-b-sm scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown2.1' ? 'translateX(0)' : 'translateX(-1.5rem)',
@@ -269,7 +269,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
+                                    class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md max-h-80 overflow-y-auto rounded-b-sm scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown2.2' ? 'translateX(0)' : 'translateX(-1.5rem)',
