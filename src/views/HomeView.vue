@@ -78,11 +78,11 @@ import { ref, onMounted } from 'vue';
 import NavBar from '../components/NavBar.vue';
 
 const slideImages = ref([
-  '/images/men/img1111.jpg',
-  '/images/women/img114.jpg',
-  '/images/women/img116.jpg',
-  '/images/women/img118.jpg',
-  '/images/women/img119.jpg'
+  new URL('/images/men/img1111.jpg', import.meta.url).href,
+  new URL('/images/women/img114.jpg', import.meta.url).href,
+  new URL('/images/women/img116.jpg', import.meta.url).href,
+  new URL('/images/women/img118.jpg', import.meta.url).href,
+  new URL('/images/women/img119.jpg', import.meta.url).href
 ]);
 
 const currentIndex = ref(0);
