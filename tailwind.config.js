@@ -12,6 +12,7 @@ export default {
       },
       spacing: {
         45: '11.25rem', // 45 * 0.25rem = 11.25rem
+        57: '14.25rem',
         74: '18.5rem',
         75: '18.75rem',
         76: '19.125rem'

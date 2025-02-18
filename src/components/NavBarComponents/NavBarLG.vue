@@ -325,7 +325,7 @@
                         <!-- Parent Dropdown -->
                         <ul
                             v-show="true"
-                            class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+                            class="absolute mt-57 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
 
                             :style="{
                             opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 1 : 0,
@@ -338,11 +338,12 @@
                             }"
                             >
 
-                            <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
 
-                            <!-- Child Dropdown Trigger -->
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                            <li class="border-b-2 border-gray-400 pb-3">Hood-Speak Theological <br> Seminary</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Secondary Schools</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Primary and Nursery School</li>
+
+                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @mouseenter="setDropdownActive('child-dropdown3')"
                                 @mouseleave="setDropdownActive('Seminary')">
                                 
@@ -368,7 +369,6 @@
                                     </svg>
                                 </div>
 
-                            <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
                                     class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
@@ -376,15 +376,14 @@
                                     opacity: activeDropdown === 'child-dropdown3' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown3' ? 'translateX(0)' : 'translateX(-1.5rem)',
                                     transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
-                                    // visibility: activeDropdown === 'child-dropdown3' ? 'visible' : 'hidden',
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3">Hood-Speak Theological <br> Seminary</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Secondary Schools</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">3. A. M. E. Zion Church <br> Primary and Nursery School</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Primary and Nursery School</li>
 
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
 
