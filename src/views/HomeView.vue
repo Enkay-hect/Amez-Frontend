@@ -86,32 +86,13 @@ const slideImages = ref([
 ]);
 
 const currentIndex = ref(0);
-const imagesLoaded = ref(false);
 
-// Preload images before starting the slideshow
-const preloadImages = async () => {
-  const promises = slideImages.value.map((src) => {
-    return new Promise((resolve) => {
-      const img = new Image();
-      img.src = src;
-      img.onload = resolve;
-      img.onerror = resolve; // Resolve even if an image fails to load
-    });
-  });
-
-  await Promise.all(promises);
-  imagesLoaded.value = true;
-};
-
-// Change background after images are preloaded
 const changeBackground = () => {
-  if (!imagesLoaded.value) return;
   currentIndex.value = (currentIndex.value + 1) % slideImages.value.length;
 };
 
-onMounted(async () => {
-  await preloadImages();
-  setInterval(changeBackground, 4000);
+onMounted(() => {
+  setInterval(changeBackground, 4000); // Change image every 4 seconds
 });
 </script>
 
