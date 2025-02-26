@@ -395,9 +395,11 @@
                             @mouseleave="setDropdownActive('')">
                         <div class="flex items-center">
                             
-                            <h3>Events</h3>
+                            <h3>                                
+                                <router-link to="/event">Event</router-link> 
+                            </h3>
                             
-                            <svg
+                            <!-- <svg
                                 v-show="true"
                                 :style="{
                                     opacity: activeDropdown === 'Events' ? 1 : 1,
@@ -415,11 +417,11 @@
                                     d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
                                     fill="#FFFFFF"
                                 />
-                            </svg>
+                            </svg> -->
                         </div>
 
                         <!-- Parent Dropdown -->
-                        <ul
+                        <!-- <ul
                             v-show="true"
                             class="absolute mt-45 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
 
@@ -432,13 +434,16 @@
 
                             visibility: activeDropdown === 'Events' || activeDropdown === 'child-dropdown4' ? 'visible' : 'hidden',
                             }"
-                            >
+                            > -->
 
-                            <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+                            <!-- <li class="border-b-2 border-gray-400 pb-3">
+                                <router-link to="/event">Event</router-link> 
+                            </li> -->
+                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li> -->
 
                             <!-- Child Dropdown Trigger -->
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+
+                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @mouseenter="setDropdownActive('child-dropdown4')"
                                 @mouseleave="setDropdownActive('Events')">
                                 
@@ -462,25 +467,24 @@
                                         fill="#000000"
                                     />
                                     </svg>
-                                </div>
+                                </div> -->
 
                             <!-- Child Dropdown -->
-                                <ul
+                                <!-- <ul
                                     v-show="true"
                                     class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown4' ? 1 : 0,
                                     transform: activeDropdown === 'child-dropdown4' ? 'translateX(0)' : 'translateX(-1.5rem)',
                                     transition: 'opacity 0.5s ease-in-out, transform 0.3s ease-in-out',
-                                    // visibility: activeDropdown === 'child-dropdown4' ? 'visible' : 'hidden',
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3">side text 1</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">side text two</li>
                                 </ul>
-                            </li>
-                        </ul>
-                    </li>
+                            </li>-->
+                        <!-- </ul>  -->
+                    </li> 
 
 
                     <li>
