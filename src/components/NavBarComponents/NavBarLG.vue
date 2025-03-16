@@ -339,7 +339,7 @@
                             >
 
 
-                            <li class="border-b-2 border-gray-400 pb-3">Hood-Speak Theological <br> Seminary</li>
+                            <li class="border-b-2 border-gray-400 pb-3"><router-link to="/hood-speaks">Hood-Speak Theological <br> Seminary</router-link></li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Secondary Schools</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Primary and Nursery School</li>
 

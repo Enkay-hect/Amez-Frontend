@@ -32,6 +32,11 @@ const router = createRouter({
       name: 'event',
       component: () => import('../views/Event.vue'),
     },
+    {
+      path: '/hood-speaks',
+      name: 'hood-speaks',
+      component: () => import('../views/HoodSpeaks.vue'),
+    },
   ],
 })
 
