@@ -21,7 +21,7 @@
             :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack }"
             >
             <div class="col-span-1">
-                Logo
+                <img src="/images/logo/amezlogo.png" alt="" srcset="" height="60" width="100">
             </div>
 
             <ul class="col-span-5 justify-between flex items-center">
