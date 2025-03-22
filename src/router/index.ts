@@ -37,6 +37,12 @@ const router = createRouter({
       name: 'hood-speaks',
       component: () => import('../views/HoodSpeaks.vue'),
     },
+    ,
+    {
+      path: '/the-bishop',
+      name: 'the-bishop',
+      component: () => import('../views/Bishop.vue'),
+    },
   ],
 })
 

@@ -17,7 +17,7 @@
         </h3>
         </div>
 
-        <div class="w-full grid md:grid-cols-6 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10 "
+        <div class="w-full grid md:grid-cols-7 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10 "
             :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack }"
             >
             <div class="col-span-1">
@@ -77,7 +77,7 @@
                             }"
                         >
 
-                            <li class="border-b-2 border-gray-400 pb-3">Bishop</li>
+                            <li class="border-b-2 border-gray-400 pb-3"><router-link to="/the-bishop">Bishop</router-link></li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
 
                             <!-- Child Dropdown Trigger -->
@@ -491,7 +491,7 @@
                         Contact
                     </li>
 
-                <div class="flex items-center">
+                <div class="">
                     <div class="p-3">
                         <svg viewBox="0 0 24 24" fill="none" height="2rem" width="2.5rem" xmlns="http://www.w3.org/2000/svg" stroke="#ffff">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -503,13 +503,13 @@
                         </g>
                     </svg>
                     </div>
-                    
-                    <button class="border-2 p-3 rounded-md" style="border: 1px solid #dec043;">
-                        DONATE
-                    </button>
                 </div>
-            </ul>
 
+              
+            </ul>
+            <button class="border-2 p-3 rounded-md w-[60%] ml-6" style="border: 1px solid #dec043;">
+                        DONATE
+                </button>
         </div>
 
     <slot>
@@ -533,7 +533,7 @@ const setDropdownActive = (dropdown) => {
 
 const handleScroll = () => {
   isFixed.value = window.scrollY > 100;
-  bgBlack.value = window.scrollY > 700
+  bgBlack.value = window.scrollY > 500
 };
 
 onMounted(() => {

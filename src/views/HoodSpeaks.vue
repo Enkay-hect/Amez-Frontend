@@ -1,7 +1,7 @@
 <template>
       <NavBar>
         <div class="absolute inset-0 bg-cover bg-center flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/logo1.jpeg); background-color: grey; background-blend-mode: multiply;">
-          <h2 class="text-4xl font-extrabold text-center"> </h2>
+          <h2 class="text-4xl font-extrabold text-center">Hood-Speaks </h2>
         </div>
     </NavBar>
     <div class="p-4">

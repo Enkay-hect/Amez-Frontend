@@ -349,12 +349,12 @@
                         >
 
                             <li class="border-b-2 border-gray-400 pb-3">
-                              <router-link to="/the-bishop">Bishop</router-link>
-                            </li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+                              <router-link to="/hood-speaks">Hood-Speak Theological <br> Seminary</router-link>                            </li>
+                              <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Secondary Schools</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Primary and Nursery School</li>
 
                             <!-- Child Dropdown Trigger -->
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
+                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @click.stop.prevent="toggleDropdown1('child-dropdown3')"
                                 
                                 >
@@ -382,7 +382,7 @@
                                     </svg>
                                 </div>
 
-                            <!-- Child Dropdown -->
+                             Child Dropdown
                                 <ul
                                     v-show="true"
                                     class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
@@ -406,7 +406,7 @@
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Akwa Nigeria Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Lagos West Annual Conference</li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
           </li> 
         </ul>
