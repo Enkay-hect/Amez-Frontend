@@ -1,7 +1,7 @@
 <template>
-    <nav class="relative text-white w-[100%] h-screen ">
+    <nav class="relative text-white w-[100%]">
 
-    <div class="flex flex-row w-full h-20 justify-center items-center bg-black relative z-10" >
+    <div class="flex flex-row w-full h-20 justify-center items-center  relative z-10 bg-black" >
         <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -12,12 +12,12 @@
                 </g> 
             </g>
         </svg>
-        <h3 class="text-white font-semibold text-center">
+        <h3 class="text-white font-semibold text-center ">
             EASTERN WEST AFRICA EPISCOPAL DISTRICT
         </h3>
         </div>
 
-        <div class="w-full grid md:grid-cols-7 px-20 h-20 items-center border-b-2 border-gray-100 relative z-10 "
+        <div class="w-full grid md:grid-cols-7 px-20 h-20 items-center relative z-10 bg-black"
             :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack }"
             >
             <div class="col-span-1">
@@ -78,7 +78,7 @@
                         >
 
                             <li class="border-b-2 border-gray-400 pb-3"><router-link to="/the-bishop">Bishop</router-link></li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/BAA">Bishop’s Administrative <br> Assistants</router-link></li>
 
                             <!-- Child Dropdown Trigger -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
@@ -548,7 +548,6 @@ onUnmounted(() => {
 
 
 
-    
 </script>
 
 <style scoped>

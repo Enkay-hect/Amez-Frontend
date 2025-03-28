@@ -4,7 +4,7 @@
 
 
 
-   <Footer />
+   <Footer  />
 </template>
 
 <script setup>

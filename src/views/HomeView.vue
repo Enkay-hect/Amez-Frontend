@@ -2,7 +2,7 @@
 <template>
   <NavBar>
     <div 
-      class="absolute inset-0 bg-cover bg-center flex flex-col justify-center align-middle gap-3 overflow-hidden z-0">
+      class="absolute inset-0 bg-cover  500 bg-center flex flex-col justify-center align-middle gap-3 overflow-hidden z-0">
       
       <!-- Render images with fade transition -->
       <div 
@@ -12,11 +12,13 @@
          style="background-color: grey; background-blend-mode: multiply;"
         :style="{ backgroundImage: `url(${image})`, opacity: currentIndex === index ? 1 : 0 }">
       </div>
+      <!-- <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
+            <img src="/images/logo1.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-cover">
+        </div> -->
 
       <!-- Text Overlay -->
-      <h2 class="text-2xl text-center relative z-10">Worship with the</h2>
-      <h2 class="text-4xl font-extrabold text-center relative z-10">AMEZ FAMILY</h2>
-      <h2 class="text-2xl text-center mt-3 relative z-10">We are Lives Changed by Christ Jesus</h2>
+      <h2 class="text-4xl font-extrabold text-center relative z-10">Welcome to</h2>
+      <h2 class="text-2xl font-bold text-center mt-3 relative z-10">The AME Zion Church in Nigeria</h2>
 
     </div>
   </NavBar>

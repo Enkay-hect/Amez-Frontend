@@ -1,8 +1,8 @@
 <template>
-  <nav class="relative text-white w-full h-screen">
+  <nav class="relative text-white w-full h-auto">
     <div 
         v-show="sideBarVisible"
-        class="fixed h-screen w-full bg-white text-black z-20 p-6 sidebar"
+        class="fixed h-[50vh] w-full bg-white text-black z-20 p-6 sidebar"
         :class="{ 'sidebar-open': sideBar }"
         role="dialog"
         aria-expanded="sideBar"

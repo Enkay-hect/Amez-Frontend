@@ -43,6 +43,13 @@ const router = createRouter({
       name: 'the-bishop',
       component: () => import('../views/Bishop.vue'),
     },
+    {
+      path: '/BAA',
+      name: 'Bishop-Administrative-Assistant',
+      component: () => import('../views/TheBAA.vue'),
+    },
+
+    ///BAA
   ],
 })
 
