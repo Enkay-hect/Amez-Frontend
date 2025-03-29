@@ -1,6 +1,6 @@
 <template>
    <NavBar class="">
-    <div class="absolute inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-white w-[100%]">
+    <div class="absolute inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-black w-[100%]">
         <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
             <img src="/images/logo1.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-contain">
             <!-- <h2 class="absolute text-4xl font-extrabold text-white">THE BISHOP</h2> -->
