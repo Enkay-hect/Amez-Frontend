@@ -14,8 +14,8 @@
         :style="{ backgroundImage: `url(${image})`, opacity: currentIndex === index ? 1 : 0 }">
       </div>
   
-      <h2 class="text-8xl font-extrabold text-center relative z-10">Welcome to</h2>
-      <h2 class="text-4xl font-bold text-center mt-3 relative z-10">The AME Zion Church in Nigeria</h2>
+      <h2 class="text-4xl font-extrabold text-center relative z-10">Welcome to</h2>
+      <h2 class="text-6xl font-bold text-center mt-3 relative z-10">The AME Zion Church in Nigeria</h2>
 
   </div>
 
