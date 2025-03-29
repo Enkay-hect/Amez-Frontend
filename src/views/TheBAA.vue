@@ -36,8 +36,21 @@
                 <div style="border-radius: 10rem;">
                     <img src="/public/images/BAA/Dr-DONALD.png" alt="" srcset="" height="200" width="200">
                 </div>
+            </div>
 
-                
+
+            <div class="flex flex-row gap-60 pb-8 ">
+                <div style="border-radius: 10rem;">
+                    <img src="/images/BAA/Dr-TAKIS.png" alt="" srcset="" height="200" width="200">
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. TAKIS E. CAIAFAS</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>CROSS RIVER NIGERIA CONFERENCE</h3>
+
+                </div>
             </div>
 
 

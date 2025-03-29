@@ -1,9 +1,13 @@
 <template>
-      <NavBar>
-        <div class="absolute inset-0 bg-cover bg-center flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/logo1.jpeg); background-color: grey; background-blend-mode: multiply;">
-          <h2 class="text-4xl font-extrabold text-center">Hood-Speaks </h2>
+      <NavBar class="">
+        <div class="absolute inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-black w-[100%]">
+            <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
+                <img src="/images/logo1.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-contain">
+                <!-- <h2 class="absolute text-4xl font-extrabold text-white">THE BISHOP</h2> -->
+            </div>
         </div>
     </NavBar>
+
     <div class="p-4">
         <h2 class="text-2xl font-bold text-center mb-4">Hood-Speaks Gallery</h2>
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
