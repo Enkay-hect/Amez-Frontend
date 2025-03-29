@@ -17,7 +17,7 @@
         <img
             src="/images/bishop/bishop1.png"
             alt="Sample Image"
-            class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72"
+            class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-80"
         />
 
         <p>

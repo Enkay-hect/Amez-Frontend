@@ -77,8 +77,8 @@ import NavBar from '../components/NavBar.vue';
 
 const slideImages = ref([
   '/images/men/img1111.jpg',
+  '/images/church/churchview.jpg',
   '/images/choir/choir1.jpg',
-  '/images/women/img116.jpg',
   '/images/women/img118.jpg',
   // '/images/women/img119.jpg'
 ]);
