@@ -1,10 +1,11 @@
 
 <template>
-  <NavBar>
-    <div 
-      class="absolute inset-0 bg-cover  500 bg-center flex flex-col justify-center align-middle gap-3 overflow-hidden z-0">
+  <NavBar style="height: 9.5rem">
+ 
+  </NavBar>
+
+  <div class="relative flex flex-col text-white justify-center align-center" style="height: 70rem; ">
       
-      <!-- Render images with fade transition -->
       <div 
         v-for="(image, index) in slideImages"
         :key="index"
@@ -12,16 +13,11 @@
          style="background-color: grey; background-blend-mode: multiply;"
         :style="{ backgroundImage: `url(${image})`, opacity: currentIndex === index ? 1 : 0 }">
       </div>
-      <!-- <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
-            <img src="/images/logo1.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-cover">
-        </div> -->
+  
+      <h2 class="text-8xl font-extrabold text-center relative z-10">Welcome to</h2>
+      <h2 class="text-4xl font-bold text-center mt-3 relative z-10">The AME Zion Church in Nigeria</h2>
 
-      <!-- Text Overlay -->
-      <h2 class="text-4xl font-extrabold text-center relative z-10">Welcome to</h2>
-      <h2 class="text-2xl font-bold text-center mt-3 relative z-10">The AME Zion Church in Nigeria</h2>
-
-    </div>
-  </NavBar>
+  </div>
 
 
   <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-8 h-auto px-8 lg:px-52 xl:px-74 py-7">

@@ -1,12 +1,12 @@
 <template>
-     <NavBar class="">
-    <div class="absolute inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-white w-[100%]">
+    <NavBar class="">
+      <div class="absolute inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-white w-[100%]">
         <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
             <img src="/images/logo2.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-contain">
             <!-- <h2 class="absolute text-4xl font-extrabold text-white">THE BISHOP</h2> -->
         </div>
-    </div>
-</NavBar>
+      </div>
+  </NavBar>
   
     <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
       <!-- <div class="md:w-[50%]">
