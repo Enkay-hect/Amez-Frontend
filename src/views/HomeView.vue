@@ -4,7 +4,7 @@
  
   </NavBar>
 
-  <div class="relative flex flex-col text-white justify-center align-center" style="height: 80rem; ">
+  <div class="relative flex flex-col text-white justify-center align-center " style="height: 58rem; ">
       
       <div 
         v-for="(image, index) in slideImages"
