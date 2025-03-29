@@ -22,7 +22,7 @@
 
   <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-8 h-auto px-8 lg:px-52 xl:px-74 py-7">
     <div class="md:w-[70%]  ">
-      <img src="/images/men/img1112.jpg" alt="" srcset="" height="">
+      <img src="/images/bishop/bishopwithmummy.png" alt="" srcset="" height="">
     </div>
 
     <p class="md:w-[70%] leading-loose ">
