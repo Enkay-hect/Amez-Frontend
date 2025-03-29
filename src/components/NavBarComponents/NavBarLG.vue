@@ -221,7 +221,7 @@
                                     // visibility: activeDropdown === 'child-dropdown2.1' ? 'visible' : 'hidden',
                                     }"
                                     >
-                                    <li class="border-b-2 border-gray-400 pb-3">Missionary supervisor</li>
+                                    <li class="border-b-2 border-gray-400 pb-3"><router-link to="/missionary-supervisor">Missionary supervisor</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>

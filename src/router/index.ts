@@ -53,6 +53,11 @@ const router = createRouter({
       name: 'field-workers',
       component: () => import('../views/FieldWorkers.vue'),
     },
+    {
+      path: '/missionary-supervisor',
+      name: 'missionary-supervisor',
+      component: () => import('../views/Missionary.vue'),
+    },
 
     ///field-workers
   ],

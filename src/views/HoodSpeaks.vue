@@ -29,7 +29,6 @@ const images = ref([
   '/images/hood-speaks/hoodspeak5.jpeg',
   '/images/hood-speaks/hoodspeak7.jpeg',
   '/images/hood-speaks/hoodspeak8.jpeg',
-  '/images/hood-speaks/hoodspeak9.jpeg',
 ]);
 
 

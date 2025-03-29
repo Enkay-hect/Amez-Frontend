@@ -4,7 +4,7 @@
  
   </NavBar>
 
-  <div class="relative flex flex-col text-white justify-center align-center" style="height: 70rem; ">
+  <div class="relative flex flex-col text-white justify-center align-center" style="height: 80rem; ">
       
       <div 
         v-for="(image, index) in slideImages"
@@ -79,6 +79,7 @@ const slideImages = ref([
   '/images/men/img1111.jpg',
   '/images/women/img114.jpg',
   '/images/women/img116.jpg',
+  '/images/hood-speaks/hoodspeak9.jpeg',
   '/images/women/img118.jpg',
   // '/images/women/img119.jpg'
 ]);
