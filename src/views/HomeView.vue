@@ -84,7 +84,7 @@ const slideImages = ref([
   '/images/women/img114.jpg',
   '/images/women/img116.jpg',
   '/images/women/img118.jpg',
-  '/images/women/img119.jpg'
+  // '/images/women/img119.jpg'
 ]);
 
 const currentIndex = ref(0);

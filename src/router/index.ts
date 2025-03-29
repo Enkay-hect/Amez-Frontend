@@ -48,8 +48,13 @@ const router = createRouter({
       name: 'Bishop-Administrative-Assistant',
       component: () => import('../views/TheBAA.vue'),
     },
+    {
+      path: '/field-workers',
+      name: 'field-workers',
+      component: () => import('../views/FieldWorkers.vue'),
+    },
 
-    ///BAA
+    ///field-workers
   ],
 })
 

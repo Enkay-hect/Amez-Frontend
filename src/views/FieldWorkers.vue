@@ -9,35 +9,33 @@
         <div class="flex-1 h-[40rem] overflow-y-auto p-8 bg-gray-100 mr-56 flex justify-center">
         <div class="">
 
-            <div class="flex flex-row gap-60 pb-8 ">
+            <div class="flex flex-row gap-60 pb-8">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/Dr-TAKIS.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" srcset="" height="200" width="200">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
 
-                    <h1 class="font-bold">REV. DR. TAKIS E. CAIAFAS</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>CROSS RIVER NIGERIA CONFERENCE</h3>
+                    <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
+                    <h2>FIELD WORKER</h2>
+                    <h3>SOUTHERN EASTERN NIGERIA CONFERENCE</h3>
 
                 </div>
             </div>
 
 
             <div class="flex flex-row gap-60">
+                <div style="border-radius: 10rem;">
+                    <img src="/images/fieldworkers/DEAC.ENO.png" alt="" srcset="" height="200" width="200">
+                </div>
+
                 <div class="flex flex-col align-middle justify-center">
 
-                <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
-                <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+                    <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
+                    <h2>FIELD WORKER</h2>
+                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
 
                 </div>
-
-                <div style="border-radius: 10rem;">
-                    <img src="/public/images/BAA/Dr-DONALD.png" alt="" srcset="" height="200" width="200">
-                </div>
-
-                
             </div>
 
 
@@ -55,8 +53,8 @@
                 >
 
                 <nav class="flex flex-col gap-4 px-4 items-center">
-                    <a href="#" class="hover:text-[#dec043]">REV. DR. TAKIS</a>
-                    <a href="#" class="hover:text-[#dec043]">REV. DR. DONALD</a>
+                    <a href="#" class="hover:text-[#dec043]">DEAC. CONFIDENCE</a>
+                    <a href="#" class="hover:text-[#dec043]">DEAC. ENO</a>
                     <!-- <a href="#" class="hover:text-[#dec043]">Contact</a> -->
                 </nav>
         </aside>

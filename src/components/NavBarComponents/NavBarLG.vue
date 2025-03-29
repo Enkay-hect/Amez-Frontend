@@ -1,5 +1,5 @@
 <template>
-    <nav class="relative text-white w-[100%]">
+    <nav class="relative text-white w-[100%] h-screen">
 
     <div class="flex flex-row w-full h-20 justify-center items-center  relative z-10 bg-black" >
         <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
@@ -222,7 +222,7 @@
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3">Missionary supervisor</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Field workers</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YMS</li>

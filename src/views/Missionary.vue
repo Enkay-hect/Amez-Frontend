@@ -9,7 +9,7 @@
         <div class="flex-1 h-[40rem] overflow-y-auto p-8 bg-gray-100 mr-56 flex justify-center">
         <div class="">
 
-            <div class="flex flex-row gap-60 pb-8 ">
+            <div class="flex flex-row gap-60 pb-8">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/Dr-TAKIS.png" alt="" srcset="" height="200" width="200">
                 </div>
@@ -25,19 +25,17 @@
 
 
             <div class="flex flex-row gap-60">
-                <div class="flex flex-col align-middle justify-center">
-
-                <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
-                <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                <h3>SOUTHERN NIGERIA CONFERENCE</h3>
-
-                </div>
-
                 <div style="border-radius: 10rem;">
                     <img src="/public/images/BAA/Dr-DONALD.png" alt="" srcset="" height="200" width="200">
                 </div>
 
-                
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+
+                </div>
             </div>
 
 
