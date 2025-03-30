@@ -4,7 +4,7 @@
 
 
 
-   <Footer class="mt-5" />
+   <Footer class="mt-5 relative" />
 </template>
 
 <script setup>
