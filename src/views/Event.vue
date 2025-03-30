@@ -1,6 +1,6 @@
 <template>
     <NavBar>
-        <div class="absolute inset-0 bg-cover bg-center flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/women/img119.jpg); background-color: grey; background-blend-mode: multiply;">
+        <div class="hidden absolute inset-0 bg-cover bg-center sm:flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/women/img119.jpg); background-color: grey; background-blend-mode: multiply;">
           <h2 class="text-4xl font-extrabold text-center">EVENTS </h2>
         </div>
         
