@@ -100,7 +100,7 @@
 
             <div class="flex flex-row gap-60 pb-8 " id="DEAC.MFON_M.">
                 <div style="border-radius: 10rem;">
-                    <img src="/public/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -123,7 +123,7 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/public/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" srcset="" height="200" width="200">
                 </div>
             </div>
 
@@ -131,7 +131,7 @@
 
             <div class="flex flex-row gap-60 pb-8 " id="MRS.NSEE.AMOS">
                 <div style="border-radius: 10rem;">
-                    <img src="/public/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -154,7 +154,7 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/public/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" srcset="" height="200" width="200">
                 </div>
             </div>
 
@@ -162,7 +162,7 @@
 
             <div class="flex flex-row gap-60 pb-8 " id="DEAC.WILLIAMS">
                 <div style="border-radius: 10rem;">
-                    <img src="/public/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
