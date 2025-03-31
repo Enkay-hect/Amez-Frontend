@@ -1,5 +1,5 @@
 <template>
-    <NavBar style="height: 9.5rem">
+    <NavBar style="height: 12rem" class="bg-black">
 
         
     </NavBar>
@@ -162,7 +162,7 @@
 
                 <div class="flex flex-col align-middle justify-center">
 
-                    <h1 class="font-bold">Rev. Dr. Michael S. Udoh</h1>
+                    <h1 class="font-bold">REV. DR. MICHAEL S. UDOH</h1>
                     <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
                     <h3>  LAGOS WEST NIGERIA CONFERENCE 	  </h3>
 
@@ -193,10 +193,13 @@
                     <a href="#EFREKEE" class="hover:text-[#dec043]">REV. DR. EFREKEE</a> 
                     <a href="#GODSON" class="hover:text-[#dec043]">REV. DR. GODSON</a> 
 
-                    <a href="#SAMUEL_ASUAMIOM" class="hover:text-[#dec043] cursor-pointer">REV. CLEMENT</a> 
+                    <a href="#SAMUEL_ASUAMIOM" class="hover:text-[#dec043] cursor-pointer">REV. DR. ASUAMIOM</a> 
+
+                    <a href="#SAMUEL_IBEMERE" class="hover:text-[#dec043] cursor-pointer">REV. DR. SAMUEL O.</a> 
+
                     <a href="#UMOROLU" class="hover:text-[#dec043]">REV. DR. UMOR OLU</a> 
                     <a href="#UMOINYANG" class="hover:text-[#dec043]">REV. PROF. UMOINYANG</a> 
-                    <a href="#MichaelUdoh" class="hover:text-[#dec043]">REV. PROF. UMOINYANG</a>
+                    <a href="#MichaelUdoh" class="hover:text-[#dec043]">REV. DR. MICHAEL UDOH</a>
 
 
 

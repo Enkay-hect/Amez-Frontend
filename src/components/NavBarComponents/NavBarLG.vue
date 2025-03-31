@@ -493,7 +493,7 @@
 
                 <div class="">
                     <div class="p-3">
-                        <svg viewBox="0 0 24 24" fill="none" height="2rem" width="2.5rem" xmlns="http://www.w3.org/2000/svg" stroke="#ffff">
+                        <!-- <svg viewBox="0 0 24 24" fill="none" height="2rem" width="2.5rem" xmlns="http://www.w3.org/2000/svg" stroke="#ffff">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier"> 
@@ -501,7 +501,7 @@
 
                         </path> 
                         </g>
-                    </svg>
+                    </svg> -->
                     </div>
                 </div>
 

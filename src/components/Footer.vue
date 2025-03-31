@@ -60,7 +60,7 @@
 
         <!-- Column 3 -->
         <div>
-            <h2 class="text-[#dec043] text-lg font-semibold">DEPARTMENT AND MINISTRIES</h2>
+            <h2 class="text-[#dec043] text-lg font-semibold">DEPARTMENTS AND MINISTRIES</h2>
             <ul class="mt-4 space-y-2">
                 <li><a href="#" class="hover:underline">Help Center</a></li>
                 <li><a href="#" class="hover:underline">Contact Us</a></li>
@@ -70,7 +70,7 @@
 
         <!-- Column 4 -->
         <div class="flex flex-col justify-center md:items-start items-center space-y-2">
-            <h2 class="text-[#dec043]  text-lg font-semibold">NEWSLETER</h2>
+            <h2 class="text-[#dec043]  text-lg font-semibold">NEWSLETTER</h2>
 
             <input type="email" name="" placeholder="Your Email" id="" class="w-[80%] md:w-[100%] px-1 mt-4 py-1 rounded-md focus:outline-none focus:ring-0 text-black">
             
@@ -82,7 +82,7 @@
 
     <!-- Bottom Section -->
     <div class="text-center mt-10 text-gray-400 text-sm">
-        &copy; {{ currentYear }} Your Company. All rights reserved.
+        &copy; {{ currentYear }} AMEZ. All rights reserved.
     </div>
 </footer>
 

@@ -1,39 +1,175 @@
 <template>
-    <NavBar style="height: 9.5rem">
+    <NavBar style="height: 12rem" class="bg-black">
 
         
     </NavBar>
 
-    <div class="relative w-full h-auto flex">
+    <div class="relative w-full h-auto flex" >
         <!-- Main Content Area (Scrollable & Centered) -->
-        <div class="flex-1 h-[40rem] overflow-y-auto p-8 bg-gray-100 mr-56 flex justify-center">
+        <div class="flex-1 h-[40rem] overflow-y-auto p-8 bg-gray-100 mr-56 flex justify-center scroll-smooth" >
         <div class="">
 
-            <div class="flex flex-row gap-60 pb-8">
+            <div class="flex flex-row gap-60 pb-8 " id="DEAC._MANDA">
+                <div style="border-radius: 10rem;">
+                    <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" srcset="" height="200" width="200">
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">DEAC. MANDA JACK</h1>
+                    <h2>FIELD WORKER </h2>
+                    <h3>RIVERS NIGERIA CONFERENCE 	</h3>
+
+                </div>
+            </div>
+
+
+            <div class="flex flex-row gap-60" id="DEAC._CONFIDENCE">
+                <div class="flex flex-col align-middle justify-center">
+
+                <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
+                <h2>FIELD WORKER  </h2>
+                <h3>SOUTHERN EASTERN NIGERIA CONFERENCE </h3>
+
+                </div>
+
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" srcset="" height="200" width="200">
                 </div>
+            </div>
+
+
+            <div class="flex flex-row gap-60 pb-8 " id="DEAC.EMEM">
+                <div style="border-radius: 10rem;">
+                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.png" alt="" srcset="" height="200" width="200">
+                </div>
 
                 <div class="flex flex-col align-middle justify-center">
 
-                    <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
+                    <h1 class="font-bold">DEAC. EMEM U. THOMPSON</h1>
                     <h2>FIELD WORKER</h2>
-                    <h3>SOUTHERN EASTERN NIGERIA CONFERENCE</h3>
+                    <h3>MAINLAND NIGERIA CONFERENCE</h3>
 
                 </div>
             </div>
 
 
-            <div class="flex flex-row gap-60">
+            <div class="flex flex-row gap-60" id="DEAC.ENO">
+                <div class="flex flex-col align-middle justify-center">
+
+                <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
+                <h2>FIELD WORKER </h2>
+                <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+
+                </div>
+
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC.ENO.png" alt="" srcset="" height="200" width="200">
                 </div>
+            </div>
+
+
+            <div class="flex flex-row gap-60 pb-8 " id="DEAC.INGONIMIE">
+                <div style="border-radius: 10rem;">
+                    <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" srcset="" height="200" width="200">
+                </div>
 
                 <div class="flex flex-col align-middle justify-center">
 
-                    <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
+                    <h1 class="font-bold">DEAC. INGONIMI E. MORO</h1>
+                    <h2>FIELD ASSISTANT</h2>
+                    <h3> PORT HARCOURT NIGERIA CONFERENCE </h3>
+
+                </div>
+            </div>
+
+            <div class="flex flex-row gap-60" id="DEAC.LOVELYN">
+                <div class="flex flex-col align-middle justify-center">
+
+                <h1 class="font-bold">DEAC. LOVELYN NWADIKE</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>CENTRAL NIGERIA CONFERENCE 	 	</h3>
+
+                </div>
+
+                <div style="border-radius: 10rem;">
+                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" srcset="" height="200" width="200">
+                </div>
+            </div>
+
+
+            <div class="flex flex-row gap-60 pb-8 " id="DEAC.MFON_M.">
+                <div style="border-radius: 10rem;">
+                    <img src="/public/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200">
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">DEAC. MFON M. UDOH</h1>
                     <h2>FIELD WORKER</h2>
-                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+                    <h3> LAGOS WEST NIGERIA CONFERENCE 	</h3>
+
+                </div>
+            </div>
+
+
+            <div class="flex flex-row gap-60" id="DEAC.UDUAK">
+                <div class="flex flex-col align-middle justify-center">
+
+                <h1 class="font-bold">DEAC. UDUAK  EKENG</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>CROSS RIVER NIGERIA CONFERENCE 	 	 	 	</h3>
+
+                </div>
+
+                <div style="border-radius: 10rem;">
+                    <img src="/public/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" srcset="" height="200" width="200">
+                </div>
+            </div>
+
+
+
+            <div class="flex flex-row gap-60 pb-8 " id="MRS.NSEE.AMOS">
+                <div style="border-radius: 10rem;">
+                    <img src="/public/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200">
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">MRS. NSE E. AMOS</h1>
+                    <h2>FIELD WORKER</h2>
+                    <h3>  AKWA NIGERIA CONFERENCE 	  </h3>
+
+                </div>
+            </div>
+
+
+            <div class="flex flex-row gap-60" id="MRS.NSISONG">
+                <div class="flex flex-col align-middle justify-center">
+
+                <h1 class="font-bold">MRS. NSISONG M. AKPAN</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>AKWA NIGERIA CONFERENCE 	</h3>
+
+                </div>
+
+                <div style="border-radius: 10rem;">
+                    <img src="/public/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" srcset="" height="200" width="200">
+                </div>
+            </div>
+
+
+
+            <div class="flex flex-row gap-60 pb-8 " id="DEAC.WILLIAMS">
+                <div style="border-radius: 10rem;">
+                    <img src="/public/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200">
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">DEAC. UDUAK S. WILLIAMS</h1>
+                    <h2>FIELD WORKER</h2>
+                    <h3>  NIGERIA CONFERENCE 	  </h3>
 
                 </div>
             </div>
@@ -41,20 +177,36 @@
 
 
 
-           
+
+              
 
         </div>
         </div>
 
         <!-- Right Sidebar (Non-overlapping footer) -->
             <aside
-                class="w-56 bg-gray-600 text-white flex flex-col justify py-6 shadow-lg transition-all duration-300 z-[-1] overflow-y-auto"
+                class="w-56 bg-gray-600 text-white flex flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
                 :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
                 >
 
-                <nav class="flex flex-col gap-4 px-4 items-center">
-                    <a href="#" class="hover:text-[#dec043]">DEAC. CONFIDENCE</a>
-                    <a href="#" class="hover:text-[#dec043]">DEAC. ENO</a>
+                <nav class="flex flex-col gap-4 px-4 items-center justify-between h-[25rem]">
+                    <a href="#DEAC._MANDA" class="hover:text-[#dec043] cursor-pointer">DEAC. MANDA JACK</a> 
+                    <a href="#DEAC._CONFIDENCE" class="hover:text-[#dec043]">DEAC. CONFIDENCE</a> 
+                    <a href="#DEAC.EMEM" class="hover:text-[#dec043]">DEAC. EMEM</a> 
+
+                    <a href="#DEAC.ENO" class="hover:text-[#dec043] cursor-pointer">DEAC. ENO UDOEKPE</a> 
+                    <a href="#DEAC.INGONIMIE" class="hover:text-[#dec043]">DEAC. INGONIMI E.</a> 
+                    <a href="#DEAC.LOVELYN" class="hover:text-[#dec043]">DEAC. LOVELYN</a> 
+
+                    <a href="#DEAC.MFON_M." class="hover:text-[#dec043] cursor-pointer">DEAC. MFON UDOH</a> 
+                    <a href="#DEAC.UDUAK" class="hover:text-[#dec043]">DEAC. UDUAK  EKENG</a> 
+                    <a href="#MRS.NSEE.AMOS" class="hover:text-[#dec043]">MRS. NSE E. AMOS</a> 
+                    <a href="#MRS.NSISONG" class="hover:text-[#dec043]">MRS. NSISONG M. AKPAN</a>
+
+                    <a href="#DEAC.WILLIAMS" class="hover:text-[#dec043]">DEAC. UDUAK WILLIAMS</a>
+
+
+                    
                     <!-- <a href="#" class="hover:text-[#dec043]">Contact</a> -->
                 </nav>
         </aside>
