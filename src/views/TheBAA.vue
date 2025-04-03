@@ -8,7 +8,7 @@
         <!-- Main Content Area (Scrollable & Centered) -->
         <div class=" sm:flex-1 h-[40rem] overflow-y-auto p-8 sm:mr-56 justify-center scroll-smooth w-full" >
 
-        <div class="flex flex-col justify-center items-center w-full">
+        <div class="flex flex-col justify-around items-center w-full">
 
             <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items-center " id="takis">
                 <div style="border-radius: 10rem;">

@@ -6,15 +6,16 @@
 
     <div class="relative w-full h-auto flex" >
         <!-- Main Content Area (Scrollable & Centered) -->
-        <div class="flex-1 h-[40rem] overflow-y-auto p-8 bg-gray-100 mr-56 flex justify-center scroll-smooth" >
-        <div class="">
+        <div class=" sm:flex-1 h-[40rem] overflow-y-auto p-8 sm:mr-56 justify-center scroll-smooth w-full" >
 
-            <div class="flex flex-row gap-60 pb-8 " id="DEAC._MANDA">
+        <div class="flex flex-col justify-around items-center w-full">
+
+            <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items-center " id="DEAC._MANDA">
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" srcset="" height="200" width="200">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                     <h1 class="font-bold">DEAC. MANDA JACK</h1>
                     <h2>FIELD WORKER </h2>
@@ -24,8 +25,8 @@
             </div>
 
 
-            <div class="flex flex-row gap-60" id="DEAC._CONFIDENCE">
-                <div class="flex flex-col align-middle justify-center">
+            <div class="flex flex-col-reverse sm:flex-row gap-10 sm:gap-60 justify-center items-center" id="DEAC._CONFIDENCE">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
                 <h2>FIELD WORKER  </h2>
@@ -39,12 +40,12 @@
             </div>
 
 
-            <div class="flex flex-row gap-60 pb-8 " id="DEAC.EMEM">
+            <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items-center " id="DEAC.EMEM">
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.png" alt="" srcset="" height="200" width="200">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                     <h1 class="font-bold">DEAC. EMEM U. THOMPSON</h1>
                     <h2>FIELD WORKER</h2>
@@ -54,8 +55,8 @@
             </div>
 
 
-            <div class="flex flex-row gap-60" id="DEAC.ENO">
-                <div class="flex flex-col align-middle justify-center">
+            <div class="flex flex-col-reverse sm:flex-row gap-10 sm:gap-60 justify-center items-center" id="DEAC.ENO">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
                 <h2>FIELD WORKER </h2>
@@ -69,12 +70,12 @@
             </div>
 
 
-            <div class="flex flex-row gap-60 pb-8 " id="DEAC.INGONIMIE">
+            <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items-center " id="DEAC.INGONIMIE">
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" srcset="" height="200" width="200">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                     <h1 class="font-bold">DEAC. INGONIMI E. MORO</h1>
                     <h2>FIELD ASSISTANT</h2>
@@ -83,8 +84,8 @@
                 </div>
             </div>
 
-            <div class="flex flex-row gap-60" id="DEAC.LOVELYN">
-                <div class="flex flex-col align-middle justify-center">
+            <div class="flex flex-col-reverse sm:flex-row gap-10 sm:gap-60 justify-center items-center" id="DEAC.LOVELYN">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">DEAC. LOVELYN NWADIKE</h1>
                 <h2>FIELD WORKER</h2>
@@ -98,12 +99,12 @@
             </div>
 
 
-            <div class="flex flex-row gap-60 pb-8 " id="DEAC.MFON_M.">
+            <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items-center " id="DEAC.MFON_M.">
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                     <h1 class="font-bold">DEAC. MFON M. UDOH</h1>
                     <h2>FIELD WORKER</h2>
@@ -113,8 +114,8 @@
             </div>
 
 
-            <div class="flex flex-row gap-60" id="DEAC.UDUAK">
-                <div class="flex flex-col align-middle justify-center">
+            <div class="flex flex-col-reverse sm:flex-row gap-10 sm:gap-60 justify-center items-center" id="DEAC.UDUAK">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">DEAC. UDUAK  EKENG</h1>
                 <h2>FIELD WORKER</h2>
@@ -129,12 +130,12 @@
 
 
 
-            <div class="flex flex-row gap-60 pb-8 " id="MRS.NSEE.AMOS">
+            <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items " id="MRS.NSEE.AMOS">
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                     <h1 class="font-bold">MRS. NSE E. AMOS</h1>
                     <h2>FIELD WORKER</h2>
@@ -144,8 +145,8 @@
             </div>
 
 
-            <div class="flex flex-row gap-60" id="MRS.NSISONG">
-                <div class="flex flex-col align-middle justify-center">
+            <div class="flex flex-col-reverse sm:flex-row gap-10 sm:gap-60 justify-center items-center" id="MRS.NSISONG">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">MRS. NSISONG M. AKPAN</h1>
                 <h2>FIELD WORKER</h2>
@@ -160,12 +161,12 @@
 
 
 
-            <div class="flex flex-row gap-60 pb-8 " id="DEAC.WILLIAMS">
+            <div class="flex flex-col sm:flex-row gap-10 sm:gap-60 pb-8 justify-center items-center " id="DEAC.WILLIAMS">
                 <div style="border-radius: 10rem;">
                     <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
                     <h1 class="font-bold">DEAC. UDUAK S. WILLIAMS</h1>
                     <h2>FIELD WORKER</h2>
@@ -185,7 +186,7 @@
 
         <!-- Right Sidebar (Non-overlapping footer) -->
             <aside
-                class="w-56 bg-gray-600 text-white flex flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
+                class="w-56 bg-gray-600 text-white hidden sm:flex  flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
                 :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
                 >
 
