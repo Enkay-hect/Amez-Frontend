@@ -551,7 +551,7 @@
       </h3>
     </div>
 
-    <div class="flex justify-between px-5 h-20 items-center border-b-2 border-gray-100 relative z-10"
+    <div class="flex justify-between px-5 h-20 items-center  relative z-10"
       :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack  }">
 
         <div>                
