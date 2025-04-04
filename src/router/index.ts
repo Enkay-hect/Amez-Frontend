@@ -58,6 +58,11 @@ const router = createRouter({
       name: 'missionary-supervisor',
       component: () => import('../views/Missionary.vue'),
     },
+    {
+      path: '/men-of-zion',
+      name: 'Men-of-Zion',
+      component: () => import('../views/MOZ.vue'),
+    },
 
     ///field-workers
   ],

@@ -85,7 +85,7 @@
                               <router-link to="/the-bishop">Bishop</router-link>
                             </li>
 
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Bishop’s Administrative <br> Assistants</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/BAA">Bishop’s Administrative <br> Assistants</router-link></li>
 
                             <!-- Child Dropdown Trigger -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
@@ -228,7 +228,7 @@
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3"><router-link to="the-churchh">Missionary supervisor</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Field workers</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YMS</li>
@@ -241,7 +241,7 @@
 
 
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Connectional Lay Council </li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Men of Zion Ministry</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Minister’s Spouses Fellowship</li>
 
 
