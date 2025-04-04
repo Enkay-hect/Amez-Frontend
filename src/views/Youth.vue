@@ -17,7 +17,7 @@
   
       <div class="w-full text-justify">
         <img
-            src="/public/images/MOZ/OtuekongNseJ.Edem.png"
+            src="/public/images/MOZ/Rev.UbongSamuelUdoma.png"
             alt="Sample Image"
             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-80"
         />

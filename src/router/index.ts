@@ -63,8 +63,19 @@ const router = createRouter({
       name: 'Men-of-Zion',
       component: () => import('../views/MOZ.vue'),
     },
+    {
+      path: '/directorate-youth',
+      name: 'youth',
+      component: () => import('../views/Youth.vue'),
+    },
+    {
+      path: '/connectional-lay-council',
+      name: 'ConnectionLayCouncil',
+      component: () => import('../views/ConnectionLayCouncil.vue'),
+    },
 
-    ///field-workers
+
+    ///ConnectionLayCouncil
   ],
 })
 

@@ -234,7 +234,7 @@
                             </li>
 
 
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Connectional Lay Council </li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="connectional-lay-council">Connectional Lay Council</router-link></li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Minister’s Spouses Fellowship</li>
 
@@ -286,7 +286,7 @@
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Legal Affairs </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Communication </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Music </li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Youth </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/directorate-youth">Youth</router-link> </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Children </li>
                                 </ul>
                             </li>
