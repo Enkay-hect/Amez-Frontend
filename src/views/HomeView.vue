@@ -1,6 +1,6 @@
 
 <template>
-  <NavBar style="height: 9.5rem">
+  <NavBar style="height: 10.5rem" class="bg-black">
  
   </NavBar>
 

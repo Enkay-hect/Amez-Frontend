@@ -274,7 +274,7 @@
                             <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
-                                    class="absolute left-[30%] top-[-2rem] bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-64"
+                                    class="absolute left-[30%] top-[-9rem] bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-56"
                                     :style="{
                                       opacity: activeDropdown === 'child-dropdown2.2' ? 1 : 0,
                                       transform: activeDropdown === 'child-dropdown2.2' ? 'translateX(0)' : 'translateX(-1.5rem)',
