@@ -11,8 +11,8 @@
         <div class="flex flex-col justify-around items-center w-full">
 
             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="DEAC._MANDA">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" srcset="" height="200" width="200">
+                <div style="border-radius: 0rem;">
+                    <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" srcset="" height="0" width="290" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -35,14 +35,14 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="DEAC.EMEM">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -65,14 +65,14 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.ENO.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.ENO.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="DEAC.INGONIMIE">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -94,14 +94,14 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="DEAC.MFON_M.">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -124,7 +124,7 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
 
             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items " id="MRS.NSEE.AMOS">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -155,7 +155,7 @@
                 </div>
 
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
             </div>
 
@@ -163,7 +163,7 @@
 
             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="DEAC.WILLIAMS">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200">
+                    <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
