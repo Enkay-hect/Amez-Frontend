@@ -6,12 +6,12 @@
         
     </NavBar>
   
-    <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
+    <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8  py-7">
       <!-- <div class="md:w-[50%]">
         <img src="../../public/images/clergy.jpg" alt="" srcset="">
       </div> -->
   
-        <div class="video-container w-[95%] sm:w-[70%]">
+        <div class="video-container w-[100%%] md:w-[70%]">
             <iframe
                 width="100%"
                 height="500"
