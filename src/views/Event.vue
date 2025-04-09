@@ -45,7 +45,7 @@
     //     }
     // });
 
-    const videoId = 'atF3PaCCJNk';
+    const videoId = 'I7291fIeJqg';
 
     // Compute the embed URL
     const embedUrl = computed(() => `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&enablejsapi=1`);
