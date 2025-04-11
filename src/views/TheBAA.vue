@@ -10,7 +10,7 @@
 
         <div class="flex flex-col justify-around items-center w-full text-center">
 
-            <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center overflow: hidden; border-radius: 50%;"  id="takis">
+            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center overflow: hidden; border-radius: 50%;"  id="takis">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/Dr-TAKIS.png" alt="" srcset="" height="200" width="200"  style="border-radius: 50%; object-fit: cover;">
                 </div>
@@ -25,7 +25,7 @@
             </div>
 
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 md:gap-60 justify-center items-center" id="donald">
+            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="donald">
                 <div class="flex flex-col align-middle justify-center">
 
                 <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
@@ -40,7 +40,7 @@
             </div>
 
 
-            <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center" id="OZIOHA">
+            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center" id="OZIOHA">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/REV.BARR.OZIOHAV.EKEMAM.jpg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
                 </div>
@@ -55,7 +55,7 @@
             </div>
 
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 md:gap-60 justify-center items-center" id="CLEMENT">
+            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="CLEMENT">
                 <div class="flex flex-col align-middle justify-center">
 
                 <h1 class="font-bold">REV. CLEMENT  EGHUANOYE- GRAHAM</h1>
@@ -70,7 +70,7 @@
             </div>
 
 
-           <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="EFREKEE">
+           <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="EFREKEE">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
                 </div>
@@ -84,7 +84,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 md:gap-60 justify-center items-center" id="GODSON">
+            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="GODSON">
                 <div class="flex flex-col align-middle justify-center">
 
                 <h1 class="font-bold">REV. DR. GODSON N. ELIJAH</h1>
@@ -99,7 +99,7 @@
             </div>
 
 
-          <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="SAMUEL_ASUAMIOM">
+          <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="SAMUEL_ASUAMIOM">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/REV.DR.SAMUEL ASUAMIOM.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
                 </div>
@@ -113,7 +113,7 @@
                 </div>
             </div>
 
-             <div class="flex flex-col-reverse md:flex-row gap-10 md:gap-60 justify-center items-center" id="SAMUEL_IBEMERE">
+             <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="SAMUEL_IBEMERE">
                 <div class="flex flex-col align-middle justify-center">
 
                 <h1 class="font-bold">REV. DR. SAMUEL O. IBEMERE, SR</h1>
@@ -127,7 +127,7 @@
                 </div>
             </div>
 
-             <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="UMOROLU">
+             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="UMOROLU">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
                 </div>
@@ -141,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 md:gap-60 justify-center items-center" id="UMOINYANG">
+            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="UMOINYANG">
                 <div class="flex flex-col align-middle justify-center">
 
                 <h1 class="font-bold">REV. PROF. IMO E. UMOINYANG</h1>
@@ -156,7 +156,7 @@
             </div>
 
 
-            <div class="flex flex-col md:flex-row gap-10 md:gap-60 pb-8 justify-center items-center " id="MichaelUdoh">
+            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="MichaelUdoh">
                 <div style="border-radius: 10rem;">
                     <img src="/images/BAA/Rev.Dr.MichaelS.Udoh.jpg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
                 </div>
