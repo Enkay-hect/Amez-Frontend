@@ -42,7 +42,7 @@
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.EMEM">
                 <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
