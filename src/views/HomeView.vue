@@ -25,11 +25,14 @@
       <img src="/images/bishop/bishopwithmummy.png" alt="" srcset="" width="500">
     </div>
 
-    <p class="md:w-[70%] leading-loose ">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis laudantium. Odio saepe placeat repellendus ratione amet temporibus error voluptatum alias dolores nulla. Similique exercitationem alias a asperiores porro laborum optio fuga quod debitis perferendis eaque, voluptate mollitia adipisci dolores explicabo pariatur consequatur, natus dolore temporibus voluptates. Reiciendis, quo earum?
-    <br>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis laudantium. Odio saepe placeat repellendus ratione amet temporibus error voluptatum alias dolores nulla. Similique exercitationem alias a asperiores porro laborum optio fuga quod debitis perferendis eaque, voluptate mollitia adipisci dolores explicabo pariatur consequatur, natus dolore temporibus voluptates. Reiciendis, quo earum?
+    
 
+    <p class="md:w-[70%] leading-loose ">
+      <span class="text-5xl font-extrabold text-[#dec043]">Our Beliefs</span>
+      <br> <br>
+      The African Methodist Episcopal Zion Church professes the historical faith in God, who by Himself – outpouring, was manifest incarnate in Jesus Christ for our salvation. By God’s grace and the power of His Holy Spirit all believers become the new humanity. The incarnation having reached its completion in Jesus, who is the Christ, is continuing in the Church and is overcoming the calamity of the human predicament. We strive in the hope that the Church will grow from sinful existence through purification to oneness with God.
+
+      Our Heritage in doctrine and our present theological task demand that we renew our faith and understanding of the love of God, our Father, and the Lordship of His Son, Jesus. We believe that all who have faith in Him will be empowered and invigorated by the Holy Spirit to risk all for the reconciling work and fulfillment of the Kingdom of God.
     </p>
   </div>
 

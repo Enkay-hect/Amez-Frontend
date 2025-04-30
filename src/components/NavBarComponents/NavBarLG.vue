@@ -64,7 +64,7 @@
                         <!-- Parent Dropdown -->
                         <ul
                             v-show="true"
-                            class="absolute mt-40 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+                            class="absolute h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black top-[25%]"
 
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
@@ -171,7 +171,7 @@
                         <ul
                             v-show="true"
 
-                            class="absolute mt-72 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+                            class="absolute top-[25%] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
 
                             :style="{
                             opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 1 : 0,
@@ -325,7 +325,7 @@
                         <!-- Parent Dropdown -->
                         <ul
                             v-show="true"
-                            class="absolute mt-52 h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
+                            class="absolute top-[25%] h-auto space-y-2 bg-gray-100 pb-6 px-6 py-4 w-max text-black"
 
                             :style="{
                             opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 1 : 0,
