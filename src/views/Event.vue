@@ -1,10 +1,14 @@
 <template>
-    <NavBar >
-        <div class="hidden absolute inset-0 bg-cover bg-center sm:flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/women/img119.jpg); background-color: grey; background-blend-mode: multiply;">
-          <h2 class="text-4xl font-extrabold text-center">EVENTS </h2>
-        </div>
+    <NavBar class="bg-black" style="height: 10.5rem;">
+      
         
     </NavBar>
+
+     <div class="relative flex flex-col text-white justify-center align-center ">
+        <div class=" inset-0 bg-cover bg-center sm:flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/women/img119.jpg); background-color: grey; background-blend-mode: multiply;">
+            <h2 class="text-4xl font-extrabold text-center"> </h2>
+        </div>
+     </div>
   
     <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8  py-7">
       <!-- <div class="md:w-[50%]">
