@@ -84,11 +84,7 @@
       </p>
 
       <div class="md:w-[30%]">
-        <img
-             src="/freedomchurchlogo.png"
-             alt="Sample Image"
-             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72"
-         />
+      
        </div>
 
 
