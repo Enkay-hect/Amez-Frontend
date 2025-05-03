@@ -15,7 +15,7 @@
       
     <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 lg:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap">
       
-       <div class="md:w-[30%]">
+       <div class="md:w-[30%] flex flex-row  align-middle items-center">
         <img
              src="/freedomchurchlogo.png"
              alt="Sample Image"
@@ -87,7 +87,7 @@
           increasing youthful church body into the next century.
       </p>
 
-      <div class="md:w-[30%]">
+      <div class="md:w-[30%] flex flex-row sm:justify-end align-middle items-center">
         <img
         src="/thechurchimage2.jpeg"
         alt="Sample Image"
