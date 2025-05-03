@@ -20,26 +20,28 @@
   </div>
 
 
-  <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-8 h-auto px-8 lg:px-52 xl:px-74 py-7">
-    <div class="md:w-[70%]  ">
+  <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-10 h-auto px-4 md:px-8 lg:px-24 xl:px-40 py-7">
+
+    <div class="lg:w-[30%] md:w-[50%] xl:w-[50%] w-full h-auto flex items-center justify-center">
       <img src="/images/bishop/bishopwithmummy.png" alt="" srcset="" width="500">
     </div>
 
     
 
-    <p class="md:w-[70%] leading-loose text-justify">
-      <span class="text-5xl font-extrabold text-[#dec043] ">Our Beliefs</span>
+    <p class="lg:w-[70%] md:w-[50%] xl:w-[50%] w-full leading-loose text-justify">
+      <span class="text-xl md:text-2xl font-bold lg:font-extrabold text-[#dec043] ">Our Beliefs</span>
       <br> <br>
       The African Methodist Episcopal Zion Church professes the historical faith in God, who by Himself – outpouring, was manifest incarnate in Jesus Christ for our salvation. By God’s grace and the power of His Holy Spirit all believers become the new humanity. The incarnation having reached its completion in Jesus, who is the Christ, is continuing in the Church and is overcoming the calamity of the human predicament. We strive in the hope that the Church will grow from sinful existence through purification to oneness with God.
-
+      <br> <br>
       Our Heritage in doctrine and our present theological task demand that we renew our faith and understanding of the love of God, our Father, and the Lordship of His Son, Jesus. We believe that all who have faith in Him will be empowered and invigorated by the Holy Spirit to risk all for the reconciling work and fulfillment of the Kingdom of God.
     </p>
+
   </div>
 
 
 
 
-  <div class="w-[100%] flex flex-col  gap-10 items-center h-auto px-8 md:px-48 lg:px-80 py-20 bg-gray-200">
+  <div class="w-[100%] flex flex-col  gap-10 items-center h-auto px-8 md:px-12 lg:px-24 xl:px-64 py-20 bg-gray-200">
     <h1 class="text-[#dec043] font-bold">Get in touch with us</h1>
 
     <form action="" class="w-[100%] flex flex-col sm:flex-row flex-wrap sm:flex-nowrap gap-8 bg-white p-4 rounded-md justify-center px-4">

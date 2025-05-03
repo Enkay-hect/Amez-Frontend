@@ -9,6 +9,10 @@
         </div>
       </div>
       <!-- flex flex-row flex-wrap md:flex-nowrap -->
+
+
+
+      
     <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 lg:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap">
       
        <div class="md:w-[30%]">
@@ -87,7 +91,7 @@
         <img
         src="/thechurchimage2.jpeg"
         alt="Sample Image"
-             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72"
+             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72 object-fill"
          />
        </div>
 
