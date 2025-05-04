@@ -10,7 +10,7 @@
 
         <div class="flex flex-col justify-around items-center w-full text-center">
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " style="overflow: hidden"  id="takis">
+            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center "  id="takis">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/BAA/Dr-TAKIS.png" alt="" class="w-full h-full object-contain">
                 </div>

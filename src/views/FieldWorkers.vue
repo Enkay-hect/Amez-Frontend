@@ -11,8 +11,8 @@
         <div class="flex flex-col justify-around items-center w-full">
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC._MANDA">
-                <div style="border-radius: 0rem;">
-                    <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" srcset="" height="0" width="290" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -34,15 +34,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.EMEM">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -64,15 +64,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.ENO.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.ENO.png" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.INGONIMIE">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -93,15 +93,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.MFON_M.">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -123,16 +123,16 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
 
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items " id="MRS.NSEE.AMOS">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -154,16 +154,16 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
 
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.WILLIAMS">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
