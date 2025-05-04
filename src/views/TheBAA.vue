@@ -6,13 +6,13 @@
 
     <div class="relative w-full h-auto flex" >
         <!-- Main Content Area (Scrollable & Centered) -->
-        <div class=" sm:flex-1 h-[40rem] overflow-y-auto p-8 md:mr-56 justify-center scroll-smooth w-full" >
+        <div class=" sm:flex-1 h-[40rem] overflow-y-auto p-8 md:mr-56 justify-center scroll-smooth w-full mt-8" >
 
         <div class="flex flex-col justify-around items-center w-full text-center">
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center overflow: hidden; border-radius: 50%;"  id="takis">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/Dr-TAKIS.png" alt="" srcset="" height="200" width="200"  style="border-radius: 50%; object-fit: cover;">
+            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " style="overflow: hidden"  id="takis">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/Dr-TAKIS.png" alt="" class="w-full h-full object-contain">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -34,15 +34,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/Dr-DONALD.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/Dr-DONALD.png" alt="" class="w-full h-full object-cover" >
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center" id="OZIOHA">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.BARR.OZIOHAV.EKEMAM.jpg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.BARR.OZIOHAV.EKEMAM.jpg" alt="" class="w-full h-full object-cover" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -64,15 +64,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.CLEMENT EGHUANOYE- GRAHAM.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.CLEMENT EGHUANOYE- GRAHAM.png" alt="" class="w-full h-full object-cover" >
                 </div>
             </div>
 
 
            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="EFREKEE">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" class="w-full h-full object-cover" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -93,15 +93,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.DR.GODSONN.ELIJAH.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.GODSONN.ELIJAH.png" alt="" class="w-full h-full object-cover" >
                 </div>
             </div>
 
 
           <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="SAMUEL_ASUAMIOM">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.DR.SAMUEL ASUAMIOM.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.SAMUEL ASUAMIOM.png" alt="" class="w-full h-full object-cover" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -122,14 +122,14 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.DR.SAMUELO.IBEMERE,SR.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.SAMUELO.IBEMERE,SR.png" alt="" class="w-full h-full object-cover" >
                 </div>
             </div>
 
              <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="UMOROLU">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" class="w-full h-full object-cover" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -150,15 +150,15 @@
 
                 </div>
 
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" class="w-full h-full object-cover" >
                 </div>
             </div>
 
 
             <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="MichaelUdoh">
-                <div style="border-radius: 10rem;">
-                    <img src="/images/BAA/Rev.Dr.MichaelS.Udoh.jpg" alt="" srcset="" height="200" width="200" style="border-radius: 50%;" >
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/Rev.Dr.MichaelS.Udoh.jpg" alt="" class="w-full h-full object-cover" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
