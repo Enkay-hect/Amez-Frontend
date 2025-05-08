@@ -6,7 +6,7 @@
 
     <div class="relative w-full h-auto flex" >
         <!-- Main Content Area (Scrollable & Centered) -->
-        <div class=" sm:flex-1  p-8 sm:px-96 justify-center  w-full mt-8" >
+        <div class=" sm:flex-1  p-8 lg:px-40 xl:px-56 justify-center  w-full mt-8" >
 
         <div class="flex flex-row flex-wrap justify-around items-center w-full text-center">
 
@@ -33,11 +33,11 @@
 
                 <div class="flex flex-col align-middle justify-center">
 
-                  <h1 class="font-bold">REV. DR. SAMUEL O. IBEMERE, SR</h1>
-                  <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                  <h3>CENTRAL NIGERIA CONFERENCE 	 	 	</h3>
+                    <h1 class="font-bold">REV. DR. SAMUEL O. IBEMERE, SR</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>CENTRAL NIGERIA CONFERENCE 	 	 	</h3>
 
-              </div>
+                </div>
             </div>
 
 
