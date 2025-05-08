@@ -225,7 +225,7 @@
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Y's</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">YMS</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Buds of promise</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Bureau supply</li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Life Members</li>
