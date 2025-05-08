@@ -6,11 +6,11 @@
 
     <div class="relative w-full h-auto flex" >
         <!-- Main Content Area (Scrollable & Centered) -->
-        <div class=" sm:flex-1 h-[40rem] overflow-y-auto p-8 md:mr-56 justify-center scroll-smooth w-full" >
+        <div class=" sm:flex-1  p-8 sm:px-96 justify-center  w-full mt-8" >
 
-        <div class="flex flex-col justify-around items-center w-full">
+        <div class="flex flex-row flex-wrap justify-around items-center w-full text-center">
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC._MANDA">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC._MANDA">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" class="w-full h-full object-cover">
                 </div>
@@ -25,22 +25,25 @@
             </div>
 
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="DEAC._CONFIDENCE">
-                <div class="flex flex-col align-middle justify-center text-center">
-
-                <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
-                <h2>FIELD WORKER  </h2>
-                <h3>SOUTHERN EASTERN NIGERIA CONFERENCE </h3>
-
-                </div>
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC._CONFIDENCE">
+               
 
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" class="w-full h-full object-cover">
                 </div>
+
+                <div class="flex flex-col align-middle justify-center text-center">
+
+                    <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
+                    <h2>FIELD WORKER  </h2>
+                    <h3>SOUTHERN EASTERN NIGERIA CONFERENCE </h3>
+
+                </div>
+
             </div>
 
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.EMEM">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.EMEM">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" class="w-full h-full object-cover">
                 </div>
@@ -55,22 +58,24 @@
             </div>
 
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="DEAC.ENO">
-                <div class="flex flex-col align-middle justify-center text-center">
-
-                <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
-                <h2>FIELD WORKER </h2>
-                <h3>SOUTHERN NIGERIA CONFERENCE</h3>
-
-                </div>
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.ENO">
+                
 
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.ENO.png" alt="" class="w-full h-full object-cover">
                 </div>
+                
+                <div class="flex flex-col align-middle justify-center text-center">
+
+                    <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
+                    <h2>FIELD WORKER </h2>
+                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+
+                </div>
             </div>
 
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.INGONIMIE">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.INGONIMIE">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" class="w-full h-full object-cover">
                 </div>
@@ -84,7 +89,13 @@
                 </div>
             </div>
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="DEAC.LOVELYN">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.LOVELYN">
+                
+
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" class="w-full h-full object-cover">
+                </div>
+                
                 <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">DEAC. LOVELYN NWADIKE</h1>
@@ -92,14 +103,10 @@
                 <h3>CENTRAL NIGERIA CONFERENCE 	 	</h3>
 
                 </div>
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" class="w-full h-full object-cover">
-                </div>
             </div>
 
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.MFON_M.">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.MFON_M.">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" class="w-full h-full object-cover">
                 </div>
@@ -114,7 +121,13 @@
             </div>
 
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="DEAC.UDUAK">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.UDUAK">
+                
+
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" class="w-full h-full object-cover">
+                </div>
+                
                 <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">DEAC. UDUAK  EKENG</h1>
@@ -122,15 +135,11 @@
                 <h3>CROSS RIVER NIGERIA CONFERENCE 	 	 	 	</h3>
 
                 </div>
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" class="w-full h-full object-cover">
-                </div>
             </div>
 
 
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items " id="MRS.NSEE.AMOS">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="MRS.NSEE.AMOS">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" class="w-full h-full object-cover">
                 </div>
@@ -145,7 +154,13 @@
             </div>
 
 
-            <div class="flex flex-col-reverse md:flex-row gap-10 lg:gap-60 justify-center items-center" id="MRS.NSISONG">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="MRS.NSISONG">
+                
+
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" class="w-full h-full object-cover">
+                </div>
+                
                 <div class="flex flex-col align-middle justify-center text-center">
 
                 <h1 class="font-bold">MRS. NSISONG M. AKPAN</h1>
@@ -153,15 +168,11 @@
                 <h3>AKWA NIGERIA CONFERENCE 	</h3>
 
                 </div>
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" class="w-full h-full object-cover">
-                </div>
             </div>
 
 
 
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-60 pb-8 justify-center items-center " id="DEAC.WILLIAMS">
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.WILLIAMS">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" class="w-full h-full object-cover">
                 </div>
@@ -175,17 +186,11 @@
                 </div>
             </div>
 
-
-
-
-
-              
-
         </div>
         </div>
 
         <!-- Right Sidebar (Non-overlapping footer) -->
-            <aside
+            <!-- <aside
                 class="w-56 bg-gray-600 text-white hidden md:flex  flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
                 :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
                 >
@@ -208,9 +213,8 @@
 
 
                     
-                    <!-- <a href="#" class="hover:text-[#dec043]">Contact</a> -->
                 </nav>
-        </aside>
+        </aside> -->
     </div>
 
   </template>
