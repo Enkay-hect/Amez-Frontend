@@ -23,9 +23,9 @@
   <div class="flex flex-col lg:flex-row justify-center items-center sm:gap-8 w-full h-auto px-4 md:px-8 lg:px-24 xl:px-52 py-7">
 
   <!-- Image Section -->
-  <div class="w-full lg:w-1/2 h-auto flex items-center justify-center mb-6 lg:mb-0">
+  <div class="w-full lg:w-1/2 xl:w-2/3 h-auto flex items-center justify-center mb-6 lg:mb-0">
     <img src="/images/bishop/bishopwithmummy.png" alt="" 
-      class="w-full rounded-lg shadow-lg object-contain"
+    class="w-full max-w-[400px] xl:max-w-[450px] rounded-lg shadow-lg object-contain"
     >
   </div>
 
