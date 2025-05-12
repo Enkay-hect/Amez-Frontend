@@ -20,23 +20,28 @@
   </div>
 
 
-  <div class="w-[100%] flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-10 h-auto px-4 md:px-8 lg:px-24 xl:px-40 py-7">
+  <div class="flex flex-col lg:flex-row justify-center items-center sm:gap-8 w-full h-auto px-4 md:px-8 lg:px-24 xl:px-52 py-7">
 
-    <div class="lg:w-[30%] md:w-[50%] xl:w-[50%] w-full h-auto flex items-center justify-center">
-      <img src="/images/bishop/bishopwithmummy.png" alt="" srcset="" width="500">
-    </div>
+  <!-- Image Section -->
+  <div class="w-full lg:w-1/2 h-auto flex items-center justify-center mb-6 lg:mb-0">
+    <img src="/images/bishop/bishopwithmummy.png" alt="" 
+      class="w-full rounded-lg shadow-lg object-contain"
+    >
+  </div>
 
-    
-
-    <p class="lg:w-[70%] md:w-[50%] xl:w-[50%] w-full leading-loose text-justify">
-      <span class="text-xl md:text-2xl font-bold lg:font-extrabold text-[#dec043] ">Our Beliefs</span>
-      <br> <br>
-      The African Methodist Episcopal Zion Church professes the historical faith in God, who by Himself – outpouring, was manifest incarnate in Jesus Christ for our salvation. By God’s grace and the power of His Holy Spirit all believers become the new humanity. The incarnation having reached its completion in Jesus, who is the Christ, is continuing in the Church and is overcoming the calamity of the human predicament. We strive in the hope that the Church will grow from sinful existence through purification to oneness with God.
-      <br> <br>
-      Our Heritage in doctrine and our present theological task demand that we renew our faith and understanding of the love of God, our Father, and the Lordship of His Son, Jesus. We believe that all who have faith in Him will be empowered and invigorated by the Holy Spirit to risk all for the reconciling work and fulfillment of the Kingdom of God.
-    </p>
+  <!-- Text Section -->
+  <p class="w-full lg:w-1/2 leading-loose text-justify">
+    <span class="text-xl md:text-2xl font-bold lg:font-extrabold text-[#dec043]">Our Beliefs</span>
+    <br> 
+    The African Methodist Episcopal Zion Church professes the historical faith in God, who by Himself – outpouring, was manifest incarnate in Jesus Christ for our salvation. By God’s grace and the power of His Holy Spirit all believers become the new humanity. The incarnation having reached its completion in Jesus, who is the Christ, is continuing in the Church and is overcoming the calamity of the human predicament. We strive in the hope that the Church will grow from sinful existence through purification to oneness with God.
+    <br><br>
+    Our Heritage in doctrine and our present theological task demand that we renew our faith and understanding of the love of God, our Father, and the Lordship of His Son, Jesus. We believe that all who have faith in Him will be empowered and invigorated by the Holy Spirit to risk all for the reconciling work and fulfillment of the Kingdom of God.
+  </p>
 
   </div>
+
+
+
 
 
 
