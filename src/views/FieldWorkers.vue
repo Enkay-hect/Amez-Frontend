@@ -10,7 +10,7 @@
 
            <div class="flex flex-col flex-wrap justify-evenly items-center w-full text-center">
 
-            <div class="flex flex-row">
+            <div class="flex flex-row flex-wrap justify-evenly items-center w-full text-center">
 
                  <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.WILLIAMS">
                     <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
@@ -58,7 +58,7 @@
 
                 <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.MFON_M.">
                     <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                        <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" class="w-full h-full object-cover">
+                        <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" class="w-full h-full object-contain">
                     </div>
 
                     <div class="flex flex-col align-middle justify-center text-center">
@@ -73,10 +73,10 @@
             </div>
 
 
-            <div class="flex flex-row">
+            <div class="flex flex-row flex-wrap justify-evenly items-center w-full text-center">
                 <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.EMEM">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" class="w-full h-full object-cover">
+                    <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" class="w-full h-full object-contain">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -91,7 +91,7 @@
 
             <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="MRS.NSEE.AMOS">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" class="w-full h-full object-cover">
+                    <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" class="w-full h-full object-contain">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -105,7 +105,7 @@
 
             <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.UDUAK">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" class="w-full h-full object-cover">
+                    <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" class="w-full h-full object-contain">
                 </div>
 
                 <div class="flex flex-col align-middle justify-center text-center">
@@ -137,11 +137,11 @@
 
 
            
-          <div class="flex flex-row">
+          <div class="flex flex-row flex-wrap justify-evenly items-center w-full text-center">
 
                 <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.ENO">
                     <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                        <img src="/images/fieldworkers/DEAC.ENO.png" alt="" class="w-full h-full object-cover">
+                        <img src="/images/fieldworkers/DEAC.ENO.png" alt="" class="w-full h-full object-contain">
                     </div>
 
                     <div class="flex flex-col align-middle justify-center text-center">
