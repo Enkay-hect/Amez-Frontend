@@ -12,7 +12,7 @@
 
             <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="EFREKEE">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" class="w-full h-full object-cover" >
+                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" class="w-full h-full object-contain" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -43,7 +43,7 @@
 
             <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOROLU">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" class="w-full h-full object-cover" >
+                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" class="w-full h-full object-contain" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">
@@ -134,7 +134,7 @@
             <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="donald">
                 
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Dr-DONALD.png" alt="" class="w-full h-full object-cover" >
+                    <img src="/images/BAA/Dr-DONALD.png" alt="" class="w-full h-full object-contain" >
                 </div>
                 
                 <div class="flex flex-col align-middle justify-center">
@@ -153,7 +153,7 @@
                 
 
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" class="w-full h-full object-cover" >
+                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" class="w-full h-full object-contain" >
                 </div>
 
                 <div class="flex flex-col align-middle justify-center">

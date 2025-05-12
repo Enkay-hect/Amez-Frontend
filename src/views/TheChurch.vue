@@ -15,15 +15,15 @@
       
     <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 lg:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap">
       
-       <div class="md:w-[30%] flex flex-row  align-middle items-center">
+       <div class="md:w-[35%] flex flex-row  align-middle items-center">
         <img
              src="/freedomchurchlogo.png"
              alt="Sample Image"
-             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72"
+             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-[full] w-full"
          />
        </div>
 
-        <p class="md:w-[70%] text-justify">
+        <p class="md:w-[65%] text-justify">
       
           <span class="text-5xl font-extrabold text-[#dec043] ">Our Heritage</span>
           <br> <br>
@@ -49,12 +49,12 @@
 
        
     </div>
-
+<br><br>
 
 
     <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 lg:px-64  py-7 flex flex-col-reverse sm:flex-row flex-wrap md:flex-nowrap">
 
-      <p class="md:w-[70%]  text-justify">
+      <p class="md:w-[60%]  text-justify">
           <span class="text-5xl font-extrabold text-[#dec043] ">Mission Statement</span>
           <br> <br>
 
@@ -87,11 +87,11 @@
           increasing youthful church body into the next century.
       </p>
 
-      <div class="md:w-[30%] flex flex-row sm:justify-end align-middle items-center">
+      <div class="md:w-[40%] flex flex-row sm:justify-end align-middle items-center">
         <img
         src="/thechurchimage2.jpeg"
         alt="Sample Image"
-             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72 object-fill"
+             class="float-left mr-4 mb-2 rounded-lg shadow-lg 96 w-full h-[84%]  object-fill"
          />
        </div>
 
