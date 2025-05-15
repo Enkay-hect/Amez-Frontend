@@ -17,7 +17,7 @@
       <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-col lg:flex-row flex-wrap md:flex-nowrap items-center">
 
       
-       <div class="md:w-[35%] flex flex-row  align-middle items-center">
+       <div class="w-[70%] lg:w-[35%] flex flex-row  align-middle items-center">
         <img
              src="/freedomchurchlogo.png"
              alt="Sample Image"
@@ -89,7 +89,7 @@
           increasing youthful church body into the next century.
       </p>
 
-      <div class="md:w-[40%] flex flex-row sm:justify-end align-middle items-center">
+      <div class="w-[80%] sm:w-[60%] lg:w-[35%] flex flex-row sm:justify-end align-middle items-center">
         <img
         src="/thechurchimage2.jpeg"
         alt="Sample Image"
