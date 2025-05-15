@@ -4,30 +4,21 @@
         
     </NavBar>
 
-    <div class="relative w-full h-auto flex" >
-        <!-- Main Content Area (Scrollable & Centered) -->
-        <div class=" sm:flex-1  p-8 lg:px-40 xl:px-64 justify-center  w-full mt-8" >
 
-           <div class="flex flex-col flex-wrap justify-evenly items-center w-full text-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 w-full text-center lg:px-44">
 
-            <div class="flex flex-row flex-wrap justify-evenly items-center w-full text-center">
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.WILLIAMS">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="flex flex-col align-middle justify-center text-center">
+                <h1 class="font-bold">DEAC. UDUAK S. WILLIAMS</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>NIGERIA CONFERENCE</h3>
+            </div>
+        </div>
 
-                 <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.WILLIAMS">
-                    <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                        <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" class="w-full h-full object-cover">
-                    </div>
-
-                    <div class="flex flex-col align-middle justify-center text-center">
-
-                        <h1 class="font-bold">DEAC. UDUAK S. WILLIAMS</h1>
-                        <h2>FIELD WORKER</h2>
-                        <h3>  NIGERIA CONFERENCE 	  </h3>
-
-                    </div>
-                </div>
-
-
-                <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.LOVELYN">
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.LOVELYN">
                     <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                         <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" class="w-full h-full object-cover">
                     </div>
@@ -70,10 +61,7 @@
                 </div>
 
                 
-            </div>
-
-
-            <div class="flex flex-row flex-wrap justify-evenly items-center w-full text-center">
+            
                 <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.EMEM">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
                     <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" class="w-full h-full object-contain">
@@ -133,11 +121,7 @@
             </div>
 
 
-            </div>
-
-
            
-          <div class="flex flex-row flex-wrap justify-evenly items-center w-full text-center">
 
                 <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.ENO">
                     <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
@@ -185,36 +169,6 @@
                 </div>   
             </div>     
 
-            </div>
-        </div>
-
-        <!-- Right Sidebar (Non-overlapping footer) -->
-            <!-- <aside
-                class="w-56 bg-gray-600 text-white hidden md:flex  flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
-                :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
-                >
-
-                <nav class="flex flex-col gap-4 px-4 items-center justify-between h-[25rem]">
-                    <a href="#DEAC._MANDA" class="hover:text-[#dec043] cursor-pointer">DEAC. MANDA JACK</a> 
-                    <a href="#DEAC._CONFIDENCE" class="hover:text-[#dec043]">DEAC. CONFIDENCE</a> 
-                    <a href="#DEAC.EMEM" class="hover:text-[#dec043]">DEAC. EMEM</a> 
-
-                    <a href="#DEAC.ENO" class="hover:text-[#dec043] cursor-pointer">DEAC. ENO UDOEKPE</a> 
-                    <a href="#DEAC.INGONIMIE" class="hover:text-[#dec043]">DEAC. INGONIMI E.</a> 
-                    <a href="#DEAC.LOVELYN" class="hover:text-[#dec043]">DEAC. LOVELYN</a> 
-
-                    <a href="#DEAC.MFON_M." class="hover:text-[#dec043] cursor-pointer">DEAC. MFON UDOH</a> 
-                    <a href="#DEAC.UDUAK" class="hover:text-[#dec043]">DEAC. UDUAK  EKENG</a> 
-                    <a href="#MRS.NSEE.AMOS" class="hover:text-[#dec043]">MRS. NSE E. AMOS</a> 
-                    <a href="#MRS.NSISONG" class="hover:text-[#dec043]">MRS. NSISONG M. AKPAN</a>
-
-                    <a href="#DEAC.WILLIAMS" class="hover:text-[#dec043]">DEAC. UDUAK WILLIAMS</a>
-
-
-                    
-                </nav>
-        </aside> -->
-    </div>
 
   </template>
 

@@ -69,7 +69,7 @@
         </div>
 
         <!-- Column 4 -->
-        <div class="flex flex-col justify-center md:items-start items-center space-y-2">
+        <div class="flex flex-col justify-center sm:items-start items-center space-y-2">
             <h2 class="text-[#dec043]  text-lg font-semibold">NEWSLETTER</h2>
 
             <input type="email" name="" placeholder="Your Email" id="" class="w-[80%] md:w-[100%] px-1 mt-4 py-1 rounded-md focus:outline-none focus:ring-0 text-black">
