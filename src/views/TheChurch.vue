@@ -13,7 +13,9 @@
 
 
       
-    <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 lg:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap">
+    <!-- <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap"> -->
+      <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-col lg:flex-row flex-wrap md:flex-nowrap items-center">
+
       
        <div class="md:w-[35%] flex flex-row  align-middle items-center">
         <img
@@ -52,7 +54,7 @@
 <br><br>
 
 
-    <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 lg:px-64  py-7 flex flex-col-reverse sm:flex-row flex-wrap md:flex-nowrap">
+    <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-col-reverse lg:flex-row flex-wrap md:flex-nowrap items-center">
 
       <p class="md:w-[60%]  text-justify">
           <span class="text-5xl font-extrabold text-[#dec043] ">Mission Statement</span>
