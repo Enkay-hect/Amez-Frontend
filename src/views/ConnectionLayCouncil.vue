@@ -4,35 +4,72 @@
     </NavBar>
 
     <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-10 bg-black w-[100%]">
-            <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
-                <img src="/images/logo1.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-contain">
-                <!-- <h2 class="absolute text-4xl font-extrabold text-white">THE BISHOP</h2> -->
-            </div>
+           
         </div>
   
-    <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
-      <!-- <div class="md:w-[50%]">
-        <img src="../../public/images/clergy.jpg" alt="" srcset="">
-      </div> -->
-  
-      <div class="w-full text-justify">
-        <img
-            src="/public/images/MOZ/Bro.EmmanuelMoro.png"
-            alt="Sample Image"
-            class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-80"
-        />
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptate nisi eaque facere dolore repellendus, necessitatibus libero odit placeat eius. Perspiciatis, cumque vel enim ad quibusdam quas rem fugit illo neque, quidem sed. Nam, unde architecto! Atque ad laboriosam dolore nobis molestiae corporis. Quis deleniti obcaecati placeat saepe totam sapiente error, impedit, nemo ab repellendus mollitia natus sequi qui recusandae, commodi distinctio assumenda tenetur non neque magnam iste! Nam cum similique at maiores eius laudantium tempore, autem recusandae veniam a blanditiis quos consequuntur nesciunt ab voluptas! Fugit nostrum velit eaque quas! Asperiores doloremque iste molestiae eveniet, voluptatem accusamus blanditiis odit.        </p>
-        <br>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptate nisi eaque facere dolore repellendus, necessitatibus libero odit placeat eius. Perspiciatis, cumque vel enim ad quibusdam quas rem fugit illo neque, quidem sed. Nam, unde architecto! Atque ad laboriosam dolore nobis molestiae corporis. Quis deleniti obcaecati placeat saepe totam sapiente error, impedit, nemo ab repellendus mollitia natus sequi qui recusandae, commodi distinctio assumenda tenetur non neque magnam iste! Nam cum similique at maiores eius laudantium tempore, autem recusandae veniam a blanditiis quos consequuntur nesciunt ab voluptas! Fugit nostrum velit eaque quas! Asperiores doloremque iste molestiae eveniet, voluptatem accusamus blanditiis odit.        </p>
-        <br>
-
+    <!-- <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
+   
+    
     </div>
+   -->
+    <br> <br> <br>
+    <div class="relative px-8 md:px-24 lg:px-36 xl:px-48 gap-14 flex flex-row w-full text-justify h-auto">
+
+    <!-- Faded Background Image -->
+    <div class="absolute inset-0 bg-[url('/images/connectionallay/LayCouncilLogo.png')] bg-contain bg-no-repeat bg-center opacity-15 z-0"></div>
+        
+
+       <div class="flex flex-col md:flex-row  gap-16">
+
+        <div class="md:w-[50%] lg:w-[50%] z-2">
+
+            <h1 class="font-serif text-3xl font-extrabold">Vision</h1>
+            <br> <br> <br>
+
+            <p class="font-serif text-xl">
+                As servants of the Most High God, and disciples of the Lord Jesus Christ that are guided by the Holy Spirit, the vision of the Connectional Lay Council of the African Methodist Episcopal Zion Church is to prepare the lay members of our denomination for a life of service in the Kingdom of God.
+
+                    We will do this by:
+
+                    Developing ourselves and others as Christian disciples;
+                    Helping others to know, worship and follow Christ in spirit and in truth;
+                    Collaborating and cooperating across organizational, institutional and denominational boundaries to minister to the masses.
+                    Our motto “Come with us to Christ” is the impetus for implementing ministries that are positive in transforming people’s lives spiritually, socially and economically; in promoting fellowship with God and other believers, as well as those who are not saved. We affirm our belief that no one is too old, too young, too rich, too poor, too saved or even too lost to benefit from the ministries offered by the Lay Council.
+
+                    Membership in the Lay Council is not a prerequisite to benefit from the Lay Council’s ministries. However, all laity in the African Methodist Episcopal Zion Church are strongly encouraged to catch the vision for Christian Leadership, Accountability, Stewardship and Christian Service so that, together, we might usher in the Kingdom of God through the A.M.E. Zion Church.
+            </p>
+
+        </div>
+
+
+        <div class="md:w-[50%] lg:w-[50%]  z-2">
+            
+            <div class="relative justify-center items-center w-full max-w-screen-lg z-1 ">
+                <img src="/images/logo1.jpeg" alt="Logo" class="w-full  max-h-[300px] lg:max-h-[600px] object-contain">
+            </div>
+            <br> <br> <br>
+            <h1 class="font-serif text-3xl font-extrabold">Mission</h1>
+            <br> <br> <br>
+
+            <p class="font-serif text-xl">
+                The mission of the Connectional Lay Council of the African Methodist Episcopal Zion Church is to prepare and equip laity for life discipleship in the Kingdom of God by maintaining effective ministries that evangelize, encourage and edify the laity.
+                <br><br><br>
+                We will do this by: <br><br>
+
+                Prepare laity for a life discipleship; <br>
+                Equip laity for a life of discipleship; <br>
+                Maintain effective ministries that: <br>
+                Evangelize Laity <br>
+                Encourage Laity <br>
+                Edify Laity <br>
+            </p>
+
+        </div>
+       </div>
+
+       
+       
     </div>
-  
   </template>
   
   <script setup>
