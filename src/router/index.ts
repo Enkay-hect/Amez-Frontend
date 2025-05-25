@@ -73,6 +73,11 @@ const router = createRouter({
       name: 'ConnectionLayCouncil',
       component: () => import('../views/ConnectionLayCouncil.vue'),
     },
+    {
+      path: '/About-Us',
+      name: 'ABout Us',
+      component: () => import('../views/Aboutus.vue'),
+    },
 
 
     ///ConnectionLayCouncil

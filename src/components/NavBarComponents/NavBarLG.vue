@@ -1,5 +1,5 @@
 <template>
-    <nav class="relative text-white w-[100%] h-screen">
+    <nav class="relative text-white w-[100%] ">
 
     <div class="flex flex-row w-full h-20 justify-center items-center  relative z-10 bg-black" >
         <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
@@ -210,7 +210,6 @@
                                     </svg>
                                 </div>
 
-                            <!-- Child Dropdown -->
                                 <ul
                                     v-show="true"
                                     class="absolute left-full top-0 bg-gray-100 p-4 w-max text-black shadow-md max-h-80 overflow-y-auto rounded-b-sm scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100"
@@ -224,13 +223,12 @@
                                     <li class="border-b-2 border-gray-400 pb-3"><router-link to="/missionary-supervisor">Missionary supervisor</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Departments</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">About Us</li>
-                                    <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3">YMS</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Buds of promise</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Bureau supply</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Life Members</li> -->
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/About-Us">About Us</router-link></li>
 
-                                </ul>
+
+                                    <!-- About us Dropdown -->
+
+                                   </ul>
                             </li>
 
 

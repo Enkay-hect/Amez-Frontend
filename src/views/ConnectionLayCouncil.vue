@@ -1,11 +1,9 @@
 <template>
-    <NavBar style="height: 9.5rem">
+    <NavBar style="height: 10rem">
    
     </NavBar>
 
-    <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-10 bg-black w-[100%]">
-           
-        </div>
+   
   
     <!-- <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
    
