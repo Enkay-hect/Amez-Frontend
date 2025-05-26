@@ -42,10 +42,10 @@
 
         <div class="md:w-[50%] lg:w-[50%]  z-2">
             
-            <div class="relative justify-center items-center w-full max-w-screen-lg z-1 ">
+            <!-- <div class="relative justify-center items-center w-full max-w-screen-lg z-1 ">
                 <img src="/images/logo1.jpeg" alt="Logo" class="w-full  max-h-[300px] lg:max-h-[600px] object-contain">
             </div>
-            <br> <br> <br>
+            <br> <br> <br> -->
             <h1 class="font-serif text-3xl font-extrabold">Mission</h1>
             <br> <br> <br>
 

@@ -31,7 +31,7 @@
           'tab-button': true
         }"
       >
-        Heads of Departments
+        Executive Board
       </button>
     </div>
 
