@@ -1,43 +1,215 @@
 <template>
-    <div class="xl:px-72">
-        <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 py-7">
-       <!-- <div class="md:w-[50%]">
-         <img src="../../public/images/clergy.jpg" alt="" srcset="">
-       </div> -->
-   
-       <div class="w-full text-justify">
-         <img
-             src="/images/missionary/missionarysupervisor.jpg"
-             alt="Sample Image"
-             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-72"
-         />
+    <div class="">
+        <div class="relative w-full h-auto flex" >
+        <!-- Main Content Area (Scrollable & Centered) -->
+        <div class=" sm:flex-1  p-8 lg:px-40 xl:px-56 justify-center  w-full mt-8" >
 
-            <p>            
-                Promise Chinwe Effiong was born on 16th January, 1967 in Enugu State, Nigeria. She is the daughter of the late Mr. Lawson Ezere and Mrs. Promise Ubochi Lawson of Umuorie in Ukwa West Local Government Area of Abia State, Nigeria. 
-            </p>
-            <br>
+        <div class="flex flex-row flex-wrap justify-around items-center w-full text-center">
 
-            <p>
-                She had her early education at Agwu Town School, Agwu, Enugu State and Prince Memorial High School, Onitsha, Anambra State, Nigeria. She obtained the Nigeria Certificate in Education (NCE) from the College of Education, Jalingo, Taraba State, Nigeria, in 1992 majoring in Biology and Integrated Science. She also obtained the Bachelor of Education degree from the University of Calabar, Calabar, Nigeria in 2004 majoring in Guidance and Counselling. 
-            </p>
-            <br>
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="EFREKEE">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" class="w-full h-full object-contain" >
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. EFREKE E. EKPENYONG</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3> NIGERIA CONFERENCE </h3>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="SAMUEL_IBEMERE">
+              
+
+              <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                  <img src="/images/BAA/REV.DR.SAMUELO.IBEMERE,SR.png" alt="" class="w-full h-full object-cover" >
+              </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. SAMUEL O. IBEMERE, SR</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>CENTRAL NIGERIA CONFERENCE 	 	 	</h3>
+
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOROLU">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" class="w-full h-full object-contain" >
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. UMOR OLU</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>  RIVERS  NIGERIA CONFERENCE  </h3>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center " id="MichaelUdoh">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/Rev.Dr.MichaelS.Udoh.jpg" alt="" class="w-full h-full object-cover" >
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. MICHAEL S. UDOH</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>  LAGOS WEST NIGERIA CONFERENCE 	  </h3>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center " id="SAMUEL_ASUAMIOM">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.DR.SAMUEL ASUAMIOM.png" alt="" class="w-full h-full object-cover" >
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. SAMUEL ASUAMIOM</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3> MAINLAND NIGERIA CONFERENCE 	 </h3>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="OZIOHA">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.BARR.OZIOHAV.EKEMAM.jpg" alt="" class="w-full h-full object-cover" >
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. BARR. OZIOHA V. EKEMAM</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>NORTHERN NIGERIA CONFERENCE</h3>
+
+                </div>
+            </div>
+
+
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center "  id="takis">
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/Dr-TAKIS.png" alt="" class="w-full h-full object-contain">
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. TAKIS E. CAIAFAS</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>CROSS RIVER NIGERIA CONFERENCE</h3>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="GODSON">
+               
+
+               <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                   <img src="/images/BAA/REV.DR.GODSONN.ELIJAH.png" alt="" class="w-full h-full object-cover" >
+               </div> 
+               
+               <div class="flex flex-col align-middle justify-center">
+
+                   <h1 class="font-bold">REV. DR. GODSON N. ELIJAH</h1>
+                   <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                   <h3>SOUTHEASTERN NIGERIA CONFERENCE 	 	</h3>
+
+               </div>
+           </div>
+
+
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="donald">
+                
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/Dr-DONALD.png" alt="" class="w-full h-full object-contain" >
+                </div>
+                
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+
+                </div>
+
+               
+            </div>
+
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOINYANG">
+                
+
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" class="w-full h-full object-contain" >
+                </div>
+
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. PROF. IMO E. UMOINYANG</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>AKWA NIGERIA CONFERENCE 	</h3>
+
+                </div>
+            </div>
+
             
-            <p>
-                She is a professional teacher registered with the Teachers Registration Council of Nigeria. She works as a Teacher and a School Counsellor from 1996 to date with the State Secondary School Board, Cross River State, Nigeria. She is a member of the Nigerian Union of Teachers (NUTI in Nigeria. Promise is an active member of the African Methodist Episcopal Zion Church where she served as a Sunday school teacher and Superintendent of Sunday school for many years. 
-            </p>
-            <br>
 
-            <p>
-                In the Women's Home and Overseas Missionary Society, she has served as Superintendent of Buds of Promise, Secretary of Youth Missionary Society and Conference worker, President of Calabar North District (2009-2016), and President of the Minister's Spouses and Widow(ers) Fellowship (2012 -2016). She participated in the Emma B. Watson leadership training
-                institute in 2011and 2015 Quadrennial Conventions as an elected delegate of the Eastern West Africa Episcopal District She is married to Bishop Uduak Usen Effiong, from Ono Ito, Odukpani Local Government Area of Cross River State,Nigeria and their unionis blessed withfour children, John, Samuel,Esther and Elizabeth.      
-            </p>
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="CLEMENT">
 
-            <br>
- 
-         
-     </div>
-     </div>
-   
+                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                    <img src="/images/BAA/REV.CLEMENT EGHUANOYE- GRAHAM.png" alt="" class="w-full h-full object-cover" >
+                </div>  
+                <div class="flex flex-col align-middle justify-center">
+
+                    <h1 class="font-bold">REV. CLEMENT  EGHUANOYE- GRAHAM</h1>
+                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>PORT HARCOURT NIGERIA CONFERENCE 	</h3>
+
+                </div>
+                
+            </div>
+               
+
+        </div>
+        </div>
+
+            <!-- <aside
+                class="w-56 bg-gray-600 text-white hidden md:flex flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
+                :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
+                >
+
+                <nav class="flex flex-col gap-4 px-4 items-center justify-between h-[25rem]">
+                    <a href="#takis" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. Takis Caiafas</a> 
+                    <a href="#donald" class="hover:text-[#dec043]">Rev. Dr. Donald Ekpo</a> 
+                    <a href="#OZIOHA" class="hover:text-[#dec043]">Rev. Barr. Ozioha E.</a> 
+
+                    <a href="#CLEMENT" class="hover:text-[#dec043] cursor-pointer">Rev. Eghuanoye-Graham</a> 
+                    <a href="#EFREKEE" class="hover:text-[#dec043]">Rev. Dr. E. Ekpenyong</a> 
+                    <a href="#GODSON" class="hover:text-[#dec043]">Rev. Dr. Godson Elijah</a> 
+
+                    <a href="#SAMUEL_ASUAMIOM" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. S. Asuamiom</a> 
+
+                    <a href="#SAMUEL_IBEMERE" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. S. O. Ibereme</a> 
+
+                    <a href="#UMOROLU" class="hover:text-[#dec043]">Rev. Dr. Umor Olu</a> 
+                    <a href="#UMOINYANG" class="hover:text-[#dec043]">Rev. Prof. I. E. Umoinyang</a> 
+                    <a href="#MichaelUdoh" class="hover:text-[#dec043]">Rev. Dr. Michael Udoh</a>
+
+
+
+                    
+                </nav>
+        </aside> -->
+    </div>
     </div>
 </template>
 
