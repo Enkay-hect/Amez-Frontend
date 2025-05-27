@@ -222,7 +222,7 @@
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3"><router-link to="/missionary-supervisor">Missionary supervisor</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Departments</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><<router-link to="/Departments"> Departments</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/About-Us">About Us</router-link></li>
 
 
