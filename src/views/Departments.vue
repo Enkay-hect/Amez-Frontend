@@ -139,7 +139,7 @@ const dept = [
             Theme_Song: '"Blooming All for Jesus"',
             Theme_Hymn: "I Would Be True",
             
-            Mission: "he Buds of Promise are the Juvenile Society of the WHOM Society. The mission of the WHOM Society is to establish Christian learning environments and experiences for all children (age 1 through 12) through mission education. These experiences will enable each child to acquire the knowledge, beliefs and attitudes that are essential to his/her spiritual development as an individual and are necessary for the attainment of a meaningful life.",
+            Mission: "The Buds of Promise are the Juvenile Society of the WHOM Society. The mission of the WHOM Society is to establish Christian learning environments and experiences for all children (age 1 through 12) through mission education. These experiences will enable each child to acquire the knowledge, beliefs and attitudes that are essential to his/her spiritual development as an individual and are necessary for the attainment of a meaningful life.",
         },
     },
 

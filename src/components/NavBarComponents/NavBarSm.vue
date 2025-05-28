@@ -229,12 +229,9 @@
                                     >
                                     <li class="border-b-2 border-gray-400 pb-3"><router-link to="/missionary-supervisor">Missionary supervisor</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Parent Body</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">YAMS</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">YMS</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Buds of promise</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Bureau supply</li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Life Members</li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/Departments"> Departments</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/About-Us">About Us</router-link></li>
+                                   
 
                                 </ul>
                             </li>
@@ -348,11 +345,12 @@
                             }"
                         >
 
-                            <li class="border-b-2 border-gray-400 pb-3">
-                              <router-link to="/hood-speaks">Hood-Speak Theological <br> Seminary</router-link>                            </li>
-                              <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Secondary Schools</li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">A. M. E. Zion Church <br> Primary and Nursery School</li>
-
+                        <li class="border-b-2 border-gray-400 pb-3"><router-link to="/hood-speaks">About</router-link></li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">School Leadership</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Programs</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Admission and Funding</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Academic Calender and press release</li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Students services</li>
                             <!-- Child Dropdown Trigger -->
                             <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @click.stop.prevent="toggleDropdown1('child-dropdown3')"
