@@ -4,7 +4,7 @@
     </NavBar>
 
 
-    <div class="w-full gap-14 px-7 lg:px-56 xl:px-72 mt-14 ">
+    <div class="w-full gap-14 px-7 lg:px-64 xl:px-76 mt-14 ">
            <div v-for="(item, index) in dept" :key="index"  class="flex flex-col mb-14">
                 <h1 class="font-extrabold text-4xl text-[#b51671] mb-10">{{ item.overall_tile }}</h1>
                 
@@ -53,7 +53,7 @@ import NavBar from '../components/NavBar.vue';
 
 const dept = [
     {
-        overall_tile : "No Poverty",
+        overall_tile : "Parent Body",
         image: "images/Departments/WHOMSnobg.png",
         body : {
             leader : "Mrs. Sandra B. Crowder",
@@ -144,46 +144,46 @@ const dept = [
     },
 
     {
-        overall_tile : "1. No Poverty",
-        image: "images/Departments/WHOMSnobg.png",
+        overall_tile : "Bureau of Supply",
+        image: "images/Departments/bureau_of_supply.png",
         body : {
-            leader : "leader",
-            office : "office",
-            requirement : "Parent Body Society (Age 41 & Up)",
+            leader : "Mrs. Jo-Ann Monroe",
+            office : "Connectional General Secretary, Bureau of Supply",
+            requirement : "Bureau of Supply (All Ages)",
 
-            Description: 'Description',
+            Description: 'Donations, including clothing, medicine, literature, finances, etc., are collected through this department for those in need throughout the areas served by The African Methodist Episcopal Zion Church.',
 
-            Motto : "Motto",
-            Colors: "Colors",
+            Motto : '"Faith and Service"',
+            Colors: "Pink (excellence, perfection) and White (purity, joy)",
 
             Watchword: '',
 
-            Theme_Song: "",
-            Theme_Hymn: "Theme_Hymn",
+            Theme_Song: "Pink (excellence, perfection) and White (purity, joy)",
+            Theme_Hymn: "",
             
-            Mission: "The purpose of the department is to solicit funds and supplies for home and overseas work.                                                                   ",
+            Mission: "The purpose of the department is to solicit funds and supplies for home and overseas work.",
         },
     },
 
     {
-        overall_tile : "1. No Poverty",
-        image: "images/Departments/WHOMSnobg.png",
+        overall_tile : "Life Members",
+        image: "images/Departments/lifemember.png",
         body : {
-            leader : "leader",
-            office : "office",
-            requirement : "Parent Body Society (Age 41 & Up)",
+            leader : "Mrs. Joy Williamson-Foster",
+            office : "Connectional General Chairman, Life Members Council",
+            requirement : "Life Members Council (All Ages)",
 
-            Description: 'Description',
+            Description: 'The Life Members Council includes all Life Members, Honorary Life Members, Matrons, and Patrons whose donations provide support for education, training, field missions, and other work of the WHOM Society.',
 
-            Motto : "Motto",
-            Colors: "Colors",
+            Motto : '"Each One, Make One"',
+            Colors: "White (purity, joy) and Red (fire, blood, charity)",
 
             Watchword: '',
 
-            Theme_Song: "",
-            Theme_Hymn: "Theme_Hymn",
+            Theme_Song: '"Throw Out the Life Line"',
+            Theme_Hymn: "",
             
-            Mission: "The purpose of the department is to solicit funds and supplies for home and overseas work.                                                                   ",
+            Mission: "The Life Members Council is the most exciting department in the Women’s Home and Overseas Missionary Society! This department captures the hearts and interests of men, women, boys, and girls from across the width and breath of Zion. The purpose of the department is to organize all Life Members, Matrons, Patrons, and Honorary Life members into a local council. An investment in this department is an investment in the lives of Zion’s greatest resource: Her People!",
         },
     },
 ]
