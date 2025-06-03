@@ -429,9 +429,11 @@
 
               
             </ul>
-            <button class="border-2 p-3 rounded-md w-[60%] ml-6" style="border: 1px solid #dec043;">
+            <router-link to="/DOnate">
+                <button class="border-2 px-3 py-2 rounded-md w-[60%] ml-6" style="border: 1px solid #dec043;">
                         DONATE
                 </button>
+            </router-link>
         </div>
 
     <slot>

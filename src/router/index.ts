@@ -83,6 +83,12 @@ const router = createRouter({
       name: 'Departments',
       component: () => import('../views/Departments.vue'),
     },
+    {
+      path: '/Donate',
+      name: 'Donate',
+      component: () => import('../views/Donate.vue'),
+    },
+
 
 
     ///ConnectionLayCouncil
