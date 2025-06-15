@@ -63,13 +63,13 @@
               v-model="cardDetails.cvv" 
               placeholder="e.g. 678" 
               required
-              maxlength="4"
+              maxlength="3"
             />
           </div>
         </div>
       </div>
   
-      <div class="billing-details">
+      <!-- <div class="billing-details">
         <h3>Billing details</h3>
   
         <div class="form-group">
@@ -149,7 +149,7 @@
             </option>
           </select>
         </div>
-      </div>
+      </div> -->
   
       <button class="submit-button" @click="submitForm" :disabled="isProcessing">
         {{ isProcessing ? 'Processing...' : 'Confirm and pay' }}
