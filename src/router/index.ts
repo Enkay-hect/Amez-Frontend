@@ -88,6 +88,17 @@ const router = createRouter({
       name: 'Donate',
       component: () => import('../views/Donate.vue'),
     },
+    {
+      path: '/Music',
+      name: 'Music',
+      component: () => import('../views/Music.vue'),
+    },
+    {
+      path: '/Youth',
+      name: 'Youth',
+      component: () => import('../views/Youth.vue'),
+    },
+
 
 
 

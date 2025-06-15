@@ -67,6 +67,18 @@
             />
           </div>
         </div>
+
+        <div class="form-group">
+          <label for="amount">Amount *</label>
+          <input 
+            type="text" 
+            id="amount" 
+            v-model="cardDetails.amount" 
+            placeholder="e.g. 1234567890" 
+            required
+            @input="formatCardNumber"
+          />
+        </div>
       </div>
   
       <!-- <div class="billing-details">

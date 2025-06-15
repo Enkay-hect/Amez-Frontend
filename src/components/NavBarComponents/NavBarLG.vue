@@ -283,8 +283,8 @@
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Church Growth & Development </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Legal Affairs </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Communication </li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3">Music </li>
-                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/directorate-youth">Youth</router-link> </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/Music">Music</router-link> </li>
+                                    <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/Youth">Youth</router-link> </li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3">Children </li>
                                 </ul>
                             </li>
@@ -343,7 +343,7 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Admission and Funding</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Academic Calender and press release</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Students services</li>
-
+ 
 
 
                         </ul>
