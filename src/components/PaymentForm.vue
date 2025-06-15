@@ -185,26 +185,27 @@
         const formErrors = ref({});
 
         const cardDetails = reactive({
-        name: '',
-        number: '',
-        expiry: '',
-        cvv: ''
+          name: '',
+          number: '',
+          expiry: '',
+          cvv: '',
+          amount: ''
         });
 
-        const billingDetails = reactive({
-        company: '',
-        einvoice: '',
-        street: '',
-        streetNumber: '',
-        city: '',
-        postalCode: '',
-        country: ''
-        });
+        // const billingDetails = reactive({
+        //   company: '',
+        //   einvoice: '',
+        //   street: '',
+        //   streetNumber: '',
+        //   city: '',
+        //   postalCode: '',
+        //   country: ''
+        // });
 
         const countries = [
-        { code: 'US', name: 'United States' },
-        { code: 'GB', name: 'United Kingdom' },
-        // ... other countries
+          { code: 'US', name: 'United States' },
+          { code: 'GB', name: 'United Kingdom' },
+          // ... other countries
         ];
 
         const formatCardNumber = () => {
@@ -228,30 +229,30 @@
         // Card validation
         if (paymentMethod.value === 'card') {
             if (!cardDetails.name) {
-            formErrors.value.cardName = 'Cardholder name is required';
-            isValid = false;
+              formErrors.value.cardName = 'Cardholder name is required';
+              isValid = false;
             }
 
             if (!cardDetails.number || !/^\d{16}$/.test(cardDetails.number.replace(/\s/g, ''))) {
-            formErrors.value.cardNumber = 'Valid card number is required';
-            isValid = false;
+              formErrors.value.cardNumber = 'Valid card number is required';
+              isValid = false;
             }
 
             if (!cardDetails.expiry || !/^\d{2}\/\d{2}$/.test(cardDetails.expiry)) {
-            formErrors.value.cardExpiry = 'Valid expiry date (MM/YY) is required';
-            isValid = false;
+              formErrors.value.cardExpiry = 'Valid expiry date (MM/YY) is required';
+              isValid = false;
             }
 
             if (!cardDetails.cvv || !/^\d{3,4}$/.test(cardDetails.cvv)) {
-            formErrors.value.cardCvv = 'Valid security code is required';
-            isValid = false;
+              formErrors.value.cardCvv = 'Valid security code is required';
+              isValid = false;
             }
         }
 
         // Billing validation
         if (!billingDetails.company) {
-            formErrors.value.company = 'Company name is required';
-            isValid = false;
+              formErrors.value.company = 'Company name is required';
+              isValid = false;
         }
 
         if (!billingDetails.einvoice || !/^\S+@\S+\.\S+$/.test(billingDetails.einvoice)) {
