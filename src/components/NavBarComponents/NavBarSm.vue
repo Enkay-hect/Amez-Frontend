@@ -127,7 +127,7 @@
                                       transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
                                     }"
                                     >
-                                    <li class="border-b-2 border-gray-400 pb-2"><router-link to="/the-churchhh" >Nigeria Conference</router-link></li>
+                                   <li class="border-b-2 border-gray-400 pb-2"><router-link to="/missionary-supervisor">Missionary supervisor</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
