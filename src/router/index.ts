@@ -122,6 +122,11 @@ const router = createRouter({
       component: () => import('../components/Conferences/MainlandNigeriaConference.vue'),
     },
 
+    {
+      path: '/Annual-Conference/Northern-Nigeria-Conference',
+      name: 'Northern-Nigeria-Conference',
+      component: () => import('../components/Conferences/NorthernNigeriaConference.vue'),
+    },
 
 
     ///ConnectionLayCouncil

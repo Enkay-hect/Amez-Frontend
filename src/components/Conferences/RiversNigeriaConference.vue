@@ -4,7 +4,7 @@
 </NavBar>
 
 <div class="mb-24 mt-24">
-    <h1 class="text-4xl font-bold text-center mb-2">NIGERIA ANNUAL CONFERENCE</h1>
+    <h1 class="text-4xl font-bold text-center mb-2">RIVERS ANNUAL CONFERENCE</h1>
     <h2 class="text-2xl font-semibold text-center mb-10">LIST OF MINISTERS/DISTRICT & STATIONS</h2>
 </div>
 
