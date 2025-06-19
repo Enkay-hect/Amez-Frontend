@@ -3,11 +3,15 @@
  
     </NavBar>
     
+
+    <div>
+        <h1 class="text-4xl font-bold text-center mb-2">NIGERIA ANNUAL CONFERENCE</h1>
+            <h2 class="text-2xl font-semibold text-center mb-10">LIST OF MINISTERS/DISTRICT & STATIONS</h2>
+    </div>
     
     <div class="px-4 md:px-24 mt-24 font-serif">
         <div class="overflow-x-auto">
-            <h1 class="text-4xl font-bold text-center mb-2">NIGERIA ANNUAL CONFERENCE</h1>
-            <h2 class="text-2xl font-semibold text-center mb-10">LIST OF MINISTERS/DISTRICT & STATIONS</h2>
+            
 
          <table class="min-w-full border border-gray-300 text-sm text-left text-gray-700">
 
