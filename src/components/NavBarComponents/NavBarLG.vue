@@ -121,9 +121,9 @@
                                     }"
                                     >
                                     <li class="border-b-2 border-gray-400 pb-2"><router-link to="/Annual-Conference/Nigeria-Conference">Nigeria Conference</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/Central-Nigeria-Conference"> Central Nigeria Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/Rivers-Nigeria-Conference">Rivers Nigeria Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/Mainland-Nigeria-Conference">Mainland Nigeria Conference</router-link> </li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Northern Nigeria Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Port Harcourt Nigeria <br> Conference</li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">South Eastern Nigeria <br> Conference</li>

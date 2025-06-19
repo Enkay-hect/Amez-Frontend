@@ -104,6 +104,23 @@ const router = createRouter({
       component: () => import('../components/Conferences/NigeriaConference.vue'),
     },
 
+    {
+      path: '/Annual-Conference/Central-Nigeria-Conference',
+      name: 'Central-Nigeria-Conference',
+      component: () => import('../components/Conferences/CentralNigeriaConference.vue'),
+    },
+
+    {
+      path: '/Annual-Conference/Rivers-Nigeria-Conference',
+      name: 'Rivers-Nigeria-Conference',
+      component: () => import('../components/Conferences/RiversNigeriaConference.vue'),
+    },
+
+    {
+      path: '/Annual-Conference/Mainland-Nigeria-Conference',
+      name: 'Mainland-Nigeria-Conference',
+      component: () => import('../components/Conferences/MainlandNigeriaConference.vue'),
+    },
 
 
 
