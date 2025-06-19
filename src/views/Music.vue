@@ -14,23 +14,30 @@
 
       
     <!-- <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap"> -->
-      <div class="w-[100%]  gap-10 h-auto px-8 sm:px-24 xls:px-64  py-7 flex flex-col lg:flex-row flex-wrap md:flex-nowrap items-center mt-32 mb-32">
+      <div class="w-[100%]  gap-10 h-auto px-8 sm:px-24 xls:px-64  py-7 flex flex-col lg:flex-row flex-wrap md:flex-nowrap mt-32 mb-32">
 
       
-       <!-- <div class="w-[70%] lg:w-[35%] flex flex-row  align-middle items-center">
-        <img
-             src="/freedomchurchlogo.png"
-             alt="Sample Image"
-             class="float-left mr-4 mb-2 rounded-lg shadow-lg h-[full] w-full"
-         />
-       </div> -->
+   
 
-        <p class="md:w-[100%] text-justify">
+        <div class="md:w-[100%] text-justify">
+
+          <div class="w-[300px] h-[300px] overflow-hidden rounded-full ">
+                <img src="/images/music/rev_michael_effiong.jpeg" alt="Logo" class="max-h-[150px] lg:max-h-[400px] object-contain">
+            </div>
+            <br><br>
+
+            <div class="flex flex-col text-start align-start justify-start w-[60%]">
+                <h1 class="font-bold text-3xl">REV. MICHAEL EFFIONG</h1>
+                <h2 class="text-2xl"> <i>Episcopal Director of Music</i> </h2>
+            </div>
+
+            <br> <br> <br>
+            
       
           <span class="text-5xl font-extrabold text-[#dec043] ">MISSION</span>
           <br> <br>
           To create a vibrant music ministry that inspires spiritual growth, empowers voices, and glorifies God, while embracing the rich cultural heritage and diversity of the African Methodist Episcopal Zion Church."
-        </p>
+          </div>
 
 
         

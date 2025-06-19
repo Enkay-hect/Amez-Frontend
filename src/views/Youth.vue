@@ -11,7 +11,7 @@
     </div>
    -->
     <br> <br> <br>
-    <div class="relative px-8 md:px-24 lg:px-36 xl:px-48 gap-14 flex flex-row w-full text-justify h-auto">
+    <div class="relative px-8 md:px-24 lg:px-36 xl:px-48 gap-14 flex flex-row w-full text-justify h-auto mb-20">
 
     <!-- Faded Background Image -->
     <div class="absolute inset-0 bg-[url('/images/connectionallay/LayCouncilLogo.png')] bg-contain bg-no-repeat bg-center opacity-15 z-0"></div>
@@ -21,10 +21,23 @@
 
         <div class="md:w-[55%] lg:w-[55%] z-2">
 
+            <div class="relative justify-start items-center w-full max-w-screen-lg z-1 ">
+                <img src="/images/youth/rev_ubong_samuel_udoma.jpeg" alt="Logo" class="max-h-[150px] lg:max-h-[400px] object-contain">
+            </div>
+            <br><br>
+
+            <div class="flex flex-col text-center align-start justify-start w-[60%]">
+                <h1 class="font-bold text-3xl">REV. UBONG SAMUEL UDOMA</h1>
+                <h2 class="text-2xl"> <i>Episcopal Director of Youth</i> </h2>
+            </div>
+
+            <br> <br> <br>
+            
+
             <h1 class="font-serif text-3xl font-extrabold">Vision</h1>
             <br> <br> <br>
 
-            <p class="font-serif text-xl">
+            <div class="font-serif text-xl">
 
 
                 <span class="font-bold">Vision Statement</span> <br><br>
@@ -68,7 +81,7 @@
 
                             
                             
-            </p>
+            </div>
 
         </div>
 
@@ -82,12 +95,12 @@
             <h1 class="font-serif text-3xl font-extrabold">Our Commitments  </h1>
             <br> <br> <br>
 
-            <p class="font-serif text-xl">
+            <div class="font-serif text-xl">
                 <ul class="text-xl font-serif">
                     <li>
                         <h1 class="font-bold">
                             SURVEY
-                        </h1> <br>
+                        </h1> <br> 
                         <h2>
                             Conducting thorough assessments to inform strategic decisions
 
@@ -147,7 +160,7 @@
                 
 
                 Through this mission, we strive to build a strong foundation for the future, rooted in faith and driven by purpose.
-            </p>
+            </div>
 
         </div>
        </div>

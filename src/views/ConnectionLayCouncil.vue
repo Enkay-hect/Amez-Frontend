@@ -20,6 +20,17 @@
        <div class="flex flex-col md:flex-row  gap-16">
 
         <div class="md:w-[50%] lg:w-[50%] z-2">
+            <div class="relative justify-start items-center w-full max-w-screen-lg z-1 ">
+                <img src="/images/connectionallay/bro_emmanuel_moro.jpeg" alt="Logo" class="max-h-[150px] lg:max-h-[400px] object-contain">
+            </div>
+            <br><br>
+
+            <div class="flex flex-col text-center align-start justify-start w-[60%]">
+                <h1 class="font-bold text-3xl">BRO. EMMANUEL MORO</h1>
+                <h2 class="text-2xl"> <i>Regional Director of Lay Council</i> </h2>
+            </div>
+
+            <br> <br> <br>
 
             <h1 class="font-serif text-3xl font-extrabold">Vision</h1>
             <br> <br> <br>
@@ -42,10 +53,7 @@
 
         <div class="md:w-[50%] lg:w-[50%]  z-2">
             
-            <!-- <div class="relative justify-center items-center w-full max-w-screen-lg z-1 ">
-                <img src="/images/logo1.jpeg" alt="Logo" class="w-full  max-h-[300px] lg:max-h-[600px] object-contain">
-            </div>
-            <br> <br> <br> -->
+           
             <h1 class="font-serif text-3xl font-extrabold">Mission</h1>
             <br> <br> <br>
 
