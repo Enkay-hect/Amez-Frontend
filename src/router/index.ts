@@ -98,6 +98,11 @@ const router = createRouter({
       name: 'Youth',
       component: () => import('../views/Youth.vue'),
     },
+    {
+      path: '/Annual-Conference/Nigeria-Conference',
+      name: 'Nigeria-Conference',
+      component: () => import('../components/Conferences/NigeriaConference.vue'),
+    },
 
 
 
