@@ -17,7 +17,7 @@
 
                 <div class="flex flex-col align-middle justify-center">
 
-                    <h1 class="font-bold">REV. DR. EFREKE E. EKPENYONG</h1>
+                    <h1 class="font-bold">REV. DR. IFREKE E. EKPENYONG</h1>
                     <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
                     <h3> NIGERIA CONFERENCE </h3>
 

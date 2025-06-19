@@ -4,11 +4,13 @@
     </NavBar>
     
     
-    <div class="bg-gray-50 px-24">
+    <div class="bg-gray-50 px-24 mt-24">
         <div class="overflow-x-auto">
     <h1 class="text-2xl font-bold text-center mb-2">NIGERIA ANNUAL CONFERENCE</h1>
     <h2 class="text-xl font-semibold text-center mb-4">LIST OF MINISTERS/DISTRICT & STATIONS</h2>
+
     <table class="min-w-full border border-gray-300 text-sm text-left text-gray-700">
+
       <thead class="bg-gray-100 text-xs uppercase">
         <tr>
           <th class="px-4 py-2 border">S/N</th>
@@ -17,8 +19,14 @@
           <th class="px-4 py-2 border">Churches & Address</th>
         </tr>
       </thead>
+
       <tbody class="bg-white divide-y divide-gray-200">
-        <tr><td>1</td><td>REV. DR. IFREKE EFFIONG EKPENYONG</td><td>BISHOP’S ADMINISTRATIVE ASSISTANT</td><td></td></tr>
+        <tr>
+            <td>1</td>
+            <td>REV. DR. IFREKE EFFIONG EKPENYONG</td>
+            <td>BISHOP’S ADMINISTRATIVE ASSISTANT</td>
+            <td></td>
+        </tr>
         <tr><td>2</td><td>REV. IDORENYIN ESSIEN EKOT</td><td>UYO</td><td>PRESIDING ELDER</td></tr>
         <tr><td>3</td><td>REV. UDUAK CHRISTOPHER AKPAN</td><td></td><td>METROPOLITAN A. M. E. ZION CHURCH, 7 ENO IDEM LANE, UYO</td></tr>
         <tr><td>4</td><td>REV. GODSPOWER ITUEN EKPEOWO</td><td></td><td>FULL GOSPEL A. M. E. ZION CHURCH, USE OFFOT</td></tr>
@@ -57,7 +65,16 @@
         <tr><td>37</td><td>REV. JOSHUA S. JOHNATHAN</td><td></td><td>ALL SAINTS A. M. E. ZION CHURCH, IKOT EKPENE</td></tr>
         <tr><td>38</td><td>REV. WILLIAM WILLIAM ESSIEN</td><td></td><td>COVENANT A. M. E. ZION CHURCH, STREAM ROAD, EDIENE, ABAK</td></tr>
         <tr><td>39</td><td>REV. EFFIONG TIMOTHY UDOSEN</td><td></td><td>PRESIDING ELDER</td></tr>
-        <tr><td colspan='4'><strong>SUPERNUMERARY MINISTERS</strong></td></tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>SUPERNUMERARY MINISTERS</strong></td>
+            <td></td>
+        </tr>
+
+        <!-- <tr><td colspan='4'></td></tr> -->
+
         <tr><td>40</td><td>REV. DR. EDET EFFIONG UDO</td><td></td><td></td></tr>
         <tr><td>41</td><td>REV. ANWAHA-ABASI DANIEL TOMMY</td><td></td><td></td></tr>
         <tr><td>42</td><td>REV. EMMANUEL ETIM EDEMUMOH</td><td></td><td></td></tr>
@@ -77,14 +94,21 @@
         <tr><td>56</td><td>PASTOR LAWRENCE EFFIONG ETIM</td><td></td><td></td></tr>
         <tr><td>57</td><td>PASTOR ESSIEN ESSIEN ESSIEN</td><td></td><td></td></tr>
         <tr><td>58</td><td>PASTOR JOHN JOHNSON ESSIEN</td><td></td><td></td></tr>
-        <tr><td colspan='4'><strong>SUPERANNUATED MINISTERS</strong></td></tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>SUPERANNUATED MINISTERS</strong></td>
+            <td></td>
+        </tr>
+        
         <tr><td>59</td><td>REV. ETIM ASUQUO AKPAN</td><td></td><td></td></tr>
         <tr><td>60</td><td>REV. (MRS.) ESTHER ASUQUO ESSIEN</td><td></td><td></td></tr>
         <tr><td>61</td><td>REV. FRANCIS ETIM SAM</td><td></td><td></td></tr>
         <tr><td>62</td><td>REV. GODWIN NYONG UDOSEN</td><td></td><td></td></tr>
         <tr><td>63</td><td>REV. FRIDAY ISAAC UMOH</td><td></td><td></td></tr>
-
       </tbody>
+
     </table>
   </div>
 </div>
