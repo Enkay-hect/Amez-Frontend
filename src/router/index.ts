@@ -128,6 +128,18 @@ const router = createRouter({
       component: () => import('../components/Conferences/NorthernNigeriaConference.vue'),
     },
 
+    {
+      path: '/PortHarcourt-Conference/Northern-Nigeria-Conference',
+      name: 'PortHarcourt-Nigeria-Conference',
+      component: () => import('../components/Conferences/PortHarcourtNigeriaConference.vue'),
+    },
+
+    {
+      path: '/SouthEastern-Conference/Northern-Nigeria-Conference',
+      name: 'SouthEastern-Nigeria-Conference',
+      component: () => import('../components/Conferences/SouthEasternNigeriaConference.vue'),
+    },
+
 
     ///ConnectionLayCouncil
   ],
