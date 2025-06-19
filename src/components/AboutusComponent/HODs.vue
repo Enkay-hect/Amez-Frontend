@@ -1,215 +1,181 @@
 <template>
     <div class="">
-        <div class="relative w-full h-auto flex" >
-        <!-- Main Content Area (Scrollable & Centered) -->
-        <div class=" sm:flex-1  p-8 lg:px-40 xl:px-56 justify-center  w-full mt-8" >
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 w-full text-center lg:px-44">
 
-        <div class="flex flex-row flex-wrap justify-around items-center w-full text-center">
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.WILLIAMS">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/missionary/missionarysupervisor.jpg" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="flex flex-col align-middle justify-center text-center">
+                <h1 class="font-bold">DEAC. PROMISE CHINWE EFFIONG</h1>
+                <h2>MISSIONARY SUPERVISOR</h2>
+                <!-- <h3>NIGERIA CONFERENCE</h3> -->
+            </div>
+        </div>
 
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="EFREKEE">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" class="w-full h-full object-contain" >
-                </div>
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.WILLIAMS">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="flex flex-col align-middle justify-center text-center">
+                <h1 class="font-bold">DEAC. UDUAK S. WILLIAMS</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>NIGERIA CONFERENCE</h3>
+            </div>
+        </div>
 
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. EFREKE E. EKPENYONG</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3> NIGERIA CONFERENCE </h3>
-
-                </div>
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.LOVELYN">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.LOVELYNNWADIKE.png" alt="" class="w-full h-full object-cover">
             </div>
 
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="SAMUEL_IBEMERE">
-              
+            <div class="flex flex-col align-middle justify-center text-center">
 
-              <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                  <img src="/images/BAA/REV.DR.SAMUELO.IBEMERE,SR.png" alt="" class="w-full h-full object-cover" >
-              </div>
+                <h1 class="font-bold">DEAC. LOVELYN NWADIKE</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>CENTRAL NIGERIA CONFERENCE 	 	</h3>
+            </div>
+        </div>
 
-                <div class="flex flex-col align-middle justify-center">
 
-                    <h1 class="font-bold">REV. DR. SAMUEL O. IBEMERE, SR</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>CENTRAL NIGERIA CONFERENCE 	 	 	</h3>
-
-                </div>
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC._MANDA">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC. MANDA JACK.png" alt="" class="w-full h-full object-cover">
             </div>
 
+            <div class="flex flex-col align-middle justify-center text-center">
 
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOROLU">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" class="w-full h-full object-contain" >
-                </div>
+                <h1 class="font-bold">DEAC. MANDA JACK</h1>
+                <h2>FIELD WORKER </h2>
+                <h3>RIVERS NIGERIA CONFERENCE 	</h3>
 
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. UMOR OLU</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>  RIVERS  NIGERIA CONFERENCE  </h3>
-
-                </div>
             </div>
+        </div>
 
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center " id="MichaelUdoh">
+
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.MFON_M.">
                 <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Rev.Dr.MichaelS.Udoh.jpg" alt="" class="w-full h-full object-cover" >
+                    <img src="/images/fieldworkers/DEAC.MFONM.UDOH.png" alt="" class="w-full h-full object-contain">
                 </div>
 
-                <div class="flex flex-col align-middle justify-center">
+                <div class="flex flex-col align-middle justify-center text-center">
 
-                    <h1 class="font-bold">REV. DR. MICHAEL S. UDOH</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>  LAGOS WEST NIGERIA CONFERENCE 	  </h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center " id="SAMUEL_ASUAMIOM">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.SAMUEL ASUAMIOM.png" alt="" class="w-full h-full object-cover" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. SAMUEL ASUAMIOM</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3> MAINLAND NIGERIA CONFERENCE 	 </h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="OZIOHA">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.BARR.OZIOHAV.EKEMAM.jpg" alt="" class="w-full h-full object-cover" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. BARR. OZIOHA V. EKEMAM</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>NORTHERN NIGERIA CONFERENCE</h3>
-
-                </div>
-            </div>
-
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center "  id="takis">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Dr-TAKIS.png" alt="" class="w-full h-full object-contain">
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. TAKIS E. CAIAFAS</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>CROSS RIVER NIGERIA CONFERENCE</h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="GODSON">
-               
-
-               <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                   <img src="/images/BAA/REV.DR.GODSONN.ELIJAH.png" alt="" class="w-full h-full object-cover" >
-               </div> 
-               
-               <div class="flex flex-col align-middle justify-center">
-
-                   <h1 class="font-bold">REV. DR. GODSON N. ELIJAH</h1>
-                   <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                   <h3>SOUTHEASTERN NIGERIA CONFERENCE 	 	</h3>
-
-               </div>
-           </div>
-
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="donald">
-                
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Dr-DONALD.png" alt="" class="w-full h-full object-contain" >
-                </div>
-                
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
-
-                </div>
-
-               
-            </div>
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOINYANG">
-                
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" class="w-full h-full object-contain" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. PROF. IMO E. UMOINYANG</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>AKWA NIGERIA CONFERENCE 	</h3>
-
+                    <h1 class="font-bold">DEAC. MFON M. UDOH</h1>
+                    <h2>FIELD WORKER</h2>
+                    <h3> LAGOS WEST NIGERIA CONFERENCE 	</h3>
+                    
                 </div>
             </div>
 
             
 
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="CLEMENT">
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.CLEMENT EGHUANOYE- GRAHAM.png" alt="" class="w-full h-full object-cover" >
-                </div>  
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. CLEMENT  EGHUANOYE- GRAHAM</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>PORT HARCOURT NIGERIA CONFERENCE 	</h3>
-
-                </div>
-                
+            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.EMEM">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg" alt="" class="w-full h-full object-contain">
             </div>
-               
 
+            <div class="flex flex-col align-middle justify-center text-center">
+
+                <h1 class="font-bold">DEAC. EMEM U. THOMPSON</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>MAINLAND NIGERIA CONFERENCE</h3>
+
+            </div>
         </div>
+
+
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="MRS.NSEE.AMOS">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/MRS.NSEE.AMOS.png" alt="" class="w-full h-full object-contain">
+            </div>
+
+            <div class="flex flex-col align-middle justify-center text-center">
+
+                <h1 class="font-bold">MRS. NSE E. AMOS</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>  NORTHERN NIGERIA CONFERENCE </h3>
+            </div>
         </div>
 
-            <!-- <aside
-                class="w-56 bg-gray-600 text-white hidden md:flex flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
-                :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
-                >
 
-                <nav class="flex flex-col gap-4 px-4 items-center justify-between h-[25rem]">
-                    <a href="#takis" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. Takis Caiafas</a> 
-                    <a href="#donald" class="hover:text-[#dec043]">Rev. Dr. Donald Ekpo</a> 
-                    <a href="#OZIOHA" class="hover:text-[#dec043]">Rev. Barr. Ozioha E.</a> 
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.UDUAK">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.UDUAK EKENG.png" alt="" class="w-full h-full object-contain">
+            </div>
 
-                    <a href="#CLEMENT" class="hover:text-[#dec043] cursor-pointer">Rev. Eghuanoye-Graham</a> 
-                    <a href="#EFREKEE" class="hover:text-[#dec043]">Rev. Dr. E. Ekpenyong</a> 
-                    <a href="#GODSON" class="hover:text-[#dec043]">Rev. Dr. Godson Elijah</a> 
+            <div class="flex flex-col align-middle justify-center text-center">
 
-                    <a href="#SAMUEL_ASUAMIOM" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. S. Asuamiom</a> 
-
-                    <a href="#SAMUEL_IBEMERE" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. S. O. Ibereme</a> 
-
-                    <a href="#UMOROLU" class="hover:text-[#dec043]">Rev. Dr. Umor Olu</a> 
-                    <a href="#UMOINYANG" class="hover:text-[#dec043]">Rev. Prof. I. E. Umoinyang</a> 
-                    <a href="#MichaelUdoh" class="hover:text-[#dec043]">Rev. Dr. Michael Udoh</a>
+                <h1 class="font-bold">DEAC. UDUAK  EKENG</h1>
+                <h2>FIELD WORKER</h2>
+                <h3>CROSS RIVER NIGERIA CONFERENCE </h3>
+            </div>
+        </div>
 
 
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC._CONFIDENCE">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.CONFIDENCE.png" alt="" class="w-full h-full object-cover">
+            </div>
 
-                    
-                </nav>
-        </aside> -->
-    </div>
+            <div class="flex flex-col align-middle justify-center text-center">
+
+                <h1 class="font-bold">DEAC. CONFIDENCE PATRICK</h1>
+                <h2>FIELD WORKER  </h2>
+                <h3>SOUTHERN EASTERN NIGERIA CONFERENCE </h3>
+
+
+            </div>
+        </div>
+
+
+        
+
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.ENO">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.ENO.png" alt="" class="w-full h-full object-contain">
+            </div>
+
+            <div class="flex flex-col align-middle justify-center text-center">
+
+                <h1 class="font-bold">DEAC. ENO I. UDOEKPE</h1>
+                <h2>FIELD WORKER </h2>
+                <h3>SOUTHERN NIGERIA CONFERENCE</h3>
+
+            </div>
+        </div>   
+        
+        
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="MRS.NSISONG">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/MRS.NSISONGM.AKPAN.png" alt="" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex flex-col align-middle justify-center text-center">
+
+                <h1 class="font-bold">MRS. NSISONG M. AKPAN</h1>
+            <h2>FIELD WORKER</h2>
+            <h3>AKWA NIGERIA CONFERENCE 	</h3>
+
+            </div>
+        </div>
+
+
+
+        <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="DEAC.INGONIMIE">
+            <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
+                <img src="/images/fieldworkers/DEAC.INGONIMIE.MORO.png" alt="" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex flex-col align-middle justify-center text-center">
+
+                <h1 class="font-bold">DEAC. INGONIMI E. MORO</h1>
+                <h2>FIELD ASSISTANT</h2>
+                <h3> PORT HARCOURT NIGERIA CONFERENCE </h3>
+
+            </div>
+        </div>   
+    </div>     
+
     </div>
 </template>
 
