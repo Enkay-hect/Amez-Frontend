@@ -9,7 +9,7 @@
             <h2 class="text-2xl font-semibold text-center mb-10">LIST OF MINISTERS/DISTRICT & STATIONS</h2>
     </div>
     
-    <div class="px-4 md:px-24 mt-24 font-serif">
+    <div class="pt-10 pb-10 px-4 md:px-24 mt-24 font-serif">
         <div class="overflow-x-auto">
             
 
