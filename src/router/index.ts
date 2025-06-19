@@ -129,18 +129,38 @@ const router = createRouter({
     },
 
     {
-      path: '/PortHarcourt-Conference/Northern-Nigeria-Conference',
+      path: '/Annual-Conference/PortHarcourt-Conference',
       name: 'PortHarcourt-Nigeria-Conference',
       component: () => import('../components/Conferences/PortHarcourtNigeriaConference.vue'),
     },
 
     {
-      path: '/SouthEastern-Conference/Northern-Nigeria-Conference',
+      path: '/Annual-Conference/SouthEastern-Conference',
       name: 'SouthEastern-Nigeria-Conference',
       component: () => import('../components/Conferences/SouthEasternNigeriaConference.vue'),
     },
 
+    {
+      path: '/Annual-Conference/CrossRiver-Conference',
+      name: 'CrossRiver-Nigeria-Conference',
+      component: () => import('../components/Conferences/CrossRiverNigeriaConference.vue'),
+    },
 
+
+    {
+      path: '/Annual-Conference/AkwaNigeria-Conference',
+      name: 'Akwa-Nigeria-Conference',
+      component: () => import('../components/Conferences/AkwaNigeriaConference.vue'),
+    },
+
+    {
+      path: '/Annual-Conference/LagosWestNigeria-Conference',
+      name: 'LagosWest-Nigeria-Conference',
+      component: () => import('../components/Conferences/LagosWestAnnualConference.vue'),
+    },
+
+
+    
     ///ConnectionLayCouncil
   ],
 })

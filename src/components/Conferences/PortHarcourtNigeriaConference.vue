@@ -70,10 +70,10 @@
                 </tr>
 
 
-                <tr><td class="border px-4 py-2">39</td><td class="border px-4 py-2">REV. DR. MRS. BONYE A. FINECOUNTRY</td><td class="border px-4 py-2">Superannuated</td><td class="border px-4 py-2"></td></tr>
-                <tr><td class="border px-4 py-2">40</td><td class="border px-4 py-2">REV. DR. AZUBUIKE A. AMADI</td><td class="border px-4 py-2">Superannuated</td><td class="border px-4 py-2"></td></tr>
-                <tr><td class="border px-4 py-2">41</td><td class="border px-4 py-2">REV. MRS. ROSE ERIC OGUECHUGBA</td><td class="border px-4 py-2">Superannuated</td><td class="border px-4 py-2"></td></tr>
-                <tr><td class="border px-4 py-2">42</td><td class="border px-4 py-2">REV. PETER EDHU</td><td class="border px-4 py-2">Superannuated</td><td class="border px-4 py-2"></td></tr>
+                <tr><td class="border px-4 py-2">39</td><td class="border px-4 py-2">REV. DR. MRS. BONYE A. FINECOUNTRY</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
+                <tr><td class="border px-4 py-2">40</td><td class="border px-4 py-2">REV. DR. AZUBUIKE A. AMADI</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
+                <tr><td class="border px-4 py-2">41</td><td class="border px-4 py-2">REV. MRS. ROSE ERIC OGUECHUGBA</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
+                <tr><td class="border px-4 py-2">42</td><td class="border px-4 py-2">REV. PETER EDHU</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
 
             </tbody>
 

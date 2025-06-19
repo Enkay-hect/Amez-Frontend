@@ -52,7 +52,7 @@
                         <td></td>
                     </tr>
 
-                    <tr><td class="border px-4 py-2">19</td><td class="border px-4 py-2">REV. SAMUEL N. DAVID</td><td class="border px-4 py-2">Superannuated</td><td class="border px-4 py-2">Retired BAA</td></tr>
+                    <tr><td class="border px-4 py-2">19</td><td class="border px-4 py-2">REV. SAMUEL N. DAVID</td><td class="border px-4 py-2"></td><td class="border px-4 py-2">Retired BAA</td></tr>
 
 
 
@@ -65,9 +65,9 @@
                         <td></td>
                     </tr>
 
-                    <tr><td class="border px-4 py-2">20</td><td class="border px-4 py-2">REV. DR. EBERE N. EBERE</td><td class="border px-4 py-2">Supernumerary</td><td class="border px-4 py-2"></td></tr>
-                    <tr><td class="border px-4 py-2">21</td><td class="border px-4 py-2">REV. SIMEON U. OKEREKE</td><td class="border px-4 py-2">Supernumerary</td><td class="border px-4 py-2"></td></tr>
-                    <tr><td class="border px-4 py-2">22</td><td class="border px-4 py-2">PASTOR EKEOMA FRANKLIN OGWO</td><td class="border px-4 py-2">Supernumerary</td><td class="border px-4 py-2"></td></tr>
+                    <tr><td class="border px-4 py-2">20</td><td class="border px-4 py-2">REV. DR. EBERE N. EBERE</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
+                    <tr><td class="border px-4 py-2">21</td><td class="border px-4 py-2">REV. SIMEON U. OKEREKE</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
+                    <tr><td class="border px-4 py-2">22</td><td class="border px-4 py-2">PASTOR EKEOMA FRANKLIN OGWO</td><td class="border px-4 py-2"></td><td class="border px-4 py-2"></td></tr>
 
 
                 </tbody>

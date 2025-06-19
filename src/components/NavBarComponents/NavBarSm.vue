@@ -132,12 +132,12 @@
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/Rivers-Nigeria-Conference">Rivers Nigeria Conference</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/Mainland-Nigeria-Conference">Mainland Nigeria Conference</router-link> </li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/Northern-Nigeria-Conference">Northern Nigeria Conference</router-link> </li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/PortHarcourt-Conference/Northern-Nigeria-Conference">Port Harcourt Nigeria <br> Conference</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">South Eastern Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Cross River Nigeria <br> Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="Annual-Conference/PortHarcourt-Conference">Port Harcourt Nigeria <br> Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/SouthEastern-Conference">South Eastern Nigeria <br> Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/CrossRiver-Conference">Cross River Nigeria <br> Conference</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-2 pb-2">Southern Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Akwa Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Lagos West Annual Conference</li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/AkwaNigeria-Conference">Akwa Nigeria Conference</router-link></li>
+                                    <li class="border-b-2 border-gray-400 pt-2 pb-2"><router-link to="/Annual-Conference/LagosWestNigeria-Conference">Lagos West Annual Conference</router-link></li>
                                 </ul>
                             </li>
                         </ul>
