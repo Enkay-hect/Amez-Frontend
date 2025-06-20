@@ -1,5 +1,5 @@
 <template class="">
-    <NavBar style="height: 10rem" >
+  <NavBar style="height: 10rem" >
  
   </NavBar>
 
