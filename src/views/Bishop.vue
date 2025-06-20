@@ -1,6 +1,6 @@
 <template>
     <NavBar style="height: 9.5rem">
-   
+
     </NavBar>
 
     <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-10 bg-black w-[100%]">
@@ -9,12 +9,12 @@
                 <!-- <h2 class="absolute text-4xl font-extrabold text-white">THE BISHOP</h2> -->
             </div>
         </div>
-  
+
     <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
       <!-- <div class="md:w-[50%]">
         <img src="../../public/images/clergy.jpg" alt="" srcset="">
       </div> -->
-  
+
       <div class="w-full text-justify">
         <img
             src="/images/bishop/bishop1.png"
@@ -62,10 +62,9 @@
         </p>
     </div>
     </div>
-  
+
   </template>
-  
+
   <script setup>
   import NavBar from '../components/NavBar.vue';
   </script>
-  

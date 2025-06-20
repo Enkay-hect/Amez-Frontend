@@ -1,6 +1,6 @@
 <template>
   <nav class="relative text-white w-full h-auto bg-black">
-    <div 
+    <div
         v-show="sideBarVisible"
         class="fixed h-[100vh] w-full bg-white text-black z-20 p-6 sidebar"
         :class="{ 'sidebar-open': sideBar }"
@@ -8,19 +8,19 @@
         aria-expanded="sideBar"
       >
       <div class="flex justify-between mb-10  w-[100%]">
-        <div>                
+        <div>
           <img src="/images/logo/amezlogo.png" alt="" srcset="" height="60" width="100">
         </div>
         <button @click="setSideBar(false)" aria-label="Close sidebar" class="w-16 flex justify-end item-center">
             <svg height="3rem" width="2rem" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier"> <g> 
-                    <line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="18.947" y1="17.153" x2="45.045" y2="43.056"></line> 
-                </g> 
-                <g> 
-                    <line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="19.045" y1="43.153" x2="44.947" y2="17.056"></line> 
-                </g> 
+                <g id="SVGRepo_iconCarrier"> <g>
+                    <line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="18.947" y1="17.153" x2="45.045" y2="43.056"></line>
+                </g>
+                <g>
+                    <line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="19.045" y1="43.153" x2="44.947" y2="17.056"></line>
+                </g>
                 <g> <circle fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle> </g> </g></svg>
         </button>
       </div>
@@ -29,21 +29,21 @@
         <router-link to="/" >
             Home
         </router-link>
-            
+
         <router-link to="/the-church">
             The Church
         </router-link>
 
-       
+
         <ul class="">
           <li class="relative flex gap-2  items-start cursor-pointer">
 
                         <div class="flex flex-row items-center ">
-                            
+
                             <h3 @click.stop.prevent="toggleDropdown1('leadership')">
                               Leadership
                             </h3>
-                            
+
                             <svg
                                 v-show="true"
                                 :style="{
@@ -72,7 +72,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
                             transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
@@ -141,15 +141,15 @@
                                 </ul>
                             </li>
                         </ul>
-          </li> 
+          </li>
         </ul>
 
         <ul>
           <li class="relative flex gap-2  items-start cursor-pointer">
                         <div class="flex flex-row items-center">
-                            
+
                             <h3 @click.stop.prevent="toggleDropdown1('Departments')">Departments and Ministries</h3>
-                            
+
                             <svg
                                 v-show="true"
                                 :style="{
@@ -179,7 +179,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
                             transition: 'opacity 0.3s ease-in-out, transform 1s ease-in-out',
@@ -190,7 +190,7 @@
 
                             <li class="border-b-2 border-gray-400 pb-3 "
                                 @click.stop.prevent="toggleDropdown1('child-dropdown2.1')">
-                                
+
                                 <div class="flex items-center">
                                     <h4>Women’s Home and <br> Overseas Missionary Society</h4>
                                     <svg
@@ -217,7 +217,7 @@
                                 <ul
                                     v-show="true"
                                     class="absolute left-[60%] top-0 bg-gray-100 p-4 w-max text-black shadow-md overflow-y-auto max-h-60"
-                                    
+
 
                                   :style="{
                                       opacity: activeDropdown === 'child-dropdown2.1' ? 1 : 0,
@@ -231,7 +231,7 @@
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/field-workers">Field workers</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/Departments"> Departments</router-link></li>
                                     <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="/About-Us">About Us</router-link></li>
-                                   
+
 
                                 </ul>
                             </li>
@@ -245,7 +245,7 @@
                             <!-- Child Dropdown Trigger -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @click.stop.prevent="toggleDropdown1('child-dropdown2.2')">
-                                
+
                                 <div class="flex items-center">
                                     <h4>Directorates</h4>
                                     <svg
@@ -303,12 +303,12 @@
 
                         <div class="flex flex-row items-center ">
                           <!-- <h3>@click.stop.prevent="toggleDropdown1('Events')"</h3> -->
-                            
-                            <h3 
+
+                            <h3
                             >
-                            <h3><router-link to="/hood-speaks">Schools & Seminary</router-link></h3>
+                           <router-link to="/hood-speaks">Schools & Seminary</router-link>
                             </h3>
-                            
+
                             <!-- <svg
                                 v-show="true"
                                 :style="{
@@ -337,7 +337,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown3' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
                             transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
@@ -355,9 +355,9 @@
                             <!-- Child Dropdown Trigger -->
                             <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @click.stop.prevent="toggleDropdown1('child-dropdown3')"
-                                
+
                                 >
-                                
+
 
                                 <div class="flex items-center">
                                     <h4>Annual Conferences</h4>
@@ -407,7 +407,7 @@
                                 </ul>
                             </li> -->
                         </ul>
-          </li> 
+          </li>
         </ul>
 
         <ul class="">
@@ -415,11 +415,11 @@
                       >
 
                         <div class="flex flex-row items-center ">
-                            
+
                             <h3 @click.stop.prevent="toggleDropdown1('Events')"
                             >
                             Events                            </h3>
-                            
+
                             <svg
                                 v-show="true"
                                 :style="{
@@ -448,7 +448,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'Events' || activeDropdown === 'child-dropdown3' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'Events' || activeDropdown === 'child-dropdown3' ? 'translateY(3rem)' : 'translateY(2.5rem)',
 
                             transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
@@ -461,13 +461,13 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Centennial Planning</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Upcoming events</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Gallery</li>
-                            
+
                             <!-- Child Dropdown Trigger -->
                             <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @click.stop.prevent="toggleDropdown1('child-dropdown3')"
-                                
+
                                 >
-                                
+
 
                                 <div class="flex items-center">
                                     <h4>Annual Conferences</h4>
@@ -517,7 +517,7 @@
                                 </ul>
                             </li> -->
                         </ul>
-          </li> 
+          </li>
         </ul>
 
         <li style="list-style: none;">
@@ -530,9 +530,9 @@
                 </button>
             </router-link>
 
-        
-        
-       
+
+
+
       </div>
     </div>
 
@@ -540,16 +540,16 @@
 
 
 
-    
+
     <div class="flex flex-row w-full h-20 justify-center items-center bg-black relative z-10">
       <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled"> 
+                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled">
                     <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
 
-                    </path> 
-                </g> 
+                    </path>
+                </g>
             </g>
         </svg>
       <h3 class="text-white font-semibold text-center text-xs">
@@ -560,7 +560,7 @@
     <div class="flex justify-between px-5 h-20 items-center  relative z-10"
       :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack  }">
 
-        <div>                
+        <div>
           <img src="/images/logo/amezlogo.png" alt="" srcset="" height="60" width="100">
         </div>
         <button @click="setSideBar(true)" aria-label="Open sidebar">
@@ -585,8 +585,8 @@
     import { nextTick } from 'vue';
     import { useRoute, onBeforeRouteLeave } from 'vue-router';
 
-    const sideBar = ref(false); 
-    const sideBarVisible = ref(false); 
+    const sideBar = ref(false);
+    const sideBarVisible = ref(false);
     const isFixed = ref(false);
     const bgBlack = ref(false);
 
@@ -595,14 +595,14 @@
 
     const activeDropdown = ref('');
 
-    
+
     const toggleDropdown1 = async (dropdown) => {
       isClicked.value = activeDropdown.value !== dropdown;
       activeDropdown.value = isClicked.value ? dropdown : '';
       await nextTick();
     };
 
-  
+
     const setDropdownActive = (dropdown) => {
       if (!isClicked.value) {
         activeDropdown.value = dropdown;
@@ -619,7 +619,7 @@
 
     const setSideBar = (toggleSideBar) => {
       sideBar.value = toggleSideBar;
-      
+
       if(toggleSideBar){
         document.body.style.overflow = 'hidden';
       }
@@ -633,12 +633,12 @@
         e.preventDefault();
       }
 
-    
+
 
     onMounted(() => {
         setTimeout(() => {
             sideBarVisible.value = true;
-        }, 0); 
+        }, 0);
     });
 
     const handleClickOutside = (event) => {
@@ -709,9 +709,9 @@
       width: 100%;
       /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       background-color: rgba(112, 105, 105, 0.089);  */
-      backdrop-filter: blur(5px); 
+      backdrop-filter: blur(5px);
       transition: 0.3s;
-      
+
     }
 
     .setNavBg{
