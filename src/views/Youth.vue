@@ -14,7 +14,7 @@
     <div class="relative px-8 md:px-24 lg:px-36 xl:px-48 gap-14 flex flex-row w-full text-justify h-auto mb-20">
 
     <!-- Faded Background Image -->
-    <div class="absolute inset-0 bg-[url('/images/connectionallay/LayCouncilLogo.png')] bg-contain bg-no-repeat bg-center opacity-15 z-0"></div>
+    <!-- <div class="absolute inset-0 bg-[url('/images/connectionallay/LayCouncilLogo.png')] bg-contain bg-no-repeat bg-center opacity-15 z-0"></div> -->
         
 
        <div class="flex flex-col md:flex-row  gap-16">
@@ -40,7 +40,7 @@
         </div>
 
 
-        <div class="md:w-[45%] lg:w-[45%] p-4 md:max-h-[60vh] md:overflow-y-auto z-50">
+        <div class="md:w-[45%] lg:w-[45%] p-4 md:max-h-[60vh] md:overflow-y-auto z-10">
 
             <div class="font-serif text-xl">
 

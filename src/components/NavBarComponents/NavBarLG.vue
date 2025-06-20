@@ -1,7 +1,7 @@
 <template>
     <nav class="relative text-white w-[100%] ">
 
-    <div class="flex flex-row w-full h-20 justify-center items-center  relative z-10 bg-black" >
+    <div class="flex flex-row w-full h-20 justify-center items-center  relative z-20 bg-black" >
         <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -17,7 +17,7 @@
         </h3>
         </div>
 
-        <div class="w-full grid md:grid-cols-7 px-20 h-20 items-center relative z-10 bg-black"
+        <div class="w-full grid md:grid-cols-7 px-20 h-20 items-center relative z-20 bg-black"
             :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack }"
             >
             <div class="col-span-1">
@@ -293,13 +293,13 @@
 
 
                     <li class="relative flex gap-2 justify-center h-20 items-center"
-                            @mouseenter="setDropdownActive('Seminary')"
-                            @mouseleave="setDropdownActive('')">
+                            
+                            >
                         <div class="flex items-center">
                             
-                            <h3>Schools & Seminary</h3>
+                            <h3><router-link to="/hood-speaks">Schools & Seminary</router-link></h3>
                             
-                            <svg
+                            <!-- <svg
                                 v-show="true"
                                 :style="{
                                     opacity: activeDropdown === 'Seminary' ? 1 : 1,
@@ -317,7 +317,7 @@
                                     d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
                                     fill="#FFFFFF"
                                 />
-                            </svg>
+                            </svg> -->
                         </div>
 
                         <!-- Parent Dropdown -->

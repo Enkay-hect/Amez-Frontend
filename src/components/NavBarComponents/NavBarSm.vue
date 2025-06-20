@@ -302,13 +302,14 @@
                       >
 
                         <div class="flex flex-row items-center ">
+                          <!-- <h3>@click.stop.prevent="toggleDropdown1('Events')"</h3> -->
                             
-                            <h3 @click.stop.prevent="toggleDropdown1('Events')"
+                            <h3 
                             >
-                            Schools & Seminary
+                            <h3><router-link to="/hood-speaks">Schools & Seminary</router-link></h3>
                             </h3>
                             
-                            <svg
+                            <!-- <svg
                                 v-show="true"
                                 :style="{
                                     opacity: activeDropdown === 'Seminary' ? 1 : 1,
@@ -326,7 +327,7 @@
                                     d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
                                     fill="#000000"
                                 />
-                            </svg>
+                            </svg> -->
                         </div>
 
                         <!-- Parent Dropdown -->
