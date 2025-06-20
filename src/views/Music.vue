@@ -21,10 +21,16 @@
 
         <div class="md:w-[100%] text-justify flex flex-col items-center">
 
-          <div class="w-[300px] h-[300px] overflow-hidden rounded-full ">
-                <img src="/images/music/rev_michael_effiong.jpeg" alt="Logo" class="max-h-[150px] lg:max-h-[400px] object-contain">
+          <div class="w-[250px] h-[250px] overflow-hidden rounded-full ">
+                <img src="/images/music/rev_michael_effiong.jpeg" alt="Logo" class="w-full h-full object-contain">
             </div>
             <br><br>
+
+
+          <!-- <div class="w-[300px] h-[300px] overflow-hidden rounded-full ">
+                <img src="/images/music/rev_michael_effiong.jpeg" alt="Logo" class="max-h-[150px] lg:max-h-[400px] object-contain">
+            </div>
+            <br><br> -->
 
             <div class="flex flex-col text-center align-center justify-center w-[60%]">
                 <h1 class="font-bold text-3xl">REV. MICHAEL EFFIONG</h1>

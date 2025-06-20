@@ -34,13 +34,17 @@
             <br> <br> <br>
             
 
-            <h1 class="font-serif text-3xl font-extrabold">Vision</h1>
+            <!-- <h1 class="font-serif text-3xl font-extrabold">Vision</h1> -->
             <br> <br> <br>
+
+        </div>
+
+
+        <div class="md:w-[45%] lg:w-[45%] p-4 md:max-h-[60vh] md:overflow-y-auto z-50">
 
             <div class="font-serif text-xl">
 
-
-                <span class="font-bold">Vision Statement</span> <br><br>
+                <span class="font-bold">VISION STATEMENT</span> <br><br>
 
 
                 Cultivating a dynamic and vibrant youth ministry that empowers young people within the African Methodist Episcopal Zion Church to thrive spiritually, socially, and economically.
@@ -81,17 +85,15 @@
 
                             
                             
-            </div>
-
-        </div>
-
-
-        <div class="md:w-[45%] lg:w-[45%]  z-2">
+                </div>
             
             <!-- <div class="relative justify-center items-center w-full max-w-screen-lg z-1 ">
                 <img src="/images/logo1.jpeg" alt="Logo" class="w-full  max-h-[300px] lg:max-h-[600px] object-contain">
             </div>
             <br> <br> <br> -->
+
+            <br><br><br>
+
             <h1 class="font-serif text-3xl font-extrabold">Our Commitments  </h1>
             <br> <br> <br>
 
