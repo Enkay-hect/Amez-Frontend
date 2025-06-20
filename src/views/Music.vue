@@ -19,25 +19,19 @@
       
    
 
-        <div class="md:w-[100%] text-justify">
+        <div class="md:w-[100%] text-justify flex flex-col items-center">
 
           <div class="w-[300px] h-[300px] overflow-hidden rounded-full ">
                 <img src="/images/music/rev_michael_effiong.jpeg" alt="Logo" class="max-h-[150px] lg:max-h-[400px] object-contain">
             </div>
             <br><br>
 
-            <div class="flex flex-col text-start align-start justify-start w-[60%]">
+            <div class="flex flex-col text-center align-center justify-center w-[60%]">
                 <h1 class="font-bold text-3xl">REV. MICHAEL EFFIONG</h1>
                 <h2 class="text-2xl"> <i>Episcopal Director of Music</i> </h2>
             </div>
 
-            <br> <br> <br>
-            
-      
-          <span class="text-5xl font-extrabold text-[#dec043] ">MISSION</span>
-          <br> <br>
-          To create a vibrant music ministry that inspires spiritual growth, empowers voices, and glorifies God, while embracing the rich cultural heritage and diversity of the African Methodist Episcopal Zion Church."
-          </div>
+        </div>
 
 
         
@@ -47,7 +41,15 @@
 
 
     <!-- <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-col-reverse lg:flex-row flex-wrap md:flex-nowrap items-center"> -->
+     <div>
+      <span class="text-5xl font-extrabold text-[#dec043] ">MISSION</span>
+          <br> <br>
+            <p>
+              To create a vibrant music ministry that inspires spiritual growth, empowers voices, and glorifies God, while embracing the rich cultural heritage and diversity of the African Methodist Episcopal Zion Church."
 
+            </p>
+
+            <br><br><br>
       <p class="md:w-[100%]  text-justify">
           <span class="text-5xl font-extrabold text-[#dec043] ">VISION</span>
           <br> <br>
@@ -59,6 +61,7 @@
             - Develops future generations: By mentoring and training young musicians and leaders. <br>
             - Preserves traditions: By keeping alive the musical heritage of the African Methodist Episcopal Zion Church. <br>
       </p>
+     </div>
 
       <!-- <div class="w-[80%] sm:w-[60%] lg:w-[35%] flex flex-row sm:justify-end align-middle items-center">
         <img
