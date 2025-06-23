@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishop's Administrative Assistants</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #111211;
+            --secondary: #d4af37;
+            --accent: #8b0000;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --gray: #6c757d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f5f7f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .seminary-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+                
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+            
+        .card-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .section-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-family: 'Merriweather', serif;
+        }        
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        
+        .leader-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        .leader-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 3px solid var(--secondary);
+        }
+        
+        .leader-card h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .leader-position {
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="seminary-container">
+           
+            <!-- Bishop's Administrative Tab -->
+            <div >
+                <div class="card">
+                    <div class="card-header">Bishop's Administrative Assistants</div>
+                    <div class="card-body">
+                                                
+                        <h2 class="section-title" style="margin-top: 30px;"></h2>
+                        <div class="leadership-grid">
+                            <div class="leader-card">
+                                <img src="drifreke.png" alt="Rev. Dr. Ifreke E. Ekpenyong" class="leader-image">
+                                <h3>Rev. Dr. Ifreke E. Ekpenyong</h3>
+                                <div class="leader-position">Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="dribemere.png" alt="Rev. Dr. Samuel O. Ibemere, SR" class="leader-image">
+                                <h3>Rev. Dr. Samuel O. Ibemere, SR</h3>
+                                <div class="leader-position">Central Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="drumorlu.png" alt="Rev. Dr. Umor Olu" class="leader-image">
+                                <h3>Rev. Dr. Umor Olu</h3>
+                                <div class="leader-position">Rivers Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="drmike.jpeg" alt="Rev. Dr. Michael S. Udoh" class="leader-image">
+                                <h3>Rev. Dr. Michael S. Udoh</h3>
+                                <div class="leader-position">Lagos West Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="drasuamiom.png" alt="Rev. Dr. Samuel Asuamiom" class="leader-image">
+                                <h3>Rev. Dr. Samuel Asuamiom</h3>
+                                <div class="leader-position">Mainland Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="barrekemam.jpg" alt="Rev. Barr. Ozioha V. Ekemam" class="leader-image">
+                                <h3>Rev. Barr. Ozioha V. Ekemam</h3>
+                                <div class="leader-position">Northern Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="Drcaifas.png" alt="Rev. Dr. Takis E. Caiafas" class="leader-image">
+                                <h3>Rev. Dr. Takis E. Caiafas</h3>
+                                <div class="leader-position">Cross River Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="drndubisi.png" alt="Rev. Dr. Godson N. Elijah" class="leader-image">
+                                <h3>Rev. Dr. Godson N. Elijah</h3>
+                                <div class="leader-position">Southeastern Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="Drekpo.png" alt="Rev. Dr. Donald J. Ekpo" class="leader-image">
+                                <h3>Rev. Dr. Donald J. Ekpo</h3>
+                                <div class="leader-position">Southern Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="profumoinyang.png" alt="Rev.Prof. Imo E. Umoinyang" class="leader-image">
+                                <h3>Rev.Prof. Imo E. Umoinyang</h3>
+                                <div class="leader-position">Akwa Nigeria Conference</div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="drclement.png" alt="Rev. Clement Eghuanoye-Graham" class="leader-image">
+                                <h3>Rev. Clement Eghuanoye-Graham</h3>
+                                <div class="leader-position">Port Harcourt Nigeria Conference</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</body>
+</html>

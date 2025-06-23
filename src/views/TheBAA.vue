@@ -1,242 +1,170 @@
 <template>
     <NavBar style="height: 10.5rem" class="bg-black">
 
-        
+
     </NavBar>
 
-    <div class="relative w-full h-auto flex" >
-        <!-- Main Content Area (Scrollable & Centered) -->
-        <div class=" sm:flex-1  p-8 lg:px-40 xl:px-56 justify-center  w-full mt-8" >
+    <div class="seminary-container">
 
-        <div class="flex flex-row flex-wrap justify-around items-center w-full text-center">
+           <!-- Bishop's Administrative Tab -->
+           <div >
+               <div class="card">
+                   <div class="card-header">Bishop's Administrative Assistants</div>
+                   <div class="card-body">
 
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="EFREKEE">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.EFREKEE.EKPENYONG.png" alt="" class="w-full h-full object-contain" >
-                </div>
+                       <h2 class="section-title" style="margin-top: 30px;"></h2>
+                       <div class="leadership-grid">
+                           <div class="leader-card">
+                               <img src="/images/BAAs/drifreke.png" alt="Rev. Dr. Ifreke E. Ekpenyong" class="leader-image">
+                               <h3>Rev. Dr. Ifreke E. Ekpenyong</h3>
+                               <div class="leader-position">Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/dribemere.png" alt="Rev. Dr. Samuel O. Ibemere, SR" class="leader-image">
+                               <h3>Rev. Dr. Samuel O. Ibemere, SR</h3>
+                               <div class="leader-position">Central Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/drumorlu.png" alt="Rev. Dr. Umor Olu" class="leader-image">
+                               <h3>Rev. Dr. Umor Olu</h3>
+                               <div class="leader-position">Rivers Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/drmike.jpeg" alt="Rev. Dr. Michael S. Udoh" class="leader-image">
+                               <h3>Rev. Dr. Michael S. Udoh</h3>
+                               <div class="leader-position">Lagos West Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/drasuamiom.png" alt="Rev. Dr. Samuel Asuamiom" class="leader-image">
+                               <h3>Rev. Dr. Samuel Asuamiom</h3>
+                               <div class="leader-position">Mainland Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/barrekemam.jpg" alt="Rev. Barr. Ozioha V. Ekemam" class="leader-image">
+                               <h3>Rev. Barr. Ozioha V. Ekemam</h3>
+                               <div class="leader-position">Northern Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/Drcaifas.png" alt="Rev. Dr. Takis E. Caiafas" class="leader-image">
+                               <h3>Rev. Dr. Takis E. Caiafas</h3>
+                               <div class="leader-position">Cross River Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/drndubisi.png" alt="Rev. Dr. Godson N. Elijah" class="leader-image">
+                               <h3>Rev. Dr. Godson N. Elijah</h3>
+                               <div class="leader-position">Southeastern Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/Drekpo.png" alt="Rev. Dr. Donald J. Ekpo" class="leader-image">
+                               <h3>Rev. Dr. Donald J. Ekpo</h3>
+                               <div class="leader-position">Southern Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/profumoinyang.png" alt="Rev.Prof. Imo E. Umoinyang" class="leader-image">
+                               <h3>Rev.Prof. Imo E. Umoinyang</h3>
+                               <div class="leader-position">Akwa Nigeria Conference</div>
+                           </div>
+                           <div class="leader-card">
+                               <img src="/images/BAAs/drclement.png" alt="Rev. Clement Eghuanoye-Graham" class="leader-image">
+                               <h3>Rev. Clement Eghuanoye-Graham</h3>
+                               <div class="leader-position">Port Harcourt Nigeria Conference</div>
+                           </div>
 
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. IFREKE E. EKPENYONG</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3> NIGERIA CONFERENCE </h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="SAMUEL_IBEMERE">
-              
-
-              <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                  <img src="/images/BAA/REV.DR.SAMUELO.IBEMERE,SR.png" alt="" class="w-full h-full object-cover" >
-              </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. SAMUEL O. IBEMERE, SR</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>CENTRAL NIGERIA CONFERENCE 	 	 	</h3>
-
-                </div>
-            </div>
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOROLU">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.UMOROLU.png" alt="" class="w-full h-full object-contain" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. UMOR OLU</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>  RIVERS  NIGERIA CONFERENCE  </h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center " id="MichaelUdoh">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Rev.Dr.MichaelS.Udoh.jpg" alt="" class="w-full h-full object-cover" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. MICHAEL S. UDOH</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>  LAGOS WEST NIGERIA CONFERENCE 	  </h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center " id="SAMUEL_ASUAMIOM">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.DR.SAMUEL ASUAMIOM.png" alt="" class="w-full h-full object-cover" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. SAMUEL ASUAMIOM</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3> MAINLAND NIGERIA CONFERENCE 	 </h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="OZIOHA">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.BARR.OZIOHAV.EKEMAM.jpg" alt="" class="w-full h-full object-cover" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. BARR. OZIOHA V. EKEMAM</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>NORTHERN NIGERIA CONFERENCE</h3>
-
-                </div>
-            </div>
-
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center "  id="takis">
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Dr-TAKIS.png" alt="" class="w-full h-full object-contain">
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. TAKIS E. CAIAFAS</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>CROSS RIVER NIGERIA CONFERENCE</h3>
-
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="GODSON">
-               
-
-               <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                   <img src="/images/BAA/REV.DR.GODSONN.ELIJAH.png" alt="" class="w-full h-full object-cover" >
-               </div> 
-               
-               <div class="flex flex-col align-middle justify-center">
-
-                   <h1 class="font-bold">REV. DR. GODSON N. ELIJAH</h1>
-                   <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                   <h3>SOUTHEASTERN NIGERIA CONFERENCE 	 	</h3>
-
+                       </div>
+                   </div>
                </div>
            </div>
-
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="donald">
-                
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/Dr-DONALD.png" alt="" class="w-full h-full object-contain" >
-                </div>
-                
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. DR. DONALD J. EKPO</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>SOUTHERN NIGERIA CONFERENCE</h3>
-
-                </div>
-
-               
-            </div>
-
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="UMOINYANG">
-                
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.PROF.IMOE.UMOINYANG.png" alt="" class="w-full h-full object-contain" >
-                </div>
-
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. PROF. IMO E. UMOINYANG</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>AKWA NIGERIA CONFERENCE 	</h3>
-
-                </div>
-            </div>
-
-            
-
-            <div class="flex flex-col gap-12 pb-8 justify-center items-center" id="CLEMENT">
-
-                <div class="w-[250px] h-[250px] overflow-hidden rounded-full">
-                    <img src="/images/BAA/REV.CLEMENT EGHUANOYE- GRAHAM.png" alt="" class="w-full h-full object-cover" >
-                </div>  
-                <div class="flex flex-col align-middle justify-center">
-
-                    <h1 class="font-bold">REV. CLEMENT  EGHUANOYE- GRAHAM</h1>
-                    <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>PORT HARCOURT NIGERIA CONFERENCE 	</h3>
-
-                </div>
-                
-            </div>
-               
-
-        </div>
-        </div>
-
-            <!-- <aside
-                class="w-56 bg-gray-600 text-white hidden md:flex flex-col  py-6 shadow-lg transition-all duration-300 z-0 overflow-y-auto"
-                :class="isFixed ? 'fixed top-0 right-0 h-screen' : 'absolute top-0 right-0 h-full'"
-                >
-
-                <nav class="flex flex-col gap-4 px-4 items-center justify-between h-[25rem]">
-                    <a href="#takis" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. Takis Caiafas</a> 
-                    <a href="#donald" class="hover:text-[#dec043]">Rev. Dr. Donald Ekpo</a> 
-                    <a href="#OZIOHA" class="hover:text-[#dec043]">Rev. Barr. Ozioha E.</a> 
-
-                    <a href="#CLEMENT" class="hover:text-[#dec043] cursor-pointer">Rev. Eghuanoye-Graham</a> 
-                    <a href="#EFREKEE" class="hover:text-[#dec043]">Rev. Dr. E. Ekpenyong</a> 
-                    <a href="#GODSON" class="hover:text-[#dec043]">Rev. Dr. Godson Elijah</a> 
-
-                    <a href="#SAMUEL_ASUAMIOM" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. S. Asuamiom</a> 
-
-                    <a href="#SAMUEL_IBEMERE" class="hover:text-[#dec043] cursor-pointer">Rev. Dr. S. O. Ibereme</a> 
-
-                    <a href="#UMOROLU" class="hover:text-[#dec043]">Rev. Dr. Umor Olu</a> 
-                    <a href="#UMOINYANG" class="hover:text-[#dec043]">Rev. Prof. I. E. Umoinyang</a> 
-                    <a href="#MichaelUdoh" class="hover:text-[#dec043]">Rev. Dr. Michael Udoh</a>
-
-
-
-                    
-                </nav>
-        </aside> -->
-    </div>
+       </div>
 
   </template>
 
 <script setup>
-import NavBar from '../components/NavBar.vue';
+    import NavBar from '../components/NavBar.vue';
 
-import { ref, onMounted, onUnmounted } from 'vue';
+    import { ref, onMounted, onUnmounted } from 'vue';
 
-const isFixed = ref(false);
+    const isFixed = ref(false);
 
-const handleScroll = () => {
-  isFixed.value = window.scrollY > 100;
-};
+    const handleScroll = () => {
+      isFixed.value = window.scrollY > 100;
+    };
 
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
-});
+    onMounted(() => {
+      window.addEventListener('scroll', handleScroll);
+    });
 
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll);
-});
+    onUnmounted(() => {
+      window.removeEventListener('scroll', handleScroll);
+    });
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+.seminary-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .section-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-family: 'Merriweather', serif;
+        }
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .leader-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .leader-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 3px solid var(--secondary);
+        }
+
+        .leader-card h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .leader-position {
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
 
 </style>
