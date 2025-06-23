@@ -78,23 +78,29 @@
                               </div>
                               </router-link>
 
+                             <router-link to="">
                               <div class="leader-card">
                                   <img src="/images/BAAs/Drekpo.png" alt="Rev. Dr. Donald J. Ekpo" class="leader-image">
                                   <h3>Rev. Dr. Donald J. Ekpo</h3>
                                   <div class="leader-position">Southern Nigeria Conference</div>
                               </div>
+                             </router-link>
 
+                             <router-link to="/Annual-Conference/AkwaNigeria-Conference">
                               <div class="leader-card">
                                   <img src="/images/BAAs/profumoinyang.png" alt="Rev.Prof. Imo E. Umoinyang" class="leader-image">
                                   <h3>Rev.Prof. Imo E. Umoinyang</h3>
                                   <div class="leader-position">Akwa Nigeria Conference</div>
                               </div>
+                             </router-link>
 
+                             <router-link to="/Annual-Conference/PortHarcourt-Conference">
                               <div class="leader-card">
                                   <img src="/images/BAAs/drclement.png" alt="Rev. Clement Eghuanoye-Graham" class="leader-image">
                                   <h3>Rev. Clement Eghuanoye-Graham</h3>
                                   <div class="leader-position">Port Harcourt Nigeria Conference</div>
                               </div>
+                             </router-link>
 
                           </div>
                    </div>
