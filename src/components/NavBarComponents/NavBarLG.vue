@@ -5,11 +5,11 @@
         <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled"> 
+                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled">
                     <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
 
-                    </path> 
-                </g> 
+                    </path>
+                </g>
             </g>
         </svg>
         <h3 class="text-white font-semibold text-center ">
@@ -28,7 +28,7 @@
                     <router-link to="/" >
                         Home
                     </router-link>
-                        
+
                     <router-link to="/the-church">
                         The Church
                     </router-link>
@@ -37,9 +37,9 @@
                             @mouseenter="setDropdownActive('leadership')"
                             @mouseleave="setDropdownActive('')">
                         <div class="flex items-center">
-                            
+
                             <h3>Leadership</h3>
-                            
+
                             <svg
                                 v-show="true"
                                 :style="{
@@ -68,7 +68,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'leadership' || activeDropdown === 'child-dropdown' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
@@ -85,7 +85,7 @@
                                 @mouseenter="setDropdownActive('child-dropdown')"
                                 @mouseleave="setDropdownActive('leadership')"
                                 >
-                                
+
 
                                 <div class="flex items-center">
                                     <h4>Annual Conferences</h4>
@@ -111,7 +111,7 @@
 
                             <!-- Child Dropdown -->
                                 <ul
-                                    v-show="true" 
+                                    v-show="true"
                                     class="absolute left-full top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md max-h-80 overflow-y-auto rounded-b-sm scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100"
                                     :style="{
                                     opacity: activeDropdown === 'child-dropdown' ? 1 : 0,
@@ -134,18 +134,18 @@
                                 </ul>
                             </li>
                         </ul>
-                    </li> 
+                    </li>
 
-                    
 
-            
+
+
                     <li class="relative flex gap-2 justify-center h-20 items-center"
                             @mouseenter="setDropdownActive('Departments')"
                             @mouseleave="setDropdownActive('')">
                         <div class="flex items-center">
-                            
+
                             <h3>Departments and Ministries</h3>
-                            
+
                             <svg
                                 v-show="true"
                                 :style="{
@@ -175,7 +175,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'Departments' || activeDropdown === 'child-dropdown2.1' || activeDropdown === 'child-dropdown2.2' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
@@ -187,7 +187,7 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @mouseenter="setDropdownActive('child-dropdown2.1')"
                                 @mouseleave="setDropdownActive('Departments')">
-                                
+
                                 <div class="flex items-center">
                                     <h4>Women’s Home and Overseas <br> Missionary Society</h4>
                                     <svg
@@ -233,7 +233,8 @@
 
 
                             <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="connectional-lay-council">Connectional Lay Council</router-link></li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Men of Zion Ministry</li>
+                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li> -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Minister’s Spouses Fellowship</li>
 
 
@@ -241,7 +242,7 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
                                 @mouseenter="setDropdownActive('child-dropdown2.2')"
                                 @mouseleave="setDropdownActive('Departments')">
-                                
+
                                 <div class="flex items-center">
                                     <h4>Directorates</h4>
                                     <svg
@@ -293,12 +294,12 @@
 
 
                     <li class="relative flex gap-2 justify-center h-20 items-center"
-                            
+
                             >
                         <div class="flex items-center">
-                            
+
                             <h3><router-link to="/hood-speaks">Schools & Seminary</router-link></h3>
-                            
+
                             <!-- <svg
                                 v-show="true"
                                 :style="{
@@ -327,7 +328,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown4' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'Seminary' || activeDropdown === 'child-dropdown4' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
@@ -343,7 +344,7 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Admission and Funding</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Academic Calender and press release</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Students services</li>
- 
+
 
 
                         </ul>
@@ -356,11 +357,11 @@
                             @mouseenter="setDropdownActive('Events')"
                             @mouseleave="setDropdownActive('')">
                         <div class="flex items-center">
-                            
-                            <h3>                                
+
+                            <h3>
                                 Events
                             </h3>
-                            
+
                             <svg
                                 v-show="true"
                                 :style="{
@@ -389,7 +390,7 @@
 
                             :style="{
                             opacity: activeDropdown === 'Events' || activeDropdown === 'child-dropdown3' ? 1 : 0,
-                            
+
                             transform: activeDropdown === 'Events' || activeDropdown === 'child-dropdown3' ? 'translateY(3.6rem)' : 'translateY(2rem)',
 
                             transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
@@ -406,7 +407,7 @@
 
 
                         </ul>
-                    </li> 
+                    </li>
 
 
                     <li>
@@ -418,16 +419,16 @@
                         <!-- <svg viewBox="0 0 24 24" fill="none" height="2rem" width="2.5rem" xmlns="http://www.w3.org/2000/svg" stroke="#ffff">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier"> 
+                        <g id="SVGRepo_iconCarrier">
                         <path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 
-                        </path> 
+                        </path>
                         </g>
                     </svg> -->
                     </div>
                 </div>
 
-              
+
             </ul>
             <router-link to="/Donate">
                 <button class="border-2 px-3 py-2 rounded-md w-[60%] ml-6" style="border: 1px solid #dec043;">
@@ -481,8 +482,8 @@ onUnmounted(() => {
   left: 0;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
   /* background-color: rgba(112, 105, 105, 0.089);  */
-  backdrop-filter: blur(5px); 
-  transition: 0.3s; 
+  backdrop-filter: blur(5px);
+  transition: 0.3s;
 }
 
 .setNavBg{

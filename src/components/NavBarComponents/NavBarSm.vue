@@ -238,7 +238,8 @@
 
 
                             <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="connectional-lay-council">Connectional Lay Council</router-link> </li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li>
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Men of Zion Ministry</li>
+                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li> -->
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Minister’s Spouses Fellowship</li>
 
 
