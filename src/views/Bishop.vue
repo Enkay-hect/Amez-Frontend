@@ -3,7 +3,8 @@
 
     </NavBar>
 
-    <div class="container p-[20px] flex flex-col justify-center items-center min-[100vh]">
+    <div class="p-[20px] flex justify-center items-center min-[100vh]" >
+      <div class="container">
             <header>
                 <div class="profile-img">
                 </div>
@@ -169,7 +170,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
+    </div>
+
+
 
   </template>
 
