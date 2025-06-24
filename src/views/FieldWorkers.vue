@@ -116,7 +116,7 @@ onUnmounted(() => {
         }
 
         .card-header {
-            background-color: var(--primary);
+            background-color: var(--dark);
             color: white;
             padding: 15px 20px;
             font-size: 1.4rem;
@@ -128,7 +128,7 @@ onUnmounted(() => {
         }
 
         .section-title {
-            color: var(--primary);
+            color: var(--dark);
             border-bottom: 2px solid var(--secondary);
             padding-bottom: 10px;
             margin-bottom: 20px;
@@ -158,7 +158,7 @@ onUnmounted(() => {
         }
 
         .leader-card h3 {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 5px;
         }
 

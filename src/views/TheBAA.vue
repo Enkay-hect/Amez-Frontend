@@ -100,7 +100,7 @@
                                   <h3>Rev. Clement Eghuanoye-Graham</h3>
                                   <div class="leader-position">Port Harcourt Nigeria Conference</div>
                               </div>
-                              
+
                              </router-link>
 
                           </div>
@@ -148,7 +148,7 @@
         }
 
         .card-header {
-            background-color: var(--primary);
+            background-color: var(--dark);
             color: white;
             padding: 15px 20px;
             font-size: 1.4rem;
@@ -160,7 +160,7 @@
         }
 
         .section-title {
-            color: var(--primary);
+            color: var(--dark);
             border-bottom: 2px solid var(--secondary);
             padding-bottom: 10px;
             margin-bottom: 20px;
@@ -190,7 +190,7 @@
         }
 
         .leader-card h3 {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 5px;
         }
 

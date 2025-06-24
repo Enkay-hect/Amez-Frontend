@@ -472,7 +472,7 @@ const academicCalendar = [
       }
 
       .card-header {
-          background-color: var(--primary);
+          background-color: var(--dark);
           color: white;
           padding: 15px 20px;
           font-size: 1.4rem;
@@ -484,7 +484,7 @@ const academicCalendar = [
       }
 
       .section-title {
-          color: var(--primary);
+          color: var(--dark);
           border-bottom: 2px solid var(--secondary);
           padding-bottom: 10px;
           margin-bottom: 20px;
@@ -511,7 +511,7 @@ const academicCalendar = [
       }
 
       .philosophy-item h3 {
-          color: var(--primary);
+          color: var(--dark);
           margin-bottom: 10px;
       }
 
@@ -523,7 +523,7 @@ const academicCalendar = [
       }
 
       .value-badge {
-          background-color: var(--primary);
+          background-color: var(--dark);
           color: white;
           padding: 5px 15px;
           border-radius: 20px;
@@ -591,7 +591,7 @@ const academicCalendar = [
       }
 
       .leader-card h3 {
-          color: var(--primary);
+          color: var(--dark);
           margin-bottom: 5px;
       }
 
@@ -615,7 +615,7 @@ const academicCalendar = [
       }
 
       .programme-card h3 {
-          color: var(--primary);
+          color: var(--dark);
           margin-bottom: 15px;
           padding-bottom: 10px;
           border-bottom: 1px solid #eee;
@@ -645,7 +645,7 @@ const academicCalendar = [
       }
 
       .calendar-table th {
-          background-color: var(--primary);
+          background-color: var(--dark);
           color: white;
       }
 
@@ -674,7 +674,7 @@ const academicCalendar = [
 
       .service-icon {
           font-size: 2rem;
-          color: var(--primary);
+          color: var(--dark);
           margin-bottom: 15px;
       }
 
@@ -716,9 +716,9 @@ const academicCalendar = [
       }
 
       .tab-button.active, .tab-button:hover {
-          background-color: var(--primary);
+          background-color: var(--dark);
           color: white;
-          border-color: var(--primary);
+          border-color: var(--dark);
       }
 
       @media (max-width: 768px) {
