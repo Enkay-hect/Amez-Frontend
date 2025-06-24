@@ -209,7 +209,7 @@
             object-fit: cover;
             margin: 0 auto 20px;
             background: linear-gradient(45deg, black, black);
-            background-image: url(images/MissionarySupervisor/missionarysupervisor.jpg);
+            background-image: url(/images/TheBishop/bishop-effiong.jpg);
             background-size: contain;
             display: flex;
             align-items: center;
