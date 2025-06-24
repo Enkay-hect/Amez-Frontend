@@ -3,68 +3,523 @@
 
     </NavBar>
 
-    <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-10 bg-black w-[100%]">
-            <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
-                <img src="/images/logo1.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-contain">
-                <!-- <h2 class="absolute text-4xl font-extrabold text-white">THE BISHOP</h2> -->
+    <div class="container p-[20px] flex flex-col justify-center items-center min-[100vh]">
+            <header>
+                <div class="profile-img">
+                </div>
+                <h2>Bishop Uduak U. Effiong</h2>
+                <h2>Eastern West Africa Episcopal District</h2>
+                <div class="badge">
+                    <i class="fas fa-church"></i> African Methodist Episcopal Zion Church
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="main-content">
+                    <div class="card">
+                        <h3>Biography</h3>
+                        <p>Bishop Uduak Usen Effiong was born on <span class="highlight">12th October, 1962</span> to the late Rev. Effiong Usen Ekpenyong and the late Mrs. Akon Effiong, of Ikot Eyo Ntung, Ono Ito, Odukpani LGA of Cross River State, Nigeria. Both parents were members of the African Methodist Episcopal Zion Church.</p>
+                        <p>Bishop U. U. Effiong, a child of the parsonage, is the last born of the family that produced <span class="highlight">ten ministers</span> for the AME Zion Church, including their late father who retired as Presiding Elder in 1991, a cousin and two daughter in-laws.</p>
+
+                        <div class="education">
+                            <h4 style="margin-top: 25px;">Education</h4>
+                            <div class="education-item">
+                                <p><strong>State School, Elkahia, Port Harcourt</strong> (1970–1975)</p>
+                            </div>
+                            <div class="education-item">
+                                <p><strong>Country Grammar School, Ikwere/Etche, Rivers State</strong> (1975–1980)</p>
+                            </div>
+                            <div class="education-item">
+                                <p><strong>University of Calabar, Calabar</strong> (1980–1984; 1989–1991; 1995–2002)</p>
+                                <p class="degree">B.Sc.Ed. (1984)</p>
+                                <p class="degree">M.Ed. (1992)</p>
+                                <p class="degree">Ph.D. in Science Education (2002)</p>
+                            </div>
+                            <div class="education-item">
+                                <p><strong>Eternity Theological College, Uyo</strong> (2015)</p>
+                                <p class="degree">M.A. in Theology (2015)</p>
+                                <p>(An affiliate of Teamwork Bible College, USA)</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p>Following his salvation experience on <span class="highlight">3rd January, 1988</span>, Bishop U. U. Effiong maintained close
+                            relationship with Jesus Christ. In <span class="highlight">December 1994</span>, he was
+                            received into the travelling ministry of the African Methodist Episcopal Zion Church by Bishop S. Chuka Ekemann, Sr. at Anderson Memorial A. M. E. Zion Church, Calabar.</p>
+
+                        <h4 style="margin-top: 25px;">Ministry Timeline</h4>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Ordained Deacon</h4>
+                                <p>1995</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Ordained Elder</h4>
+                                <p>1997</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Assistant Pastor</h4>
+                                <p>Anderson Memorial AMEZC, Calabar (1994–1996)</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Pastor</h4>
+                                <p>Anderson Memorial AMEZC, Calabar (1996–2008)</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Presiding Elder</h4>
+                                <p>Calabar-South District, Cross River Nigeria (1998–2009)</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Presiding Elder</h4>
+                                <p>Calabar-North District, Cross River Nigeria (2009–2012)</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Bishop’s Administrative Assistant</h4>
+                                <p>Cross River Nigeria Conference, EWAED (2003–2013)</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Bishop’s Deputy</h4>
+                                <p>Eastern West Africa Episcopal District (2012-2016)</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Bishop</h4>
+                                <p>Eastern West Africa Episcopal District (2016)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Family & Personal Life</h3>
+                        <div class="family-section">
+                            <div class="family-img">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="family-info">
+                                <h4>Married to Mrs. Promise Chinwe Effiong</h4>
+                                <p>Missionary Supervisor</p>
+                                <p>Blessed with four children: John, Samuel, Esther and Elizabeth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="card">
+                        <h3>Contact Bishop</h3>
+                        <form class="contact-form" @submit.prevent="submitForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <!-- <input type="text" id="name" v-model="form.name" required> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email Address</label>
+                                <!-- <input type="email" id="email" v-model="form.email" required> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Your Phone Number</label>
+                                <!-- <input type="tel" id="phone" v-model="form.phone"> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <!-- <textarea id="message" v-model="form.message" required></textarea> -->
+                            </div>
+                            <button type="submit" class="btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h3>Information</h3>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Eastern West Africa Episcopal District</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-church"></i>
+                            </div>
+                            <div>
+                                <h4>Denomination</h4>
+                                <p>African Methodist Episcopal Zion Church</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div>
+                                <h4>Position</h4>
+                                <p>Bishop</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <h4>Education</h4>
+                                <p>Ph.D. in Science Education</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-    <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
-      <!-- <div class="md:w-[50%]">
-        <img src="../../public/images/clergy.jpg" alt="" srcset="">
-      </div> -->
-
-      <div class="w-full text-justify">
-        <img
-            src="/images/bishop/bishop1.png"
-            alt="Sample Image"
-            class="float-left mr-4 mb-2 rounded-lg shadow-lg h-96 w-full sm:w-80"
-        />
-
-        <p>
-            Bishop Uduak Usen Effiong was born on 12th October, 1962 to the late Rev. Effiong Usen Ekpenyong and the late Mrs. Akon Effiong, of lkot Eyo Nnung, Ono Ito, Odukpani LGA of Cross River State, Nigeria. Both parents were members of the African Methodist Episcopal Zion Church. Bishop U. U. Effiong, a child of the parsonage, is the last born of the family that produced ten ministers for the AME Zion Church, including their late father who retired as Presiding Elder in 1991. a cousin and two daughter in­ laws.
-        </p>
-        <br>
-
-        <p>
-            Bishop U. U. Effiong attended State School, Elikahia, Port Harcourt (1970 - 1975); Country Grammar School, lkwerre/Etche, Rivers State (1975 - 1980); University of Calabar, Calabar (1980 - 1984; 1989 -1991; 1995 - 2002); and Eternity Theological College, Uyo (2015). He obtained the following academic qualifications; WASC, Division 1 (1980); B.Sc.Ed. (1984), University of Calabar, Calabar; M.Ed.(1992), University of Calabar, Calabar; Ph.D. in Science Education (2002), University of Calabar, Calabar;and M.A. in Theology (2015), Eternity Theological College, Uyo (An affiliate of Teamwork Bible College, USA). Following his salvation experience on 3rd January, 1988, Bishop U.U. Effiong maintained close relationship with Jesus Christ.
-        </p>
-        <br>
-
-        <p>
-            In December 1994, he was received into the traveling ministry of the African Methodist Episcopal Zion Church by Bishop S. Chuka Ekemam, Sr. at Anderson Memorial A. M. E. Zion Church, Calabar. He was ordained Deacon and Elder in 1995 and 1997 respectively. Bishop U. U. Effiong's ministry in the A. M. E. Zion Church included serving as: Assistant Pastor. Anderson Memorial AMEZC, Calabar, 1994 - 1996; Pastor, Bishop Lartey Memorial AMEZC, Calabar, 1996 - 2008; Presiding Elder, Calabar- South District, Cross River Nigeria, 1998 - 2009; Presiding Elder, Calabar-North District, Cross River Nigeria, 2009 - 2012; Bishop's Administrative Assistant, Cross River Nigeria, 2003 - 2013; Bishop's Deputy, Eastern West Africa Episcopal District, 2012 - 2016.
-        </p>
-        <br>
-
-        <p>
-            Other Church appointments and major contributions included serving as: Assistant Conference Secretary, Nigeria Conference, 1996 - 1997; Conference Secretary, Cross River Nigeria, 1998 - 2002; Director of Youth. Calabar District, Nigeria Conference, 1995; Director of Youth, Nigeria Conference, 1996 - 1998; Episcopal Coordinator of Youth, EWAED, 1999 - 2012, during which period he initiated the annual Youth Camp, and developed the programme from District level (1995) to Conference level (1996) and to Episcopal level (1999 - 2011); Chair, EWAED Ministers' Institute Committee
-        </p>
-        <br>
-
-        <p>
-            (1999 - 2011); Editor, Practical Guide For Effective Ministry, 1999 (A Training Manual for Ministers in EWAED); leader of EWAED Delegation to the 2012 General Conference at Charlotte, NC, USA; and leader of EWAED Delegation to the 2016 General Conference at Greensboro, NC, USA. In July 20 - 26, 2016, at the 50 th Quadrennial General Conference of the African Methodist Episcopal Zion Church, held at the Joseph S. Koury Convention Centre/Sheraton Hotel. Greensboro. North Carolina, USA, The Rev. Professor Uduak U. Effiong was elected and consecrated the 105 th Bishop in the line of succession in the A. M. E. Zion Church and assigned to Eastern West Africa Episcopal District as the Presiding Prelate. He serves as the Chair of Appeals Committee and 2nd Vice Chair of Church Growth and Development Board of the A. M. E. Zion Church.
-        </p>
-        <br>
-
-        <p>
-            Bishop U. U. Effiong is a certified professional teacher. He taught in Community Secondary School. Abajah, Imo State (1984 - 1985: NYSC); Government Secondary School, Ibi, Taraba State (1985 - 1988); College of Education, Jalingo, Taraba State (1988 - 1994); Cross River State College of Education, Akamkpa (1994 - 2002). He is a full Professor of Science (Physics) Education, with over forty publications, at the Cross River University of Technology,Calabar,Cross River State, Nigeria.
-        </p>
-        <br>
-
-        <p>
-            The Rt. Rev. Prof. U. U. Effiong held several positions of responsibility in the different places he worked. In the Cross River University of Technology (CRUTECH), he served as Sub-Dean, Student Affairs (2003 - 2007), Dean of Student Affairs (2007 - 2014), Member of Governing Council (2004 - 2014). Chairman of Senior Staff Disciplinary Committee (2004 - 2008), Member of Appointments & Promotions Committee, CRUTECH (2004 - 2014), Member of Finance & General Purposes Committee, CRUTECH (2004 - 2008), Member of Council Disciplinary Committee, CRUTECH (2004 - 2014), Member of Ceremonials Committee, CRUTECH (2007 - 2014), Chairman of Christian Solemn Assembly Committee (2009 - 2014), Head of Department of Curriculum and Instructional Technology (2016), Chairman of the Certificate Verification Committee (2014 - 2017). and a member of the Senate of CRUTECH (2003 - 2017). among several other positions. As part of community service, The Rt. Rev. Prof. U. U. Effiong served as Vice-Chairman, PTA of Angelic International School, Bateba Street, Calabar (2005 - 2009); Member PTA Exco of University of Calabar International Demonstration Secondary School (2005 - 2009); Vice-Chairman, PTA of University of Calabar International Demonstration Secondary School (2009 - 2013); Vice-Chairman, Ono Ito Development Union. Calabar (2003 - 2009); Chairman, Ono Ito Development Union. Calabar (2009 - 2015); Chairman. Ito leadership Forum. Calabar (2013 - 2015). He also served as Chairman, Science Teachers Association of Nigeria (STAN) (2004 - 2009), during which period Cross River State hosted the 47 th Annual Conference of STAN in CRUTECH, Calabar in 2006. The Rt. Rev. Prof. U. U. Effiong served as Resource Person, Cross River State Book Writing Committee (Technical) (2005); Resource Person, Cross River State Book Writing Committee (Primary Science) (2005): and Resource Person, Cross River State Book Writing Committee (Physics) (2009). He is member of several professional bodies: Science Teachers Association of Nigeria (STAN), Curriculum organization ofNigeria (CON). World Council for Curriculum and Instruction (WCCI); Common Wealth Association of Science, Technologyand Mathematics Educators (CASTME); Nigeria Association of Science Education Researchers (NASER). To this end, TheRt. Rev. Prof. U. U. Effiong has received several awards in recognition of his distinguished services to mankind.
-        </p>
-        <br>
-
-        <p>
-            Bishop U. U. Effiong is happily married to Mrs. Promise Chinwe Effiong, the Missionary Supervisor, and they are blessed with four children - John, Samuel, Esther and Elizabeth. His hobbies include reading, writing, and playing football andtable tennis.
-        </p>
-    </div>
-    </div>
 
   </template>
 
   <script setup>
   import NavBar from '../components/NavBar.vue';
   </script>
+
+
+<style scoped>
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(120deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+            color: purple;
+            padding: 30px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid gray;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            background: linear-gradient(45deg, black, black);
+            background-image: url(images/TheBishop/bishop-effiong.jpg);
+            background-size: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 70px;
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 500;
+            opacity: 0.9;
+            margin-bottom: 25px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .content {
+            display: flex;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        .main-content {
+            flex: 3;
+        }
+
+        .sidebar {
+            flex: 1;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, rgba(139, 184, 232, 0.2) 0%, transparent 100%);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .family-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 25px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 10px;
+            border-left: 4px solid black;
+        }
+
+        .family-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, black, black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+        }
+
+        .family-info h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .hobbies {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .hobby {
+            background: #e2e8f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: black;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #cbd5e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: #4299e1;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+        }
+
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(120deg,black 0%, black 100%);
+            color: white;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px gray;
+        }
+
+        .btn i {
+            margin-right: 10px;
+        }
+
+        .info-box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            background: #f8fafc;
+            border-left: 3px solid black;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(120deg, black 0%, black 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .education-item {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px dashed #cbd5e0;
+        }
+
+        .education-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .education-item h4 {
+            font-size: 1.2rem;
+            color: #1a3a5f;
+            margin-bottom: 8px;
+        }
+
+        .education-item p {
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+
+        .degree {
+            font-weight: 500;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin-top: 30px;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 10px;
+            height: calc(100% - 20px);
+            width: 3px;
+            background: #cbd5e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 30px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: -9px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: black;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px black;
+        }
+
+        .timeline-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .timeline-item p {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 900px) {
+            .content {
+                flex-direction: column;
+                padding: 25px;
+            }
+
+            header {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .family-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hobbies {
+                justify-content: center;
+            }
+        }
+</style>

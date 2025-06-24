@@ -3,7 +3,7 @@
 
     </NavBar>
 
-    <div class="p-[20px] flex justify-center items-center min-[100vh]:" >
+    <div class="p-[20px] flex justify-center items-center min-[100vh]" >
       <div class="profile-container">
             <div class="header">
                 <div class="profile-header">
