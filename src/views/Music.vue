@@ -1,6 +1,6 @@
 <template>
     <NavBar style="height: 10.5rem" class="bg-black">
- 
+
   </NavBar>
 
       <!-- <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-white w-[100%]">
@@ -12,17 +12,17 @@
 
 
 
-      
+
     <!-- <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap"> -->
       <div class="w-[100%]  gap-10 h-auto px-8 sm:px-24 xls:px-64  py-7 flex flex-col lg:flex-row flex-wrap md:flex-nowrap mt-32 mb-32">
 
-      
-   
+
+
 
         <div class="md:w-[100%] text-justify flex flex-col items-center">
 
           <div class="w-[250px] h-[250px] overflow-hidden rounded-full ">
-                <img src="/images/music/rev_michael_effiong.jpeg" alt="Logo" class="w-full h-full object-contain">
+                <img src="/images/music/music.jpeg" alt="Logo" class="w-full h-full object-contain">
             </div>
             <br><br>
 
@@ -40,9 +40,9 @@
         </div>
 
 
-        
 
-       
+
+
 
 
 
@@ -77,12 +77,11 @@
          />
        </div> -->
 
-         
+
   </div>
-  
+
   </template>
-  
+
   <script setup>
   import NavBar from '../components/NavBar.vue';
   </script>
-  
