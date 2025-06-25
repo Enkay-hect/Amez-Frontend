@@ -215,7 +215,7 @@
 
                     <router-link to="/BAA">
                       <div class="leader-card">
-                        <img src="/images/TheChurch/history.jpeg" alt="Bishop's Administrative Assistants" class="leader-image">
+                        <img src="/images/TheChurch/hood-speak.jpeg" alt="Bishop's Administrative Assistants" class="leader-image">
                         <div class="leader-content">
                             <h3 class="leader-name">Bishop's Administrative Assistants</h3>
                             <!-- <div class="leader-position"></div> -->
