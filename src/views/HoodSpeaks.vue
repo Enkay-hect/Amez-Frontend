@@ -89,7 +89,7 @@
                             </div>
                             <div class="gallery-item">
                                 <img src="/newhoodspeak/roll-of-honour.jpg" alt="Hood-Speaks Roll of honour">
-                                <div class="gallery-caption">Hood-Speaks Roll of honour</div>
+                                <div class="gallery-caption">Honour Roll of Fame</div>
                             </div>
                         </div>
                     </div>
