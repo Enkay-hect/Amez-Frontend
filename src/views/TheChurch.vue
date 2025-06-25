@@ -191,7 +191,8 @@
                 </div>
 
                 <div class="leadership-grid">
-                    <div class="leader-card">
+                    <router-link to="/the-bishop">
+                      <div class="leader-card">
                         <img src="/images/TheChurch/bishop-effiong (1).jpg" alt="Bishop Uduak Usen Effiong" class="leader-image">
                         <div class="leader-content">
                             <h3 class="leader-name">Bishop Uduak Usen Effiong</h3>
@@ -199,24 +200,32 @@
                             <p>The 105th Bishop in succession and leader of the Eastern West Africa Episcopal District since 2016.</p>
                         </div>
                     </div>
+                    </router-link>
 
-                    <div class="leader-card">
+                    <router-link to="/missionary-supervisor">
+                      <div class="leader-card">
                         <img src="/images/TheChurch/supervisor.jpg" alt="Mrs. Promise Effiong" class="leader-image">
                         <div class="leader-content">
                             <h3 class="leader-name">Mrs. Promise C. Effiong</h3>
                             <div class="leader-position">Missionary Supervisor</div>
                             <p>Oversees missionary activities throughout the Episcopal District and coordinates women's ministries.</p>
                         </div>
-                    </div>
-                    <div class="leader-card">
+                      </div>
+                    </router-link>
+
+                    <router-link to="/BAA">
+                      <div class="leader-card">
                         <img src="/images/TheChurch/history.jpeg" alt="Bishop's Administrative Assistants" class="leader-image">
                         <div class="leader-content">
-                            <h3 class="leader-name">Bishop Administrative Assistants</h3>
-                            <div class="leader-position"></div>
+                            <h3 class="leader-name">Bishop's Administrative Assistants</h3>
+                            <!-- <div class="leader-position"></div> -->
                             <p>Administer and Preside over each Annual Conferences within the Episcopal District in the absence of the Bishop and report to the Bishop.</p>
                         </div>
                     </div>
-                    <div class="leader-card">
+                    </router-link>
+
+                    <router-link to="/hood-speaks">
+                      <div class="leader-card">
                         <img src="/images/TheChurch/president.jpeg" alt="Rev. Professor Uduak B. Ubom" class="leader-image">
                         <div class="leader-content">
                             <h3 class="leader-name">Rev. Professor Uduak B. Ubom</h3>
@@ -224,6 +233,7 @@
                             <p>Leads the premier theological training institution of the Episcopal District.</p>
                         </div>
                     </div>
+                    </router-link>
                 </div>
             </div>
         </div>

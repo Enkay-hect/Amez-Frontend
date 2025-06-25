@@ -64,7 +64,7 @@
 
                              <router-link to="/Annual-Conference/CrossRiver-Conference">
                                 <div class="leader-card">
-                                    <img src="/images/BAAs/revEkeng.jpeg" alt="Rev. Dr. Takis E. Caiafas" class="leader-image">
+                                    <img src="/images/BAAs/revEkeng.jpeg" alt="Rev. Ekeng E. Ekeng" class="leader-image">
                                     <h3>Rev. Ekeng E. Ekeng</h3>
                                     <div class="leader-position">Cross River Nigeria Conference</div>
                                 </div>
