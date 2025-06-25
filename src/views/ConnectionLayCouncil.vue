@@ -1,13 +1,13 @@
 <template>
     <NavBar style="height: 10rem">
-   
+
     </NavBar>
 
-   
-  
+
+
     <!-- <div class="w-[100%] flex flex-row flex-wrap md:flex-nowrap gap-8 h-auto px-8 md:px-74 py-7">
-   
-    
+
+
     </div>
    -->
     <br> <br> <br>
@@ -15,9 +15,9 @@
 
     <!-- Faded Background Image -->
     <div class="absolute inset-0 bg-[url('/images/connectionallay/LayCouncilLogo.png')] bg-contain bg-no-repeat bg-center opacity-15 z-0"></div>
-        
 
-       <div class="flex flex-col md:flex-row  gap-16">
+
+       <div class="flex flex-col md:flex-row gap-16 ">
 
         <div class="md:w-[50%] lg:w-[50%] z-2">
             <div class="relative justify-start items-center w-full max-w-screen-lg z-1 ">
@@ -32,7 +32,14 @@
 
             <br> <br> <br>
 
-            <h1 class="font-serif text-3xl font-extrabold">Vision</h1>
+
+        </div>
+
+
+        <div class="md:w-[50%] lg:w-[50%]  z-2 md:max-h-[60vh] md:overflow-y-auto z-10">
+
+
+          <h1 class="font-serif text-3xl font-extrabold">Vision</h1>
             <br> <br> <br>
 
             <p class="font-serif text-xl">
@@ -47,13 +54,9 @@
 
                     Membership in the Lay Council is not a prerequisite to benefit from the Lay Council’s ministries. However, all laity in the African Methodist Episcopal Zion Church are strongly encouraged to catch the vision for Christian Leadership, Accountability, Stewardship and Christian Service so that, together, we might usher in the Kingdom of God through the A.M.E. Zion Church.
             </p>
+            <br><br><br>
 
-        </div>
 
-
-        <div class="md:w-[50%] lg:w-[50%]  z-2">
-            
-           
             <h1 class="font-serif text-3xl font-extrabold">Mission</h1>
             <br> <br> <br>
 
@@ -73,12 +76,11 @@
         </div>
        </div>
 
-       
-       
+
+
     </div>
   </template>
-  
+
   <script setup>
   import NavBar from '../components/NavBar.vue';
   </script>
-  
