@@ -8,7 +8,7 @@
             <!-- Header Section -->
             <div class="header">
                 <h1>The African Methodist Episcopal Zion Church</h1>
-                <p>Eastern West Africa Episcopal District - Building Kingdom Communities</p>
+                <p>Eastern West Africa Episcopal District - Serving This Present Age</p>
             </div>
 
             <!-- Tab Navigation -->
