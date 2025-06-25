@@ -125,9 +125,11 @@
 
                         <p>In 1796, black members of the John Street Methodist Church in New York City left due to discrimination and formed their own church. This became the foundation of the AME Zion Church, which was formally organized in 1821.</p>
                     </div>
-                    <div class="content-image">
+                    <div class="content-image flex flex-col">
                         <img src="/images/TheChurch/history.jpeg" alt="AMEZ History">
+                        <div class="gallery-caption">Holy Trinity A. M. E. Zion Church, Ndon Ebom</div>
                     </div>
+
                 </div>
 
                 <div class="history-timeline">
@@ -260,6 +262,17 @@
   </script>
 
   <style scoped>
+
+.gallery-caption {
+          position: relative;
+
+          background: rgba(0, 0, 0, 0.7);
+          color: white;
+          width: 100%;
+          padding: 10px;
+          font-size: 0.9rem;
+          z-index: 10;
+      }
   .church-container {
             max-width: 1200px;
             margin: 0 auto;
