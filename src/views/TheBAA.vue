@@ -64,11 +64,19 @@
 
                              <router-link to="/Annual-Conference/CrossRiver-Conference">
                                 <div class="leader-card">
+                                    <img src="/images/BAAs/revEkeng.jpeg" alt="Rev. Dr. Takis E. Caiafas" class="leader-image">
+                                    <h3>Rev. Ekeng E. Ekeng</h3>
+                                    <div class="leader-position">Cross River Nigeria Conference</div>
+                                </div>
+                             </router-link>
+
+                             <!-- <router-link to="/Annual-Conference/CrossRiver-Conference">
+                                <div class="leader-card">
                                     <img src="/images/BAAs/Drcaifas.png" alt="Rev. Dr. Takis E. Caiafas" class="leader-image">
                                     <h3>Rev. Dr. Takis E. Caiafas</h3>
                                     <div class="leader-position">Cross River Nigeria Conference</div>
                                 </div>
-                             </router-link>
+                             </router-link> -->
 
                               <router-link to="/Annual-Conference/SouthEastern-Conference">
                                 <div class="leader-card">
