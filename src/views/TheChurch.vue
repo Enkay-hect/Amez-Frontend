@@ -280,29 +280,28 @@
         }
 
         .header {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(history.jpeg);
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-            margin-bottom: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        }
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://picsum.photos/1200/400?random=1');
+          background-size: cover;
+          background-position: center;
+          color: white;
+          padding: 60px 20px;
+          text-align: center;
+          margin-bottom: 30px;
+          border-radius: 8px;
+      }
 
-        .header h1 {
-            font-size: 3.5rem;
-            margin-bottom: 15px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
+      .header h1 {
+          font-family: 'Merriweather', serif;
+          font-size: 2.8rem;
+          margin-bottom: 15px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
 
-        .header p {
-            font-size: 1.3rem;
-            max-width: 800px;
-            margin: 0 auto;
-            opacity: 0.9;
-        }
+      .header p {
+          font-size: 1.2rem;
+          max-width: 800px;
+          margin: 0 auto;
+      }
 
         .tabs {
             display: flex;
