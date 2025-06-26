@@ -8,7 +8,7 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       component: () => import('@/views/404.vue'),
     },
-    
+
     {
       path: '/',
       name: 'home',
@@ -47,6 +47,11 @@ const router = createRouter({
       path: '/BAA',
       name: 'Bishop-Administrative-Assistant',
       component: () => import('../views/TheBAA.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: () => import('../views/Contact.vue'),
     },
     {
       path: '/field-workers',
@@ -160,7 +165,7 @@ const router = createRouter({
     },
 
 
-    
+
     ///ConnectionLayCouncil
   ],
 })

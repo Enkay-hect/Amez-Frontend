@@ -420,7 +420,9 @@
 
 
                     <li>
-                        Contact
+                        <router-link to="/contact">
+                          Contact
+                        </router-link>
                     </li>
 
                 <div class="">

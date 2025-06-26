@@ -521,9 +521,11 @@
           </li>
         </ul>
 
-        <li style="list-style: none;">
-            Contact
-        </li>
+        <li>
+                        <router-link to="/contact">
+                          Contact
+                        </router-link>
+                    </li>
 
         <router-link to="/Donate">
                 <button class="border-2 px-1 py-2 rounded-md w-[50%]" style="border: 1px solid #dec043;">
