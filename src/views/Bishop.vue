@@ -109,19 +109,19 @@
                         <form class="contact-form" @submit.prevent="submitForm">
                             <div class="form-group">
                                 <label for="name">Your Name</label>
-                                <!-- <input type="text" id="name" v-model="form.name" required> -->
+                                <input type="text" id="name" v-model="form.name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Your Email Address</label>
-                                <!-- <input type="email" id="email" v-model="form.email" required> -->
+                                <input type="email" id="email" v-model="form.email" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Your Phone Number</label>
-                                <!-- <input type="tel" id="phone" v-model="form.phone"> -->
+                                <input type="tel" id="phone" v-model="form.phone">
                             </div>
                             <div class="form-group">
                                 <label for="message">Your Message</label>
-                                <!-- <textarea id="message" v-model="form.message" required></textarea> -->
+                                <textarea id="message" v-model="form.message" required></textarea>
                             </div>
                             <button type="submit" class="btn">
                                 <i class="fas fa-paper-plane"></i> Send Message
@@ -179,6 +179,25 @@
 
   <script setup>
   import NavBar from '../components/NavBar.vue';
+
+  import { reactive } from 'vue'
+
+  const form = reactive({
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
+  })
+
+  const submitForm = () => {
+    // Replace with your actual submission logic
+    console.log('Form submitted:', form)
+    // Reset form after submission (optional)
+    form.name = ''
+    form.email = ''
+    form.phone = ''
+    form.message = ''
+  }
   </script>
 
 
