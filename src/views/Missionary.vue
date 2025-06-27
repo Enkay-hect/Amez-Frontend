@@ -86,8 +86,8 @@
                     <div class="section">
                         <h2 class="section-title"><i class="fas fa-church"></i> Church Service</h2>
                         <div class="detail-content">
-                            <p>Active member of the African Methodist Episcopal Zion Church with extensive service:</p>
-                            <ul style="padding-left: 20px; margin-top: 10px;">
+                            <p><i>Active member of the African Methodist Episcopal Zion Church with extensive service:</i></p>
+                            <ul style="padding-left: 12px; margin-top: 10px; list-style-type: disc;">
                                 <li>Sunday school teacher and Superintendent</li>
                                 <li>Superintendent of Buds or Promise Secretary of Youth Missionary Society</li>
                                 <li>Conference Worker</li>
@@ -97,7 +97,7 @@
                             </ul>
                         </div>
 
-                        <div class="detail-item" style="margin-top: 15px;">
+                        <div class="detail-item flex-col sm:flex-row" style="margin-top: 15px;">
                             <div class="detail-label">Leadership Roles:</div>
                             <div class="detail-content">
                                 <p>Appointed Missionary Supervisor of Eastern West Africa Episcopal District in 2016.</p>
