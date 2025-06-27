@@ -219,14 +219,75 @@
 <script setup>
   import NavBar from '../components/NavBar.vue';
 
-  // import PaymentForm from '../components/PaymentForm.vue';
+import { ref, computed } from 'vue';
 
-  // const handlePaymentSuccess = (paymentData) => {
-  //   // Handle successful payment
-  //   console.log('Payment successful:', paymentData);
-  // };
+const fullName = ref('');
+const email = ref('');
+const phone = ref('');
+const selectedAmount = ref(10000);
+const customAmount = ref('');
+const paymentMethod = ref('card');
+const cardNumber = ref('');
+const expiry = ref('');
+const cvv = ref('');
+const cardName = ref('');
+const message = ref('');
 
+const formattedAmount = computed(() => {
+  return Number(customAmount.value || selectedAmount.value).toLocaleString();
+});
+
+function setAmount(amount) {
+  selectedAmount.value = amount;
+  customAmount.value = '';
+}
+
+function setCustomAmount() {
+  if (customAmount.value) {
+    selectedAmount.value = 0;
+  }
+}
+
+function selectCustomAmount() {
+  customAmount.value = customAmount.value || '10000';
+  selectedAmount.value = 0;
+}
+
+function submitDonation() {
+  if (
+    !fullName.value ||
+    !email.value ||
+    !phone.value ||
+    (!selectedAmount.value && !customAmount.value)
+  ) {
+    alert('Please fill in all required fields');
+    return;
+  }
+
+  if (paymentMethod.value === 'card') {
+    if (!cardNumber.value || !expiry.value || !cvv.value || !cardName.value) {
+      alert('Please fill in all card details');
+      return;
+    }
+  }
+
+  alert(`Thank you for your donation of ₦${formattedAmount.value}!`);
+
+  // Reset form
+  fullName.value = '';
+  email.value = '';
+  phone.value = '';
+  selectedAmount.value = 10000;
+  customAmount.value = '';
+  cardNumber.value = '';
+  expiry.value = '';
+  cvv.value = '';
+  cardName.value = '';
+  message.value = '';
+}
 </script>
+
+
 
 <style scoped>
 .donation-container {
