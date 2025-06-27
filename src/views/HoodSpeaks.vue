@@ -33,7 +33,7 @@
                     <div class="card-header">About Hood-Speaks</div>
                     <div class="card-body">
                         <h2 class="section-title">Our History</h2>
-                        <div class="history-content">
+                        <div class="history-content text-justify">
                             <p>Hood-Speaks Theological Seminary was established through the vision of Bishop Samuel Chuka Ekemam, Sr. Following his consecration as Bishop in 1988 and assignment to the 13th Episcopal District of the A. M. E. Zion Church (later renamed Eastern West Africa Episcopal District), Bishop Ekemam recognized the need for trained ministers and workers for the church's growth.</p>
                             <p>In 1991, a committee chaired by the Late Rev. Dr. Jimmy Johnson Essien applied to the Ministry of Education, Akwa Ibom State for permission to establish the seminary. Approval was granted on July 10, 1992, with the seminary officially opening for classes on October 21, 1991, with five lecturers and twenty-four students.</p>
                             <p>The first Trustee Board was inaugurated on November 6, 1993. Since its inception, Hood-Speaks has been positioned to achieve its core mandate of building leaders to build the Church.</p>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card text-justify">
                     <div class="card-header">Philosophy</div>
                     <div class="card-body">
                         <div class="philosophy-grid">
@@ -135,7 +135,7 @@
 
             <!-- Programmes Tab -->
             <div v-show="activeTab === 'programmes'">
-                <div class="card">
+                <div class="card text-justify">
                     <div class="card-header">Academic Programmes</div>
                     <div class="card-body">
                         <div class="programmes-list">
@@ -222,7 +222,7 @@
 
                 <div class="card">
                     <div class="card-header">Press Release</div>
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                         <p>This is to inform interested candidates from the AMEZ Church and other denominations that the 2023/2024 academic session of Hood-Speaks Theological Seminary with registration from March 19 - April 5, 2024. However, for postgraduate admissions, sales of forms and admissions are ongoing. This is mainly to accommodate the interest of our members. Please give wider publicity as you encourage potential candidates to take advantage of these.</p>
                     </div>
                 </div>

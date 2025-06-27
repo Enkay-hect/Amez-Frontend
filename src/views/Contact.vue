@@ -166,10 +166,10 @@
                 </div>
 
                 <div class="directions">
-                    <h3 style="color: var(--primary); margin: 25px 0 15px;">Directions</h3>
+                    <h3 style="color: var(--dark); margin: 25px 0 15px;">Directions</h3>
                     <p>From Calabar International Airport: Take the Airport Road to Marian Road. Turn left onto Eta Agbo Road. The headquarters is located on the right side, opposite the State Library.</p>
 
-                    <h3 style="color: var(--primary); margin: 25px 0 15px;">Parking Information</h3>
+                    <h3 style="color: var(--dark); margin: 25px 0 15px;">Parking Information</h3>
                     <p>Visitor parking is available on the premises. Additional parking can be found at the adjacent public parking lot on weekends and during special events.</p>
                 </div>
             </div>
@@ -269,7 +269,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .section-title {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 25px;
             padding-bottom: 15px;
             border-bottom: 2px solid var(--secondary);
@@ -305,7 +305,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .contact-icon {
-            background: var(--primary);
+            background: var(--dark);
             color: white;
             width: 60px;
             height: 60px;
@@ -317,7 +317,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .contact-details h3 {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 10px;
             font-size: 1.4rem;
         }
@@ -328,7 +328,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .contact-details a {
-            color: var(--primary);
+            color: var(--dark);
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
@@ -367,7 +367,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .form-control:focus {
-            border-color: var(--primary);
+            border-color: var(--dark);
             box-shadow: 0 0 0 3px rgba(26, 71, 42, 0.1);
             outline: none;
         }
@@ -391,7 +391,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .btn-primary {
-            background: var(--primary);
+            background: var(--dark);
             color: white;
             box-shadow: 0 4px 15px rgba(26, 71, 42, 0.3);
         }
@@ -441,7 +441,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .leader-name {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 5px;
             font-size: 1.4rem;
         }
@@ -520,7 +520,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .hours-card h4 {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 15px;
             font-size: 1.2rem;
         }
@@ -541,7 +541,7 @@ import NavBar from '@/components/NavBar.vue';
         }
 
         .footer {
-            background: var(--primary);
+            background: var(--dark);
             color: white;
             padding: 40px 20px;
             border-radius: 15px;

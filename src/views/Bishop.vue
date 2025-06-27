@@ -16,7 +16,7 @@
             </header>
 
             <div class="content">
-                <div class="main-content">
+                <div class="main-content text-justify">
                     <div class="card">
                         <h3>Biography</h3>
                         <p>Bishop Uduak Usen Effiong was born on <span class="highlight">12th October, 1962</span> to the late Rev. Effiong Usen Ekpenyong and the late Mrs. Akon Effiong, of Ikot Eyo Ntung, Ono Ito, Odukpani LGA of Cross River State, Nigeria. Both parents were members of the African Methodist Episcopal Zion Church.</p>

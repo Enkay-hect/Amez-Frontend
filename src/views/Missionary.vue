@@ -22,7 +22,7 @@
                     <div class="photo-caption">"Whatever you do, do it heartily, as to the Lord and not to men."</div>
                 </div>
 
-                <div class="profile-details">
+                <div class="profile-details text-justify">
                     <div class="section">
                         <h2 class="section-title"><i class="fas fa-user"></i> Personal Details</h2>
                         <div class="detail-item">
@@ -68,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="section">
+                    <div class="section text-justify">
                         <h2 class="section-title"><i class="fas fa-briefcase"></i> Professional Career</h2>
                         <div class="detail-content">
                             <p>Professional teacher registered with the Teachers Registration Council of Nigeria.</p>

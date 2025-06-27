@@ -32,7 +32,7 @@
                 <h2 class="section-title"><i class="fas fa-info-circle"></i>Mission statement</h2>
 
                 <div class="content-grid">
-                    <div class="content-text">
+                    <div class="content-text text-justify">
                         <p>The mission of The African Methodist Episcopal Zion Church is to increase our love for
                             God and to help meet the needs of humankind by "Loving God with all our heart, with all our soul,
                             and with out entire mind, and to love our neighbors as ourselves." Implicit in this statement is the belief
@@ -66,7 +66,7 @@
             <div class="tab-content" v-show="activeTab === 'beliefs'">
                 <h2 class="section-title"><i class="fas fa-bible"></i> Our Heritage</h2>
 
-                <div class="content-text">
+                <div class="content-text text-justify">
                     <p>Zion Methodism grew out of the merciless enslavement of our African forefathers.
                             They were kidnapped from their native land, chained, shackled, and shipped as beasts in deplorable
                              conditions to a strange and distant land, having no family, no culture and no language. Yet, our fathers and
@@ -82,7 +82,7 @@
                               oppressed go free and to proclaim the Year of the Lord’s favor. We are to continue this mission until Christ, God’s Son, shall come again.</p>
                 </div>
 
-                <div class="beliefs-grid">
+                <div class="beliefs-grid text-justify">
                     <div class="belief-card">
                         <h3><i class="fas fa-book-bible"></i> The Bible</h3>
                         <p>We believe the Holy Bible is the inspired Word of God and contains all things necessary for salvation. It is the ultimate authority for Christian faith and practice.</p>
@@ -119,7 +119,7 @@
             <div class="tab-content" v-show="activeTab === 'history'">
                 <h2 class="section-title"><i class="fas fa-landmark"></i> Our History</h2>
 
-                <div class="content-grid">
+                <div class="content-grid text-justify">
                     <div class="content-text">
                         <p>The African Methodist Episcopal Zion Church has a rich history that dates back to the late 18th century. It emerged from the Free African Society, a mutual aid organization established by free blacks in Philadelphia.</p>
 
@@ -222,18 +222,18 @@
             <div class="tab-content" v-show="activeTab === 'leadership'">
                 <h2 class="section-title"><i class="fas fa-user-alt"></i> Church Leadership</h2>
 
-                <div class="content-text">
+                <div class="content-text text-justify">
                     <p>The AME Zion Church is led by Bishops who are elected for life by the General Conference. Each Bishop oversees an Episcopal District. The Eastern West Africa Episcopal District is currently led by Bishop Uduak Usen Effiong, the 105th Bishop in succession.</p>
                 </div>
 
-                <div class="leadership-grid">
+                <div class="leadership-grid ">
                     <router-link to="/the-bishop">
                       <div class="leader-card">
                         <img src="/images/TheChurch/bishop-effiong (1).jpg" alt="Bishop Uduak Usen Effiong" class="leader-image">
                         <div class="leader-content">
                             <h3 class="leader-name">Bishop Uduak Usen Effiong</h3>
                             <div class="leader-position">Presiding Prelate</div>
-                            <p>The 105th Bishop in succession and leader of the Eastern West Africa Episcopal District since 2016.</p>
+                            <p class="text-justify">The 105th Bishop in succession and leader of the Eastern West Africa Episcopal District since 2016.</p>
                         </div>
                     </div>
                     </router-link>
@@ -244,7 +244,7 @@
                         <div class="leader-content">
                             <h3 class="leader-name">Mrs. Promise C. Effiong</h3>
                             <div class="leader-position">Missionary Supervisor</div>
-                            <p>Oversees missionary activities throughout the Episcopal District and coordinates women's ministries.</p>
+                            <p class="text-justify">Oversees missionary activities throughout the Episcopal District and coordinates women's ministries.</p>
                         </div>
                       </div>
                     </router-link>
@@ -255,7 +255,7 @@
                         <div class="leader-content">
                             <h3 class="leader-name">Bishop's Administrative Assistants</h3>
                             <!-- <div class="leader-position"></div> -->
-                            <p>Administer and Preside over each Annual Conferences within the Episcopal District in the absence of the Bishop and report to the Bishop.</p>
+                            <p class="text-justify">Administer and Preside over each Annual Conferences within the Episcopal District in the absence of the Bishop and report to the Bishop.</p>
                         </div>
                     </div>
                     </router-link>
@@ -266,7 +266,7 @@
                         <div class="leader-content">
                             <h3 class="leader-name">Rev. Professor Uduak B. Ubom</h3>
                             <div class="leader-position">President, Hood-Speaks Theological Seminary</div>
-                            <p>Leads the premier theological training institution of the Episcopal District.</p>
+                            <p class="text-justify">Leads the premier theological training institution of the Episcopal District.</p>
                         </div>
                     </div>
                     </router-link>

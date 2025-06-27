@@ -349,16 +349,16 @@ function submitDonation() {
         .section-title {
             margin-bottom: 25px;
             padding-bottom: 15px;
-            border-bottom: 2px solid var(--primary);
+            border-bottom: 2px solid var(--dark);
             font-size: 1.8rem;
             display: flex;
             align-items: center;
             gap: 10px;
-            color: var(--primary);
+            color: var(--dark);
         }
 
         .section-title i {
-            color: var(--primary);
+            color: var(--dark);
         }
 
         .form-group {
@@ -382,7 +382,7 @@ function submitDonation() {
         }
 
         .form-control:focus {
-            border-color: var(--primary);
+            border-color: var(--dark);
             box-shadow: 0 0 0 3px rgba(26, 71, 42, 0.1);
             outline: none;
         }
@@ -411,13 +411,13 @@ function submitDonation() {
         }
 
         .donation-option:hover, .donation-option.active {
-            border-color: var(--primary);
+            border-color: var(--dark);
             background: rgba(26, 71, 42, 0.05);
             transform: translateY(-3px);
         }
 
         .donation-option.active {
-            border-color: var(--primary);
+            border-color: var(--dark);
             background: rgba(26, 71, 42, 0.1);
             position: relative;
         }
@@ -429,7 +429,7 @@ function submitDonation() {
             position: absolute;
             top: -10px;
             right: -10px;
-            background: var(--primary);
+            background: var(--dark);
             color: white;
             width: 25px;
             height: 25px;
@@ -443,7 +443,7 @@ function submitDonation() {
         .donation-option .amount {
             font-size: 1.4rem;
             font-weight: 700;
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 5px;
         }
 
@@ -495,18 +495,18 @@ function submitDonation() {
         }
 
         .payment-method:hover, .payment-method.active {
-            border-color: var(--primary);
+            border-color: var(--dark);
             background: rgba(26, 71, 42, 0.05);
         }
 
         .payment-method.active {
-            border-color: var(--primary);
+            border-color: var(--dark);
             background: rgba(26, 71, 42, 0.1);
         }
 
         .payment-icon {
             font-size: 2rem;
-            color: var(--primary);
+            color: var(--dark);
         }
 
         .payment-details {
@@ -543,11 +543,11 @@ function submitDonation() {
             padding: 15px;
             background: white;
             border-radius: 8px;
-            border-left: 4px solid var(--primary);
+            border-left: 4px solid var(--dark);
         }
 
         .bank-details h3 {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 15px;
             display: flex;
             align-items: center;
@@ -573,7 +573,7 @@ function submitDonation() {
 
         .detail-value {
             flex: 1;
-            color: var(--primary);
+            color: var(--dark);
             font-weight: 500;
         }
 
@@ -647,7 +647,7 @@ function submitDonation() {
         }
 
         .btn-primary {
-            background: var(--primary);
+            background: var(--dark);
             color: white;
             box-shadow: 0 4px 15px rgba(26, 71, 42, 0.3);
         }
@@ -696,7 +696,7 @@ function submitDonation() {
         }
 
         .story-content h3 {
-            color: var(--primary);
+            color: var(--dark);
             margin-bottom: 10px;
         }
 
@@ -744,7 +744,7 @@ function submitDonation() {
             text-align: center;
             font-size: 1.2rem;
             font-weight: 600;
-            color: var(--primary);
+            color: var(--dark);
         }
 
         .currency-selector {
