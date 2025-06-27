@@ -288,16 +288,16 @@
         .section-title {
             margin-bottom: 25px;
             padding-bottom: 15px;
-            border-bottom: 2px solid var(--dark);
+            border-bottom: 2px solid var(--primary);
             font-size: 1.8rem;
             display: flex;
             align-items: center;
             gap: 10px;
-            color: var(--dark);
+            color: var(--primary);
         }
 
         .section-title i {
-            color: var(--dark);
+            color: var(--primary);
         }
 
         .form-group {
@@ -321,7 +321,7 @@
         }
 
         .form-control:focus {
-            border-color: var(--dark);
+            border-color: var(--primary);
             box-shadow: 0 0 0 3px rgba(26, 71, 42, 0.1);
             outline: none;
         }
@@ -350,13 +350,13 @@
         }
 
         .donation-option:hover, .donation-option.active {
-            border-color: var(--dark);
+            border-color: var(--primary);
             background: rgba(26, 71, 42, 0.05);
             transform: translateY(-3px);
         }
 
         .donation-option.active {
-            border-color: var(--dark);
+            border-color: var(--primary);
             background: rgba(26, 71, 42, 0.1);
             position: relative;
         }
@@ -368,7 +368,7 @@
             position: absolute;
             top: -10px;
             right: -10px;
-            background: var(--dark);
+            background: var(--primary);
             color: white;
             width: 25px;
             height: 25px;
@@ -382,7 +382,7 @@
         .donation-option .amount {
             font-size: 1.4rem;
             font-weight: 700;
-            color: var(--dark);
+            color: var(--primary);
             margin-bottom: 5px;
         }
 
@@ -434,18 +434,18 @@
         }
 
         .payment-method:hover, .payment-method.active {
-            border-color: var(--dark);
+            border-color: var(--primary);
             background: rgba(26, 71, 42, 0.05);
         }
 
         .payment-method.active {
-            border-color: var(--dark);
+            border-color: var(--primary);
             background: rgba(26, 71, 42, 0.1);
         }
 
         .payment-icon {
             font-size: 2rem;
-            color: var(--dark);
+            color: var(--primary);
         }
 
         .payment-details {
@@ -482,11 +482,11 @@
             padding: 15px;
             background: white;
             border-radius: 8px;
-            border-left: 4px solid var(--dark);
+            border-left: 4px solid var(--primary);
         }
 
         .bank-details h3 {
-            color: var(--dark);
+            color: var(--primary);
             margin-bottom: 15px;
             display: flex;
             align-items: center;
@@ -512,7 +512,7 @@
 
         .detail-value {
             flex: 1;
-            color: var(--dark);
+            color: var(--primary);
             font-weight: 500;
         }
 
@@ -585,13 +585,13 @@
             text-align: center;
         }
 
-        .btn-dark {
-            background: var(--dark);
+        .btn-primary {
+            background: var(--primary);
             color: white;
             box-shadow: 0 4px 15px rgba(26, 71, 42, 0.3);
         }
 
-        .btn-dark:hover {
+        .btn-primary:hover {
             background: #12331f;
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(26, 71, 42, 0.4);
@@ -635,7 +635,7 @@
         }
 
         .story-content h3 {
-            color: var(--dark);
+            color: var(--primary);
             margin-bottom: 10px;
         }
 
@@ -683,7 +683,7 @@
             text-align: center;
             font-size: 1.2rem;
             font-weight: 600;
-            color: var(--dark);
+            color: var(--primary);
         }
 
         .currency-selector {

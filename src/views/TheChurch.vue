@@ -132,7 +132,41 @@
 
                 </div>
 
-                <div class="history-timeline">
+                <div class="overflow-x-auto mt-5">
+                  <h1>
+                    <strong>The Fifteen Dispensations of the Episcopal Leadership of The A.M.E. Zion Church in Nigeria</strong>
+                  </h1>
+
+                  <table class="min-w-full border border-gray-300 divide-y divide-gray-200 mt-5">
+                    <thead class="bg-gray-100">
+                      <tr>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-700 uppercase tracking-wider">S/N</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-700 uppercase tracking-wider">Name of Bishop</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-700 uppercase tracking-wider">Years of Service</th>
+                      </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200 text-sm">
+                      <tr><td class="px-6 py-4">1</td><td class="px-6 py-4">Bishop Williams Walker Matthews</td><td class="px-6 py-4">1932–1936</td></tr>
+                      <tr><td class="px-6 py-4">2</td><td class="px-6 py-4">Bishop James Walter Brown</td><td class="px-6 py-4">1936–1944</td></tr>
+                      <tr><td class="px-6 py-4">3</td><td class="px-6 py-4">Bishop Edger Benton Watson</td><td class="px-6 py-4">1944–1948</td></tr>
+                      <tr><td class="px-6 py-4">4</td><td class="px-6 py-4">Bishop Hampton Thomas Medford</td><td class="px-6 py-4">1948–1952</td></tr>
+                      <tr><td class="px-6 py-4">5</td><td class="px-6 py-4">Bishop Daniel Carleton Pope</td><td class="px-6 py-4">1952–1960</td></tr>
+                      <tr><td class="px-6 py-4">6</td><td class="px-6 py-4">Bishop William Alexander Hilliard</td><td class="px-6 py-4">1960–1964</td></tr>
+                      <tr><td class="px-6 py-4">7</td><td class="px-6 py-4">Bishop Alfred Gilbert Dunston, Jr.</td><td class="px-6 py-4">1964–1968</td></tr>
+                      <tr><td class="px-6 py-4">8</td><td class="px-6 py-4">Bishop Solomon Dorme Lartey</td><td class="px-6 py-4">1968–1969</td></tr>
+                      <tr><td class="px-6 py-4">9</td><td class="px-6 py-4">Bishop Alfred Gilbert Dunston, Jr.</td><td class="px-6 py-4">1969–1972</td></tr>
+                      <tr><td class="px-6 py-4">10</td><td class="px-6 py-4">Bishop Reuben Lee Speaks</td><td class="px-6 py-4">1972–1980</td></tr>
+                      <tr><td class="px-6 py-4">11</td><td class="px-6 py-4">Bishop Cecil Bishop</td><td class="px-6 py-4">1980–1984</td></tr>
+                      <tr><td class="px-6 py-4">12</td><td class="px-6 py-4">Bishop Alfred Edward White</td><td class="px-6 py-4">1984–1988</td></tr>
+                      <tr><td class="px-6 py-4">13</td><td class="px-6 py-4">Bishop Samuel Chuka Ekemam, Sr.</td><td class="px-6 py-4">1988–2012</td></tr>
+                      <tr><td class="px-6 py-4">14</td><td class="px-6 py-4">Bishop Michael Angelo Frencher, Sr.</td><td class="px-6 py-4">2012–2016</td></tr>
+                      <tr><td class="px-6 py-4">15</td><td class="px-6 py-4">Bishop Uduak Usen Effiong</td><td class="px-6 py-4">2016–till date</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+
+
+                <!-- <div class="history-timeline">
                     <div class="timeline-item">
                         <div class="timeline-year">1796</div>
                         <div class="timeline-content">
@@ -181,7 +215,7 @@
                             <p>Bishop Uduak Usen Effiong becomes the Presiding Prelate of the Eastern West Africa Episcopal District.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- Leadership Tab -->
