@@ -51,12 +51,18 @@
                                    @input="setCustomAmount">
                         </div>
                     </div>
+
                     <div class="form-group">
+
                         <label>Payment Method</label>
+
                         <div class="payment-methods">
+
                             <div class="payment-method"
                                  :class="{active: paymentMethod === 'card'}"
-                                 @click="paymentMethod = 'card'">
+                                 @click="initiatePayment"
+
+                                 >
                                 <div class="payment-icon">
                                     <i class="fab fa-cc-visa"></i>
                                 </div>
@@ -65,6 +71,7 @@
                                     <p>Secure online payment</p>
                                 </div>
                             </div>
+
                             <div class="payment-method"
                                  :class="{active: paymentMethod === 'bank'}"
                                  @click="paymentMethod = 'bank'">
@@ -76,6 +83,7 @@
                                     <p>Local & International</p>
                                 </div>
                             </div>
+
                         </div>
 
                         <!-- Card Payment Form -->
@@ -219,7 +227,30 @@
 <script setup>
   import NavBar from '../components/NavBar.vue';
 
-import { ref, computed } from 'vue';
+  import { ref, computed } from 'vue';
+  import { reactive } from 'vue'
+  import PaymentService from '../Services/ApiServices.js'
+
+
+  const paymentData = reactive({
+    email: 'user@example.com',
+    amount: 5000 // in Naira; will be multiplied by 100 in the backend
+  })
+
+  await PaymentService.initializePayment(paymentData, (response) => {
+    const url = response?.data?.authorization_url || response?.data?.data?.authorization_url;
+
+    if (url) {
+      window.location.href = url;
+    } else {
+      alert('Payment initialization failed.');
+      console.log('Debug:', response);
+    }
+  });
+
+
+
+
 
 const fullName = ref('');
 const email = ref('');

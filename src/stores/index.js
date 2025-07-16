@@ -13,7 +13,12 @@ const vuexStore = createStore
 (
   {
       state: {
-        count: 0
+          user: {
+            data:{},
+            token: sessionStorage.getItem('TOKEN') || '',
+            otpConfirmStatus: '',
+            registerStatus: '',
+          },
       },
 
       getters: {},
@@ -21,13 +26,11 @@ const vuexStore = createStore
       actions: {},
 
       mutations: {
-        increment(state) {
-          state.count++
+        setUser: (state, userData)=>{
+          state.user.token = userData.token;
+          state.user.data = userData.user;
+          sessionStorage.setItem('TOKEN', userData.token);
         },
-
-        decrement(state) {
-          state.count--
-        }
       },
 
   plugins:[toLocal.plugin],
