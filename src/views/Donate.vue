@@ -84,11 +84,12 @@
                                 </div>
                             </div>
 
+
                         </div>
 
                         <!-- Card Payment Form -->
                         <div class="card-form" v-if="paymentMethod === 'card'">
-                            <div class="card-icons">
+                            <!-- <div class="card-icons">
                                 <div class="card-icon"><i class="fab fa-cc-visa"></i></div>
                                 <div class="card-icon"><i class="fab fa-cc-mastercard"></i></div>
                                 <div class="card-icon"><i class="fab fa-cc-amex"></i></div>
@@ -115,7 +116,7 @@
                             <div class="form-group">
                                 <label for="cardName">Name on Card</label>
                                 <input type="text" id="cardName" class="form-control" placeholder="John Doe" v-model="cardName">
-                            </div>
+                            </div> -->
                         </div>
 
                         <!-- Bank Transfer Form -->
@@ -237,16 +238,25 @@
     amount: 5000 // in Naira; will be multiplied by 100 in the backend
   })
 
-  await PaymentService.initializePayment(paymentData, (response) => {
-    const url = response?.data?.authorization_url || response?.data?.data?.authorization_url;
+  async function initiatePayment() {
 
-    if (url) {
-      window.location.href = url;
-    } else {
-      alert('Payment initialization failed.');
-      console.log('Debug:', response);
+    try {
+      const response = await PaymentService.initializePayment(paymentData, (res) => {
+        const url = res?.data?.authorization_url || res?.data?.data?.authorization_url
+        if (url) {
+          window.location.href = url
+        } else {
+          alert('Payment initialization failed.')
+          console.log('Debug:', res)
+        }
+      })
+    } catch (error) {
+      console.error('Error during payment:', error)
+      alert('Something went wrong.')
     }
-  });
+  }
+
+
 
 
 
