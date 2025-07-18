@@ -118,6 +118,7 @@
                                 <input type="text" id="cardName" class="form-control" placeholder="John Doe" v-model="cardName">
                             </div> -->
                         </div>
+                        
 
                         <!-- Bank Transfer Form -->
                         <div class="bank-transfer-form" v-if="paymentMethod === 'bank'">
