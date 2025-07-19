@@ -15,7 +15,7 @@ jobs:
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
-          password: ${{ secrets.EC2_PASSWORD }}  # Use password instead of key
+          password: ${{ secrets.KEY }}  # Use password instead of key
           script: |
             set -e
             
