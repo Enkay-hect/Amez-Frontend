@@ -93,7 +93,7 @@
                               @submit.prevent="initiatePayment"
                               class="w-full bg-white rounded-2xl shadow-xl p-8 space-y-6"
                             >
-                              <h2 class="text-2xl font-bold text-gray-800 text-center">Make a Payment</h2>
+                              <h2 class="text-2xl font-bold text-gray-800 text-center">Make a Donation</h2>
 
                               <!-- Email Input -->
                               <div>
