@@ -8,56 +8,78 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with: 
-        node-version: '20.18.1'
-
-    - name: SSH into EC2 and deploy
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.EC2_HOST }}
-        username: ${{ secrets.EC2_USERNAME }}
-        key: ${{ secrets.KEY }}
-        script: |
-          # Ensure required tools
-          command -v node || (curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs)
-          command -v git || sudo apt-get install -y git
-
-          # Navigate or create the frontend directory
-          mkdir -p ~/frontend
-          cd ~/frontend
-
-          # Configure repo if not already done
-          if [ ! -d ".git" ]; then
-            git init
-            git remote add personal git@github.com:Enkay-hect/Amez-Frontend.git
-          fi
-
-          # Set up SSH agent (required if EC2 is using a GitHub deploy key)
-          if [ -f ~/.ssh/id_rsa ]; then
-            eval "$(ssh-agent -s)"
-            ssh-add ~/.ssh/id_rsa
-          fi
-
-          # Fetch and hard reset from personal remote
-          git fetch personal
-          git checkout -B main personal/main
-          git reset --hard personal/main
-          git clean -fd
-
-          # Install dependencies and build
-          if [ -f "package.json" ]; then
+      - name: SSH into EC2 and deploy
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          password: ${{ secrets.EC2_PASSWORD }}  # Use password instead of key
+          script: |
+            set -e
+            
+            echo "🚀 Starting deployment..."
+            
+            # Install Node.js if not present
+            if ! command -v node &> /dev/null; then
+              echo "📦 Installing Node.js..."
+              curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+              sudo apt-get install -y nodejs
+            fi
+            
+            # Install Git if not present
+            if ! command -v git &> /dev/null; then
+              echo "📦 Installing Git..."
+              sudo apt-get update
+              sudo apt-get install -y git
+            fi
+            
+            # Set up deployment directory
+            DEPLOY_DIR="$HOME/frontend"
+            REPO_URL="https://github.com/Enkay-hect/Amez-Frontend.git"
+            
+            echo "📁 Preparing deployment directory..."
+            
+            # Remove existing directory if it exists
+            if [ -d "$DEPLOY_DIR" ]; then
+              echo "🧹 Cleaning existing deployment..."
+              rm -rf "$DEPLOY_DIR"
+            fi
+            
+            # Clone repository
+            echo "📥 Cloning repository..."
+            git clone "$REPO_URL" "$DEPLOY_DIR"
+            
+            # Navigate to project directory
+            cd "$DEPLOY_DIR"
+            
+            # Verify package.json exists
+            if [ ! -f "package.json" ]; then
+              echo "❌ package.json not found!"
+              echo "📋 Directory contents:"
+              ls -la
+              exit 1
+            fi
+            
+            # Install dependencies
+            echo "📦 Installing dependencies..."
             npm install
+            
+            # Build project
+            echo "🔨 Building project..."
             npm run build
-          else
-            echo "❌ package.json not found!"
-            exit 1
-          fi
+            
+            # Optional: Start/restart application
+            # If you're using PM2:
+            # if command -v pm2 &> /dev/null; then
+            #   echo "🔄 Restarting application with PM2..."
+            #   pm2 restart frontend || pm2 start npm --name "frontend" -- start
+            # else
+            #   echo "⚠️  PM2 not found. Consider installing it for process management."
+            # fi
+            
+            echo "✅ Deployment completed successfully!"
+            echo "📊 Final directory structure:"
+            ls -la
 
-          echo "✅ Deploy successful"
