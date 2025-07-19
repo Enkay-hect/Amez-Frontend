@@ -41,8 +41,8 @@ jobs:
           fi
 
           # Reset and clean repo before pulling
-          git reset --hard
-          git fetch personal
+          # git reset --hard
+          # git fetch personal
           git checkout main || git checkout -b main
           git pull https://github.com/Enkay-hect/Amez-Frontend main
 
