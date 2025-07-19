@@ -32,7 +32,7 @@ jobs:
           fi
 
           # Navigate to the project folder
-          cd frontend/
+          cd /root/frontend/
 
           # Initialize and update the repository
           if [ ! -d ".git" ]; then
@@ -41,9 +41,9 @@ jobs:
 
           # Reset and clean repo before pulling
           git reset --hard
-          git fetch personal
+          # git fetch personal
           git checkout main || git checkout -b main
-          git pull https://github.com/Enkay-hect/Amez-Frontend.git main
+          git pull personal git@github.com:Enkay-hect/Amez-Frontend.git main
 
 
           # Install dependencies and build
