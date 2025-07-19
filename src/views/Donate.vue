@@ -60,15 +60,14 @@
 
                             <div class="payment-method"
                                  :class="{active: paymentMethod === 'card'}"
-                                 @click="initiatePayment"
-
+                                 @click="paymentMethod = 'card'"
                                  >
                                 <div class="payment-icon">
                                     <i class="fab fa-cc-visa"></i>
                                 </div>
                                 <div class="payment-details">
                                     <h3>Credit/Debit Card</h3>
-                                    <p>Secure online payment</p>
+                                    <p>Paystack Secure online payment</p>
                                 </div>
                             </div>
 
@@ -89,6 +88,50 @@
 
                         <!-- Card Payment Form -->
                         <div class="card-form" v-if="paymentMethod === 'card'">
+
+                          <form
+                              @submit.prevent="initiatePayment"
+                              class="w-full bg-white rounded-2xl shadow-xl p-8 space-y-6"
+                            >
+                              <h2 class="text-2xl font-bold text-gray-800 text-center">Make a Payment</h2>
+
+                              <!-- Email Input -->
+                              <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email address</label>
+                                <input
+                                  v-model="paymentData.email"
+                                  type="email"
+                                  id="email"
+                                  required
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                  placeholder="you@example.com"
+                                />
+                              </div>
+
+                              <!-- Amount Input -->
+                              <div>
+                                <label for="amount" class="block text-sm font-medium text-gray-700 mb-1">Amount (₦)</label>
+                                <input
+                                  v-model.number="paymentData.amount"
+                                  type="number"
+                                  id="amount"
+                                  required
+                                  min="1"
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                  placeholder="Enter amount in Naira"
+                                />
+                              </div>
+
+                              <!-- Submit Button -->
+                              <button
+                                type="submit"
+                                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition duration-300"
+                              >
+                                Pay Now
+                              </button>
+                            </form>
+
+
                             <!-- <div class="card-icons">
                                 <div class="card-icon"><i class="fab fa-cc-visa"></i></div>
                                 <div class="card-icon"><i class="fab fa-cc-mastercard"></i></div>
@@ -118,7 +161,7 @@
                                 <input type="text" id="cardName" class="form-control" placeholder="John Doe" v-model="cardName">
                             </div> -->
                         </div>
-                        
+
 
                         <!-- Bank Transfer Form -->
                         <div class="bank-transfer-form" v-if="paymentMethod === 'bank'">
@@ -235,9 +278,12 @@
 
 
   const paymentData = reactive({
-    email: 'user@example.com',
-    amount: 5000 // in Naira; will be multiplied by 100 in the backend
+    email: '',
+    amount: null // in Naira; will be multiplied by 100 in the backend
   })
+
+  // @click="initiatePayment"
+
 
   async function initiatePayment() {
 
