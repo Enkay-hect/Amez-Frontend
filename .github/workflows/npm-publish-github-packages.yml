@@ -32,7 +32,7 @@ jobs:
           fi
 
           # Navigate to the project folder
-          cd /root/fundcirkle/
+          cd /root/frontend/
 
           # Initialize and update the repository
           if [ ! -d ".git" ]; then
