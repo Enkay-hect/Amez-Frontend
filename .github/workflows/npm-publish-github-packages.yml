@@ -28,6 +28,7 @@ jobs:
             fi
           SCRIPT_AFTER: |
             cd /${{ secrets.EC2_USERNAME }}/frontend
+            git pull personal https://github.com/Enkay-hect/Amez-Frontend main
             npm install
             npm run build
             echo "Deployment completed!"
