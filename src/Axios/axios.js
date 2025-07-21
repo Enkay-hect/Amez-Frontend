@@ -2,7 +2,7 @@ import axios from "axios"
 import vuexStore from "../stores"
 
 const axiosClient = axios.create({
-    baseURL: 'http://localhost:8000/api'
+    baseURL: 'https://amez-ewaed.org/api'
 })
 
 axiosClient.interceptors.request.use(config=> {
