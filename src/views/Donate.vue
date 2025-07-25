@@ -186,19 +186,19 @@
                                 <h3><i class="fas fa-landmark"></i> Local Bank Details</h3>
                                 <div class="detail-row">
                                     <div class="detail-label">Bank Name:</div>
-                                    <div class="detail-value">United Bank for Africa (UBA)</div>
+                                    <div class="detail-value">First Bank of Nigeria (FBN)</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Account Name:</div>
-                                    <div class="detail-value">AMEZ Eastern West Africa</div>
+                                    <div class="detail-value">AMEZ Church Eastern West Africa Episcopal District</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Account Number:</div>
-                                    <div class="detail-value">1234567890</div>
+                                    <div class="detail-value">3060263040</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Sort Code:</div>
-                                    <div class="detail-value">033151518</div>
+                                    <div class="detail-value">-</div>
                                 </div>
                             </div>
 
@@ -211,27 +211,27 @@
                                 <h3><i class="fas fa-globe"></i> International Bank Details</h3>
                                 <div class="detail-row">
                                     <div class="detail-label">Bank Name:</div>
-                                    <div class="detail-value">United Bank for Africa (UBA)</div>
+                                    <div class="detail-value">First Bank of Nigeria (FBN)</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Account Name:</div>
-                                    <div class="detail-value">AMEZ Eastern West Africa</div>
+                                    <div class="detail-value">AME Zion Church EWA District</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Account Number:</div>
-                                    <div class="detail-value">1234567890</div>
+                                    <div class="detail-value">-</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">SWIFT/BIC Code:</div>
-                                    <div class="detail-value">UGAGNGLAXXX</div>
+                                    <div class="detail-value">-</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Bank Address:</div>
-                                    <div class="detail-value">57 Marina, Lagos Island, Lagos, Nigeria</div>
+                                    <div class="detail-value">-</div>
                                 </div>
                                 <div class="detail-row">
                                     <div class="detail-label">Correspondent Bank:</div>
-                                    <div class="detail-value">Citibank New York (SWIFT: CITIUS33)</div>
+                                    <div class="detail-value">-</div>
                                 </div>
                             </div>
 
