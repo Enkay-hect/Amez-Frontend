@@ -38,7 +38,7 @@ const router = createRouter({
       name: 'hood-speaks',
       component: () => import('../views/HoodSpeaks.vue'),
     },
-    
+
     {
       path: '/the-bishop',
       name: 'the-bishop',
@@ -164,6 +164,19 @@ const router = createRouter({
       name: 'LagosWest-Nigeria-Conference',
       component: () => import('../components/Conferences/LagosWestAnnualConference.vue'),
     },
+
+    {
+      path: '/success',
+      name: 'success',
+      component: () => import('../components/Success.vue'),
+    },
+
+    {
+      path: '/failure',
+      name: 'failure',
+      component: () => import('../components/Failure.vue'),
+    },
+
 
 
 

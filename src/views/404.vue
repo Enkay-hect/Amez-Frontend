@@ -21,30 +21,8 @@
       </div>
     </div>
 
-    <!-- <div>
-      <div class="text-center mt-10">
-        <h1 class="text-2xl">Counter: {{ count }}</h1>
-        <button @click="increment" class="px-4 py-2 bg-green-500 text-white rounded m-2">+</button>
-        <button @click="decrement" class="px-4 py-2 bg-red-500 text-white rounded m-2">-</button>
-      </div>
-    </div> -->
+
   </template>
 
   <script setup>
-
-    // import { computed } from 'vue'
-    // import { useStore } from 'vuex'
-
-    // const store = useStore()
-    // const count = computed(() => store.state.count)
-
-    // function increment() {
-    //   store.commit('increment')
-    // }
-
-    // function decrement() {
-    //   store.commit('decrement')
-    // }
-
-
   </script>
