@@ -3,13 +3,15 @@
    <RouterView />
 
 
-   <Footer class="mt-5 relative" />
+    <Footer class="relative bg-gray-800 z-5" />
+   
 </template>
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Footer from './components/Footer.vue';
 import NavBar from './components/NavBar.vue';
+import Footer from '@/components/Footer.vue';
+
 </script>
 
 <style scoped>
