@@ -3,7 +3,6 @@
    <RouterView />
 
 
-
    <Footer class="mt-5 relative" />
 </template>
 
