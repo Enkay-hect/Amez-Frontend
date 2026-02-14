@@ -50,7 +50,7 @@
 
                     <h1 class="font-bold">REV. DR. UMOR OLU</h1>
                     <h2>BISHOP’S ADMINISTRATIVE ASSISTANT</h2>
-                    <h3>  RIVERS  NIGERIA CONFERENCE  </h3>
+                    <h3>  RIVERS  NIGERIAs CONFERENCE  </h3>
 
                 </div>
             </div>
