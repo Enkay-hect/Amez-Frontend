@@ -17,7 +17,7 @@
                               <router-link to="/Annual-Conference/Nigeria-Conference">
                                   <div class="leader-card">
                                     <img src="/images/BAAs/drifreke.png" alt="Rev. Dr. Ifreke E. Ekpenyong" class="leader-image">
-                                    <h3>Rev. Dr. Ifreke E. Ekpenyong</h3>
+                                    <h3>Rev. Dr. Ifzreke E. Ekpenyong</h3>
                                     <div class="leader-position">Nigeria Conference</div>
                                 </div>
                               </router-link>
@@ -40,7 +40,7 @@
 
                              <router-link to="/Annual-Conference/LagosWestNigeria-Conference">
                               <div class="leader-card">
-                                  <img src="/images/BAAs/drmike.jpeg" alt="Rev. Dr. Michael S. Udoh" class="leader-image">
+                                  <img src="/images/BAAs/drMike11.jpg" alt="Rev. Dr. Michael S. Udoh" class="leader-image">
                                   <h3>Rev. Dr. Michael S. Udoh</h3>
                                   <div class="leader-position">Lagos West Nigeria Conference</div>
                               </div>
@@ -48,7 +48,7 @@
 
                               <router-link to="/Annual-Conference/Mainland-Nigeria-Conference">
                                 <div class="leader-card">
-                                  <img src="/images/BAAs/drasuamiom.png" alt="Rev. Dr. Samuel Asuamiom" class="leader-image">
+                                  <img src="/images/BAAs/revAsuamiom.jpg" alt="Rev. Dr. Samuel Asuamiom" class="leader-image">
                                   <h3>Rev. Dr. Samuel Asuamiom</h3>
                                   <div class="leader-position">Mainland Nigeria Conference</div>
                                 </div>
@@ -64,20 +64,13 @@
 
                              <router-link to="/Annual-Conference/CrossRiver-Conference">
                                 <div class="leader-card">
-                                    <img src="/images/BAAs/revEkeng.jpeg" alt="Rev. Ekeng E. Ekeng" class="leader-image">
+                                    <img src="/images/BAAs/revEkeng1.jpeg" alt="Rev. Ekeng E. Ekeng" class="leader-image">
                                     <h3>Rev. Ekeng E. Ekeng</h3>
                                     <div class="leader-position">Cross River Nigeria Conference</div>
                                 </div>
                              </router-link>
 
-                             <!-- <router-link to="/Annual-Conference/CrossRiver-Conference">
-                                <div class="leader-card">
-                                    <img src="/images/BAAs/Drcaifas.png" alt="Rev. Dr. Takis E. Caiafas" class="leader-image">
-                                    <h3>Rev. Dr. Takis E. Caiafas</h3>
-                                    <div class="leader-position">Cross River Nigeria Conference</div>
-                                </div>
-                             </router-link> -->
-
+                             
                               <router-link to="/Annual-Conference/SouthEastern-Conference">
                                 <div class="leader-card">
                                   <img src="/images/BAAs/drndubisi.png" alt="Rev. Dr. Godson N. Elijah" class="leader-image">
@@ -96,7 +89,7 @@
 
                              <router-link to="/Annual-Conference/AkwaNigeria-Conference">
                               <div class="leader-card">
-                                  <img src="/images/BAAs/profumoinyang.png" alt="Rev.Prof. Imo E. Umoinyang" class="leader-image">
+                                  <img src="/images/BAAs/profUmoinyang.jpg" alt="Rev.Prof. Imo E. Umoinyang" class="leader-image">
                                   <h3>Rev.Prof. Imo E. Umoinyang</h3>
                                   <div class="leader-position">Akwa Nigeria Conference</div>
                               </div>
