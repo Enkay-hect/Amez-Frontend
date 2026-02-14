@@ -82,7 +82,7 @@
 
     <!-- Bottom Section -->
     <div class="text-center mt-10 text-gray-400 text-sm">
-        &copy; {{ currentYear }} AMEZ. All rights reserved.
+        &copy; {{ currentYear }} The African Methodist Episcopal Zion Church
     </div>
 </footer>
 
