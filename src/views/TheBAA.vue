@@ -17,7 +17,7 @@
                               <router-link to="/Annual-Conference/Nigeria-Conference">
                                   <div class="leader-card">
                                     <img src="/images/BAAs/drifreke.png" alt="Rev. Dr. Ifreke E. Ekpenyong" class="leader-image">
-                                    <h3>Rev. Dr. Ifzreke E. Ekpenyong</h3>
+                                    <h3>Rev. Dr. Ifreke E. Ekpenyong</h3>
                                     <div class="leader-position">Nigeria Conference</div>
                                 </div>
                               </router-link>
