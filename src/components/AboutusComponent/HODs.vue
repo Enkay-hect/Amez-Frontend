@@ -10,7 +10,7 @@
                         <h2 class="section-title" style="margin-top: 30px;"></h2>
                         <div class="leadership-grid">                            
                             <div class="leader-card">
-                                <img src="/images/Fieldworkerss/missionarysupervisor.jpg" alt="Mrs. Promise C. Effiong" class="leader-image">
+                                <img src="/images/Fieldworkerss/supervisorNew.jpeg" alt="Mrs. Promise C. Effiong" class="leader-image">
                                 <h3>Mrs. Promise C. Effiong</h3>
                                 <div class="leader-position">Missionary Supervisor</div>
                             </div>
