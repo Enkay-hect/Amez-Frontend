@@ -240,7 +240,7 @@
             background: #f0f0f0;
             width: 90%;
             height: 90%;
-            background-image: url(/images/MissionarySupervisor/missionarysupervisor.jpg);
+            background-image: url(/images/Fieldworkerss/supervisorNew.jpeg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
