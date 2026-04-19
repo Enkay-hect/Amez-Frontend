@@ -11,8 +11,8 @@
     <!-- Header -->
     <header class="mb-24 mt-24">
         <div class="container">
-            <h1 class="logo"><i class="fas fa-church"></i>South Eastern Nigeria <span>Annual Conference</span></h1>
-            <p class="tagline">African Methodist Episcopal Zion Church - Established XXXX</p>
+            <h1 class="logo"><i class="fas fa-church"></i>South Eastern Nigeria <span>Conference</span></h1>
+            <p class="tagline">African Methodist Episcopal Zion Church - Established 1999</p>
         </div>
     </header>
 
@@ -49,20 +49,10 @@
         <section id="history" class="history-bishop-section">
             <div class="history-content">
                 <h3>Conference History</h3>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
+                <p>Emerging from the Central Nigeria Conference, the South Eastern Nigeria Conference (SENC) was formally organized on 28th November 1999, under the leadership of Bishop S. Chuka Ekemam Sr. The inaugural conference took place on 16th January, 2000 at Bishop Walls A.M.E. Zion Church, Aba, Abia State.</p>
+                <p>The conference at inception, operated with three districts (Aba, Umuahia and Ibere) to serve congregations within the southeastern region.</p>
+                <p>In response to membership expansion and organizational needs, the conference has experienced structural growth and administrative reorganization. In 2017, during the Annual Conference at St. Paul A.M.E. Zion Church, Egbelu Ihie, the Presiding Bishop, Rt. Rev. Prof. Uduak Usen Effiong, created the Isiala Ngwa District from Aba District and renamed Umuahia and Ibere Districts to Abia North and Abia Central respectively, </p>
+                <p>Today, the South Eastern Nigeria Conference comprises four districts. These districts: Isiala Ngwa, Aba, Abia North, and Abia Central oversee church activities across Abia State and its environs.</p>
             </div>
             
             <div class="bishop-assistant">
@@ -81,11 +71,11 @@
                 <!-- Elder 1 -->
                 <div class="elder-card">
                     <div class="elder-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="">
+                        <img src="/images/BAAs/drndubisi.png" alt="Rev. Dr. Godson N. Elijah">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Dr. Godson Ndubuisi Elijah</h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">ISIALA NGWA District</div>
                 </div>
 
                 <!-- Elder 2 -->
@@ -93,9 +83,9 @@
                     <div class="elder-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Martin Onyekachi Patrick</h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">ABA District </div>
                 </div>
 
                 <!-- Elder 3 -->
@@ -103,9 +93,9 @@
                     <div class="elder-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Samuel Obasi Okorie </h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">Abia North District </div>
                 </div>
 
                 <!-- Elder 4 -->
@@ -113,9 +103,9 @@
                     <div class="elder-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Godswill Aghanama </h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">Abia Central District</div>
                 </div>
             </div>
         </section>
@@ -142,71 +132,107 @@
                         </tr>
                         <tr>
                             <td>2.</td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
+                            <td><strong>Rev. Dr. Godson N. Elijah</strong></td>
+                            <td><strong>ISIALA NGWA</strong></td>
                             <td><strong>PRESIDING ELDER</strong></td>
                         </tr>
                         <tr>
                             <td>3.</td>
+                            <td>REV. DR. GODSON NDUBUISI ELIJAH</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td>ALL SAINTS A.M.E. ZION CHURCH, AMAPU NTIGHA</td>
                         </tr>
                         <tr>
                             <td>4.</td>
+                            <td>REV. CHIMA CHIBUIKE CHIKAODI</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td></td>
+                            <td>ST. PAUL A. M. E. ZION CHURCH, EGBELU IHIE</td>
                         </tr>
                         <tr>
                             <td>5.</td>
+                            <td>PASTOR NORAH NNEKA IWUANYANWU</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td>EMMANUEL A.M.E. ZION CHURCH, AMAORJI</td>
                         </tr>
                         <tr>
                             <td>6.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>7.</td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
+                            <td><strong>REV. MARTIN ONYEKACHI PATRICK</strong></td>
+                            <td><strong>ABA</strong></td>
                             <td><strong>PRESIDING ELDER</strong></td>
                         </tr>
                         <tr>
+                            <td>7.</td>
+                            <td>REV. MARTIN ONYEKACHI PATRICK</td>
+                            <td>-</td>
+                            <td>BISHOP WALLS A.M.E. ZION CHURCH, ABA</td>
+                        </tr>
+                        <tr>
                             <td>8.</td>
+                            <td>PASTOR ANTHONY CHIMEZIE DAVID</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td>CALVARY A.M.E. ZION CHURCH, ABA</td>
                         </tr>
                         <tr>
                             <td>9.</td>
+                            <td>PASTOR DARLINGTON EHILEGBU</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td>VICTORY A.M.E. ZION CHURCH, ABA</td>
                         </tr>
                         <tr>
                             <td>10.</td>
+                            <td>BRO. STEVEN OGONNAYA UGOCHUKWU</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td>FELLOWSHIP CENTRE, UMUOJIMA OKEREKE</td>
                         </tr>
                         <tr>
                             <td>11.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td><strong>REV. SAMUEL OBASI OKORIE</strong></td>
+                            <td><strong>ABIA NORTH</strong></td>
+                            <td><strong>PRESIDING ELDER</strong></td>
                         </tr>
                         <tr>
                             <td>12.</td>
+                            <td>REV. SAMUEL OBASI OKORIE</td>
                             <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
+                            <td>ALL SAINTS A.M.E. ZION CHURCH, OBIENE</td>
                         </tr>
-                        
+                        <tr>
+                            <td>13.</td>
+                            <td>REV. REGINA ONUOHA</td>
+                            <td>-</td>
+                            <td>REDEEMER A.M.E. ZION CHURCH, ATANI</td>
+                        </tr>
+                        <tr>
+                            <td>14.</td>
+                            <td><strong>REV. GODSWILL AGHANAMA</strong></td>
+                            <td><strong>ABIA CENTRAL</strong></td>
+                            <td><strong>PRESIDING ELDER</strong></td>
+                        </tr>
+                        <tr>
+                            <td>15.</td>
+                            <td>REV. GODSWILL AGHANAMA</td>
+                            <td>-</td>
+                            <td>MIRACLE A.M.E. ZION CHURCH, PALM LANE</td>
+                        </tr>
+                        <tr>
+                            <td>16.</td>
+                            <td>REV. SAMUEL CHINAECHEREM IWUANYANWU</td>
+                            <td>-</td>
+                            <td>ST. PAUL A.M.E. ZION CHURCH, OKOKO ITEM</td>
+                        </tr>
+                        <tr>
+                            <td>17.</td>
+                            <td>REV. BENJAMIN S. JACOB</td>
+                            <td>-</td>
+                            <td>HILLIARD A.M.E. ZION CHURCH, OBOHIA IBERE</td>
+                        </tr>
+                        <tr>
+                            <td>18.</td>
+                            <td>REV. FIDELIS ONYEKACHI OKORIE</td>
+                            <td>-</td>
+                            <td>ALFRED WHITE A.M.E. ZION CHURCH, UMULU IBERE</td>
+                        </tr>
+                                                
                     </tbody>
                 </table>
                 <p class="table-note">Note: Supernumerary and retired ministers are listed separately in conference records.</p>
@@ -332,18 +358,18 @@
                 <!-- Circular Item 2 -->
                 <div class="circular-gallery-item">
                     <div class="circular-gallery-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="Fieldworker">
+                        <img src="/images/Fieldworkerss/Deac. ConfidencePatrick.jpeg" alt="Fieldworker">
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Deac. Confidence Patrick</div>
                     <div>Field Worker</div>
                 </div>
 
                 <!-- Circular Item 3 -->
                 <div class="circular-gallery-item">
                     <div class="circular-gallery-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="President, Men of Zion Ministry">
+                        <img src="/images/conferences/ANC/MOZ-SENC.jpg" alt="President, Men of Zion Ministry">
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Bro. Humphrey Duruji</div>
                     <div>President, Men of Zion Ministry</div>
                 </div>
 
@@ -373,8 +399,9 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>South Eastern Nigeria Annual Conference</h3>
-                    <p>Organized: XXX November, XXX</p>
-                    <p>XXX Districts: </p>
+                    <p>Organized: 28th November, 1999</p>
+                    <p>Four Districts: Isiala Ngwa, Aba District, Abia North and Abia Central 
+ </p>
                 </div>
                 
                 <div class="footer-column">
@@ -391,7 +418,7 @@
                     <h3>Contact Information</h3>
                     <ul class="contact-info">
                         <li><i class="fas fa-map-marker-alt"></i> XXX</li>
-                        <li><i class="fas fa-phone"></i> +234 XXX XXXX XXX</li>
+                        <li><i class="fas fa-phone"></i> +234 806 0307 387</li>
                         <li><i class="fas fa-envelope"></i> senc@amez-ewaed.org</li>
                         <li><i class="fas fa-globe"></i>https://amez-ewaed.org/Annual-Conference/SouthEastern-Nigeria-Conference</li>
                     </ul>
