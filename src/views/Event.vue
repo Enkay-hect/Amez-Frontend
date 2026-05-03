@@ -55,7 +55,7 @@
           </div> -->
 
           <!-- Card 2 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -65,7 +65,7 @@
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Card 3 -->
           <div class="stream-card">
