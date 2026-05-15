@@ -12,7 +12,7 @@
     <header class="mb-24 mt-24">
         <div class="container">
             <h1 class="logo"><i class="fas fa-church"></i>Mainland Nigeria <span>Annual Conference</span></h1>
-            <p class="tagline">African Methodist Episcopal Zion Church - Established XXXX</p>
+            <p class="tagline">African Methodist Episcopal Zion Church - Established 1992</p>
         </div>
     </header>
 
@@ -49,20 +49,10 @@
         <section id="history" class="history-bishop-section">
             <div class="history-content">
                 <h3>Conference History</h3>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
-                <p>XX</p>
-                <br>
+                <p>Emerging from the former Eastern District within the Nigeria Conference, the Mainland Nigeria Conference was formally organized in 1992 under the leadership of Bishop S. Chuka Ekemam Sr. The inauguration took place during the Nigeria Annual Conference held at Bishop Brown A.M.E. Zion Church.</p>
+                <p>At inception, the conference operated with six pioneer districts namely: Ndiya, Eket, Ikot Abia, Ikot Edim, Efoi, and Ikot Ntot, under the supervision of their respective Presiding Elders. These districts coordinated church activities and strengthened the growth of the A.M.E. Zion Church across various communities within Akwa Ibom State.</p>
+                <p>In response to increasing membership, expanding evangelistic outreach, and administrative demands, the conference experienced significant organizational growth over the years. Some districts were later carved out to form the Southern Nigeria Conference, while additional districts and local churches were established to enhance effective administration and pastoral oversight.</p>
+                <p>Today, the Mainland Nigeria Conference comprises seven districts with twenty-nine local churches, overseeing church activities across several Local Government Areas in Akwa Ibom State, including Eket, Onna, Esit Eket, Nsit Ubium, Nsit Ibom, Ibeno, and Ibesikpo.</p>
             </div>
             
             <div class="bishop-assistant">
@@ -81,11 +71,11 @@
                 <!-- Elder 1 -->
                 <div class="elder-card">
                     <div class="elder-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="">
+                        <img src="/images/BAAs/revAsuamiom.jpg" alt="Rev. Dr. Samuel Asuamiom">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Dr. Samuel Asuamiom</h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">EKET CENTRAL DISTRICT</div>
                 </div>
 
                 <!-- Elder 2 -->
@@ -93,9 +83,9 @@
                     <div class="elder-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Samuel F. Usoh</h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">OKON EKET DISTRICT	</div>
                 </div>
 
                 <!-- Elder 3 -->
@@ -103,9 +93,9 @@
                     <div class="elder-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Asuquo E. Usen</h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">NDIYA DISTRICT</div>
                 </div>
 
                 <!-- Elder 4 -->
@@ -113,9 +103,39 @@
                     <div class="elder-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="">
                     </div>
-                    <h3 class="elder-name">-</h3>
+                    <h3 class="elder-name">Rev. Godwin P. Thompson</h3>
                     <div class="elder-role">Presiding Elder</div>
-                    <div class="elder-district">-</div>
+                    <div class="elder-district">MBIOKPORO DISTRICT</div>
+                </div>
+
+                 <!-- Elder 5 -->
+                <div class="elder-card">
+                    <div class="elder-img">
+                        <img src="/images/conferences/ANC/nopic.jpeg" alt="">
+                    </div>
+                    <h3 class="elder-name">Rev. Felix E. Inyang</h3>
+                    <div class="elder-role">Presiding Elder</div>
+                    <div class="elder-district">USUNG INYANG DISTRICT</div>
+                </div>
+
+                 <!-- Elder 6 -->
+                <div class="elder-card">
+                    <div class="elder-img">
+                        <img src="/images/conferences/ANC/nopic.jpeg" alt="">
+                    </div>
+                    <h3 class="elder-name">Rev. Etim S. Sam</h3>
+                    <div class="elder-role">Presiding Elder</div>
+                    <div class="elder-district">EDEBOM DISTRICT</div>
+                </div>
+
+                 <!-- Elder 7 -->
+                <div class="elder-card">
+                    <div class="elder-img">
+                        <img src="/images/conferences/ANC/nopic.jpeg" alt="">
+                    </div>
+                    <h3 class="elder-name">Rev. Emmanuel S. Tompeter</h3>
+                    <div class="elder-role">Presiding Elder</div>
+                    <div class="elder-district">IKWE DISTRICT</div>
                 </div>
             </div>
         </section>
@@ -135,80 +155,235 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1.</td>
-                            <td><strong>Rev. Dr. Samuel Asuamiom</strong></td>
+                            <td></td>
+                            <td><strong>REV. DR. SAMUEL H. ASUAMIOM, JP</strong></td>
                             <td>-</td>
                             <td><strong>BISHOP'S ADMINISTRATIVE ASSISTANT</strong></td>
                         </tr>
                         <tr>
-                            <td>2.</td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
+                            <td>1.</td>
+                            <td><strong>REV. DR. SAMUEL H. ASUAMIOM, JP</strong></td>
+                            <td><strong>EKET CENTRAL</strong></td>
                             <td><strong>PRESIDING ELDER</strong></td>
                         </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>4.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>5.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>6.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>7.</td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>PRESIDING ELDER</strong></td>
-                        </tr>
-                        <tr>
-                            <td>8.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>9.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>10.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>11.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>12.</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
+                            <tr>
+                                <td>2.</td>
+                                <td>REV. EMMANUEL O. EYENWAN</td>
+                                <td>-</td>
+                                <td>ST. MICHAEL A.M.E. ZION CHURCH, EFFOI</td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>REV. MICAIAH A. SUNDAY</td>
+                                <td>-</td>
+                                <td>ST. JOHN A.M.E. ZION CHURCH, IDUNG UDO</td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>REV. UBONGABASI G. UDOFIA</td>
+                                <td>-</td>
+                                <td>ST. PAUL A.M.E. ZION CHURCH, IDUNG OFFIONG</td>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
+                                <td>REV. IMOH U. JAMES</td>
+                                <td>-</td>
+                                <td>ST. PETER A.M.E. ZION CHURCH, IKOT USOEKONG</td>
+                            </tr>
+                            <tr>
+                                <td>6.</td>
+                                <td>PST. ANIEFIOK A. DOMINIC</td>
+                                <td>-</td>
+                                <td>FULL GOSPEL A.M.E. ZION CHURCH, EDO</td>
+                            </tr>
+
+                            <tr>
+                                <td>7.</td>
+                                <td><strong>REV. SAMUEL F. USOH</strong></td>
+                                <td><strong>OKON EKET</strong></td>
+                                <td><strong>PRESIDING ELDER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>8.</td>
+                                <td>REV. SAMUEL F. USOH</td>
+                                <td>-</td>
+                                <td>ST. MARK A.M.E. ZION CHURCH, IKOT ABIA – OKON</td>
+                            </tr>
+                            <tr>
+                                <td>9.</td>
+                                <td>REV. ABIA O. ENEMBONG</td>
+                                <td>-</td>
+                                <td>FULL GOSPEL A.M.E. ZION CHURCH, IKOT AKPANDEM - OKON</td>
+                            </tr>
+                            <tr>
+                                <td>10.</td>
+                                <td>REV. OWONAM F. JOHN</td>
+                                <td>-</td>
+                                <td>JAMES VARICK A.M.E. ZION CHURCH, IKOT ATAKU - OKON</td>
+                            </tr>
+
+                            <tr>
+                                <td>11.</td>
+                                <td><strong>REV. ASUQUO E. USEN</strong></td>
+                                <td><strong>NDIYA</strong></td>
+                                <td><strong>PRESIDING ELDER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>12.</td>
+                                <td>REV. DANIEL U. BEN</td>
+                                <td>-</td>
+                                <td>BISHOP BROWN A.M.E. ZION CHURCH, IKOT UKAP</td>
+                            </tr>
+                            <tr>
+                                <td>13.</td>
+                                <td>REV. PHILIP S. DANIEL</td>
+                                <td>-</td>
+                                <td>BISHOP DUNSTON A.M.E. ZION CHURCH, IKOT AKPAFUK</td>
+                            </tr>
+                            <tr>
+                                <td>14.</td>
+                                <td>REV. UBOHO G. ANTHONY</td>
+                                <td>-</td>
+                                <td>DR. ESSIEN CHAPEL A.M.E. ZION CHURCH, IKOT EDIBON</td>
+                            </tr>
+                            <tr>
+                                <td>15.</td>
+                                <td>REV. GLORIA S. SAMPSON</td>
+                                <td>-</td>
+                                <td>FAITHFUL A.M.E. ZION CHURCH, IKOT EWANG</td>
+                            </tr>
+                            <tr>
+                                <td>16.</td>
+                                <td>REV. NKEREUWEM E. UDOM</td>
+                                <td>-</td>
+                                <td>EBENEZER A.M.E. ZION CHURCH, USUNG INYANG IBIAKPAN</td>
+                            </tr>
+                            <tr>
+                                <td>17.</td>
+                                <td>REV. JOHN M. UDOFOT</td>
+                                <td>-</td>
+                                <td>ST. PETER A.M.E. ZION CHURCH, AFIA NSIT ATAI</td>
+                            </tr>
+                            <tr>
+                                <td>18.</td>
+                                <td>REV. UBONG E. MKPONG</td>
+                                <td>-</td>
+                                <td>ST. LUKE A.M.E. ZION CHURCH, IKOT ETIM</td>
+                            </tr>
+
+                            <tr>
+                                <td>19.</td>
+                                <td><strong>REV. GODWIN P. THOMPSON</strong></td>
+                                <td><strong>MBIOKPORO</strong></td>
+                                <td><strong>PRESIDING ELDER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>20.</td>
+                                <td>REV. IME I. HANSON</td>
+                                <td>-</td>
+                                <td>JAMES VARICK A.M.E. ZION CHURCH, MBIOKPORO II</td>
+                            </tr>
+                            <tr>
+                                <td>21.</td>
+                                <td>PST. INIOBONG J. JAMES</td>
+                                <td>-</td>
+                                <td>FULL GOSPEL A.M.E. ZION CHURCH, AKPAUTONG</td>
+                            </tr>
+                            <tr>
+                                <td>22.</td>
+                                <td>REV. DAVID J. UBOM</td>
+                                <td>-</td>
+                                <td>HOPE A.M.E. ZION CHURCH, AFIA NSIT URUA NKO</td>
+                            </tr>
+
+                            <tr>
+                                <td>23.</td>
+                                <td><strong>REV. FELIX E. INYANG</strong></td>
+                                <td><strong>USUNG INYANG</strong></td>
+                                <td><strong>PRESIDING ELDER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>24.</td>
+                                <td>REV. FELIX E. INYANG</td>
+                                <td>-</td>
+                                <td>DR. UDOFA A.M.E. ZION CHURCH, USUNG INYANG EKET</td>
+                            </tr>
+                            <tr>
+                                <td>25.</td>
+                                <td>REV. EMMANUEL S. NKAMIANG</td>
+                                <td>-</td>
+                                <td>MIRACLE A.M.E. ZION CHURCH, AFAHA UQUA OBOK IDIM</td>
+                            </tr>
+                            <tr>
+                                <td>26.</td>
+                                <td>PST. UDUAK I. JOSEPH</td>
+                                <td>-</td>
+                                <td>BELIEVERS A.M.E. ZION CHURCH, EBANA</td>
+                            </tr>
+
+                            <tr>
+                                <td>27.</td>
+                                <td><strong>REV. ETIM S. SAM</strong></td>
+                                <td><strong>EDEBOM</strong></td>
+                                <td><strong>PRESIDING ELDER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>28.</td>
+                                <td>REV. ANIETIE A. ANTHONY</td>
+                                <td>-</td>
+                                <td>DAVID CHAPEL A.M.E. ZION CHURCH, EDEBOM II</td>
+                            </tr>
+                            <tr>
+                                <td>29.</td>
+                                <td>REV. EMMANUEL S. URUA</td>
+                                <td>-</td>
+                                <td>CALVARY A.M.E. ZION CHURCH, IKOT EKPAN</td>
+                            </tr>
+                            <tr>
+                                <td>30.</td>
+                                <td>REV. EMMANUEL O. ISAAC</td>
+                                <td>-</td>
+                                <td>ST. PATRICK A.M.E. ZION CHURCH, IKOT ADAKOKOP</td>
+                            </tr>
+                            <tr>
+                                <td>31.</td>
+                                <td>PST. BRITAIN P. UDONSEK</td>
+                                <td>-</td>
+                                <td>MT. SINAI A.M.E. ZION CHURCH, IKOT EKPENEUDO</td>
+                            </tr>
+                            <tr>
+                                <td>32.</td>
+                                <td>REV. SAMUEL I. NTEKIM</td>
+                                <td>-</td>
+                                <td>GRACE A.M.E. ZION CHURCH, NTIT OTON</td>
+                            </tr>
+
+                            <tr>
+                                <td>33.</td>
+                                <td><strong>REV. EMMANUEL S. TOMPETER</strong></td>
+                                <td><strong>IKWE</strong></td>
+                                <td><strong>PRESIDING ELDER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>34.</td>
+                                <td>REV. CHRISTOPHER R. ESHIET</td>
+                                <td>-</td>
+                                <td>REDEEMER A.M.E. ZION CHURCH, IKWE</td>
+                            </tr>
+                            <tr>
+                                <td>35.</td>
+                                <td>REV. ERNEST E. ALFRED</td>
+                                <td>-</td>
+                                <td>FAITH A.M.E. ZION CHURCH, OKAT</td>
+                            </tr>
+                            <tr>
+                                <td>36.</td>
+                                <td>REV. FRIDAY U. AKPAN</td>
+                                <td>-</td>
+                                <td>LIVING SPRING A.M.E. ZION CHURCH, ABAT</td>
+                            </tr>
+    </tbody>
+    </table>
                 <p class="table-note">Note: Supernumerary and retired ministers are listed separately in conference records.</p>
             </div>
         </section>
@@ -323,27 +498,27 @@
                 <!-- Circular Item 1 -->
                 <div class="circular-gallery-item">
                     <div class="circular-gallery-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="Lay Council President">
+                        <img src="/images/Fieldworkerss/lay-mnc.jpg" alt="Lay Council President">
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Dr. Jimmy U. Wilson</div>
                     <div>Lay Council President</div>
                 </div>
 
                 <!-- Circular Item 2 -->
                 <div class="circular-gallery-item">
                     <div class="circular-gallery-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="Fieldworker">
+                        <img src="/images/Fieldworkerss/EmemThompson.jpeg" alt="Deac. Emem U. Thompson" >
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Deac. Emem U. Thompson</div>
                     <div>Fieldworker</div>
                 </div>
 
                 <!-- Circular Item 3 -->
                 <div class="circular-gallery-item">
                     <div class="circular-gallery-img">
-                        <img src="/images/conferences/ANC/nopic.jpeg" alt="President, Men of Zion Ministry">
+                        <img src="/images/Fieldworkerss/MOZ-MNC.jpg" alt="President, Men of Zion Ministry">
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Bro. Ekerenteowo S. Ebong</div>
                     <div>President, Men of Zion Ministry</div>
                 </div>
 
@@ -352,7 +527,7 @@
                     <div class="circular-gallery-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="Diretor of Youth Council">
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Bro. Bright D. Edem</div>
                     <div>President Youth Fellowship</div>
                 </div>
                 <!-- Circular Item 5 -->
@@ -360,7 +535,7 @@
                     <div class="circular-gallery-img">
                         <img src="/images/conferences/ANC/nopic.jpeg" alt="Diretor of Children Ministry">
                     </div>
-                    <div class="circular-gallery-title">-</div>
+                    <div class="circular-gallery-title">Deac. Glory E. Okon</div>
                     <div>Diretor of Children Ministry</div>
                 </div>
             </div>
@@ -373,8 +548,8 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>Mainland Nigeria Annual Conference</h3>
-                    <p>Organized: XXX November, XXX</p>
-                    <p>XXX Districts: </p>
+                    <p>Organized: November, 1992</p>
+                    <p>Seven Districts: EKET CENTRAL, OKON EKET, NDIYA DISTRICT, MBIOKPORO DISTRICT, USUNG INYANG, EDEBOM</p>
                 </div>
                 
                 <div class="footer-column">
@@ -390,9 +565,9 @@
                 <div class="footer-column">
                     <h3>Contact Information</h3>
                     <ul class="contact-info">
-                        <li><i class="fas fa-map-marker-alt"></i> XXX</li>
+                        <li><i class="fas fa-map-marker-alt"></i>St. Michael A.M.E. Zion Church, Effoi, Eket L.G.A., Akwa Ibom State</li>
                         <li><i class="fas fa-phone"></i> +234 XXX XXXX XXX</li>
-                        <li><i class="fas fa-envelope"></i> mnc@amez-ewaed.org</li>
+                        <!-- <li><i class="fas fa-envelope"></i> mnc@amez-ewaed.org</li> -->
                         <li><i class="fas fa-globe"></i>https://amez-ewaed.org/Annual-Conference/Mainland-Nigeria-Conference</li>
                     </ul>
                 </div>

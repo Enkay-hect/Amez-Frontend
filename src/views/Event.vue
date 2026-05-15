@@ -26,7 +26,7 @@
         <div class="live-now"><i class="fas fa-circle"></i> LIVE NOW</div>
         <div class="video-wrapper">
           <!-- Replace with your actual YouTube embed or live stream -->
-          <iframe src="https://www.youtube.com/embed/NnGmXo71TIs" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <div class="video-info">
@@ -42,30 +42,30 @@
 
         <div class="cards-grid">
           <!-- Card 1 -->
-          <!-- <div class="stream-card">
-            <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+          <div class="stream-card">
+            <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
             <div class="card-body">
-              <h3>WH&OMS Convention, RNC</h3>
-              <div class="meta"><i class="fas fa-calendar-alt"></i> April 19, 2026 · 9:30 AM WAT</div>
+              <h3>WH&OMS Convention, LWNC, Opening Service</h3>
+              <div class="meta"><i class="fas fa-calendar-alt"></i> May 15, 2026 · 4:00 PM WAT</div>
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div> -->
+          </div> 
 
           <!-- Card 2 -->
-          <!-- <div class="stream-card">
-            <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+          <div class="stream-card">
+            <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
             <div class="card-body">
-              <h3>WH&OMS Convention, PHNC</h3>
-              <div class="meta"><i class="fas fa-calendar-alt"></i> May 03, 2026 · 9:30 AM WAT</div>
+              <h3>WH&OMS Convention, LWNC, Prayer Breakfast</h3>
+              <div class="meta"><i class="fas fa-calendar-alt"></i> May 16, 2026 · 10:30 AM WAT</div>
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div> -->
+          </div>
 
           <!-- Card 3 -->
           <div class="stream-card">
@@ -121,10 +121,10 @@
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
             <div class="card-body">
-              <h3>District Prayer Summit</h3>
-              <div class="meta"><i class="fas fa-calendar-alt"></i> November 22, 2025</div>
-              <p>Three hours of prayer and worship.</p>
-              <a href="#" class="btn-outline">Replay</a>
+              <h3>WH&OMS Convention, PHNC</h3>
+              <div class="meta"><i class="fas fa-calendar-alt"></i> May 03, 2026</div>
+              <p>Theme: <strong>Leadership and Legacy</strong></p>
+              <a href="https://www.youtube.com/embed/NnGmXo71TIs" class="btn-outline">Replay</a>
             </div>
           </div>
 
@@ -146,7 +146,7 @@
         <div class="cta-banner">
           <h2>Never Miss a Live Stream</h2>
           <p>Subscribe to our YouTube channel and turn on notifications to get alerts when we go live.</p>
-          <a href="#" class="btn"><i class="fab fa-youtube"></i> Subscribe on YouTube</a>
+          <a href="https://youtube.com/@theafricanmethodistepiscopalzi?si=Dj2tv7WRjEmNLHpZ" class="btn"><i class="fab fa-youtube"></i> Subscribe on YouTube</a>
         </div>
       </div>
       </div>
