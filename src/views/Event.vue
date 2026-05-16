@@ -26,7 +26,7 @@
         <div class="live-now"><i class="fas fa-circle"></i> LIVE NOW</div>
         <div class="video-wrapper">
           <!-- Replace with your actual YouTube embed or live stream -->
-          <iframe src="https://www.youtube.com/embed/" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/99b9rZVCW98" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <div class="video-info">
@@ -42,7 +42,7 @@
 
         <div class="cards-grid">
           <!-- Card 1 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -52,10 +52,10 @@
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div> 
+          </div>  -->
 
           <!-- Card 2 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -65,7 +65,7 @@
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Card 3 -->
           <div class="stream-card">
