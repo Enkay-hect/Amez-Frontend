@@ -1,20 +1,30 @@
 <template>
+           
+
     <nav class="relative text-white w-[100%] ">
+        
+       
+                    
+            <div class="relative z-20 flex w-full flex-col">             
+                <ConventionCountdown />
 
-    <div class="flex flex-row w-full h-20 justify-center items-center  relative z-20 bg-black" >
-        <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled">
-                    <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
+            <div class="flex flex-row w-full h-20 justify-center items-center  relative z-20 bg-black">
+                <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled">
+                        <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
 
-                    </path>
+                        </path>
+                    </g>
                 </g>
-            </g>
-        </svg>
-        <h3 class="text-white font-semibold text-center ">
-            EASTERN WEST AFRICA EPISCOPAL DISTRICT
-        </h3>
+            </svg>
+        
+            <h3 class="text-white font-semibold text-center ">
+                EASTERN WEST AFRICA EPISCOPAL DISTRICT
+            </h3>
+
+            </div>
         </div>
 
         <div class="w-full grid md:grid-cols-7 px-20 h-20 items-center relative z-20 bg-black"
@@ -239,8 +249,7 @@
 
 
                             <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="connectional-lay-council">Connectional Lay Council</router-link></li>
-                            <li class="border-b-2 border-gray-400 pt-3 pb-3">Men of Zion Ministry</li>
-                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li> -->
+                            <li class="border-b-2 border-gray-400 pt-3 pb-3"><router-link to="men-of-zion">Men of Zion Ministry</router-link></li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Minister’s Spouses Fellowship</li>
 
 
@@ -457,7 +466,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-
+import ConventionCountdown from '../../components/Countdown/ConventionCountdown.vue';
 const activeDropdown = ref('');
 const isFixed = ref(false);
 const bgBlack = ref(false);
