@@ -308,14 +308,12 @@
     </main>
 
 
-    <AppFooter />
     
     
 </template>
 
 <script setup>
 import SiteHeader from '@/components/NewNavbarComponents/SiteHeader.vue'
-import AppFooter from '@/components/AppFooter.vue'
 
 import { reactive, ref, onMounted, onUnmounted } from 'vue'
 

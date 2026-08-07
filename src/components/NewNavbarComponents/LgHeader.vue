@@ -32,7 +32,7 @@
   >
     <div class="w-[min(1180px,calc(100%_-_40px))] mx-auto flex flex-nowrap items-center justify-between gap-7 min-h-[84px]">
       <!-- Brand -->
-      <a href="#home" class="inline-flex items-center gap-3 shrink-0" aria-label="A. M. E. Zion Church home">
+      <router-link to="/" class="inline-flex items-center gap-3 shrink-0" aria-label="A. M. E. Zion Church home">
         <span
           class="relative w-[52px] h-[52px] rounded-full bg-cover bg-center shadow-[inset_0_0_0_3px_rgba(208,164,68,0.3)]"
           :style="{ backgroundImage: `url(${logoUrl})` }"
@@ -46,21 +46,21 @@
             Eastern West Africa Episcopal District
           </small>
         </span>
-      </a>
+      </router-link>
 
       <!-- Primary nav -->
       <nav aria-label="Primary navigation" class="shrink-0 max-w-full">
         <ul class="flex items-center gap-[2px]">
           <li v-for="item in navItems" :key="item.id" class="relative" @mouseleave="closeDropdown(item.id)">
             <!-- Plain link -->
-            <a
+            <router-link
               v-if="!item.dropdown"
-              :href="item.href"
+              :to="item.to"
               class="nav-link inline-flex items-center gap-[7px] whitespace-nowrap min-h-[44px] px-3 text-[0.78rem] font-extrabold tracking-[0.035em] transition-colors"
-              :class="item.active ? 'text-brand-gold600' : 'text-brand-green950 hover:text-brand-gold600'"
+             
             >
               {{ item.label }}
-            </a>
+          </router-link>
 
             <!-- Dropdown trigger -->
             <button
@@ -79,24 +79,28 @@
               ></i>
             </button>
 
-            <!-- Dropdown panel -->
+            <!-- Dropdown panel: flush against the trigger (top-full, zero-gap
+                 hit area) instead of floating with a real gap above it. The
+                 pt-[22px] recreates the old visual spacing as padding inside
+                 the hoverable box, so there's no dead zone between trigger
+                 and panel for the mouse to fall through. -->
             <div
               v-if="item.dropdown && item.dropdown.length"
-              class="dropdown-menu absolute top-[calc(100%+12px)] left-0 w-[265px] p-[10px] border border-brand-green950/10 rounded-[18px] bg-white shadow-brand-lg transition-all duration-200"
+              class="dropdown-menu absolute top-full pt-[22px] px-[10px] pb-[10px] left-0 w-[265px] border border-brand-green950/10 rounded-[18px] bg-white shadow-brand-lg transition-all duration-200"
               :class="openDropdownId === item.id
                 ? 'opacity-100 visible translate-y-0 pointer-events-auto'
                 : 'opacity-0 invisible -translate-y-1 pointer-events-none'"
               @mouseenter="openDropdown(item.id)"
             >
-              <a
+              <router-link
                 v-for="link in item.dropdown"
                 :key="link.label"
-                :href="link.href"
+                :to="link.to"
                 class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
                 @click="closeDropdown(item.id)"
               >
                 <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
-              </a>
+              </router-link>
             </div>
           </li>
         </ul>
@@ -104,12 +108,12 @@
 
       <!-- Actions -->
       <div class="flex items-center gap-[10px] shrink-0">
-        <a
-          href="#campaign"
+        <router-link
+          :to="'#campaign'"
           class="hidden min-[1121px]:inline-flex items-center justify-center gap-[10px] min-h-[44px] px-[18px] rounded-full text-[0.88rem] font-extrabold tracking-[0.04em] bg-brand-green900 text-white hover:bg-brand-green700 hover:-translate-y-[3px] transition-all"
         >
           Give Online
-        </a>
+        </router-link>
       </div>
     </div>
   </header>
@@ -121,48 +125,63 @@ import logoUrl from '/images/logo/amez.jpeg'
 
 // --- Nav data (drives the whole menu reactively) ---
 const navItems = reactive([
-  { id: 'home', label: 'Home', href: '#home', active: true, dropdown: null },
-  { id: 'church', label: 'The Church', href: '#', dropdown: [] },
+  { id: 'home', label: 'Home', to: '/', active: true, dropdown: null },
+  { id: 'church', label: 'The Church', to: '/the-church', dropdown: null },
+
   {
     id: 'leadership',
     label: 'Leadership',
-    href: '#',
+    to: '#',
     dropdown: [
-      { label: 'The Presiding Prelate', href: '#' },
-      { label: "Bishop's Administrative Assistants", href: '#' },
-      { label: 'Annual Conferences', href: '#' },
+      { label: 'The Presiding Prelate', to: '/the-bishop' },
+      { label: "Bishop's Administrative Assistants", to: '/BAA' },
+      { label: 'Annual Conferences', to: '#' },
     ],
   },
+
   {
     id: 'ministries',
     label: 'Departments & Ministries',
-    href: '#',
+    to: '#',
     dropdown: [
-      { label: "Women's Home & Overseas Missionary Society", href: '#ministries' },
-      { label: 'Connectional Lay Council', href: '#ministries' },
-      { label: 'Men of Zion Ministry', href: '#ministries' },
-      { label: "Minister's Spouses Fellowship", href: '#ministries' },
-      { label: 'Directorates', href: '#ministries' },
+      { label: "Women's Home & Overseas Missionary Society", to: '#ministries' },
+      { label: 'Connectional Lay Council', to: '/connectional-lay-council' },
+      { label: 'Men of Zion Ministry', to: '/men-of-zion' },
+      { label: "Minister's Spouses Fellowship", to: '#ministries' },
+      { label: 'Directorates', to: '#ministries' },
     ],
   },
-  { id: 'schools', label: 'Schools & Seminary', href: '#events', dropdown: null },
-  { id: 'events', label: 'Events', href: '#events', dropdown: null },
-  { id: 'contact', label: 'Contact', href: '#contact', dropdown: null },
+
+  { id: 'schools', label: 'Schools & Seminary', to: '/hood-speaks', dropdown: null },
+  { id: 'events', label: 'Events', to: '/event', dropdown: null },
+  { id: 'contact', label: 'Contact', to: '/contact', dropdown: null },
 ])
 
 // --- Dropdown open/close state ---
 const openDropdownId = ref(null)
+let closeTimer = null
 
 function openDropdown(id) {
   const item = navItems.find((navItem) => navItem.id === id)
-  if (item?.dropdown?.length) openDropdownId.value = id
+  if (!item?.dropdown?.length) return
+  clearTimeout(closeTimer)
+  openDropdownId.value = id
 }
 
 function closeDropdown(id) {
-  if (!id || openDropdownId.value === id) openDropdownId.value = null
+  if (!id || openDropdownId.value !== id) return
+  // Small delay so a brief, imprecise mouse path (fast diagonal movement,
+  // trackpad jitter) between the trigger and the panel doesn't close it
+  // before the cursor lands — cancelled instantly by openDropdown() above
+  // if the mouse re-enters the trigger or the panel in time.
+  clearTimeout(closeTimer)
+  closeTimer = setTimeout(() => {
+    if (openDropdownId.value === id) openDropdownId.value = null
+  }, 150)
 }
 
 function toggleDropdown(id) {
+  clearTimeout(closeTimer)
   openDropdownId.value = openDropdownId.value === id ? null : id
 }
 
@@ -196,5 +215,8 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
   document.removeEventListener('click', handleClickOutside)
   document.removeEventListener('keydown', handleKeydown)
+  clearTimeout(closeTimer)
 })
+
+// :class="item.active ? 'text-brand-gold600' : 'text-brand-green950 hover:text-brand-gold600'"
 </script>

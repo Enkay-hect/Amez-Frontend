@@ -1,7 +1,5 @@
 <template>
-    <NavBar style="height: 9.5rem">
    
-    </NavBar>
 
     <section class="hero " style="padding: 25px 10px 10px 5px">
     <span class="hero-badge"><i class="fas fa-fire" style="margin-right: 8px;"></i>Igniting a divine awakening</span>

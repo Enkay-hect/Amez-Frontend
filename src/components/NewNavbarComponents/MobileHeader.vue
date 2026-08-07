@@ -1,6 +1,6 @@
 <template>
   <!-- Topbar -->
-  <div class="font-sans relative z-[1001] bg-brand-green950 text-white/80 text-[0.76rem] tracking-[0.05em]">
+  <div ref="topbarRef" class="font-sans relative z-[1001] bg-brand-green950 text-white/80 text-[0.76rem] tracking-[0.05em]">
       <div class="w-[calc(100%_-_28px)] mx-auto min-h-[38px] flex items-center justify-center gap-[10px] text-center">
         <span class="inline-flex items-center gap-2">
           <i class="fa-solid fa-location-dot"></i> Eastern West Africa Episcopal District
@@ -11,15 +11,23 @@
       </div>
     </div>
 
+    <!-- Spacer: reserves the header's height in normal flow once it goes fixed,
+         so content beneath it doesn't jump up. Height is measured live. -->
+    <div v-if="isFixed" :style="{ height: headerHeight + 'px' }"></div>
+
     <!-- Header -->
     <header
       ref="headerRef"
-      class="font-sans sticky top-0 z-[1000] flex items-center min-h-[72px] bg-brand-cream/95 backdrop-blur-md border-b transition-shadow duration-300"
-      :class="isScrolled ? 'shadow-[0_12px_30px_rgba(8,41,29,0.08)] border-brand-green950/10' : 'border-transparent'"
+      class="font-sans z-[1000] flex items-center min-h-[72px] w-full bg-brand-cream border-b transition-shadow duration-300"
+      :class="[
+        isFixed ? 'fixed top-0 left-0 right-0 gap-2' : 'relative', 
+        isScrolled ? 'shadow-[0_12px_30px_rgba(8,41,29,0.08)] border-brand-green950/10' : 'border-transparent',
+      ]"
     >
       <div class="w-[calc(100%_-_28px)] mx-auto flex flex-nowrap items-center justify-between gap-4 min-h-[72px]">
+      
         <!-- Brand -->
-        <a href="#home" class="inline-flex items-center gap-3 shrink-0" aria-label="A. M. E. Zion Church home" @click="closePanel">
+        <router-link to="/" class="inline-flex items-center gap-3 shrink-0" aria-label="A. M. E. Zion Church home" @click="closePanel">
           <span
             class="relative w-[46px] h-[46px] rounded-full bg-cover bg-center shadow-[inset_0_0_0_3px_rgba(208,164,68,0.3)]"
             :style="{ backgroundImage: `url(${logoUrl})` }"
@@ -28,7 +36,7 @@
           <span class="block">
             <strong class="block font-serif text-brand-green950 text-[1.08rem] leading-none">A. M. E. Zion Church</strong>
           </span>
-        </a>
+        </router-link>
 
         <!-- Hamburger -->
         <button
@@ -65,15 +73,15 @@
         <ul>
           <li v-for="item in navItems" :key="item.id" class="relative">
             <!-- Plain link -->
-            <a
+            <router-link
               v-if="!item.dropdown"
-              :href="item.href"
+              :to="item.to"
               class="flex items-center justify-between min-h-[50px] px-3 border-b border-brand-green950/10 text-[0.84rem] font-extrabold tracking-[0.035em]"
               :class="item.active ? 'text-brand-gold600' : 'text-brand-green950'"
               @click="closePanel"
             >
               {{ item.label }}
-            </a>
+            </router-link>
 
             <!-- Dropdown trigger -->
             <button
@@ -99,28 +107,28 @@
             >
               <div class="overflow-hidden">
                 <div class="py-2 pl-3">
-                  <a
+                  <router-link
                     v-for="link in item.dropdown"
                     :key="link.label"
-                    :href="link.href"
+                    :to="link.to"
                     class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:bg-brand-green50"
                     @click="closePanel"
                   >
                     <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
-                  </a>
+                  </router-link>
                 </div>
               </div>
             </div>
           </li>
         </ul>
 
-        <a
-          href="#campaign"
+        <router-link
+          to="#campaign"
           class="mt-6 flex items-center justify-center gap-[10px] min-h-[48px] rounded-full text-[0.88rem] font-extrabold tracking-[0.04em] bg-brand-green900 text-white"
           @click="closePanel"
         >
           Give Online
-        </a>
+        </router-link>
       </nav>
     </Transition>
 </template>
@@ -134,33 +142,36 @@ import logoUrl from '/images/logo/amez.jpeg'
 // composable (e.g. useNavItems.js) once both headers are wired into the app,
 // so the menu structure only has to be edited in one place.
 const navItems = reactive([
-  { id: 'home', label: 'Home', href: '#home', active: true, dropdown: null },
-  { id: 'church', label: 'The Church', href: '#', dropdown: [] },
+  { id: 'home', label: 'Home', to: '/', active: true, dropdown: null },
+  { id: 'church', label: 'The Church', to: '/the-church', dropdown: null },
+
   {
     id: 'leadership',
     label: 'Leadership',
-    href: '#',
+    to: '#',
     dropdown: [
-      { label: 'The Presiding Prelate', href: '#' },
-      { label: "Bishop's Administrative Assistants", href: '#' },
-      { label: 'Annual Conferences', href: '#' },
+      { label: 'The Presiding Prelate', to: '/the-bishop' },
+      { label: "Bishop's Administrative Assistants", to: '/BAA' },
+      { label: 'Annual Conferences', to: '#' },
     ],
   },
+
   {
     id: 'ministries',
     label: 'Departments & Ministries',
-    href: '#',
+    to: '#',
     dropdown: [
-      { label: "Women's Home & Overseas Missionary Society", href: '#ministries' },
-      { label: 'Connectional Lay Council', href: '#ministries' },
-      { label: 'Men of Zion Ministry', href: '#ministries' },
-      { label: "Minister's Spouses Fellowship", href: '#ministries' },
-      { label: 'Directorates', href: '#ministries' },
+      { label: "Women's Home & Overseas Missionary Society", to: '#ministries' },
+      { label: 'Connectional Lay Council', to: '/connectional-lay-council' },
+      { label: 'Men of Zion Ministry', to: '/men-of-zion' },
+      { label: "Minister's Spouses Fellowship", to: '#ministries' },
+      { label: 'Directorates', to: '#ministries' },
     ],
   },
-  { id: 'schools', label: 'Schools & Seminary', href: '#events', dropdown: null },
-  { id: 'events', label: 'Events', href: '#events', dropdown: null },
-  { id: 'contact', label: 'Contact', href: '#contact', dropdown: null },
+
+  { id: 'schools', label: 'Schools & Seminary', to: '/hood-speaks', dropdown: null },
+  { id: 'events', label: 'Events', to: '/event', dropdown: null },
+  { id: 'contact', label: 'Contact', to: '/contact', dropdown: null },
 ])
 
 // --- Panel open/close ---
@@ -195,23 +206,69 @@ function handleKeydown(event) {
   if (event.key === 'Escape' && isOpen.value) closePanel()
 }
 
-// --- Scroll shadow ---
+// --- Fixed-on-scroll (manual toggle, not CSS position:sticky) ---
+// position: sticky combined with backdrop-filter has known rendering bugs
+// on Chrome for Android (header gets visually clipped mid-scroll and
+// doesn't recover). Toggling between in-flow and position:fixed based on
+// scroll position avoids that class of bug entirely. isFixed switches the
+// positioning; the spacer above reserves the header's height so nothing
+// jumps when it engages; isScrolled (a lower threshold) just controls the
+// shadow, same as before.
 const isScrolled = ref(false)
+const isFixed = ref(false)
 const headerRef = ref(null)
+const topbarRef = ref(null)
+const headerHeight = ref(0)
+const topbarHeight = ref(0)
+
+function measureHeights() {
+  headerHeight.value = headerRef.value?.offsetHeight ?? 0
+  topbarHeight.value = topbarRef.value?.offsetHeight ?? 0
+}
 
 function handleScroll() {
   isScrolled.value = window.scrollY > 10
+  isFixed.value = window.scrollY > topbarHeight.value
+}
+
+function handleResize() {
+  measureHeights()
+}
+
+// Track the *visual* viewport separately from the layout viewport.
+// getBoundingClientRect() confirmed the header's own box math is correct
+// (top: 0, full width, correct height) even while it visibly appears
+// clipped — meaning the bug isn't in our layout/CSS at all. On Chrome for
+// Android, position:fixed anchors to the layout viewport, which stays
+// constant, while the browser's own address bar animates in/out of the
+// *visual* viewport independently as you scroll. Mid-transition, the
+// address bar can be physically drawn over the top of the page even
+// though the page's own coordinate system still says "y: 0" there. The
+// visualViewport API reports where the actually-visible area really is,
+// so we offset the header to track it instead of trusting a bare top: 0.
+function updateViewportOffset() {
+  const el = headerRef.value
+  if (!el || !window.visualViewport) return
+  el.style.top = `${window.visualViewport.offsetTop}px`
 }
 
 onMounted(() => {
+  measureHeights()
   handleScroll()
+  updateViewportOffset()
   window.addEventListener('scroll', handleScroll, { passive: true })
+  window.addEventListener('resize', handleResize)
   document.addEventListener('keydown', handleKeydown)
+  window.visualViewport?.addEventListener('resize', updateViewportOffset)
+  window.visualViewport?.addEventListener('scroll', updateViewportOffset)
 })
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
+  window.removeEventListener('resize', handleResize)
   document.removeEventListener('keydown', handleKeydown)
+  window.visualViewport?.removeEventListener('resize', updateViewportOffset)
+  window.visualViewport?.removeEventListener('scroll', updateViewportOffset)
   document.body.style.overflow = ''
 })
 </script>

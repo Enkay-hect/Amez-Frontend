@@ -1,9 +1,5 @@
 <template>
-    <NavBar style="height: 10.5rem" class="bg-black">
-
-
-    </NavBar>
-
+   
     <div class="seminary-container">
 
            <!-- Bishop's Administrative Tab -->
