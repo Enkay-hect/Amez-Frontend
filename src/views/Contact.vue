@@ -1,7 +1,5 @@
 <template>
-   <NavBar style="height: 10.5rem" class="bg-black">
-
-  </NavBar>
+   
   <div class="contact-container">
             <!-- Header Section -->
             <div class="header">

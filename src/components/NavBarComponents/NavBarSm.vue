@@ -310,25 +310,7 @@
                            <router-link to="/hood-speaks">Schools & Seminary</router-link>
                             </h3>
 
-                            <!-- <svg
-                                v-show="true"
-                                :style="{
-                                    opacity: activeDropdown === 'Seminary' ? 1 : 1,
-                                    transform: activeDropdown === 'Seminary' ? 'rotate(90deg)' : 'rotate(0deg)',
-                                    transition: '0.3s ease-in-out, transform 0.5s ease-in-out',
-                                }"
-                                viewBox="0 0 1024 1024"
-                                height="0.5rem"
-                                width="1rem"
-                                class="icon mt-1"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="#000000"
-                                >
-                                <path
-                                    d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
-                                    fill="#000000"
-                                />
-                            </svg> -->
+                            
                         </div>
 
                         <!-- Parent Dropdown -->
@@ -353,60 +335,7 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Admission and Funding</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Academic Calender and press release</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Students services</li>
-                            <!-- Child Dropdown Trigger -->
-                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
-                                @click.stop.prevent="toggleDropdown1('child-dropdown3')"
-
-                                >
-
-
-                                <div class="flex items-center">
-                                    <h4>Annual Conferences</h4>
-                                    <svg
-                                    :style="{
-                                        opacity: activeDropdown === 'child-dropdown3' ? 1 : 1,
-                                        transform: activeDropdown === 'child-dropdown3' ? 'rotate(90deg)' : 'rotate(0deg)',
-                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
-                                    }"
-                                    viewBox="0 0 1024 1024"
-                                    height="0.5rem"
-                                    width="1rem"
-                                    class="icon"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="#000000"
-                                    >
-                                    <path
-                                        d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
-                                        fill="#000000"
-                                    />
-                                    </svg>
-                                </div>
-
-                             Child Dropdown
-                                <ul
-                                    v-show="true"
-                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
-                                    :style="{
-                                    opacity: activeDropdown === 'child-dropdown3' ? 1 : 0,
-                                    zIndex: activeDropdown === 'child-dropdown3' ? 1 : -10,
-                                    pointerEvents: activeDropdown === 'child-dropdown3' ? 'auto' : 'none',
-                                    transform: activeDropdown === 'child-dropdown3' ? 'translateX(0)' : 'translateX(-5rem)',
-                                    transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
-                                    }"
-                                    >
-                                    <li class="border-b-2 border-gray-400 pb-2"><router-link to="/the-churchh" >Nigeria Conference</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Northern Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Port Harcourt Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">South Eastern Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Cross River Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Southern Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Akwa Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Lagos West Annual Conference</li>
-                                </ul>
-                            </li> -->
+                            
                         </ul>
           </li>
         </ul>
@@ -463,60 +392,7 @@
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Upcoming events</li>
                             <li class="border-b-2 border-gray-400 pt-3 pb-3">Gallery</li>
 
-                            <!-- Child Dropdown Trigger -->
-                            <!-- <li class="border-b-2 border-gray-400 pt-3 pb-3 relative"
-                                @click.stop.prevent="toggleDropdown1('child-dropdown3')"
-
-                                >
-
-
-                                <div class="flex items-center">
-                                    <h4>Annual Conferences</h4>
-                                    <svg
-                                    :style="{
-                                        opacity: activeDropdown === 'child-dropdown3' ? 1 : 1,
-                                        transform: activeDropdown === 'child-dropdown3' ? 'rotate(90deg)' : 'rotate(0deg)',
-                                        // transition: '1s ease-in-out, transform 0.5s ease-in-out',
-                                    }"
-                                    viewBox="0 0 1024 1024"
-                                    height="0.5rem"
-                                    width="1rem"
-                                    class="icon"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="#000000"
-                                    >
-                                    <path
-                                        d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
-                                        fill="#000000"
-                                    />
-                                    </svg>
-                                </div>
-
-                             Child Dropdown
-                                <ul
-                                    v-show="true"
-                                    class="absolute left-[40%] top-0 bg-gray-100 p-4 pt-2 w-max text-black shadow-md overflow-y-auto max-h-64"
-                                    :style="{
-                                    opacity: activeDropdown === 'child-dropdown3' ? 1 : 0,
-                                    zIndex: activeDropdown === 'child-dropdown3' ? 1 : -10,
-                                    pointerEvents: activeDropdown === 'child-dropdown3' ? 'auto' : 'none',
-                                    transform: activeDropdown === 'child-dropdown3' ? 'translateX(0)' : 'translateX(-5rem)',
-                                    transition: 'opacity 1s ease-in-out, transform 0.3s ease-in-out',
-                                    }"
-                                    >
-                                    <li class="border-b-2 border-gray-400 pb-2"><router-link to="/the-churchh" >Nigeria Conference</router-link></li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Central Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Rivers Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Mainland Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Northern Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Port Harcourt Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">South Eastern Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Cross River Nigeria <br> Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Southern Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Akwa Nigeria Conference</li>
-                                    <li class="border-b-2 border-gray-400 pt-2 pb-2">Lagos West Annual Conference</li>
-                                </ul>
-                            </li> -->
+                            
                         </ul>
           </li>
         </ul>
@@ -541,22 +417,28 @@
 
 
 
+      <div class="relative z-10 flex w-full flex-col">
+        <ConventionCountdown />
+          
+        
+        <div class="flex flex-row w-full h-20 justify-center items-center bg-black relative z-10">
+              <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled">
+                            <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
 
-    <div class="flex flex-row w-full h-20 justify-center items-center bg-black relative z-10">
-      <svg fill="#dec043" height="1rem" width="1.5rem" version="1.1" id="Filled_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#dec043">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier"> <g id="Location-Pin-Filled">
-                    <path d="M12,1c-4.97,0-9,4.03-9,9c0,6.75,9,13,9,13s9-6.25,9-13C21,5.03,16.97,1,12,1z M12,13c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,13,12,13z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+              <h3 class="text-white font-semibold text-center text-xs">
+                EASTERN WEST AFRICA EPISCOPAL DISTRICT
+              </h3>
+          </div>
 
-                    </path>
-                </g>
-            </g>
-        </svg>
-      <h3 class="text-white font-semibold text-center text-xs">
-        EASTERN WEST AFRICA EPISCOPAL DISTRICT
-      </h3>
-    </div>
+        </div>
+
 
     <div class="flex justify-between px-5 h-20 items-center  relative z-10"
       :class="{ 'fixed-nav': isFixed, 'setNavBg': bgBlack  }">
@@ -585,6 +467,7 @@
     import { ref, onMounted, onUnmounted, watch } from 'vue';
     import { nextTick } from 'vue';
     import { useRoute, onBeforeRouteLeave } from 'vue-router';
+    import ConventionCountdown from '@/components/Countdown/ConventionCountdown.vue';
 
     const sideBar = ref(false);
     const sideBarVisible = ref(false);
