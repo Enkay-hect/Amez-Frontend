@@ -1,7 +1,5 @@
 <template>
-    <NavBar style="height: 9.5rem">
-
-    </NavBar>
+    
 
     <div class="p-[20px] flex justify-center items-center min-[100vh]" >
       <div class="container">
@@ -178,7 +176,6 @@
   </template>
 
   <script setup>
-  import NavBar from '../components/NavBar.vue';
 
   import { reactive } from 'vue'
 

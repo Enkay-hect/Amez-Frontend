@@ -1,8 +1,5 @@
 <template>
-    <NavBar class="bg-black" style="height: 10.5rem;">
-      
-        
-    </NavBar>
+    
 
      <div class="relative flex flex-col text-white justify-center align-center ">
         <div class=" inset-0 bg-cover bg-center sm:flex flex-col  justify-center align-middle gap-3" style="background-image: url(images/women/img119.jpg); background-color: grey; background-blend-mode: multiply;">

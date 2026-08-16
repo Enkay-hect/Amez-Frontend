@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '../views/HomeView.vue'
+import Home from '../views/Home.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +15,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: Home,
     },
     {
       path: '/about',
@@ -177,10 +179,23 @@ const router = createRouter({
       component: () => import('../components/Failure.vue'),
     },
 
-
-
-
+    
   ],
+
+    scrollBehavior(to, from, savedPosition) {
+    // Browser back/forward: restore where the user was
+    if (savedPosition) {
+      return savedPosition
+    }
+    // Navigating to an in-page anchor (e.g. your #ministries, #campaign links)
+    if (to.hash) {
+      return { el: to.hash, behavior: 'smooth' }
+    }
+    // Normal forward navigation: scroll to top
+    return { top: 0 }
+  },
 })
+  
+
 
 export default router

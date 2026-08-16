@@ -1,7 +1,5 @@
 <template>
-    <NavBar style="height: 10rem">
-
-    </NavBar>
+    
 
 
 
@@ -79,6 +77,8 @@
 
 
     </div>
+
+    
   </template>
 
   <script setup>

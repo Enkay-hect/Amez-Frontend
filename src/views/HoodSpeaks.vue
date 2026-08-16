@@ -1,7 +1,5 @@
 <template>
-      <NavBar style="height: 10.5rem" class="bg-black">
-
-    </NavBar>
+     
 
     <!-- <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-20 bg-black w-[100%]">
         <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
