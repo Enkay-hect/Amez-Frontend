@@ -103,8 +103,14 @@
       </div>
       <!-- Member 2 -->
       <div class="member-card">
-        <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">-</div>
+        <div class="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-amber-600 bg-slate-800">
+        <img
+            src="/images/MOZ/essienessien.jpeg"
+            alt="Bro. Essien Essien"
+            class="h-full w-full object-contain"
+        />
+        </div>
+        <div class="member-name">Bro. Essien Essien</div>
         <div class="member-role">President, Nigeria Conference</div>
       </div>
       <!-- Member 3 -->
@@ -116,19 +122,25 @@
       <!-- Member 4 -->
       <div class="member-card">
         <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">-</div>
-        <div class="member-role">Rivers Nigeria Conference</div>
+        <div class="member-name">Bro. Charles Ogono</div>
+        <div class="member-role">President, Rivers Nigeria Conference</div>
       </div>
       <!-- Member 5 -->
       <div class="member-card">
-        <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">Bro. Rev. Samuel J. Ndah</div>
+        <div class="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-amber-600 bg-slate-800">
+        <img
+            src="/images/MOZ/samuelndah.jpg"
+            alt="Hon. Nse E. Edem"
+            class="h-full w-full object-contain"
+        />
+        </div>
+        <div class="member-name">Rev. Samuel J. Ndah</div>
         <div class="member-role">President, Lagos West Nigeria Conference</div>
       </div>
       <!-- Member 6 -->
       <div class="member-card">
         <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">Bro. Bro. Ekerenteowo S. Ebong</div>
+        <div class="member-name">Bro. Ekerenteowo S. Ebong</div>
         <div class="member-role">President, Mainland Nigeria Conference</div>
       </div>
       <!-- Member 7 -->
@@ -139,14 +151,20 @@
       </div>
       <!-- Member 8 -->
       <div class="member-card">
-        <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">-</div>
+        <div class="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-amber-600 bg-slate-800">
+        <img
+            src="/images/MOZ/eric.jpeg"
+            alt="Hon. Nse E. Edem"
+            class="h-full w-full object-contain"
+        />
+        </div>
+        <div class="member-name">Pastor (Hon ) Eric I.  Anderson</div>
         <div class="member-role">President, Cross River Nigeria Conference</div>
       </div>
       <!-- Member 9 -->
       <div class="member-card">
         <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">Bro. Bro. Humphrey Duruji</div>
+        <div class="member-name">Bro. Humphrey Duruji</div>
         <div class="member-role">President, South Eastern Nigeria Conference</div>
       </div>
       <!-- Member 10 --> 
@@ -157,8 +175,14 @@
       </div>
       <!-- Member 11 -->
       <div class="member-card">
-        <div class="member-avatar"><i class="fas fa-user-circle"></i></div>
-        <div class="member-name">-</div>
+        <div class="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-amber-600 bg-slate-800">
+        <img
+            src="/images/MOZ/eyakenoudoma.jpeg"
+            alt="Hon. Nse E. Edem"
+            class="h-full w-full object-contain"
+        />
+        </div>
+        <div class="member-name">Chief Eyakeno Udoma</div>
         <div class="member-role">President, Akwa Nigeria Conference</div>
       </div>
       <!-- Member 12 -->
@@ -167,6 +191,7 @@
         <div class="member-name">-</div>
         <div class="member-role">President, Portharcourt Nigeria Conference</div>
       </div>
+      
     </div>
     <p style="text-align: center; margin-top: 40px; font-style: italic; color: #3e4e5f;">
       <i class="fas fa-church" style="margin-right: 6px;"></i> Each member serves with a heart for men, families, and the Kingdom.
@@ -177,7 +202,7 @@
   </template>
   
   <script setup>
-  // import NavBar from '../components/NavBar.vue';
+ // import NavBar from '../components/NavBar.vue';
   </script>
 
 
