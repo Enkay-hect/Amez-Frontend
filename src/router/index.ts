@@ -168,6 +168,12 @@ const router = createRouter({
     },
 
     {
+      path: '/whoms',
+      name: 'whoms',
+      component: () => import('../views/Whoms.vue'),
+    },
+
+    {
       path: '/success',
       name: 'success',
       component: () => import('../components/Success.vue'),
