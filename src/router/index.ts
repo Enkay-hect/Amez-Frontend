@@ -178,8 +178,6 @@ const router = createRouter({
       name: 'failure',
       component: () => import('../components/Failure.vue'),
     },
-
-    
   ],
 
     scrollBehavior(to, from, savedPosition) {
@@ -196,6 +194,4 @@ const router = createRouter({
   },
 })
   
-
-
 export default router
