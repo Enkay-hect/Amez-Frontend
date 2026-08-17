@@ -1,7 +1,5 @@
 <template class="">
-    <NavBar style="height: 10rem" >
- 
-    </NavBar>
+    
 
 
     <div class="w-full gap-14 px-7 lg:px-64 xl:px-76 mt-14 ">
@@ -47,7 +45,6 @@
 </template>
 
 <script setup>
-import NavBar from '../components/NavBar.vue';
 
 
 

@@ -353,14 +353,13 @@
 
 <script setup>
     import { ref, onMounted, computed } from 'vue';
-    import NavBar from '../components/NavBar.vue';
 
 
-    import About from '../components/HoodspeakComponent/About.vue'
-    import Calendar from '../components/HoodspeakComponent/Calendar.vue'
-    import Leadership from '../components/HoodspeakComponent/Leadership.vue';
-    import Programme from '../components/HoodspeakComponent/Programme.vue';
-    import Student_life from '../components/HoodspeakComponent/Student_life.vue';
+    // import About from '../components/HoodspeakComponent/About.vue'
+    // import Calendar from '../components/HoodspeakComponent/Calendar.vue'
+    // import Leadership from '../components/HoodspeakComponent/Leadership.vue';
+    // import Programme from '../components/HoodspeakComponent/Programme.vue';
+    // import Student_life from '../components/HoodspeakComponent/Student_life.vue';
 
 
 

@@ -1,9 +1,5 @@
 <template class="">
-  <NavBar style="height: 10rem" >
- 
-  </NavBar>
-
-
+  
   <div class=" pt-10 pb-10">
     <div class="flex flex-row gap-6 justify-between flex-wrap xl:px-72">
       <button 
@@ -42,7 +38,6 @@
 </template>
 
 <script setup>
-import NavBar from '../components/NavBar.vue';
 import Missionimperatives from '../components/AboutusComponent/Missionimperatives.vue';
 import Quadrennial from '../components/AboutusComponent/Quadrennial.vue';
 import HODs from '../components/AboutusComponent/HODs.vue';
