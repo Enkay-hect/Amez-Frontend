@@ -166,7 +166,7 @@ const navItems = reactive([
     label: 'Departments & Ministries',
     to: '#',
     dropdown: [
-      { label: "Women's Home & Overseas Missionary Society", to: '#ministries' },
+      { label: "Women's Home & Overseas Missionary Society", to: '/Whoms' },
       { label: 'Connectional Lay Council', to: '/connectional-lay-council' },
       { label: 'Men of Zion Ministry', to: '/men-of-zion' },
       { label: "Minister's Spouses Fellowship", to: '#ministries' },
