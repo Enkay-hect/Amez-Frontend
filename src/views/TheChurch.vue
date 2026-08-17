@@ -1,7 +1,5 @@
 <template>
-    <!-- <NavBar style="height: 10.5rem" class="bg-black">
-
-  </NavBar> -->
+ 
 
 
   <div class="church-container">
@@ -287,7 +285,6 @@
   </template>
 
   <script setup>
-  import NavBar from '../components/NavBar.vue';
   import AppFooter from '@/components/AppFooter.vue';
 
   import {ref} from 'vue';

@@ -49,7 +49,7 @@
       </router-link>
 
       <!-- Primary nav -->
-      <nav aria-label="Primary navigation" class="shrink-0 max-w-full">
+      <nav aria-label="Primary navigation" class="shrink-0 max-w-full cursor-pointer">
         <ul class="flex items-center gap-[2px]">
           <li v-for="item in navItems" :key="item.id" class="relative" @mouseleave="closeDropdown(item.id)">
             <!-- Plain link -->
@@ -66,7 +66,7 @@
             <button
               v-else
               type="button"
-              class="dropdown-toggle inline-flex items-center gap-[7px] whitespace-nowrap min-h-[44px] px-3 bg-transparent text-brand-green950 text-[0.78rem] font-extrabold tracking-[0.035em] hover:text-brand-gold600 transition-colors"
+              class="dropdown-toggle inline-flex items-center gap-[7px] whitespace-nowrap min-h-[44px] px-3 bg-transparent text-brand-green950 text-[0.78rem] font-extrabold tracking-[0.035em] hover:text-brand-gold600 transition-colors "
               :aria-expanded="openDropdownId === item.id"
               @click="toggleDropdown(item.id)"
               @mouseenter="openDropdown(item.id)"
@@ -100,11 +100,11 @@
                 :href="link.to.startsWith('http') ? link.to : undefined"
                 :target="link.to.startsWith('http') ? '_blank' : undefined"
                 :rel="link.to.startsWith('http') ? 'noopener noreferrer' : undefined"
-                class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
+                class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all "
                 @click="closeDropdown(item.id)"
               >
               
-                <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
+                <i class="fa-regular fa-circle-dot "></i> {{ link.label }}
               </component>
             </div>
           </li>
@@ -149,7 +149,7 @@ const navItems = reactive([
     label: 'Departments & Ministries',
     to: '#',
     dropdown: [
-      { label: "Women's Home & Overseas Missionary Society", to: '/Whoms' },
+      { label: "Women's Home & Overseas Missionary Society", to: '/whoms' },
       { label: 'Connectional Lay Council', to: '/connectional-lay-council' },
       { label: 'Men of Zion Ministry', to: '/men-of-zion' },
       { label: "Minister's Spouses Fellowship", to: '#ministries' },
