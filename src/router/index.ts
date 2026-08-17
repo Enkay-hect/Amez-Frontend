@@ -57,11 +57,7 @@ const router = createRouter({
       name: 'Contact',
       component: () => import('../views/Contact.vue'),
     },
-    {
-      path: '/field-workers',
-      name: 'field-workers',
-      component: () => import('../views/FieldWorkers.vue'),
-    },
+   
     {
       path: '/missionary-supervisor',
       name: 'missionary-supervisor',
