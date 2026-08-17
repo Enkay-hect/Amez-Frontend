@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import HomeView from '../views/HomeView.vue'
 import Home from '../views/Home.vue'
 
 
@@ -42,15 +41,17 @@ const router = createRouter({
     },
 
     {
-      path: '/the-bishop',
-      name: 'the-bishop',
-      component: () => import('../views/Bishop.vue'),
+      path: '/Annual-Conferences',
+      name: 'annual-conferences',
+      component: () => import('../views/AnnualConferences.vue'),
     },
+
     {
       path: '/BAA',
       name: 'Bishop-Administrative-Assistant',
       component: () => import('../views/TheBAA.vue'),
     },
+
     {
       path: '/contact',
       name: 'Contact',

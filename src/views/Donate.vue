@@ -1,18 +1,5 @@
 <template class="">
-    <NavBar style="height: 10.5rem" class="bg-black">
-
-  </NavBar>
-
-  <!-- <div class="w-full">
-
-    <PaymentForm @payment-success="handlePaymentSuccess">
-
-    </PaymentForm>
-
-  </div> -->
-
-
-  <div class="donation-container">
+     <div class="donation-container">
             <!-- Header Section -->
             <div class="header">
                 <h2>Support Our Mission</h2>

@@ -92,15 +92,20 @@
                 : 'opacity-0 invisible -translate-y-1 pointer-events-none'"
               @mouseenter="openDropdown(item.id)"
             >
-              <router-link
+              <component
+                :is="link.to.startsWith('http') ? 'a' : 'router-link'"
                 v-for="link in item.dropdown"
                 :key="link.label"
-                :to="link.to"
+                :to="link.to.startsWith('http') ? undefined : link.to"
+                :href="link.to.startsWith('http') ? link.to : undefined"
+                :target="link.to.startsWith('http') ? '_blank' : undefined"
+                :rel="link.to.startsWith('http') ? 'noopener noreferrer' : undefined"
                 class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
                 @click="closeDropdown(item.id)"
               >
+              
                 <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
-              </router-link>
+              </component>
             </div>
           </li>
         </ul>
@@ -109,7 +114,7 @@
       <!-- Actions -->
       <div class="flex items-center gap-[10px] shrink-0">
         <router-link
-          :to="'#campaign'"
+          to="/Donate"
           class="hidden min-[1121px]:inline-flex items-center justify-center gap-[10px] min-h-[44px] px-[18px] rounded-full text-[0.88rem] font-extrabold tracking-[0.04em] bg-brand-green900 text-white hover:bg-brand-green700 hover:-translate-y-[3px] transition-all"
         >
           Give Online
@@ -133,7 +138,7 @@ const navItems = reactive([
     label: 'Leadership',
     to: '#',
     dropdown: [
-      { label: 'The Presiding Prelate', to: '/the-bishop' },
+      { label: 'The Presiding Prelate', to: 'https://www.amezion.org/person/bishopeffiong/' },
       { label: "Bishop's Administrative Assistants", to: '/BAA' },
       { label: 'Annual Conferences', to: '#' },
     ],

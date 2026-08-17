@@ -22,6 +22,7 @@ export default {
             gold300: '#ead39a',
             wine700: '#7a1f2a',
             cream: '#fbf8f0',
+            gold700: '#9b6a16',
             ink: '#1a2520',
             muted: '#67736d',
             footer: '#061f16',

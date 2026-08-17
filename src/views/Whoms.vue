@@ -639,31 +639,31 @@ const contactList = [
 
 // --- Fieldworkers & fiscal officers ---
 const fieldworkers = [
-  { name: 'Deac. Uduak S. Williams', role: 'Field Worker', group: 'fieldworker', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/DEAC.UDUAKS.WILLIAMS.jpg' },
-  { name: 'Deac. Lovelyn Nwadike', role: 'Field Worker', group: 'fieldworker', conference: 'Central Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/DEAC.LOVELYNNWADIKE.png' },
-  { name: 'Deac. Manda Jack', role: 'Field Worker', group: 'fieldworker', conference: 'Rivers Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/DEAC. MANDA JACK.png' },
-  { name: 'Deac. Mfon M. Udoh', role: 'Field Worker', group: 'fieldworker', conference: 'Lagos West Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/DEAC.MFONM.UDOH.png' },
-  { name: 'Deac. Emem U. Thompson', role: 'Field Worker', group: 'fieldworker', conference: 'Mainland Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/DEAC.EMEMU.THOMPSON.jpeg' },
-  { name: 'Mrs. Nse E. Amos', role: 'Field Worker', group: 'fieldworker', conference: 'Northern Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/MRS.NSEE.AMOS.png' },
-  { name: 'Mrs. Uduak Ekeng', role: 'Field Worker', group: 'fieldworker', conference: 'Cross River Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/DEAC.UDUAK EKENG.png' },
-  { name: 'Deac. Confidence Patrick', role: 'Field Worker', group: 'fieldworker', conference: 'Southeastern Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/fieldworkers/Deac. ConfidencePatrick.jpeg' },
-  { name: 'Deac. Eno I. Udoekpe', role: 'Field Worker', group: 'fieldworker', conference: 'Southern Nigeria Conference', location: 'Kenya', email: 'N/A', image: '/images/fieldworkers/Deac. EnoUkpe.jpg' },
-  { name: 'Mrs. Nsisong M. Akpan', role: 'Field Worker', group: 'fieldworker', conference: 'Akwa Nigeria Conference', location: 'Tanzania', email: 'N/A', image: '/images/fieldworkers/MRS.NSISONGM.AKPAN.png' },
-  { name: 'Deac. Ingonimi E. Moro', role: 'Field Worker', group: 'fieldworker', conference: 'Port Harcourt Nigeria Conference', location: 'Uganda', email: 'N/A', image: '/images/fieldworkers/DEAC.INGONIMIE.MORO.png' },
+  { name: 'Deac. Uduak S. Williams', role: 'Field Worker', group: 'fieldworker', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/deac. U. Williams.jpeg' },
+  { name: 'Deac. Lovelyn Nwadike', role: 'Field Worker', group: 'fieldworker', conference: 'Central Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/deaclovelyn.png' },
+  { name: 'Deac. Manda Jack', role: 'Field Worker', group: 'fieldworker', conference: 'Rivers Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/deacmanda.png' },
+  { name: 'Deac. Mfon M. Udoh', role: 'Field Worker', group: 'fieldworker', conference: 'Lagos West Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/deac. Mfon Udoh.jpeg' },
+  { name: 'Deac. Emem U. Thompson', role: 'Field Worker', group: 'fieldworker', conference: 'Mainland Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/EmemThompson.jpeg' },
+  { name: 'Mrs. Nse E. Amos', role: 'Field Worker', group: 'fieldworker', conference: 'Northern Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/NseAmos.jpg' },
+  { name: 'Mrs. Uduak Ekeng', role: 'Field Worker', group: 'fieldworker', conference: 'Cross River Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Deac. Uduak Ekeng.jpeg' },
+  { name: 'Deac. Confidence Patrick', role: 'Field Worker', group: 'fieldworker', conference: 'Southeastern Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Deac. ConfidencePatrick.jpeg' },
+  { name: 'Deac. Eno I. Udoekpe', role: 'Field Worker', group: 'fieldworker', conference: 'Southern Nigeria Conference', location: 'Kenya', email: 'N/A', image: '/images/Fieldworkerss/Deac. EnoUkpe.jpg' },
+  { name: 'Mrs. Nsisong M. Akpan', role: 'Field Worker', group: 'fieldworker', conference: 'Akwa Nigeria Conference', location: 'Tanzania', email: 'N/A', image: '/images/Fieldworkerss/mrsnsisong.png' },
+  { name: 'Deac. Ingonimi E. Moro', role: 'Field Worker', group: 'fieldworker', conference: 'Port Harcourt Nigeria Conference', location: 'Uganda', email: 'N/A', image: '/images/Fieldworkerss/deacingonimi.png' },
 ]
 
 const fiscalOfficers = [
-  { name: 'Sis. Esther Umor Olu', role: 'Recording Secretary', group: 'fiscal', conference: 'Rivers Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
-  { name: 'Sis. Imaikop Ikemesit', role: 'Assistant Recording Secretary', group: 'fiscal', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
-  { name: 'Prof. Anthonia U. Ubom', role: 'Executive Secretary', group: 'fiscal', conference: 'Akwa Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
+  { name: 'Sis. Esther Umor Olu', role: 'Recording Secretary', group: 'fiscal', conference: 'Rivers Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Sis. Esther Umor Olu.jpg' },
+  { name: 'Sis. Imaikop Ikemesit', role: 'Assistant Recording Secretary', group: 'fiscal', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Sis. Imaikop.jpg' },
+  { name: 'Prof. Anthonia U. Ubom', role: 'Executive Secretary', group: 'fiscal', conference: 'Akwa Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Prof. Anthonia.jpg' },
   { name: 'Sis. Precious Uzoma Luke', role: 'Treasurer', group: 'fiscal', conference: 'Central Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
   { name: 'Mrs. Christiana Godwin', role: 'Reporter', group: 'fiscal', conference: '', location: 'Nigeria', email: 'N/A', image: '' },
-  { name: 'Deac. Biriayi O. Ilombo', role: 'Chaplain', group: 'fiscal', conference: 'Rivers Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
+  { name: 'Deac. Biriayi O. Ilombo', role: 'Chaplain', group: 'fiscal', conference: 'Rivers Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/deac. Biriayi Ilombo.jpeg' },
   { name: 'Mrs. Christiana Ekokoiesua', role: 'Secretary, Youth Missionary Society', group: 'fiscal', conference: 'Akwa Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
-  { name: 'Mrs. Gloria Nwachukwu', role: 'Cordinator, Young Adult Missionary', group: 'fiscal', conference: 'Port Harcourt Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
-  { name: 'Sis. Eunice Effiom', role: 'Supretendent, Buds of Promise', group: 'fiscal', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
+  { name: 'Mrs. Gloria Nwachukwu', role: 'Cordinator, Young Adult Missionary', group: 'fiscal', conference: 'Port Harcourt Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/mrs. Gloria Nwachukwu.jpeg' },
+  { name: 'Sis. Eunice Effiom', role: 'Supretendent, Buds of Promise', group: 'fiscal', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Sis. Eunice.jpg' },
   { name: 'Sis. Uduak Umoh', role: 'Secretary, Bureau of Supply', group: 'fiscal', conference: 'Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
-  { name: 'Sis. Chinyerye Oje', role: 'Chairman, Life Member Council', group: 'fiscal', conference: 'Cross River Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '' },
+  { name: 'Sis. Chinyerye Oje', role: 'Chairman, Life Member Council', group: 'fiscal', conference: 'Cross River Nigeria Conference', location: 'Nigeria', email: 'N/A', image: '/images/Fieldworkerss/Sis. C. Oje.jpg' },
 ]
 
 // --- Search + filter ---

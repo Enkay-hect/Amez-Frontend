@@ -107,15 +107,20 @@
             >
               <div class="overflow-hidden">
                 <div class="py-2 pl-3">
-                  <router-link
-                    v-for="link in item.dropdown"
-                    :key="link.label"
-                    :to="link.to"
-                    class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:bg-brand-green50"
-                    @click="closePanel"
-                  >
-                    <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
-                  </router-link>
+                  <component
+                :is="link.to.startsWith('http') ? 'a' : 'router-link'"
+                v-for="link in item.dropdown"
+                :key="link.label"
+                :to="link.to.startsWith('http') ? undefined : link.to"
+                :href="link.to.startsWith('http') ? link.to : undefined"
+                :target="link.to.startsWith('http') ? '_blank' : undefined"
+                :rel="link.to.startsWith('http') ? 'noopener noreferrer' : undefined"
+                class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
+                @click="closeDropdown(item.id)"
+              >
+              
+                <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
+              </component>
                 </div>
               </div>
             </div>
@@ -123,7 +128,7 @@
         </ul>
 
         <router-link
-          to="#campaign"
+          to="/Donate"
           class="mt-6 flex items-center justify-center gap-[10px] min-h-[48px] rounded-full text-[0.88rem] font-extrabold tracking-[0.04em] bg-brand-green900 text-white"
           @click="closePanel"
         >
@@ -150,7 +155,7 @@ const navItems = reactive([
     label: 'Leadership',
     to: '#',
     dropdown: [
-      { label: 'The Presiding Prelate', to: '/the-bishop' },
+      { label: 'The Presiding Prelate', to: 'https://www.amezion.org/person/bishopeffiong/' },
       { label: "Bishop's Administrative Assistants", to: '/BAA' },
       { label: 'Annual Conferences', to: '#' },
     ],
