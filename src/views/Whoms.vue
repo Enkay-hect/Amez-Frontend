@@ -588,7 +588,7 @@ const introCards = [
   { icon: 'fa-solid fa-church', title: 'Church Mission', desc: 'Mobilizing women for worship, witness, discipleship and compassionate care.' },
   { icon: 'fa-solid fa-hand-holding-heart', title: 'Community Care', desc: 'Supporting children, families, widows and vulnerable communities with dignity.' },
   { icon: 'fa-solid fa-briefcase', title: 'Field Structure', desc: 'A dedicated space for 12 fieldworkers with profile photos and ministry locations.' },
-  { icon: 'fa-solid fa-coins', title: 'Fiscal Stewardship', desc: 'A clean directory for 10 fiscal officers responsible for reporting and accountability.' },
+  //{ icon: 'fa-solid fa-coins', title: 'Fiscal Stewardship', desc: 'A clean directory for 10 fiscal officers responsible for reporting and accountability.' },
 ]
 
 const conventionMeta = [
