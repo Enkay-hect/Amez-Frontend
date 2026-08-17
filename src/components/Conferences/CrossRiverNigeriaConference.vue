@@ -404,7 +404,6 @@
 </template>
 
 <script setup>
-  import NavBar from '.././NavBar.vue';
 import { ref, onMounted } from 'vue'
 
 // import Footer from @
