@@ -37,7 +37,7 @@
         <div class="relative min-h-[360px] max-[1140px]:hidden" aria-hidden="true">
           <div class="absolute inset-0">
             <div class="absolute overflow-hidden rounded-[24px] border-[5px] border-white/[0.14] shadow-[0_22px_54px_rgba(43,24,72,0.15)] bg-[var(--purple-100)] w-[74%] h-[64%] top-[2%] right-0 animate-[float_5s_ease-in-out_infinite]">
-              <img src="/images/MissionarySupervisor/missionarysupervisor.jpg" alt="" class="w-full h-full object-cover" />
+              <img src="/images/MissionarySupervisor/missionary_mama.jpeg" alt="" class="w-full h-full object-cover" />
             </div>
             <div class="absolute overflow-hidden rounded-[24px] border-[5px] border-white/[0.14] shadow-[0_22px_54px_rgba(43,24,72,0.15)] bg-[var(--purple-100)] w-[54%] h-[38%] left-0 bottom-0 animate-[float_6s_ease-in-out_infinite_reverse]">
               <img src="/images/Home/pic4.jpeg" alt="" class="w-full h-full object-cover" />
@@ -73,7 +73,7 @@
       </div>
 
       <!-- Regional Convention advert -->
-      <section id="regional-convention" class="pt-[54px] pb-[54px]">
+      <!-- <section id="regional-convention" class="pt-[54px] pb-[54px]">
         <div class="w-[min(1180px,calc(100%_-_40px))] mx-auto">
           <div
             v-reveal
@@ -119,7 +119,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- About -->
       <section id="about" class="py-16">
@@ -174,7 +174,7 @@
 
             <div class="relative z-[1] grid grid-cols-[0.58fr_1.42fr] max-[860px]:grid-cols-1 gap-[30px] items-center">
               <div class="aspect-[4/5] max-h-[360px] rounded-[22px] overflow-hidden border-[6px] border-white/[0.12] shadow-[0_24px_60px_rgba(0,0,0,0.25)] mx-auto max-[860px]:max-w-[360px] max-[860px]:w-full">
-                <img src="/images/MissionarySupervisor/missionarysupervisor.jpg" alt="Missionary supervisor" class="w-full h-full object-cover" />
+                <img src="/images/MissionarySupervisor/missionary_mama.jpeg" alt="Missionary supervisor" class="w-full h-full object-cover" />
               </div>
               <div>
                 <span class="inline-flex items-center gap-[10px] text-[var(--gold-300)] font-black tracking-[0.14em] uppercase text-[0.78rem]">
