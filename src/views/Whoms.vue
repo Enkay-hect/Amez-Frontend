@@ -55,7 +55,7 @@
     <main>
       <!-- Intro cards -->
       <div class="w-[min(1180px,calc(100%_-_40px))] mx-auto">
-        <div class="grid grid-cols-4 max-[1140px]:grid-cols-3 max-[640px]:grid-cols-1 gap-[14px] -mt-11 relative z-[3]">
+        <div class="grid grid-cols-3 max-[1140px]:grid-cols-3 max-[640px]:grid-cols-1 gap-[14px] -mt-11 relative z-[3]">
           <article
             v-for="card in introCards"
             :key="card.title"
@@ -594,7 +594,7 @@ const introCards = [
 const conventionMeta = [
   { icon: 'fa-solid fa-calendar-days', text: 'August 25th - 30th, 2026' },
   { icon: 'fa-solid fa-location-dot', text: 'Holy Trinity A.M.E. Zion Church, Ndon Ebom, Akwaibom State, Nigeria' },
-  { icon: 'fa-solid fa-cross', text: 'Empathy and Compassion' },
+  { icon: 'fa-solid fa-cross', text: 'Empathy and Compassion' }, 
 ]
 
 // No official flyer uploaded yet — set this to a real URL/path once one is

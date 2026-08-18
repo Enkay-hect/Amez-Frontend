@@ -108,19 +108,19 @@
               <div class="overflow-hidden">
                 <div class="py-2 pl-3">
                   <component
-                :is="link.to.startsWith('http') ? 'a' : 'router-link'"
-                v-for="link in item.dropdown"
-                :key="link.label"
-                :to="link.to.startsWith('http') ? undefined : link.to"
-                :href="link.to.startsWith('http') ? link.to : undefined"
-                :target="link.to.startsWith('http') ? '_blank' : undefined"
-                :rel="link.to.startsWith('http') ? 'noopener noreferrer' : undefined"
-                class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
-                @click="closeDropdown(item.id)"
-              >
-              
-                <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
-              </component>
+                  :is="link.to.startsWith('http') ? 'a' : 'router-link'"
+                  v-for="link in item.dropdown"
+                  :key="link.label"
+                  :to="link.to.startsWith('http') ? undefined : link.to"
+                  :href="link.to.startsWith('http') ? link.to : undefined"
+                  :target="link.to.startsWith('http') ? '_blank' : undefined"
+                  :rel="link.to.startsWith('http') ? 'noopener noreferrer' : undefined"
+                  class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
+                  @click="closePanel"
+                >
+                
+                  <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
+                </component>
                 </div>
               </div>
             </div>
