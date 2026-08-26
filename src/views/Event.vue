@@ -23,7 +23,7 @@
         <div class="live-now"><i class="fas fa-circle"></i> LIVE NOW</div>
         <div class="video-wrapper">
           <!-- Replace with your actual YouTube embed or live stream -->
-          <iframe src="https://www.youtube.com/embed/3nAxmbFnYac?autoplay=1&mute=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/5yQ1faT2y80?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <div class="video-info">
