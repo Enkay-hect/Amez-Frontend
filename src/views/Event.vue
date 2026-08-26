@@ -27,7 +27,7 @@
         </div>
 
         <div class="video-info">
-          <h2>Grand Opening Service of the WH&OMS </h2>
+          <h2><em>Grand Opening Service of the WH&OMS </em></h2>
           <!-- <div class="next-service"><strong>Next:</strong> Wednesday Prayer @ 6:00 PM WAT</div> -->
         </div>
 
