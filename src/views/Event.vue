@@ -27,8 +27,8 @@
         </div>
 
         <div class="video-info">
-          <h2>Sunday Worship Service</h2>
-          <div class="next-service"><strong>Next:</strong> Wednesday Prayer @ 6:00 PM WAT</div>
+          <h2>Grand Opening Service of the WH&OMS </h2>
+          <!-- <div class="next-service"><strong>Next:</strong> Wednesday Prayer @ 6:00 PM WAT</div> -->
         </div>
 
         <!-- Upcoming Livestreams -->
@@ -78,7 +78,7 @@
           </div> -->
 
           <!-- Card 4 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1470119693884-47d3a1d1b180?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -88,10 +88,10 @@
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div>
+          </div> -->
           
           <!-- Card 5 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1470119693884-47d3a1d1b180?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -101,7 +101,7 @@
               <p>Theme: <strong>Being Creative in our Methods</strong></p>
               <a href="#" class="btn-outline">Set Reminder</a>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -113,7 +113,7 @@
 
         <div class="cards-grid">
           <!-- Past Card 1 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1517457373985-3b2b08b3b7a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -122,11 +122,11 @@
               <div class="meta"><i class="fas fa-calendar-alt"></i> May 03, 2026</div>
               <p>Theme: <strong>Leadership and Legacy</strong></p>
               <a href="https://www.youtube.com/embed/NnGmXo71TIs" class="btn-outline">Replay</a>
-            </div>
-          </div>
+            </div>-->
+          </div> 
 
           <!-- Past Card 2 -->
-          <div class="stream-card">
+          <!-- <div class="stream-card">
             <div class="thumbnail" style="background-image: url('https://images.unsplash.com/photo-1524863479829-916d8e77f114?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
               <div class="play-icon"><i class="fas fa-play"></i></div>
             </div>
@@ -137,7 +137,7 @@
               <a href="#" class="btn-outline">Replay</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Call to Action: Subscribe to YouTube -->
         <div class="cta-banner">
