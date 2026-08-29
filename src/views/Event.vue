@@ -23,11 +23,11 @@
         <div class="live-now"><i class="fas fa-circle"></i> LIVE NOW</div>
         <div class="video-wrapper">
           <!-- Replace with your actual YouTube embed or live stream -->
-          <iframe src="https://www.youtube.com/embed/XZVqQS_2tMY?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/A4GaU2VoiwM?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <div class="video-info">
-          <h2><em>Grand Opening Service of the WH&OMS </em></h2>
+          <h2><em>The Dedication Service of The Holy Trinity A.M.E. Zion Church</em></h2>
           <!-- <div class="next-service"><strong>Next:</strong> Wednesday Prayer @ 6:00 PM WAT</div> -->
         </div>
 
