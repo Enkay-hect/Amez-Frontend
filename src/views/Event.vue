@@ -27,7 +27,7 @@
         </div>
 
         <div class="video-info">
-          <h2><em>The Dedication Service of The Holy Trinity A.M.E. Zion Church</em></h2>
+          <h2><em>Closing Worship Service of the 13th Regional Convention of the A. M. E. Zion Church, Eastern West Africa Episcopal DIstrict</em></h2>
           <!-- <div class="next-service"><strong>Next:</strong> Wednesday Prayer @ 6:00 PM WAT</div> -->
         </div>
 
