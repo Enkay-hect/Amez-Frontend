@@ -1,5 +1,7 @@
 <template>
- 
+    <!-- <NavBar style="height: 10.5rem" class="bg-black">
+
+  </NavBar> -->
 
 
   <div class="church-container">
@@ -164,56 +166,7 @@
                 </div>
 
 
-                <!-- <div class="history-timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-year">1796</div>
-                        <div class="timeline-content">
-                            <p>African American members withdraw from John Street Methodist Church in New York City due to discrimination and form the first Zion Church.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-year">1821</div>
-                        <div class="timeline-content">
-                            <p>Formal organization of the African Methodist Episcopal Zion Church with six churches represented at the first General Conference.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-year">1848</div>
-                        <div class="timeline-content">
-                            <p>AME Zion Church sends its first missionaries to Liberia, establishing the church's presence in Africa.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-year">1891</div>
-                        <div class="timeline-content">
-                            <p>The first AME Zion missionaries arrive in Nigeria, planting churches in Lagos and Calabar.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-year">1986</div>
-                        <div class="timeline-content">
-                            <p>Bishop Samuel Chuka Ekemam, Sr. is consecrated as Bishop and assigned to the 13th Episcopal District (Nigeria and Liberia).</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-year">1993</div>
-                        <div class="timeline-content">
-                            <p>The Eastern West Africa Episcopal District is established, covering Annual Conferences in Nigeria.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-year">2016</div>
-                        <div class="timeline-content">
-                            <p>Bishop Uduak Usen Effiong becomes the Presiding Prelate of the Eastern West Africa Episcopal District.</p>
-                        </div>
-                    </div>
-                </div> -->
+           
             </div>
 
             <!-- Leadership Tab -->
@@ -231,7 +184,7 @@
                         <div class="leader-content">
                             <h3 class="leader-name">Bishop Uduak Usen Effiong</h3>
                             <div class="leader-position">Presiding Prelate</div>
-                            <p class="text-justify">The 105th Bishop in succession and leader of the Eastern West Africa Episcopal District since 2016.</p>
+                            <p class="text-justify">The 105th Bishop in succession and leader of the Eastern West Africa Episcopal District since 2016</p>
                         </div>
                     </div>
                     </router-link>
@@ -243,8 +196,10 @@
                             <h3 class="leader-name">Mrs. Promise C. Effiong</h3>
                             <div class="leader-position">Missionary Supervisor</div>
                             <p class="text-justify">Oversees missionary activities throughout the Episcopal District and coordinates women's ministries.</p>
-                        </div>
+                        </div> 
+                        
                       </div>
+
                     </router-link>
 
                     <router-link to="/BAA">
@@ -270,23 +225,12 @@
                     </router-link>
                 </div>
             </div>
-        </div>
-
-
-
-
-
-        <AppFooter />
-
-
-
-
+    </div>
 
   </template>
 
   <script setup>
-  import AppFooter from '@/components/AppFooter.vue';
-
+  
   import {ref} from 'vue';
 
   const activeTab = ref('about');
