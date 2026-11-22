@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import HomeView from '../views/HomeView.vue'
 import Home from '../views/Home.vue'
 
 
@@ -42,25 +41,23 @@ const router = createRouter({
     },
 
     {
-      path: '/the-bishop',
-      name: 'the-bishop',
-      component: () => import('../views/Bishop.vue'),
+      path: '/Annual-Conferences',
+      name: 'annual-conferences',
+      component: () => import('../views/AnnualConferences.vue'),
     },
+
     {
       path: '/BAA',
       name: 'Bishop-Administrative-Assistant',
       component: () => import('../views/TheBAA.vue'),
     },
+
     {
       path: '/contact',
       name: 'Contact',
       component: () => import('../views/Contact.vue'),
     },
-    {
-      path: '/field-workers',
-      name: 'field-workers',
-      component: () => import('../views/FieldWorkers.vue'),
-    },
+   
     {
       path: '/missionary-supervisor',
       name: 'missionary-supervisor',
@@ -71,6 +68,13 @@ const router = createRouter({
       name: 'Men-of-Zion',
       component: () => import('../views/MOZ.vue'),
     },
+
+     {
+      path: '/whoms',
+      name: 'whoms',
+      component: () => import('../views/Whoms.vue'),
+    },
+    
     {
       path: '/directorate-youth',
       name: 'youth',
@@ -167,6 +171,7 @@ const router = createRouter({
       component: () => import('../components/Conferences/LagosWestAnnualConference.vue'),
     },
 
+
     {
       path: '/success',
       name: 'success',
@@ -178,8 +183,6 @@ const router = createRouter({
       name: 'failure',
       component: () => import('../components/Failure.vue'),
     },
-
-    
   ],
 
     scrollBehavior(to, from, savedPosition) {
@@ -196,6 +199,4 @@ const router = createRouter({
   },
 })
   
-
-
 export default router

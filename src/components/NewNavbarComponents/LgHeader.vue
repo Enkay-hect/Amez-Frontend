@@ -49,7 +49,7 @@
       </router-link>
 
       <!-- Primary nav -->
-      <nav aria-label="Primary navigation" class="shrink-0 max-w-full">
+      <nav aria-label="Primary navigation" class="shrink-0 max-w-full cursor-pointer">
         <ul class="flex items-center gap-[2px]">
           <li v-for="item in navItems" :key="item.id" class="relative" @mouseleave="closeDropdown(item.id)">
             <!-- Plain link -->
@@ -66,7 +66,7 @@
             <button
               v-else
               type="button"
-              class="dropdown-toggle inline-flex items-center gap-[7px] whitespace-nowrap min-h-[44px] px-3 bg-transparent text-brand-green950 text-[0.78rem] font-extrabold tracking-[0.035em] hover:text-brand-gold600 transition-colors"
+              class="dropdown-toggle inline-flex items-center gap-[7px] whitespace-nowrap min-h-[44px] px-3 bg-transparent text-brand-green950 text-[0.78rem] font-extrabold tracking-[0.035em] hover:text-brand-gold600 transition-colors "
               :aria-expanded="openDropdownId === item.id"
               @click="toggleDropdown(item.id)"
               @mouseenter="openDropdown(item.id)"
@@ -92,15 +92,20 @@
                 : 'opacity-0 invisible -translate-y-1 pointer-events-none'"
               @mouseenter="openDropdown(item.id)"
             >
-              <router-link
+              <component
+                :is="link.to.startsWith('http') ? 'a' : 'router-link'"
                 v-for="link in item.dropdown"
                 :key="link.label"
-                :to="link.to"
-                class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all"
+                :to="link.to.startsWith('http') ? undefined : link.to"
+                :href="link.to.startsWith('http') ? link.to : undefined"
+                :target="link.to.startsWith('http') ? '_blank' : undefined"
+                :rel="link.to.startsWith('http') ? 'noopener noreferrer' : undefined"
+                class="flex items-center gap-[10px] px-3 py-[11px] rounded-[10px] text-brand-ink text-[0.83rem] font-bold hover:text-brand-green800 hover:bg-brand-green50 hover:translate-x-1 transition-all "
                 @click="closeDropdown(item.id)"
               >
-                <i class="fa-regular fa-circle-dot"></i> {{ link.label }}
-              </router-link>
+              
+                <i class="fa-regular fa-circle-dot "></i> {{ link.label }}
+              </component>
             </div>
           </li>
         </ul>
@@ -109,7 +114,7 @@
       <!-- Actions -->
       <div class="flex items-center gap-[10px] shrink-0">
         <router-link
-          :to="'#campaign'"
+          to="/Donate"
           class="hidden min-[1121px]:inline-flex items-center justify-center gap-[10px] min-h-[44px] px-[18px] rounded-full text-[0.88rem] font-extrabold tracking-[0.04em] bg-brand-green900 text-white hover:bg-brand-green700 hover:-translate-y-[3px] transition-all"
         >
           Give Online
@@ -133,7 +138,7 @@ const navItems = reactive([
     label: 'Leadership',
     to: '#',
     dropdown: [
-      { label: 'The Presiding Prelate', to: '/the-bishop' },
+      { label: 'The Presiding Prelate', to: 'https://www.amezion.org/person/bishopeffiong/' },
       { label: "Bishop's Administrative Assistants", to: '/BAA' },
       { label: 'Annual Conferences', to: '#' },
     ],
@@ -144,7 +149,7 @@ const navItems = reactive([
     label: 'Departments & Ministries',
     to: '#',
     dropdown: [
-      { label: "Women's Home & Overseas Missionary Society", to: '#ministries' },
+      { label: "Women's Home & Overseas Missionary Society", to: '/whoms' },
       { label: 'Connectional Lay Council', to: '/connectional-lay-council' },
       { label: 'Men of Zion Ministry', to: '/men-of-zion' },
       { label: "Minister's Spouses Fellowship", to: '#ministries' },

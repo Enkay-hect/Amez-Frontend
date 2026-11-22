@@ -1,190 +1,225 @@
 <template>
-  <section class="bg-gradient-to-r from-amber-600 to-amber-300 py-4 md:py-8">
-  <div
-    class="mx-auto grid max-w-7xl gap-5 px-4 md:gap-8 lg:grid-cols-[1fr_auto_auto] lg:items-center"
-  >
-    <!-- Heading -->
-    <div class="text-center lg:text-left">
-      <p
-        class="mb-1 text-[10px] font-black uppercase tracking-[0.18em] text-slate-800/70 sm:text-xs"
+  <Teleport to="body">
+    <Transition name="modal-fade">
+      <div
+        v-if="isVisible"
+        class="fixed inset-0 z-[2000] flex items-center justify-center p-4 sm:p-6 bg-brand-green950/70 backdrop-blur-sm"
+        @click.self="close"
       >
-        Prepare to Gather
-      </p>
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="conventionModalTitle"
+          class="relative w-full max-w-lg rounded-[28px] bg-brand-cream shadow-brand-lg overflow-hidden"
+        >
+          <!-- Close -->
+          <button
+            type="button"
+            aria-label="Close"
+            class="absolute top-4 right-4 z-10 grid place-items-center w-10 h-10 rounded-full bg-white/15 text-white hover:bg-white/25 transition-colors"
+            @click="close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
 
-      <h2
-        class="font-serif text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl"
-      >
-        Convention Countdown
-      </h2>
-    </div>
+          <!-- Countdown -->
+          <div class="bg-gradient-to-br from-brand-green900 to-brand-green950 text-white text-center px-6 py-9 sm:px-10 sm:py-10">
+            <p class="text-[10px] sm:text-xs font-black uppercase tracking-[0.18em] text-brand-gold300">
+              Prepare to Gather
+            </p>
+            <h2 id="conventionModalTitle" class="mt-2 font-serif text-2xl sm:text-3xl font-bold">
+              Convention Countdown
+            </h2>
 
-    <!-- Countdown -->
-    <div
-  v-if="status === 'countdown'"
-  class="grid grid-cols-4 gap-1 sm:gap-3"
->
-  <div
-    v-for="item in countdownItems"
-    :key="item.label"
-    class="rounded-md border border-white/40 bg-white/80 px-2 py-2 text-center shadow backdrop-blur sm:rounded-xl sm:p-4"
-  >
-    <div
-      class="font-serif text-lg font-bold leading-none text-slate-900 sm:text-3xl"
-    >
-      {{ item.value }}
-    </div>
+            <!-- Countdown -->
+            <div v-if="status === 'countdown'" class="grid grid-cols-4 gap-2 sm:gap-3 mt-7">
+              <div
+                v-for="item in countdownItems"
+                :key="item.label"
+                class="rounded-xl bg-white/10 border border-white/15 px-2 py-3 sm:p-4 text-center"
+              >
+                <div class="font-serif text-xl sm:text-3xl font-bold leading-none text-brand-gold300">
+                  {{ item.value }}
+                </div>
+                <div class="mt-1 text-[8px] sm:text-[11px] font-black uppercase leading-none tracking-wide sm:tracking-widest text-white/70">
+                  {{ item.label }}
+                </div>
+              </div>
+            </div>
 
-    <div
-      class="mt-1 text-[8px] font-black uppercase leading-none tracking-wide text-slate-700 sm:text-[11px] sm:tracking-widest"
-    >
-      {{ item.label }}
-    </div>
-  </div>
-</div>
+            <!-- Running / Ended -->
+            <div v-else class="mt-7 rounded-xl bg-white/10 border border-white/15 p-4 sm:p-5 text-center text-sm sm:text-base font-bold">
+              <template v-if="status === 'running'">The convention is now in progress.</template>
+              <template v-else>Thank you for being part of the 2026 Regional Convention.</template>
+            </div>
 
-    <!-- Running / Ended -->
-    <div
-      v-else
-      class="rounded-xl bg-white/80 p-3 text-center text-sm font-bold text-slate-900 sm:p-5 sm:text-base"
-    >
-      <template v-if="status === 'running'">
-        The convention is now in progress.
-      </template>
+            <button
+              type="button"
+              class="mt-7 inline-flex items-center justify-center gap-2 w-full sm:w-auto rounded-full bg-brand-gold500 text-brand-green950 text-sm sm:text-base font-extrabold px-6 py-3 shadow-[0_12px_28px_rgba(208,164,68,0.28)] hover:bg-[#dfb657] hover:-translate-y-[2px] transition-all"
+              @click="addToCalendar"
+            >
+              <i class="fa-regular fa-calendar-plus"></i> Add to Calendar
+            </button>
+          </div>
 
-      <template v-else>
-        Thank you for being part of the 2026 Regional Convention.
-      </template>
-    </div>
-
-    <!-- Button -->
-    <button
-      @click="addToCalendar"
-      class="w-full rounded-full bg-white px-5 py-2.5 text-sm font-bold text-slate-900 shadow transition hover:-translate-y-1 hover:shadow-lg sm:w-auto sm:px-6 sm:py-3 sm:text-base"
-    >
-      Add to Calendar
-    </button>
-  </div>
-</section>
-
-<section class="bg-[#1b092f] py-3 text-xs text-white sm:text-sm">
-  <div
-    class="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-2 px-4 text-center sm:gap-3"
-  >
-    <span class="font-black uppercase tracking-wider text-amber-300">
-      13th Regional Convention
-    </span>
-
-    <span>25–30 August 2026</span>
-
-    <span class="hidden h-1 w-1 rounded-full bg-amber-400 md:block"></span>
-
-    <span>
-      Holy Trinity A.M.E. Zion Church, Ndon Ebom, Akwa Ibom State, Nigeria
-    </span>
-  </div>
-</section>
+          <!-- Info strip -->
+          <div class="bg-brand-wine700 text-white text-xs sm:text-sm py-3 px-5">
+            <div class="flex flex-wrap items-center justify-center gap-2 text-center">
+              <span class="font-black uppercase tracking-wider text-brand-gold300">13th Regional Convention</span>
+              <span>25–30 August 2026</span>
+              <span class="hidden md:block h-1 w-1 rounded-full bg-brand-gold300"></span>
+              <span>Holy Trinity A.M.E. Zion Church, Ndon Ebom, Akwa Ibom State, Nigeria</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Transition>
+  </Teleport>
 </template>
 
-
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 
-const start = new Date("2026-08-25T08:00:00+01:00").getTime();
-const end = new Date("2026-08-30T18:00:00+01:00").getTime();
+// In-memory flag (not localStorage/sessionStorage) — this variable lives
+// for as long as the page's JS is running. Navigating between routes with
+// Vue Router keeps this same JS module loaded, so the flag survives and
+// the modal won't reshow. A real browser refresh re-evaluates this module
+// from scratch, resetting the flag automatically, so the modal shows again.
+let hasBeenDismissedThisLoad = false
 
-const days = ref("--");
-const hours = ref("--");
-const minutes = ref("--");
-const seconds = ref("--");
+const isVisible = ref(false)
 
-const status = ref("countdown"); // countdown | running | ended
+const start = new Date('2026-08-25T08:00:00+01:00').getTime()
+const end = new Date('2026-08-30T18:00:00+01:00').getTime()
+
+const days = ref('--')
+const hours = ref('--')
+const minutes = ref('--')
+const seconds = ref('--')
+
+const status = ref('countdown') // countdown | running | ended
 
 const countdownItems = computed(() => [
-  { label: "Days", value: days.value },
-  { label: "Hours", value: hours.value },
-  { label: "Minutes", value: minutes.value },
-  { label: "Seconds", value: seconds.value },
-]);
+  { label: 'Days', value: days.value },
+  { label: 'Hours', value: hours.value },
+  { label: 'Minutes', value: minutes.value },
+  { label: 'Seconds', value: seconds.value },
+])
 
 function pad(num) {
-  return String(num).padStart(2, "0");
+  return String(num).padStart(2, '0')
 }
 
 function updateCountdown() {
-  const now = Date.now();
+  const now = Date.now()
 
   if (now >= start && now <= end) {
-    status.value = "running";
-    return;
+    status.value = 'running'
+    return
   }
 
   if (now > end) {
-    status.value = "ended";
-    return;
+    status.value = 'ended'
+    return
   }
 
-  status.value = "countdown";
+  status.value = 'countdown'
 
-  let remaining = start - now;
+  let remaining = start - now
 
-  const d = Math.floor(remaining / (1000 * 60 * 60 * 24));
-  remaining %= 1000 * 60 * 60 * 24;
+  const d = Math.floor(remaining / (1000 * 60 * 60 * 24))
+  remaining %= 1000 * 60 * 60 * 24
 
-  const h = Math.floor(remaining / (1000 * 60 * 60));
-  remaining %= 1000 * 60 * 60;
+  const h = Math.floor(remaining / (1000 * 60 * 60))
+  remaining %= 1000 * 60 * 60
 
-  const m = Math.floor(remaining / (1000 * 60));
+  const m = Math.floor(remaining / (1000 * 60))
+  remaining %= 1000 * 60
 
-  remaining %= 1000 * 60;
+  const s = Math.floor(remaining / 1000)
 
-  const s = Math.floor(remaining / 1000);
-
-  days.value = d;
-  hours.value = pad(h);
-  minutes.value = pad(m);
-  seconds.value = pad(s);
+  days.value = d
+  hours.value = pad(h)
+  minutes.value = pad(m)
+  seconds.value = pad(s)
 }
 
-let timer;
+let timer = null
 
-onMounted(() => {
-  updateCountdown();
-  timer = setInterval(updateCountdown, 1000);
-});
+function startTimer() {
+  updateCountdown()
+  timer = setInterval(updateCountdown, 1000)
+}
 
-onUnmounted(() => clearInterval(timer));
+function stopTimer() {
+  clearInterval(timer)
+  timer = null
+}
 
 function addToCalendar() {
   const calendarContent = [
-    "BEGIN:VCALENDAR",
-    "VERSION:2.0",
-    "PRODID:-//EWAED//Regional Convention 2026//EN",
-    "CALSCALE:GREGORIAN",
-    "METHOD:PUBLISH",
-    "BEGIN:VEVENT",
-    "UID:ewaed-regional-convention-2026@amez-ewaed.org",
-    "DTSTAMP:20260624T120000Z",
-    "DTSTART:20260825T070000Z",
-    "DTEND:20260830T170000Z",
-    "SUMMARY:EWAED 13th Regional Convention 2026",
-    "DESCRIPTION:Empathy and Compassion. Reaching the masses in an ever-changing world.",
-    "LOCATION:Holy Trinity A.M.E. Zion Church\\, Ndon Ebom-Uruan\\, Akwa Ibom State\\, Nigeria",
-    "END:VEVENT",
-    "END:VCALENDAR",
-  ].join("\r\n");
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//EWAED//Regional Convention 2026//EN',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    'BEGIN:VEVENT',
+    'UID:ewaed-regional-convention-2026@amez-ewaed.org',
+    'DTSTAMP:20260624T120000Z',
+    'DTSTART:20260825T070000Z',
+    'DTEND:20260830T170000Z',
+    'SUMMARY:EWAED 13th Regional Convention 2026',
+    'DESCRIPTION:Empathy and Compassion. Reaching the masses in an ever-changing world.',
+    'LOCATION:Holy Trinity A.M.E. Zion Church\\, Ndon Ebom-Uruan\\, Akwa Ibom State\\, Nigeria',
+    'END:VEVENT',
+    'END:VCALENDAR',
+  ].join('\r\n')
 
-  const blob = new Blob([calendarContent], {
-    type: "text/calendar;charset=utf-8",
-  });
+  const blob = new Blob([calendarContent], { type: 'text/calendar;charset=utf-8' })
+  const url = URL.createObjectURL(blob)
 
-  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a')
+  link.href = url
+  link.download = 'ewaed-regional-convention-2026.ics'
+  link.click()
 
-  const link = document.createElement("a");
-
-  link.href = url;
-  link.download = "ewaed-regional-convention-2026.ics";
-  link.click();
-
-  URL.revokeObjectURL(url);
+  URL.revokeObjectURL(url)
 }
+
+function close() {
+  isVisible.value = false
+  document.body.style.overflow = ''
+  hasBeenDismissedThisLoad = true
+  stopTimer()
+}
+
+function handleKeydown(event) {
+  if (event.key === 'Escape' && isVisible.value) close()
+}
+
+onMounted(() => {
+  if (!hasBeenDismissedThisLoad) {
+    isVisible.value = true
+    document.body.style.overflow = 'hidden'
+    startTimer()
+  }
+  document.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+  document.removeEventListener('keydown', handleKeydown)
+  document.body.style.overflow = ''
+  stopTimer()
+})
 </script>
+
+<style scoped>
+.modal-fade-enter-active,
+.modal-fade-leave-active {
+  transition: opacity 220ms ease;
+}
+.modal-fade-enter-from,
+.modal-fade-leave-to {
+  opacity: 0;
+}
+</style>

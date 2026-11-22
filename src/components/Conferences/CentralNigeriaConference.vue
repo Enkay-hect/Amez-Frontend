@@ -1,7 +1,6 @@
 <template>
-    <NavBar style="height: 10.5rem" class="bg-black">
-        
-</NavBar>
+    
+    
   
 <!-- <div class="mb-24 mt-24">
         <h1 class="text-4xl font-bold text-center mb-2">LAGOS WEST NIGERIA ANNUAL CONFERENCE</h1>
@@ -406,7 +405,6 @@
 </template>
 
 <script setup>
-  import NavBar from '.././NavBar.vue';
 import { ref, onMounted } from 'vue'
 
 // import Footer from @

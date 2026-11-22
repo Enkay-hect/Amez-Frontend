@@ -1,7 +1,5 @@
 <template>
-    <NavBar class="bg-black" style="height: 10.5rem;">
-
-    </NavBar>
+    
 
     <div class="p-[20px] flex justify-center items-center min-[100vh]" >
       <div class="profile-container">
@@ -131,7 +129,6 @@
 </template>
 
    <script setup>
-   import NavBar from '../components/NavBar.vue';
 
    </script>
 

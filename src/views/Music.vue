@@ -1,17 +1,5 @@
 <template>
-    <NavBar style="height: 10.5rem" class="bg-black">
-
-  </NavBar>
-
-      <!-- <div class="relative inset-0 flex flex-col justify-center items-center gap-3 pt-24 bg-white w-[100%]">
-        <div class="relative flex flex-col justify-center items-center w-full max-w-screen-lg pt-8">
-            <img src="/images/logo2.jpeg" alt="Logo" class="w-full h-auto max-h-[500px] object-contain">
-        </div>
-      </div> -->
-      <!-- flex flex-row flex-wrap md:flex-nowrap -->
-
-
-
+   
 
     <!-- <div class="w-[100%]  gap-10 h-auto px-8 sm:px-10 xls:px-64  py-7 flex flex-row flex-wrap md:flex-nowrap"> -->
       <div class="w-[100%]  gap-10 h-auto px-8 sm:px-24 xls:px-64  py-7 flex flex-col lg:flex-row flex-wrap md:flex-nowrap mt-32 mb-32">
@@ -83,5 +71,4 @@
   </template>
 
   <script setup>
-  import NavBar from '../components/NavBar.vue';
   </script>

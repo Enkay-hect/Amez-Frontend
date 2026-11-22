@@ -1,7 +1,5 @@
 <template>
-    <NavBar style="height: 9.5rem">
-   
-    </NavBar>
+    
 
    
   
@@ -173,6 +171,5 @@
   </template>
   
   <script setup>
-  import NavBar from '../components/NavBar.vue';
   </script>
   
